@@ -1,0 +1,58 @@
+[
+	// Tarumanagara
+	{
+		"name": "Kujang Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Tarumanagara",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"uniques": ["No movement cost to pillage", 
+					"[-100]% maintenance costs"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+	// Medang (Mataram Kuno)
+	{
+		"name": "Kapal Borobudur",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Medang",
+		"replaces": "Galleass",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 17,
+		"cost": 110,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": ["Cannot enter ocean tiles",
+					"[+1] Movement <after discovering [Astronomy]>"],
+		"promotions": ["Bombardment I"],
+		"attackSound": "arrow"
+	},
+	
+	// Banten
+	{
+		"name": "Meriam Ki Amuk",
+		"unitType": "Siege",
+		"uniqueTo": "Banten",
+		"replaces": "Cannon",
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 22,
+		"cost": 185,
+		"requiredTech": "Chemistry",
+		"upgradesTo": "Artillery",
+		"obsoleteTech": "Dynamite",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>",
+					"No defensive terrain bonus",
+					"Must set up to ranged attack"],
+		"attackSound": "cannon"
+	},
+]

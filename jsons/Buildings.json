@@ -1,0 +1,57 @@
+[
+	// Tarumanagara
+	{
+		"name": "Kampung Muara",
+		"replaces": "Amphitheater",
+		"uniqueTo": "Tarumanagara",
+		"culture": 3,
+		"specialistSlots": {"Inscriptor": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 10,
+		"uniques": ["Unlock Inscriptor specialist instead of Artist", 
+					"Destroyed when the city is captured"],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "FreePop",
+		"uniqueTo": "Tarumanagara",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Unsellable", "Must be on [River]", 
+					"Will not be displayed in Civilopedia",
+					"[+1] population [in this city]"],
+		"requiredTech": "Agriculture"
+	},
+	
+	// Medang (Mataram Kuno)
+	{
+		"name": "Candi Sewu",
+        "replaces": "Grand Temple",
+        "uniqueTo": "Medang",
+		"cost": 200,
+		"culture": 1,
+		"faith": 8,
+		"uniques": ["Cost increases by [30] per owned city", 
+					"[+100]% Natural religion spread [in this city]", 
+					"Hidden when religion is disabled", 
+					"Can only be built [in holy cities]",
+					//"Gain a free [Candi] [in this city]"
+					"Gain a free [Temple] [in all cities]"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
+	},
+	
+	// Banten
+	{
+		"name": "Tasikardi",
+        "replaces": "Garden",
+        "uniqueTo": "Banten",
+		"uniques": ["[+25]% Great Person generation [in this city]", 
+					"Must be next to [Fresh water]", 
+					"[+1 Food] from [Plantation] tiles [in this city]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+]

@@ -1,0 +1,98 @@
+[
+	// Classical era
+	{
+		"name": "Tarumanagara",						// 358–669
+		"leaderName": "Purnawarman",
+		"adjective": ["Tarumanagaran"],
+		"startBias": ["Fresh Water"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Hinduism",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "I have tried all other avenues, but yet you persist in this madness. I hope, for your sake, your end is swift.",
+		"attacked": "You can see how fruitless this will be for you, no?",
+		"defeated": "Has God withdrawn his favor from me, that Aceh Darussalam must fall? Oh, what a calamity!",
+		"introduction": "Welcome. It is an honor to meet you in person. It seems great minds do attract each other, after all.",
+		
+		"neutralHello": "Good day to you!",
+		"hateHello": "So?"
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+		
+		"outerColor": [ 80,  0, 70],
+		"innerColor": [228,171,119],
+		"uniqueName": "Sundanese Ancestor",
+		"uniqueText": "+1 Population in cities on River\n+2 Production from every Aqueduct",
+		"uniques": ["[+2 Production] from every [Aqueduct]"],
+		"cities": ["Sundapura","Pandeglang","Cupunagara","Ujung Kulon","Tangerang","Purbalingga","Cianjur","Rangkasbitung","Indramayu","Cilegon",
+			"Majalengka","Cimanuk","Pangalengan","Purwakarta","Cirebon","Banyumas","Garut","Tegal","Gunung Manik","Bitung", 
+			"Tanjung Kalapa","Sumurwangi","Bekasi","Karawang","Pandeglang","Tasikmalaya","Kuningan","Majalengka","Bogor","Lebak"],
+		"spyNames": ["Sartika","Asep","Atep","Mihardja","Sukaesih","Tamala","Ratnadilla","Surapranata","Heryawan","Kartasasmita"]
+	},
+	
+	// Medieval era
+	{
+		"name": "Medang",						// 732–1016
+		"leaderName": "Dyaḥ Pañcapaṇa",
+		"adjective": ["Javanese"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Buddhism",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "The world will be more beautiful without you. Prepare for war.",
+		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+		"defeated": "I did lose, but my legacy will be eternal.",
+		"introduction": "Goodness to all of us, my name is Dyah Pañcapaṇa, maybe you know me better as Rakai Panangkaran.",
+		
+		"neutralHello": "Welcome.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "It doesn't matter how much I give, this offer comes from the heart",
+		
+		"outerColor": [121,0,2],
+		"innerColor": [235,225,138],
+		"uniqueName": "Javanese Art Center",
+		"uniques": ["Receive free [Great Artist] when you discover [Theology]",
+					"[+25]% Production when constructing [All] wonders [in all cities] <during the [Classical era]>",
+					"[+25]% Production when constructing [All] wonders [in all cities] <during the [Medieval era]>"],
+		"cities": ["Mataram Kuno","Mamratipura","Magelang","Klaten","Surakarta","Salatiga","Semarang","Purworejo","Wonosobo","Temanggung",
+			"Pekalongan","Batang","Kendal","Banjarnegara","Boyolali","Demak","Grobogan","Yogyakarta","Sragen","Karanganyar",
+			"Sukoharjo","Wonogiri","Ngawi","Magetan","Madiun","Nganjuk","Kadiri","Lamongan","Jombang","Mojokerto",
+			"Malang","Batu","Pasuruan","Surabaya","Sidoarjp"],
+		"spyNames": ["Sankhara","Manara","Salaḍū","Lokapāla","Dewendra","Bhadra","Garuda Mukha","Daksa","Sindok","Pardiyem"]
+	},
+	
+	// Renaissance era
+	{
+		"name": "Banten",						// 1527–1813
+		"leaderName": "Tirtayasa",
+		"adjective": ["Sundanese"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Islam",
+
+		"startIntroPart1": " ",
+		"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "As our protests are in vain, we hereby declare war.",
+		"attacked": "Our hearts will not tremble before your multitudes.",
+		"defeated": "You have triumphed over us. The day is yours.",
+		"introduction": "I am Tirtayasa. Leader of Sundanese—be it through the battle on land or over the sea.",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "Speak!",
+		"tradeRequest": "It is a fair trade, no?",
+		
+		"outerColor": [210,255,195],
+		"innerColor": [  0, 74, 35],
+		"uniqueName": "The Land of Kokoleceran",
+		"uniques": ["[+2 Science] from all [Faith] buildings"],
+		"cities": ["Surosowan","Serang","Cilegon","Pandeglang","Tangerang","Lebak","Kalapa","Bekasi","Depok","Bogor","Sukabumi",
+		"Cianjur","Garut","Bandar Lampung","Pesawaran","Metro","Pringsewu","Tanggamus","Pesisir Barat","Tulang Bawang","Waykanan",
+		"Ogah Komering","Kaur","Pagar Alam","Seluma","Bengkulu"],
+		"spyNames": ["Fatahillah","Ma'ruf","Melati","Dijaya","Ulfah","Cadasari","Arman","Felisha","Nasuha","Mursadat"]
+	},
+]
