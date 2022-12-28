@@ -1,57 +1,303 @@
 [
-	// Tarumanagara
-	{
-		"name": "Kampung Muara",
-		"replaces": "Amphitheater",
-		"uniqueTo": "Tarumanagara",
-		"culture": 3,
-		"specialistSlots": {"Inscriptor": 1},
-		"requiredBuilding": "Monument",
-		"maintenance": 2,
-		"hurryCostModifier": 10,
-		"uniques": ["Unlock Inscriptor specialist instead of Artist", 
-					"Destroyed when the city is captured"],
-		"requiredTech": "Drama and Poetry"
-	},
-	{
-		"name": "FreePop",
-		"uniqueTo": "Tarumanagara",
-		"maintenance": 0,
-		"cost": 1,
-		"uniques": ["Unsellable", "Must be on [River]", 
-					"Will not be displayed in Civilopedia",
-					"[+1] population [in this city]"],
-		"requiredTech": "Agriculture"
-	},
+	// Java Civilizations
 	
-	// Medang (Mataram Kuno)
-	{
-		"name": "Candi Sewu",
-        "replaces": "Grand Temple",
-        "uniqueTo": "Medang",
-		"cost": 200,
-		"culture": 1,
-		"faith": 8,
-		"uniques": ["Cost increases by [30] per owned city", 
-					"[+100]% Natural religion spread [in this city]", 
-					"Hidden when religion is disabled", 
-					"Can only be built [in holy cities]",
-					//"Gain a free [Candi] [in this city]"
-					"Gain a free [Temple] [in all cities]"],
-		"requiredTech": "Theology",
-		"isNationalWonder": true
-	},
+		// Tarumanagara
+		{
+			"name": "Kampung Muara",
+			"replaces": "Amphitheater",
+			"uniqueTo": "Tarumanagara",
+			"culture": 3,
+			"specialistSlots": {"Inscriptor": 1},
+			"requiredBuilding": "Monument",
+			"maintenance": 2,
+			"hurryCostModifier": 10,
+			"uniques": ["Unlock Inscriptor specialist (+3 Culture, +3 Science, +4 Great Artist point)", 
+						"Destroyed when the city is captured"],
+			"requiredTech": "Drama and Poetry",
+			"civilopediaText": [
+				{"text": "A historical site where inscriptions such as Kebon Kopi, Muara Cianten, and Ciaruteun were found. This Cultural Heritage Site is flanked by the Cisadane, Cianteun, and Ciaruteun rivers."},
+			]
+		},
+		{
+			"name": "FreePop",
+			"uniqueTo": "Tarumanagara",
+			"maintenance": 0,
+			"cost": 1,
+			"uniques": ["Unsellable", "Must be on [River]", 
+						"Will not be displayed in Civilopedia",
+						"[+1] population [in this city]"],
+			"requiredTech": "Agriculture"
+		},
+		
+		// Medang (Mataram Kuno)
+		{
+			"name": "Candi Sewu",
+			"replaces": "Grand Temple",
+			"uniqueTo": "Medang",
+			"cost": 200,
+			"culture": 1,
+			"faith": 8,
+			"isNationalWonder": true,
+			"uniques": ["Cost increases by [30] per owned city", 
+						"[+100]% Natural religion spread [in this city]", 
+						"Hidden when religion is disabled", 
+						"Can only be built [in holy cities]",
+						//"Gain a free [Candi] [in this city]"
+						"Gain a free [Temple] [in all cities]"],
+			"requiredTech": "Theology",
+			"civilopediaText": [
+				{"text": "A Buddhist temple built in the 8th century. Candi Sewu is the second largest Buddhist temple complex after Borobudur Temple in Central Java."},
+			]
+		},
+		
+		// Banten
+		{
+			"name": "Tasikardi",
+			"replaces": "Garden",
+			"uniqueTo": "Banten",
+			"uniques": ["[+25]% Great Person generation [in this city]", 
+						"Must be next to [Fresh water]", 
+						"[+1 Food] from [Plantation] tiles [in this city]"],
+			"hurryCostModifier": 25,
+			"maintenance": 1,
+			"requiredTech": "Theology",
+			"civilopediaText": [
+				{"text": "An artificial lake that functions to collect water from the Cibanten River to irrigate the rice fields, and to supply water to the Surosowan palace and the surrounding area."},
+			]
+		},
 	
-	// Banten
-	{
-		"name": "Tasikardi",
-        "replaces": "Garden",
-        "uniqueTo": "Banten",
-		"uniques": ["[+25]% Great Person generation [in this city]", 
-					"Must be next to [Fresh water]", 
-					"[+1 Food] from [Plantation] tiles [in this city]"],
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"requiredTech": "Theology"
-	},
+	
+	// Sumatra Civilizations
+	
+		// Aceh
+		{
+			"name": "Gunongan",
+			"replaces": "Garden",
+			"uniqueTo": "Aceh",
+			"happiness":2,
+			"uniques": ["[+25]% Great Person generation [in this city]"],
+			"hurryCostModifier": 25,
+			"maintenance": 1,
+			"requiredTech": "Theology",
+			"civilopediaText": [
+				{"text": "A garden built by Iskandar Muda for his empress, Putroe Phang of Pahang, so that she won't be lonely during his time with the empire."},
+			]
+		},
+		
+		// Dharmasraya
+		
+		// Jambi
+		{
+			"name": "Stone House",
+			"replaces": "Castle",
+			"uniqueTo": "Jambi",
+			"cityStrength": 7,
+			"cityHealth": 25,
+			"cost": 80,
+			"hurryCostModifier": 25,
+			"requiredBuilding": "Walls",
+			"uniques": ["Destroyed when the city is captured"],
+			"requiredTech": "Chivalry",
+			"civilopediaText": [
+				{"text": "Located in Olak Kemang, Stone House is a unique house with three architectural styles namely European style, Chinese style and Arabic style."},
+			]
+		},
+		
+		// Siak
+		{
+			"name": "Olang-Olang Stage",
+			"replaces": "Amphitheater",
+			"uniqueTo": "Siak",
+			"culture": 4,
+			"gold": 2,
+			"specialistSlots": {"Artist": 1},
+			"requiredBuilding": "Monument",
+			"maintenance": 2,
+			"hurryCostModifier": 25,
+			"uniques": ["Destroyed when the city is captured"],
+			"requiredTech": "Drama and Poetry",
+			"civilopediaText": [
+				{"text": "A stage where the Olang-Olang ritual is performed. Olang-Olang is a healing ritual performed primarily by the Sakai tribe from Siak."},
+			]
+		},
+		
+		// Srivijaya
+		{
+			"name": "Srivijayan Harbor",			// No such name
+			"replaces": "Harbor",
+			"uniqueTo": "Srivijaya",
+			"cost": 120,
+			"cityHealth": 50,
+			"maintenance": 2,
+			"hurryCostModifier": 25,
+			"uniques": ["[+1 Production] from [Water resource] tiles [in this city]", 
+						"Connects trade routes over water", "Must be next to [Coast]", 
+						"Provides 1 extra copy of each improved luxury resource near this City",],
+			"requiredTech": "Compass",
+			"civilopediaText": [
+				{"text": "A harbor used by Sriwijaya to increase revenue and inhibit the decline of the empire. Merchant ships that don't want to stop will be attacked by a group of privateer."},
+			]
+		},
+	
+	
+	// Borneo Civilizations
+	
+		// Kutai Kertanegara
+		{
+			"name": "Kedaton",
+			"replaces": "Castle",
+			"uniqueTo": "Kutai Kartanegara",
+			"cost": 120,
+			"cityStrength": 7,
+			"cityHealth": 25,
+			"science": 2,
+			"hurryCostModifier": 25,
+			"requiredBuilding": "Walls",
+			"uniques": ["[+1 Gold] [in this city] <before discovering [Steam Power]>", 
+						"Destroyed when the city is captured"],
+			"requiredTech": "Chivalry",
+			"civilopediaText": [
+				{"text": "A residence of a King of Kutai Kartanegara. Because the capital of Kutai moved several times, a new Kedaton was built."},
+			]
+		},
+		
+		// Brunei
+		{
+			"name": "Kampong Ayer",
+			"replaces": "Lighthouse",
+			"uniqueTo": "Brunei",
+			"cost": 80,
+			"maintenance": 0,
+			"hurryCostModifier": 25,
+			"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+						"[+1 Food, +1 Gold] from [Coast] tiles [in this city]", 
+						"[+1 Food] from [Fish] tiles [in this city]", 
+						"[+1 Gold, +1 Culture] [in this city] <before discovering [Plastics]>"],
+			"requiredTech": "Sailing",
+			"civilopediaText": [
+				{"text": "A traditional settlement in Bandar Seri Begawan, the capital of Brunei. It comprises neighbourhoods of traditional houses, schools and mosques built on stilts above the Brunei River near the capital's city centre."},
+			]
+		},
+		
+		// Sulu
+		{
+			"name": "Daru Jambangan",
+			"replaces": "Palace",
+			"uniqueTo": "Sulu",
+			"isNationalWonder": true,
+			"production": 3,
+			"science": 3,
+			"gold": 3,
+			"culture": 2,
+			"faith": 1,
+			"cityStrength": 2,
+			"cost": 1,
+			"uniques": ["Indicates the capital city", "[+2 Culture] [in this city] <after discovering [Archaeology]>"],
+			"civilopediaText": [
+				{"text": "The palace of the Sultanate of Sulu based in Maimbung, Sulu. It was destroyed by a typhoon in 1932."},
+			]
+		},
+		{
+			"name": "Sulu Courthouse",
+			"replaces": "Courthouse",
+			"uniqueTo": "Sulu",
+			"maintenance": 4,
+			"hurryCostModifier": 50,
+			"uniques": ["Remove extra unhappiness from annexed cities", 
+						"Can only be built [in annexed cities]", 
+						"Free [Worker] appears", 
+						"Will not be displayed in Civilopedia"],
+			"requiredTech": "Mathematics"
+		},
+		
+		
+	// Sulawesi Civilizations
+	
+		// Bolaang Mongondow
+		{
+			"name": "Komalig",
+			"replaces": "Palace",
+			"uniqueTo": "Bolaang Mongondow",
+			"isNationalWonder": true,
+			"production": 3,
+			"science": 3,
+			"gold": 3,
+			"culture": 1,
+			"cityStrength": 2,
+			"cost": 1,
+			"specialistSlots": {"Artist": 1, "Scientist": 1, "Merchant": 1, "Engineer": 1},
+			"uniques": ["Indicates the capital city", "[+10]% Production when constructing [All] buildings [in this city]", 
+						"+1 slot of every specialist in this city"],
+			"civilopediaText": [
+				{"text": "Located in Kotamobagu, Komalig is a residence of Punu', ruler of Bolaang Mongondow."},
+			]
+		},
+		{
+			"name": "Sigi",
+			"replaces": "Temple",
+			"uniqueTo": "Bolaang Mongondow",
+			"faith": 2,
+			"food": 1,
+			"requiredBuilding": "Shrine",
+			"maintenance": 2,
+			"hurryCostModifier": 25,
+			"uniques": ["[5]% Food is carried over after population increases [in this city]", 
+						"Hidden when religion is disabled", 
+						"Destroyed when the city is captured"],
+			"requiredTech": "Philosophy",
+			"civilopediaText": [
+				{"text": "Places of offerings, washing away sins, and performing religious ceremonies such as healing ceremony called Monibi."},
+			]
+		},
+		
+		// Bone
+		{
+			"name": "Bola Soba",
+			"replaces": "Opera House",
+			"uniqueTo": "Bone",
+			"culture": 4,
+			"gold": 2,
+			"specialistSlots": {"Artist": 1},
+			"hurryCostModifier": 10,
+			"requiredBuilding": "Amphitheater",
+			"uniques": ["Destroyed when the city is captured"],
+			"requiredTech": "Acoustics",
+			"civilopediaText": [
+				{"text": "Bola Soba means home of friendship. At first, Bola Soba served as the King of Bone's palace and continued as the residence of the crown prince. During this Dutch occupation, Bola Soba was used as a military headquarters, then functioned as an inn to entertain Dutch guests."},
+			]
+		},
+		
+		// Buton
+		{
+			"name": "Kampua",
+			"replaces": "Mint",
+			"uniqueTo": "Buton",
+			"maintenance": 0,
+			"requiredNearbyImprovedResources": ["Gold Ore","Silver","Cotton","Silk","Furs"],
+			"hurryCostModifier": 25,
+			"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", 
+						"[+2 Gold] from [Cotton] tiles [in this city]", "[+2 Gold] from [Silk] tiles [in this city]", 
+						"[+2 Gold] from [Furs] tiles [in this city]"],
+			"requiredTech": "Currency",
+			"civilopediaText": [
+				{"text": "A type of currency made of cloth with standardized pattern. Created, distributed, and controlled by Bonto Ogena, an institution that is now callod central bank. The pattern of Kampua changed every year."},
+			]
+		},
+		
+		// Gorontalo
+		{
+			"name": "Buatulo Bala",
+			"replaces": "Armory",
+			"uniqueTo": "Gorontalo",
+			"cityStrength": 10,
+			"hurryCostModifier": 25,
+			"maintenance": 2,
+			"requiredBuilding": "Barracks",
+			"uniques": ["New [Military] units start with [15] Experience [in this city]",
+						"Destroyed when the city is captured"],
+			"requiredTech": "Steel"
+			"civilopediaText": [
+				{"text": "An institution that operates as national defense and security,. It controls and distributing weapons to the troops of the Gorontalo sultanate."},
+			]
+		},
 ]

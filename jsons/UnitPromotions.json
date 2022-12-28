@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Slave",
+		"uniques": ["Gain [35] [Gold] <by consuming this unit>"],
+		"column": 71,
+        "row": 1
+	},
+	{
+		"name": "Kota",
+		"uniques": ["Can construct [Kotta mara]"],
+		"column": 71,
+        "row": 2
+	},
+	{
+		"name": "Headhunter",
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"column": 71,
+        "row": 3
+	},
+	{
+        "name": "[Tappi Swordsman] ability",
+        "uniques": ["[+10]% Strength <when adjacent to a [Sword] unit>", "[+10]% Strength <when adjacent to a [Gunpowder] unit>"], // +15% when adjacent to Sword OR Gunpowder
+		"column": 71,
+        "row": 4
+    },
+	{
+        "name": "[Liya Guard] ability",
+        "uniques": ["Defense bonus when embarked", "[+15]% Strength <when fighting in [Coastal] tiles>"],
+		"column": 71,
+        "row": 5
+    },
+	{
+        "name": "[Huwangga] ability",
+        "uniques": ["[+1] Movement <in [Hill] tiles>"],
+		"column": 71,
+        "row": 6
+    },
+	{
+        "name": "[Juanga] ability",
+        "uniques": ["[+15]% Strength <vs [Water] units>"],
+		"column": 71,
+        "row": 7
+    }
+]

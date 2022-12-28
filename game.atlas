@@ -1,89 +1,992 @@
 
 game.png
-size: 1024, 128
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Bola Soba
+  rotate: false
+  xy: 644, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Buatulo Bala
+  rotate: false
+  xy: 1076, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Candi Sewu
   rotate: false
-  xy: 112, 4
+  xy: 1400, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Daru Jambangan
+  rotate: false
+  xy: 1616, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gunongan
+  rotate: false
+  xy: 220, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Kampong Ayer
+  rotate: false
+  xy: 544, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Kampua
+  rotate: false
+  xy: 652, 284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Kampung Muara
   rotate: false
-  xy: 220, 4
+  xy: 652, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Kedaton
+  rotate: false
+  xy: 868, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Komalig
+  rotate: false
+  xy: 868, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Olang-Olang Stage
+  rotate: false
+  xy: 1624, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sigi
+  rotate: false
+  xy: 220, 68
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Srivijayan Harbor
+  rotate: false
+  xy: 544, 68
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Stone House
+  rotate: false
+  xy: 652, 68
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sulu Courthouse
+  rotate: false
+  xy: 868, 68
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Tasikardi
   rotate: false
-  xy: 868, 4
+  xy: 1192, 68
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Bubung Parani
+  rotate: false
+  xy: 1184, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Kotta mara
+  rotate: false
+  xy: 4, 292
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Yupa
+  rotate: false
+  xy: 1624, 68
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Aceh
+  rotate: false
+  xy: 4, 184
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Banjar
+  rotate: false
+  xy: 320, 392
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Banten
   rotate: false
-  xy: 4, 4
+  xy: 428, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Bolaang Mongondow
+  rotate: false
+  xy: 752, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Bone
+  rotate: false
+  xy: 860, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Brunei
+  rotate: false
+  xy: 968, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Buton
+  rotate: false
+  xy: 1292, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Gorontalo
+  rotate: false
+  xy: 112, 184
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Gowa-Tallo
+  rotate: false
+  xy: 112, 76
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Jambi
+  rotate: false
+  xy: 328, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kutai Kartanegara
+  rotate: false
+  xy: 1084, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Luwu
+  rotate: false
+  xy: 1300, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Majapahit
+  rotate: false
+  xy: 1408, 284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Medang
   rotate: false
-  xy: 544, 4
+  xy: 1516, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Sarawak
+  rotate: false
+  xy: 1840, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Siak
+  rotate: false
+  xy: 1840, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Srivijaya
+  rotate: false
+  xy: 436, 68
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Sulu
+  rotate: false
+  xy: 760, 68
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Tarumanagara
   rotate: false
-  xy: 760, 4
+  xy: 1084, 68
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Ternate
+  rotate: false
+  xy: 1300, 68
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Tidore
+  rotate: false
+  xy: 1516, 68
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Bubung Parani
+  rotate: false
+  xy: 1396, 34
+  size: 30, 26
+  orig: 30, 26
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Kotta mara
+  rotate: false
+  xy: 1948, 328
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Kotta mara
+  rotate: false
+  xy: 1948, 328
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Yupa
+  rotate: false
+  xy: 4, 12
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Yupa
+  rotate: false
+  xy: 4, 12
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Anak Makassar
+  rotate: false
+  xy: 1732, 140
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Aswamedha Horse
+  rotate: false
+  xy: 1948, 292
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bessing Banranga
+  rotate: false
+  xy: 76, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bessing Banranga-1
+  rotate: false
+  xy: 1732, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Liya Guard-1
+  rotate: false
+  xy: 1732, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bessing Banranga-2
+  rotate: false
+  xy: 1772, 140
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Liya Guard-2
+  rotate: false
+  xy: 1772, 140
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Galle'
+  rotate: false
+  xy: 1948, 256
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Galle'-1
+  rotate: false
+  xy: 116, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Galle'-2
+  rotate: false
+  xy: 1732, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Garay
+  rotate: false
+  xy: 1772, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Garay-1
+  rotate: false
+  xy: 1812, 140
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Garay-2
+  rotate: false
+  xy: 1948, 220
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ghali
+  rotate: false
+  xy: 156, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ghali-1
+  rotate: false
+  xy: 1772, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ghali-2
+  rotate: false
+  xy: 1812, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Huwangga
+  rotate: false
+  xy: 1852, 140
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Huwangga-1
+  rotate: false
+  xy: 1948, 184
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Huwangga-2
+  rotate: false
+  xy: 1812, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ibanic Warrior
+  rotate: false
+  xy: 1852, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ibanic Warrior-1
+  rotate: false
+  xy: 1892, 140
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ibanic Warrior-2
+  rotate: false
+  xy: 1852, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Juanga
+  rotate: false
+  xy: 1892, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Juanga-1
+  rotate: false
+  xy: 1892, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Juanga-2
+  rotate: false
+  xy: 1988, 292
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Kalasag
+  rotate: false
+  xy: 1988, 256
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Kalasag-1
+  rotate: false
+  xy: 1988, 220
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Kalasag-2
+  rotate: false
+  xy: 1988, 184
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Karambit Warrior
+  rotate: false
+  xy: 76, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Karambit Warrior-1
+  rotate: false
+  xy: 116, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Karambit Warrior-2
+  rotate: false
+  xy: 156, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Kora kora
+  rotate: false
+  xy: 196, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Kora kora-1
+  rotate: false
+  xy: 236, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Kora kora-2
+  rotate: false
+  xy: 276, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Kujang Warrior
   rotate: false
-  xy: 976, 76
+  xy: 316, 32
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Kujang Warrior-1
   rotate: false
-  xy: 976, 40
+  xy: 356, 32
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Kujang Warrior-2
   rotate: false
-  xy: 976, 4
+  xy: 396, 32
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Lancang
+  rotate: false
+  xy: 436, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lancang-1
+  rotate: false
+  xy: 476, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lancang-2
+  rotate: false
+  xy: 516, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Liya Guard
+  rotate: false
+  xy: 556, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lonjo
+  rotate: false
+  xy: 596, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lonjo-1
+  rotate: false
+  xy: 636, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mandau Dohong-1
+  rotate: false
+  xy: 636, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lonjo-2
+  rotate: false
+  xy: 676, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mandau Dohong
+  rotate: false
+  xy: 716, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mandau Dohong-2
+  rotate: false
+  xy: 756, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Nabur Swordsman
+  rotate: false
+  xy: 796, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Nabur Swordsman-1
+  rotate: false
+  xy: 836, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Nabur Swordsman-2
+  rotate: false
+  xy: 876, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Rudus Swordsman
+  rotate: false
+  xy: 916, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Rudus Swordsman-1
+  rotate: false
+  xy: 956, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Rudus Swordsman-2
+  rotate: false
+  xy: 996, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Salawaku Warrior (Ternate)
+  rotate: false
+  xy: 1036, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Salawaku Warrior (Tidore)
+  rotate: false
+  xy: 1036, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Salawaku Warrior (Ternate)-1
+  rotate: false
+  xy: 1076, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Salawaku Warrior (Tidore)-1
+  rotate: false
+  xy: 1076, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Salawaku Warrior (Ternate)-2
+  rotate: false
+  xy: 1116, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Salawaku Warrior (Tidore)-2
+  rotate: false
+  xy: 1116, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tappi Swordsman
+  rotate: false
+  xy: 1156, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tappi Swordsman-1
+  rotate: false
+  xy: 1196, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tappi Swordsman-2
+  rotate: false
+  xy: 1236, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/The Rajah Brooke
+  rotate: false
+  xy: 1276, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/The Rajah Brooke-1
+  rotate: false
+  xy: 1316, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/The Rajah Brooke-2
+  rotate: false
+  xy: 1356, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Anak Makassar
+  rotate: false
+  xy: 212, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Aswamedha Horse
+  rotate: false
+  xy: 4, 76
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kutai Martadipura
+  rotate: false
+  xy: 4, 76
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Bessing Banranga
+  rotate: false
+  xy: 536, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Cetbang
+  rotate: false
+  xy: 1508, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Galle'
+  rotate: false
+  xy: 1724, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Garay
+  rotate: false
+  xy: 1832, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ghali
+  rotate: false
+  xy: 1940, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Huwangga
+  rotate: false
+  xy: 328, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Jong
+  rotate: false
+  xy: 436, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Juanga
+  rotate: false
+  xy: 436, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Kalasag
+  rotate: false
+  xy: 544, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Kapal Borobudur
   rotate: false
-  xy: 328, 4
+  xy: 760, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Karambit Warrior
+  rotate: false
+  xy: 760, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Kora kora
+  rotate: false
+  xy: 976, 284
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Kujang Warrior
   rotate: false
-  xy: 436, 4
+  xy: 1084, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Lancang
+  rotate: false
+  xy: 1192, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Liya Guard
+  rotate: false
+  xy: 1192, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Lonjo
+  rotate: false
+  xy: 1300, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Mandau Dohong
+  rotate: false
+  xy: 1408, 176
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Meriam Ki Amuk
   rotate: false
-  xy: 652, 4
+  xy: 1516, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Nabur Swordsman
+  rotate: false
+  xy: 1624, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Rudus Swordsman
+  rotate: false
+  xy: 1732, 284
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Salawaku Warrior (Ternate)
+  rotate: false
+  xy: 1732, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Salawaku Warrior (Tidore)
+  rotate: false
+  xy: 1732, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tappi Swordsman
+  rotate: false
+  xy: 976, 68
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/The Rajah Brooke
+  rotate: false
+  xy: 1408, 68
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Headhunter
+  rotate: false
+  xy: 220, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ibanic Warrior
+  rotate: false
+  xy: 220, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Kota
+  rotate: false
+  xy: 976, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Slave
+  rotate: false
+  xy: 328, 68
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

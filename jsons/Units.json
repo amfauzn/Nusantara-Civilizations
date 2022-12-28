@@ -1,58 +1,500 @@
 [
-	// Tarumanagara
-	{
-		"name": "Kujang Warrior",
-		"unitType": "Sword",
-		"uniqueTo": "Tarumanagara",
-		"replaces": "Swordsman",
-		"movement": 2,
-		"strength": 14,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"requiredResource": "Iron",
-		"uniques": ["No movement cost to pillage", 
-					"[-100]% maintenance costs"],
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-	},
+	// Java Civilizations
 	
-	// Medang (Mataram Kuno)
-	{
-		"name": "Kapal Borobudur",
-		"unitType": "Ranged Water",
-		"uniqueTo": "Medang",
-		"replaces": "Galleass",
-		"movement": 3,
-		"strength": 16,
-		"rangedStrength": 17,
-		"cost": 110,
-		"requiredTech": "Compass",
-		"obsoleteTech": "Navigation",
-		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles",
-					"[+1] Movement <after discovering [Astronomy]>"],
-		"promotions": ["Bombardment I"],
-		"attackSound": "arrow"
-	},
+		// Tarumanagara
+		{
+			"name": "Kujang Warrior",
+			"unitType": "Sword",
+			"uniqueTo": "Tarumanagara",
+			"replaces": "Swordsman",
+			"movement": 2,
+			"strength": 14,
+			"cost": 75,
+			"requiredTech": "Iron Working",
+			"upgradesTo": "Longswordsman",
+			"obsoleteTech": "Steel",
+			"requiredResource": "Iron",
+			"uniques": ["No movement cost to pillage", 
+						"[-100]% maintenance costs"],
+			"hurryCostModifier": 20,
+			"attackSound": "metalhit"
+		},
+		
+		// Medang (Mataram Kuno)
+		{
+			"name": "Kapal Borobudur",
+			"unitType": "Ranged Water",
+			"uniqueTo": "Medang",
+			"replaces": "Galleass",
+			"movement": 3,
+			"strength": 16,
+			"rangedStrength": 17,
+			"cost": 110,
+			"requiredTech": "Compass",
+			"obsoleteTech": "Navigation",
+			"upgradesTo": "Frigate",
+			"uniques": ["Cannot enter ocean tiles",
+						"[+1] Movement <after discovering [Astronomy]>"],
+			"promotions": ["Bombardment I"],
+			"attackSound": "arrow"
+		},
+		
+		// Majapahit
+		{
+			"name": "Jong",
+			"unitType": "Ranged Water",
+			"uniqueTo": "Majapahit",
+			"replaces": "Frigate",
+			"movement": 5,
+			"strength": 25,
+			"rangedStrength": 28,
+			"cost": 185,
+			"requiredResource": "Iron",
+			"requiredTech": "Navigation",
+			"obsoleteTech": "Electronics",
+			"upgradesTo": "Battleship",
+			"uniques": ["Transfer Movement to [Embarked]", 
+						"[+10]% Strength <when adjacent to a [Jong] unit>"],
+			"attackSound": "cannon"
+		},
+		{
+			"name": "Cetbang",
+			"unitType": "Siege",
+			"uniqueTo": "Majapahit",
+			"replaces": "Cannon",
+			"movement": 2,
+			"strength": 16,
+			"rangedStrength": 20,
+			"cost": 185,
+			"requiredTech": "Chemistry",
+			"upgradesTo": "Artillery",
+			"obsoleteTech": "Dynamite",
+			"uniques": ["[+50]% Strength <when attacking>", 
+						"No defensive terrain bonus"],
+			"attackSound": "cannon"
+		},
+		
+		// Banten
+		{
+			"name": "Meriam Ki Amuk",
+			"unitType": "Siege",
+			"uniqueTo": "Banten",
+			"replaces": "Cannon",
+			"movement": 2,
+			"strength": 15,
+			"rangedStrength": 22,
+			"cost": 185,
+			"requiredTech": "Chemistry",
+			"upgradesTo": "Artillery",
+			"obsoleteTech": "Dynamite",
+			"uniques": ["[+200]% Strength <vs cities> <when attacking>",
+						"No defensive terrain bonus",
+						"Must set up to ranged attack"],
+			"attackSound": "cannon"
+		},
 	
-	// Banten
-	{
-		"name": "Meriam Ki Amuk",
-		"unitType": "Siege",
-		"uniqueTo": "Banten",
-		"replaces": "Cannon",
-		"movement": 2,
-		"strength": 15,
-		"rangedStrength": 22,
-		"cost": 185,
-		"requiredTech": "Chemistry",
-		"upgradesTo": "Artillery",
-		"obsoleteTech": "Dynamite",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>",
-					"No defensive terrain bonus",
-					"Must set up to ranged attack"],
-		"attackSound": "cannon"
-	},
+	
+	// Sumatra Civilizations
+	
+		// Aceh
+		{
+			"name": "Ghali",					// Acehnese famous weapon are Rencong, but I prefer water unit for them
+			"unitType": "Ranged Water",
+			"uniqueTo": "Aceh",
+			"replaces": "Galleass",
+			"movement": 3,
+			"strength": 18,
+			"rangedStrength": 19,
+			"cost": 100,
+			"requiredTech": "Compass",
+			"obsoleteTech": "Navigation",
+			"upgradesTo": "Frigate",
+			"uniques": ["Cannot enter ocean tiles"],
+			"attackSound": "arrow"
+		},
+		
+		// Dharmasraya
+		
+		// Jambi
+		{
+			"name": "Rudus Swordsman",
+			"unitType": "Sword",
+			"uniqueTo": "Jambi",
+			"replaces": "Swordsman",
+			"movement": 2,
+			"strength": 14,
+			"cost": 75,
+			"requiredTech": "Iron Working",
+			"upgradesTo": "Longswordsman",
+			"obsoleteTech": "Steel",
+			"requiredResource": "Iron",
+			"uniques": ["Earn [25]% of killed [Barbarians] unit's [Cost] as [Culture]", "[+10]% Strength <when attacking>"],
+			"hurryCostModifier": 20,
+			"attackSound": "metalhit"
+		},
+		
+		// Siak
+		{
+			"name": "Lancang",
+			"unitType": "Melee Water",
+			"uniqueTo": "Siak",
+			"replaces": "Caravel",
+			"movement": 4,
+			"strength": 20,
+			"cost": 120,
+			"requiredTech": "Astronomy",
+			"upgradesTo": "Ironclad",
+			"obsoleteTech": "Combustion",
+			"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)", "Ignores Zone of Control"],
+			"promotions": ["Mobility"],
+			"hurryCostModifier": 30,
+			"attackSound": "cannon"
+		},
+		
+		// Srivijaya
+		{
+			"name": "Karambit Warrior",
+			"unitType": "Sword",
+			"uniqueTo": "Srivijaya",
+			"replaces": "Swordsman",
+			"movement": 2,
+			"strength": 14,
+			"cost": 50,
+			"requiredTech": "Iron Working",
+			"upgradesTo": "Longswordsman",
+			"obsoleteTech": "Steel",
+			"requiredResource": "Iron",
+			"hurryCostModifier": 20,
+			"attackSound": "metalhit"
+		},
+	
+	
+	// Borneo Civilizations
+	
+		// Kutai Martadipura
+		{
+			"name": "Aswamedha Horse",
+			"unitType": "Civilian",
+			"uniqueTo": "Kutai Martadipura",
+			"movement": 4,
+			"cost": 75,
+			"requiredTech": "Animal Husbandry",
+			"requiredResource": "Horses",
+			"uniques": ["[+10]% Strength bonus for [Military] units within [3] tiles", "Limited to [1] per Civilization"],
+			//"replacementTextForUniques": "Unlock All Heroes"
+		},
+		{
+			"name": "Lonjo",
+			"unitType": "Sword",
+			"replaces": "Spearman",
+			"uniqueTo": "Kutai Martadipura",
+			"movement": 2,
+			"strength": 11,
+			"cost": 50,
+			"requiredTech": "Bronze Working",
+			"obsoleteTech": "Civil Service",
+			"upgradesTo": "Pikeman",
+			"uniques": ["[+50]% Strength <vs [Mounted] units>", 
+						"Earn [33]% of the damage done to [All] units as [Faith]"],
+			"attackSound": "metalhit"
+		},
+		
+		// Kutai Kertanegara
+		{
+			"name": "Mandau Dohong",
+			"unitType": "Sword",
+			"replaces": "Swordsman",
+			"uniqueTo": "Kutai Kartanegara",
+			"movement": 2,
+			"strength": 16,
+			"cost": 75,
+			"requiredTech": "Iron Working",
+			"upgradesTo": "Longswordsman",
+			"obsoleteTech": "Steel",
+			"requiredResource": "Iron",
+			"promotions": ["Quick Study"],
+			"hurryCostModifier": 20,
+			"attackSound": "metalhit"
+		},
+		
+		// Brunei
+		{
+			"name": "Kalasag",
+			"unitType": "Sword",
+			"replaces": "Swordsman",
+			"uniqueTo": "Brunei",
+			"movement": 2,
+			"strength": 14,
+			"cost": 75,
+			"requiredTech": "Iron Working",
+			"upgradesTo": "Longswordsman",
+			"obsoleteTech": "Steel",
+			"uniques": ["[-10]% Strength <when attacking>", "[+15]% Strength <when defending>"],
+			"hurryCostModifier": 20,
+			"attackSound": "metalhit"
+		},
+		
+		// Sulu
+		{
+			"name": "Garay",
+			"unitType": "Melee Water",
+			"replaces": "Privateer",
+			"uniqueTo": "Sulu",
+			"movement": 5,
+			"strength": 25,
+			"cost": 150,
+			"requiredTech": "Navigation",
+			"upgradesTo": "Destroyer",
+			"promotions": ["Coastal Raider I","Boarding Party I","Boarding Party II"],
+			"uniques": ["May capture killed [Water] units"],
+			"attackSound": "cannon"
+		},
+		
+		// Banjar
+		{
+			"name": "Swordsman",
+			"unitType": "Sword",
+			"movement": 2,
+			"strength": 14,
+			"cost": 75,
+			"requiredTech": "Iron Working",
+			"upgradesTo": "Longswordsman",
+			"obsoleteTech": "Steel",
+			"requiredResource": "Iron",
+			"hurryCostModifier": 20,
+			"attackSound": "metalhit"
+		},
+		{
+			"name": "Nabur Swordsman",
+			"unitType": "Sword",
+			"replaces": "Swordsman",
+			"uniqueTo": "Banjar",
+			"movement": 2,
+			"strength": 14,
+			"cost": 75,
+			"requiredTech": "Iron Working",
+			"upgradesTo": "Longswordsman",
+			"obsoleteTech": "Steel",
+			"requiredResource": "Iron",
+			"promotions": ["Drill I"],
+			"uniques": ["Ignores Zone of Control"],
+			"hurryCostModifier": 20,
+			"attackSound": "metalhit"
+		},
+		
+		// Sarawak
+		{
+			"name": "Ibanic Warrior",
+			"unitType": "Sword",
+			"replaces": "Swordsman",
+			"uniqueTo": "Sarawak",
+			"movement": 2,
+			"strength": 14,
+			"cost": 75,
+			"requiredTech": "Iron Working",
+			"upgradesTo": "Longswordsman",
+			"obsoleteTech": "Steel",
+			"requiredResource": "Iron",
+			"promotions": ["Headhunter"],
+			"uniques": ["Can move immediately once bought"],
+			"hurryCostModifier": -33,
+			"attackSound": "metalhit"
+		},
+		{
+			"name": "The Rajah Brooke",
+			"unitType": "Melee Water",
+			"replaces": "Ironclad",
+			"uniqueTo": "Sarawak",
+			"movement": 3,
+			"strength": 48,
+			"cost": 250,
+			"requiredTech": "Steam Power",
+			"obsoleteTech": "Combustion",
+			"upgradesTo": "Destroyer",
+			"requiredResource": "Coal",
+			"promotions": ["Boarding Party I"],
+			"uniques": ["[+33]% Strength <vs cities>", "Double movement in [Coast]"],
+			"attackSound": "cannon"
+		},
+	
+	
+	// Sulawsi Civilizations
+	
+		// Bone
+		{
+			"name": "Tappi Swordsman",
+			"unitType": "Sword",
+			"replaces": "Swordsman",
+			"uniqueTo": "Bone",
+			"movement": 2,
+			"strength": 14,
+			"cost": 75,
+			"requiredTech": "Iron Working",
+			"upgradesTo": "Longswordsman",
+			"obsoleteTech": "Steel",
+			"requiredResource": "Iron",
+			"uniques": ["Earn [33]% of the damage done to [All] units as [Gold]"],
+			"promotions": ["[Tappi Swordsman] ability"],
+			"hurryCostModifier": 20,
+			"attackSound": "metalhit"
+		},
+		
+		// Buton
+		{
+			"name": "Liya Guard",
+			"unitType": "Sword",
+			"replaces": "Pikeman",
+			"uniqueTo": "Buton",
+			"movement": 2,
+			"strength": 16,
+			"cost": 90,
+			"requiredTech": "Civil Service",
+			"upgradesTo": "Lancer",
+			"obsoleteTech": "Metallurgy",
+			"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can build [Farm] improvements on tiles"],
+			"promotions": ["[Liya Guard] ability"],
+			"attackSound": "metalhit"
+		},
+		
+		// Gorontaloo
+		{
+			"name": "Huwangga",
+			"unitType": "Sword",
+			"replaces": "Longswordsman",
+			"uniqueTo": "Gorontalo",
+			"movement": 2,
+			"strength": 21,
+			"cost": 120,
+			"requiredTech": "Steel",
+			"upgradesTo": "Musketman",
+			"obsoleteTech": "Gunpowder",
+			"requiredResource": "Iron",
+			"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+			"promotions": ["[Huwangga] ability"],
+			"attackSound": "metalhit"
+		},
+		
+		// Gowa-Tallo
+		{
+			"name": "Anak Makassar",
+			"unitType": "Siege",
+			"replaces": "Cannon",
+			"uniqueTo": "Gowa-Tallo",
+			"movement": 2,
+			"strength": 14,
+			"rangedStrength": 20,
+			"cost": 185,
+			"requiredTech": "Chemistry",
+			"upgradesTo": "Artillery",
+			"obsoleteTech": "Dynamite",
+			"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "Must set up to ranged attack",
+						"[-1] Sight", "[+15]% Strength <in [Friendly Land] tiles>"],
+			"promotions": ["Extended Range"],
+			"attackSound": "cannon"
+		},
+		{
+			"name": "Galle'",
+			"unitType": "Ranged Water",
+			"replaces": "Galleass",
+			"uniqueTo": "Gowa-Tallo",
+			"movement": 3,
+			"strength": 16,
+			"rangedStrength": 19,
+			"cost": 100,
+			"requiredTech": "Compass",
+			"obsoleteTech": "Navigation",
+			"upgradesTo": "Frigate",
+			"uniques": ["Cannot enter ocean tiles", "Start with extra 10 Experience"],
+			"attackSound": "arrow"
+		},
+		
+		// Luwu
+		{
+			"name": "Bessing Banranga",
+			"unitType": "Sword",
+			"replaces": "Pikeman",
+			"uniqueTo": "Luwu",
+			"movement": 2,
+			"strength": 16,
+			"cost": 90,
+			"requiredTech": "Civil Service",
+			"upgradesTo": "Lancer",
+			"obsoleteTech": "Metallurgy",
+			"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+33]% Strength <vs [Sword] units>", "[+15] HP when healing <in [Bubung Parani] tiles>"],
+			"attackSound": "metalhit"
+		},
+	
+	
+	// Maluku Civilizations
+	
+		// Ternate
+		{
+			"name": "Kora kora",
+			"unitType": "Melee Water",
+			"replaces": "Trireme",
+			"uniqueTo": "Ternate",
+			"movement": 3,
+			"strength": 10,
+			"cost": 45,
+			"requiredTech": "Sailing",
+			"upgradesTo": "Caravel",
+			"obsoleteTech": "Astronomy",
+			"uniques": ["Cannot enter ocean tiles <before discovering [Optics]>"],
+			"promotions": ["Landing Party","Coastal Raider I"],
+			"attackSound": "cannon"
+		},
+		{
+			"name": "Salawaku Warrior (Ternate)",
+			"unitType": "Sword",
+			"replaces": "Swordsman",
+			"uniqueTo": "Ternate",
+			"movement": 2,
+			"strength": 14,
+			"cost": 75,
+			"requiredTech": "Iron Working",
+			"upgradesTo": "Longswordsman",
+			"obsoleteTech": "Steel",
+			"requiredResource": "Iron",
+			"uniques": ["May withdraw before melee ([33]%)"],
+			"promotions": ["Cover I"],
+			"hurryCostModifier": 20,
+			"attackSound": "metalhit"
+		},
+	
+		// Tidore
+		{
+			"name": "Salawaku Warrior (Tidore)",
+			"unitType": "Sword",
+			"replaces": "Swordsman",
+			"uniqueTo": "Tidore",
+			"movement": 2,
+			"strength": 14,
+			"cost": 75,
+			"requiredTech": "Iron Working",
+			"upgradesTo": "Longswordsman",
+			"obsoleteTech": "Steel",
+			"requiredResource": "Iron",
+			"uniques": ["May withdraw before melee ([33]%)"],
+			"promotions": ["Cover I"],
+			"hurryCostModifier": 20,
+			"attackSound": "metalhit"
+		},
+		{
+			"name": "Juanga",
+			"unitType": "Melee Water",
+			"replaces": "Caravel",
+			"uniqueTo": "Tidore",
+			"movement": 5,
+			"strength": 24,
+			"cost": 120,
+			"requiredTech": "Astronomy",
+			"upgradesTo": "Ironclad",
+			"obsoleteTech": "Combustion",
+			"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)", "[-2] Movement <in [Ocean] tiles> <with [0] to [0] neighboring [Coast] tiles>"],
+			"replacementTextForUniques": "Deep ocean penalty",
+			"promotions": ["[Juanga] ability"],
+			"hurryCostModifier": 30,
+			"attackSound": "cannon"
+		},
 ]
+
