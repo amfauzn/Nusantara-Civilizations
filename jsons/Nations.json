@@ -91,7 +91,7 @@
 			"outerColor": [121,0,2],
 			"innerColor": [235,225,138],
 			"uniqueName": "Nagarakretagama",
-			"uniques": ["[+50]% Strength <for [All] units> <when fighting in [Coastal] tiles> <vs cities>", 
+			"uniques": ["[+33]% Strength <for [Land] units> <when fighting in [Coastal] tiles> <vs cities>", 
 						"Upon capturing a city, receive [5] times its [Gold] production as [Gold] immediately"],
 			"cities": ["Trowulan","Klaten","Kadiri","Surabaya","Malang","Probolinggo","Madiun","Mojokerto","Semarang","Solo",
 				"Pekalongan","Tegal","Salatiga","Magelang","Palembang","Bandar Lampung","Pangkalpinang","Denpasar","Bengkulu","Jambi",
