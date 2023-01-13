@@ -54,7 +54,7 @@
 			"hateHello": "What do you want?",
 			"tradeRequest": "It doesn't matter how much I give, this offer comes from the heart",
 			
-			"outerColor": [79,73,6],
+			"outerColor": [ 79, 73, 6],
 			"innerColor": [255,233,23],
 			"uniqueName": "Javanese Art Center",
 			"uniques": ["Receive free [Great Artist] when you discover [Theology]",
@@ -88,7 +88,7 @@
 			"hateHello": "Shameless fool!",
 			"tradeRequest": "With this, we can be friends.",
 			
-			"outerColor": [121,0,2],
+			"outerColor": [121,  0,  2],
 			"innerColor": [235,225,138],
 			"uniqueName": "Nagarakretagama",
 			"uniques": ["[+33]% Strength <for [Land] units> <when fighting in [Coastal] tiles> <vs cities>", 
@@ -98,7 +98,7 @@
 				"Pekanbaru","Padang","Medan","Makassar","Batam","Samarinda","Ambon","Kupang","Banda Aceh","Pontianak"
 				"Palembang","Pekanbaru","Bandar Lampung","Palangka Raya","Banjarmasin","Samarinda","Kupang","Mataram Kuno","Bima","Kendari",
 				"Mamuju","Palu","Manado","Ambon","Dili","Manokwari","Johor","Malaccaa","Alor Setar","Seremban",
-				"Kuantan","Penang","Ipoh","Kuala Terengganu","Selangor","Kuching","Kota Kinabalu","Brunei","Pontianak","Balikpapan",
+				"Kuantan","Penang","Ipoh","Kuala Terengganu","Selangor","Kuching","Kota Kinabalu","Bandar Brunei","Pontianak","Balikpapan",
 				"Komodo","Biak","Kudus","Lombok","Samosir","Sragen","Garut","Gresik","Nias","Sragen"],
 			"spyNames": ["Sankhara","Manara","Salaḍū","Lokapāla","Dewendra","Bhadra","Garuda Mukha","Daksa","Sindok","Pardiyem"]
 		},
@@ -257,7 +257,7 @@
 			"preferredVictoryType": "Domination",
 			"favoredReligion": "Buddhism",
 
-			"startIntroPart1": "Hail to you, Sri Maharaja Balaputradewa, emperor of the mighty Srivijaya Empire! Srivijaya is the center of Buddhism in Southeast Asia from the 7th to the 12th century and became the stopping point for Chinese Buddhist pilgrims on their way to India.. Due to its location, Srivijaya became the first empire to dominate the trade route through the strait of Malacca and the strait of Sunda. Srivijaya established trade relations not only with the states in the Malay Archipelago, but also with China and India.. By the 10th century, the Srivijayan controlled most of Java, Sumatra, Malay Peninsula, Western Borneo, and Mekong River. But the empire fell at last under the assault of greedy Chola, led by Rajendra - who betrayed the trust of Srivijayan and monopolize the sea route between South and Easr=t Asia.",
+			"startIntroPart1": "Hail to you, Sri Maharaja Balaputradewa, emperor of the mighty Srivijaya Empire! Srivijaya is the center of Buddhism in Southeast Asia from the 7th to the 12th century and became the stopping point for Chinese Buddhist pilgrims on their way to India.. Due to its location, Srivijaya became the first empire to dominate the trade route through the strait of Malacca and the strait of Sunda. Srivijaya established trade relations not only with the states in the Malay Archipelago, but also with China and India.. By the 10th century, the Srivijayan controlled most of Java, Sumatra, Malay Peninsula, Western Borneo, and Mekong River. But the empire fell at last under the assault of greedy Chola, led by Rajendra - who betrayed the trust of the Srivijayan and monopolize the sea route between South and East Asia.",
 			"startIntroPart2": "O great king Balaputradewa, your people call upon you once more, to rise up and lead them to glory, bring them wealth and power, and give them dominion over their foes and rivals. Can you answer their call, glorious leader? Will you build a civilization that stands the test of time?",
 			
 			"declaringWar": "Your reign will be better under MY domain.",
@@ -272,13 +272,13 @@
 			"outerColor": [121,  0,  2],
 			"innerColor": [234,225,158],
 			"uniqueName": "Malay Trade Route",
-			"uniques": ["[+15]% Strength <for [Water] units> <when fighting in [Coast] tiles>", 
-						"[+1 Gold] from every [Coast]"],
+			"uniques": ["[+15]% Strength <for [non-air] units> <when fighting in [Coast] tiles>", 
+						"+10% [Science] from every [Temple] in your first 5 cities"],
 			"cities": ["Palembang","Prabumulih","Pagar Alam","Lubuklinggau","Bengkulu","Jambi","Bandar Lampung","Metro","Banten","Sunda Kelapa",
 				"Bogor","Depok","Bekasi","Sukabumi","Bandung","Cimahi","Tasikmalaya","Cirebon","Pekanbaru","Dumai",
 				"Siak","Tanjungpinang","Batam","Temasek","Johor","Perak","Kuantan","Selangor","Kuala Terengganu","Kelantan",
 				"Alor Setar","Penang","Pattani","Ligor","Tegal","Pekalongan","Magelang","Semarang","Salatiga","Solo",
-				"Ta Khmau","Phnom Penh","Siem Reap","Klaten","Yogyakarta","Singkawang","Sarawak","Brunei"],
+				"Ta Khmau","Phnom Penh","Siem Reap","Klaten","Yogyakarta","Singkawang","Sarawak","Bandar Brunei"],
 			"spyNames": ["Jayanasa","Wikrama","Udayaditya","Cudamani","Vijayottunggawarman","Sumatrabhumi","Warmadewa","Rudra","Sri","Bahal"]
 		},
 	
