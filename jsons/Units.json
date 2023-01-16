@@ -92,6 +92,22 @@
 						"Must set up to ranged attack"],
 			"attackSound": "cannon"
 		},
+		
+		// Mataram Islam
+		{
+			"name": "Bedil",
+			"unitType": "Gunpowder",
+			"uniqueTo": "Mataram",
+			"replaces": "Musketman",
+			"movement": 2,
+			"strength": 24,
+			"cost": 150,
+			"requiredTech": "Gunpowder",
+			"upgradesTo": "Rifleman",
+			"obsoleteTech": "Rifling",
+			"promotions": ["[Bedil] ability"],
+			"attackSound": "shot"
+		},
 	
 	
 	// Sumatra Civilizations
@@ -128,8 +144,8 @@
 			"upgradesTo": "Longswordsman",
 			"obsoleteTech": "Steel",
 			"requiredResource": "Iron",
-			"uniques": ["Earn [25]% of killed [Barbarians] unit's [Cost] as [Culture]", "[+10]% Strength <when attacking>"],
-			"hurryCostModifier": 20,
+			"uniques": ["Earn [25]% of killed [Barbarians] unit's [Cost] as [Culture]", 
+						"[+10]% Strength <when attacking>"],
 			"attackSound": "metalhit"
 		},
 		
@@ -145,7 +161,9 @@
 			"requiredTech": "Astronomy",
 			"upgradesTo": "Ironclad",
 			"obsoleteTech": "Combustion",
-			"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)", "Ignores Zone of Control"],
+			"uniques": ["[+1] Sight", 
+						"May withdraw before melee ([80]%)", 
+						"Ignores Zone of Control"],
 			"promotions": ["Mobility"],
 			"hurryCostModifier": 30,
 			"attackSound": "cannon"
@@ -180,7 +198,8 @@
 			"cost": 75,
 			"requiredTech": "Animal Husbandry",
 			"requiredResource": "Horses",
-			"uniques": ["[+10]% Strength bonus for [Military] units within [3] tiles", "Limited to [1] per Civilization"],
+			"uniques": ["[+10]% Strength bonus for [Military] units within [3] tiles", 
+						"Limited to [1] per Civilization"],
 			//"replacementTextForUniques": "Unlock All Heroes"
 		},
 		{
@@ -229,7 +248,8 @@
 			"requiredTech": "Iron Working",
 			"upgradesTo": "Longswordsman",
 			"obsoleteTech": "Steel",
-			"uniques": ["[-10]% Strength <when attacking>", "[+15]% Strength <when defending>"],
+			"uniques": ["[-10]% Strength <when attacking>", 
+						"[+15]% Strength <when defending>"],
 			"hurryCostModifier": 20,
 			"attackSound": "metalhit"
 		},
@@ -313,7 +333,8 @@
 			"upgradesTo": "Destroyer",
 			"requiredResource": "Coal",
 			"promotions": ["Boarding Party I"],
-			"uniques": ["[+33]% Strength <vs cities>", "Double movement in [Coast]"],
+			"uniques": ["[+33]% Strength <vs cities>", 
+						"Double movement in [Coast]"],
 			"attackSound": "cannon"
 		},
 	
@@ -351,7 +372,8 @@
 			"requiredTech": "Civil Service",
 			"upgradesTo": "Lancer",
 			"obsoleteTech": "Metallurgy",
-			"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can build [Farm] improvements on tiles"],
+			"uniques": ["[+50]% Strength <vs [Mounted] units>", 
+						"Can build [Farm] improvements on tiles"],
 			"promotions": ["[Liya Guard] ability"],
 			"attackSound": "metalhit"
 		},
@@ -387,8 +409,11 @@
 			"requiredTech": "Chemistry",
 			"upgradesTo": "Artillery",
 			"obsoleteTech": "Dynamite",
-			"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "Must set up to ranged attack",
-						"[-1] Sight", "[+15]% Strength <in [Friendly Land] tiles>"],
+			"uniques": ["[+200]% Strength <vs cities> <when attacking>", 
+						"No defensive terrain bonus", 
+						"Must set up to ranged attack",
+						"[-1] Sight", 
+						"[+15]% Strength <in [Friendly Land] tiles>"],
 			"promotions": ["Extended Range"],
 			"attackSound": "cannon"
 		},
@@ -404,7 +429,8 @@
 			"requiredTech": "Compass",
 			"obsoleteTech": "Navigation",
 			"upgradesTo": "Frigate",
-			"uniques": ["Cannot enter ocean tiles", "Start with extra 10 Experience"],
+			"uniques": ["Cannot enter ocean tiles", 
+						"Start with extra 10 Experience"],
 			"attackSound": "arrow"
 		},
 		

@@ -1,44 +1,37 @@
 [
 	{
+		"name": "[Bedil] ability",
+		"uniques": ["[+25]% Strength <vs [Wounded] units>"]
+	},
+	{
 		"name": "Slave",
-		"uniques": ["Gain [35] [Gold] <by consuming this unit>"],
-		"column": 71,
-        "row": 1
+		"uniques": ["Gain [35] [Gold] <by consuming this unit>"]
 	},
 	{
 		"name": "Kota",
-		"uniques": ["Can construct [Kotta mara]"],
-		"column": 71,
-        "row": 2
+		"uniques": ["Can construct [Kotta mara]"]
 	},
 	{
 		"name": "Headhunter",
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
-		"column": 71,
-        "row": 3
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
 	{
-        "name": "[Tappi Swordsman] ability",
-        "uniques": ["[+10]% Strength <when adjacent to a [Sword] unit>", "[+10]% Strength <when adjacent to a [Gunpowder] unit>"], // +15% when adjacent to Sword OR Gunpowder
-		"column": 71,
-        "row": 4
-    },
+		"name": "[Tappi Swordsman] ability",
+		"uniques": ["[+10]% Strength <when adjacent to a [Sword] unit>", 
+					"[+10]% Strength <when adjacent to a [Gunpowder] unit>"] 
+					// +15% when adjacent to Sword OR Gunpowder
+	},
 	{
-        "name": "[Liya Guard] ability",
-        "uniques": ["Defense bonus when embarked", "[+15]% Strength <when fighting in [Coastal] tiles>"],
-		"column": 71,
-        "row": 5
-    },
+		"name": "[Liya Guard] ability",
+		"uniques": ["Defense bonus when embarked", 
+					"[+15]% Strength <when fighting in [Coastal] tiles>"]
+	},
 	{
-        "name": "[Huwangga] ability",
-        "uniques": ["[+1] Movement <in [Hill] tiles>"],
-		"column": 71,
-        "row": 6
-    },
+		"name": "[Huwangga] ability",
+		"uniques": ["[+1] Movement <in [Hill] tiles>"]
+	},
 	{
-        "name": "[Juanga] ability",
-        "uniques": ["[+15]% Strength <vs [Water] units>"],
-		"column": 71,
-        "row": 7
-    }
+		"name": "[Juanga] ability",
+		"uniques": ["[+15]% Strength <vs [Water] units>"]
+	}
 ]

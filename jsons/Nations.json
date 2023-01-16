@@ -100,7 +100,7 @@
 				"Mamuju","Palu","Manado","Ambon","Dili","Manokwari","Johor","Malaccaa","Alor Setar","Seremban",
 				"Kuantan","Penang","Ipoh","Kuala Terengganu","Selangor","Kuching","Kota Kinabalu","Bandar Brunei","Pontianak","Balikpapan",
 				"Komodo","Biak","Kudus","Lombok","Samosir","Sragen","Garut","Gresik","Nias","Sragen"],
-			"spyNames": ["Sankhara","Manara","Salaḍū","Lokapāla","Dewendra","Bhadra","Garuda Mukha","Daksa","Sindok","Pardiyem"]
+			"spyNames": ["Wijaya","Soheeta","Jayanagara","Gitarja","Aji","Nyoman","Setyanto","Joko","Siti","Soegimin"]
 		},
 		
 		// Banten
@@ -132,6 +132,38 @@
 				"Cianjur","Garut","Bandar Lampung","Pesawaran","Metro","Pringsewu","Tanggamus","Pesisir Barat","Tulang Bawang","Waykanan",
 				"Ogah Komering","Kaur","Pagar Alam","Seluma","Bengkulu"],
 			"spyNames": ["Fatahillah","Ma'ruf","Melati","Dijaya","Ulfah","Cadasari","Arman","Felisha","Nasuha","Mursadat"]
+		},
+		
+		// Mataram Islam
+		{
+			"name": "Mataram",						// 1586–1755
+			"leaderName": "Anyakrakusuma",
+			"adjective": ["Matawis"],
+			"preferredVictoryType": "Diplomatic",
+			"favoredReligion": "Islam",
+
+			"startIntroPart1": " ",
+			"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+			
+			"declaringWar": "I must protect the interests of the Matawis. Surrender quickly so that this may end without bloodshed.",
+			"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
+			"defeated": "The Sultanate falls, but I will be remembered. Will you?",
+			"introduction": "Let it be known between us- I will repay treachery with blood! But, if you are a true friend, we will have peace."
+			
+			"neutralHello": "Sugeng rawuh.",
+			"hateHello": "Speak!",
+			"tradeRequest": "This agreement, will you accept it?",
+			
+			"outerColor": [109,211,255],
+			"innerColor": [139,32,23],
+			"uniqueName": "Catur Sagotra",
+			"uniques": ["Gain a free [Wayang] [in capital] <after discovering [Theology]>", 
+						"Resting point for Influence with City-States is increased by [10]"],
+			"cities": ["Kutagede","Plered","Kartasura","Klaten","Yogyakarta","Solo","Salatiga","Kulonprogo","Bantul","Sleman",
+				"Gunungkidul","Magelang","Rembang","Jepara","Semarang","Pekalongan","Tegal","Banyumas","Pacitan","Madiun",
+				"Kadiri","Blitar","Batu","Malang","Mojokerto","Pasuruan","Surabaya","Probolinggo","Madura","Cirebon",
+				"Banjar","Tasikmalaya","Bandung","Cimahi","Bekasi","Bogor","Depok","Karawang","Cianjur","Sukadana"],
+			"spyNames": ["Sutawijaya","Pakubuwana","Hamengkubuwana","Mangkunegara","Pakualam","Agus","Budi","Mulyani","Didik","Sugeng"]
 		},
 	
 	
@@ -273,7 +305,7 @@
 			"innerColor": [234,225,158],
 			"uniqueName": "Malay Trade Route",
 			"uniques": ["[+15]% Strength <for [non-air] units> <when fighting in [Coast] tiles>", 
-						"+10% [Science] from every [Temple] in your first 5 cities"],
+						"+10% [Science] from every [Temple] in your first 8 cities"],
 			"cities": ["Palembang","Prabumulih","Pagar Alam","Lubuklinggau","Bengkulu","Jambi","Bandar Lampung","Metro","Banten","Sunda Kelapa",
 				"Bogor","Depok","Bekasi","Sukabumi","Bandung","Cimahi","Tasikmalaya","Cirebon","Pekanbaru","Dumai",
 				"Siak","Tanjungpinang","Batam","Temasek","Johor","Perak","Kuantan","Selangor","Kuala Terengganu","Kelantan",
@@ -467,8 +499,10 @@
 			"hateHello": "Oh, it's you!",
 			"tradeRequest": "Greetings. Would you be interested in this trade agreement?",
 			
-			"outerColor": [195,0, 0],
-			"innerColor": [0,60,114],
+			//"outerColor": [195,0, 0],
+			//"innerColor": [0,60,114],
+			"outerColor": [210,63,63],
+			"innerColor": [0,45,85],
 			"uniqueName": "White Rajah",
 			"uniques": ["[+1 Production, +1 Gold] from every [Coal]", 
 						"Double quantity of [Coal] produced", 
@@ -536,8 +570,8 @@
 			"outerColor": [68,142,249],
 			"innerColor": [28, 51,119],
 			"uniqueName": "Tellumpoccoe",
-			"uniqueText": "+3 Production, +3 Gold in cities with 3 population or less\nGain a free Granary in your first 3 cities",
-			"uniques": ["[+3 Production, +3 Gold] [in all cities]", "[-3 Production, -3 Gold] [in all cities] <in cities with at least [4] [Population]>", 
+			"uniqueText": "+3 Production, +3 Gold in cities with 5 population or less\nGain a free Granary in your first 3 cities",
+			"uniques": ["[+3 Production, +3 Gold] [in all cities]", "[-3 Production, -3 Gold] [in all cities] <in cities with at least [6] [Population]>", 
 						"Provides a [Granary] in your first [3] cities for free"],
 			"cities": ["Watampone","Tanete Riattang","Awangpone","Palakka","Barebbo","Sibulue","Cina","Ponre","Ulaweng","Bengo",
 				"Libureng","Mare","Patimpeng","Tonra","Salomekko","Kajuara","Kahu","Bonto Cani","Lappa Riaja","Tellu Liompe",

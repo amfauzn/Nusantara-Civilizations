@@ -1,3 +1,9 @@
+# Development
+* [amfauzn (AKA faw)](https://github.com/amfauzn) - sprites, idea, icon, code, lore, Indonesian translation
+* [AceHank](https://github.com/AceHank) - balancing idea
+* [Bambboolord](https://github.com/RealBamboolord) - balancing idea
+* riceroll - balancing idea
+
 # Credits
 Any icons not listed below are self made with Paint 3D.
 
@@ -13,6 +19,8 @@ Any icons not listed below are self made with Paint 3D.
 - [octagon mandala](https://thenounproject.com/icon/octagon-mandala-2207922/) by Hassan Khaled, EG\
 - [Fountain](https://thenounproject.com/icon/fountain-2089425/) by bmijnlieff, NL
 - [Cannon](https://thenounproject.com/icon/cannon-1122662/) by Madison Apple, US
+- [Javanese Hat](https://thenounproject.com/icon/javanese-hat-1183723/) by Skeccio, ID
+- [arquebus](https://thenounproject.com/icon/arquebus-2349021/) by Cédric Villain, FR
 
 ## Sumatra Civilizations
 - [Borobudur](https://thenounproject.com/icon/borobudur-2412861/) by Phạm Thanh Lộc, VN
