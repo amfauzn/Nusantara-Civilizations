@@ -35,14 +35,13 @@
 			"replaces": "Grand Temple",
 			"uniqueTo": "Medang",
 			"cost": 200,
-			"culture": 1,
+			"culture": 4,
 			"faith": 8,
 			"isNationalWonder": true,
 			"uniques": ["Cost increases by [30] per owned city", 
 						"[+100]% Natural religion spread [in this city]", 
-						"Hidden when religion is disabled", 
+						//"Hidden when religion is disabled", 
 						"Can only be built [in holy cities]",
-						//"Gain a free [Candi] [in this city]"
 						"Gain a free [Temple] [in all cities]"],
 			"requiredTech": "Theology",
 			"civilopediaText": [
@@ -57,7 +56,8 @@
 			"uniqueTo": "Banten",
 			"uniques": ["[+25]% Great Person generation [in this city]", 
 						"Must be next to [Fresh water]", 
-						"[+1 Food] from [Plantation] tiles [in this city]"],
+						"[+2 Food] from [Plantation] tiles [in this city]", 
+						"[+1 Food] from [Farm] tiles [in this city]"],
 			"hurryCostModifier": 25,
 			"maintenance": 1,
 			"requiredTech": "Theology",
@@ -67,7 +67,7 @@
 		},
 		
 		// Mataram Islam
-		{
+		/*{
 			"name": "Wayang",
 			"replaces": "Theatre",
 			"uniqueTo": "Mataram",
@@ -79,6 +79,20 @@
 			"requiredTech": "Printing Press",
 			"civilopediaText": [
 				{"text": "A puppet theatre play originating from the Indonesian island of Java, in which depict mythologies, such as episodes from the Hindu epics the Ramayana and the Mahabharata, as well as local adaptations of cultural legends. Performances of wayang puppet theatre are accompanied by a gamelan orchestra in Java, and by gender wayang in Bali."},
+			]
+		},*/
+		{
+			"name": "Lumbung Pari",
+			"replaces": "Armory",
+			"uniqueTo": "Mataram",
+			"maintenance": 1,
+			"requiredBuilding": "Barracks",
+			"uniques": ["New [Military] units start with [15] Experience [in this city]", 
+						"All newly-trained [non-air] units [in this city] receive the [Wareg] promotion", 
+						"Destroyed when the city is captured"],
+			"requiredTech": "Steel",
+			"civilopediaText": [
+				{"text": "A granary used to store and dry the harvested rice. Lumbung Pari were built in Karawang and Cirebon to anticipate the lack of supplies for Mataram's troops during the Siege of Batavia."},
 			]
 		},
 	
@@ -107,9 +121,10 @@
 			"name": "Stone House",
 			"replaces": "Castle",
 			"uniqueTo": "Jambi",
+			"culture": 3,
 			"cityStrength": 7,
 			"cityHealth": 25,
-			"cost": 80,
+			"cost": 120,
 			"hurryCostModifier": 25,
 			"requiredBuilding": "Walls",
 			"uniques": ["Destroyed when the city is captured"],
@@ -138,7 +153,7 @@
 		},
 		
 		// Srivijaya
-		{
+		/*{
 			"name": "Temple Bonus",
 			"uniqueTo": "Srivijaya",
 			"percentStatBonus": {"science": 10},
@@ -149,9 +164,9 @@
 						"Only available <in cities with a [Temple]>", 
 						"Will not be displayed in Civilopedia"],
 			"requiredTech": "Agriculture"
-		},
+		},*/
 		{
-			"name": "Srivijayan Harbor",			// No such name
+			"name": "Dermaga",
 			"replaces": "Harbor",
 			"uniqueTo": "Srivijaya",
 			"cost": 120,
@@ -201,42 +216,11 @@
 			"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
 						"[+1 Food, +1 Gold] from [Coast] tiles [in this city]", 
 						"[+1 Food] from [Fish] tiles [in this city]", 
-						"[+1 Gold, +1 Culture] [in this city] <before discovering [Plastics]>"],
+						"Provides [1] [Oil] <after discovering [Biology]>"],
 			"requiredTech": "Sailing",
 			"civilopediaText": [
 				{"text": "A traditional settlement in Bandar Seri Begawan, the capital of Brunei. It comprises neighbourhoods of traditional houses, schools and mosques built on stilts above the Brunei River near the capital's city centre."},
 			]
-		},
-		
-		// Sulu
-		{
-			"name": "Daru Jambangan",
-			"replaces": "Palace",
-			"uniqueTo": "Sulu",
-			"isNationalWonder": true,
-			"production": 3,
-			"science": 3,
-			"gold": 3,
-			"culture": 2,
-			"faith": 1,
-			"cityStrength": 2,
-			"cost": 1,
-			"uniques": ["Indicates the capital city", "[+2 Culture] [in this city] <after discovering [Archaeology]>"],
-			"civilopediaText": [
-				{"text": "The palace of the Sultanate of Sulu based in Maimbung, Sulu. It was destroyed by a typhoon in 1932."},
-			]
-		},
-		{
-			"name": "Sulu Courthouse",
-			"replaces": "Courthouse",
-			"uniqueTo": "Sulu",
-			"maintenance": 4,
-			"hurryCostModifier": 50,
-			"uniques": ["Remove extra unhappiness from annexed cities", 
-						"Can only be built [in annexed cities]", 
-						"Free [Worker] appears", 
-						"Will not be displayed in Civilopedia"],
-			"requiredTech": "Mathematics"
 		},
 		
 		
@@ -292,7 +276,7 @@
 			"uniques": ["Destroyed when the city is captured"],
 			"requiredTech": "Acoustics",
 			"civilopediaText": [
-				{"text": "Bola Soba means home of friendship. At first, Bola Soba served as the King of Bone's palace and continued as the residence of the crown prince. During this Dutch occupation, Bola Soba was used as a military headquarters, then functioned as an inn to entertain Dutch guests."},
+				{"text": "Bola Soba means home of friendship. At first, Bola Soba served as the King of Bone's palace and continued as the residence of the crown prince. During the Dutch occupation, Bola Soba was used as a military headquarters, then functioned as an inn to entertain Dutch guests."},
 			]
 		},
 		
@@ -301,11 +285,14 @@
 			"name": "Kampua",
 			"replaces": "Mint",
 			"uniqueTo": "Buton",
+			"production": 2,
 			"maintenance": 0,
-			"requiredNearbyImprovedResources": ["Gold Ore","Silver","Cotton","Silk","Furs"],
 			"hurryCostModifier": 25,
-			"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", 
-						"[+2 Gold] from [Cotton] tiles [in this city]", "[+2 Gold] from [Silk] tiles [in this city]", 
+			"uniques": ["Can be built in all cities", 
+						"[+2 Gold] from [Gold Ore] tiles [in this city]", 
+						"[+2 Gold] from [Silver] tiles [in this city]", 
+						"[+2 Gold] from [Cotton] tiles [in this city]", 
+						"[+2 Gold] from [Silk] tiles [in this city]", 
 						"[+2 Gold] from [Furs] tiles [in this city]"],
 			"requiredTech": "Currency",
 			"civilopediaText": [
@@ -324,9 +311,51 @@
 			"requiredBuilding": "Barracks",
 			"uniques": ["New [Military] units start with [15] Experience [in this city]",
 						"Destroyed when the city is captured"],
-			"requiredTech": "Steel"
+			"requiredTech": "Steel",
 			"civilopediaText": [
 				{"text": "An institution that operates as national defense and security,. It controls and distributing weapons to the troops of the Gorontalo sultanate."},
+			]
+		},
+	
+	// Bali and Nusa Tenggara (Lesser Sunda)
+	
+		// Bali
+		{
+			"name": "Pura",
+			"replaces": "Temple",
+			"uniqueTo": "Bali",
+			"faith": 2,
+			"culture": 2,
+			"requiredBuilding": "Shrine",
+			"maintenance": 2,
+			"uniques": ["Hidden when religion is disabled", 
+						"[+25]% Natural religion spread [in this city]", 
+						"Destroyed when the city is captured"],
+			"requiredTech": "Philosophy",
+			"civilopediaText": [
+				{"text": "A Balinese Hindu temple, and the place of worship for adherents of Balinese Hinduism in Indonesia. Puras are built in accordance to rules, style, guidance and rituals found in Balinese architecture."},
+			]
+		},
+	
+	// The Philippines
+	
+		// Sulu
+		{
+			"name": "Daru Jambangan",
+			"replaces": "Palace",
+			"uniqueTo": "Sulu",
+			"isNationalWonder": true,
+			"production": 3,
+			"science": 3,
+			"gold": 3,
+			"culture": 2,
+			"faith": 1,
+			"cityStrength": 2,
+			"cost": 1,
+			"uniques": ["Indicates the capital city", 
+						"[+2 Culture] [in this city] <after discovering [Archaeology]>"],
+			"civilopediaText": [
+				{"text": "The palace of the Sultanate of Sulu based in Maimbung, Sulu. It was destroyed by a typhoon in 1932."},
 			]
 		},
 ]

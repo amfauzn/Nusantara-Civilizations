@@ -19,7 +19,7 @@ Any icons not listed below are self made with Paint 3D.
 - [octagon mandala](https://thenounproject.com/icon/octagon-mandala-2207922/) by Hassan Khaled, EG\
 - [Fountain](https://thenounproject.com/icon/fountain-2089425/) by bmijnlieff, NL
 - [Cannon](https://thenounproject.com/icon/cannon-1122662/) by Madison Apple, US
-- [Javanese Hat](https://thenounproject.com/icon/javanese-hat-1183723/) by Skeccio, ID
+- [Barn](https://thenounproject.com/icon/barn-4574113/) by The Icon Z, ID
 - [arquebus](https://thenounproject.com/icon/arquebus-2349021/) by Cédric Villain, FR
 
 ## Sumatra Civilizations
@@ -39,11 +39,11 @@ Any icons not listed below are self made with Paint 3D.
 - [Palace](https://thenounproject.com/icon/palace-4734191/) by Lia Rahdiah
 - [palace of parlianment](https://thenounproject.com/icon/palace-of-parliament-4009207/) by Vector Portal
 - [Town](https://thenounproject.com/icon/town-631486/) by Hamish
+- [warship](https://thenounproject.com/icon/warship-2048530/) by Hada Arkanda, ID
 - [Sword](https://thenounproject.com/icon/sword-718406/) by Daniela Baptista
 - [Spear](https://thenounproject.com/icon/spear-1215452/) by Guilherme Furtado. Modified
 - [Shield](https://thenounproject.com/icon/shield-1002903/) by Alena Artemova
 - [Sword](https://thenounproject.com/icon/sword-1547638/) by Nociconist
-- [Sail Boat](https://thenounproject.com/icon/sail-boat-3564420/) by Hey Rabbit. Modified
 - [frigate](https://thenounproject.com/icon/frigate-4635884/) by Danil Polshin. Modified
 - [shackle](https://thenounproject.com/icon/shackle-217216) by Robert Bjushagen
 - [Sword](https://thenounproject.com/icon/sword-1173956/) by DinosoftLab
@@ -74,3 +74,11 @@ Any icons not listed below are self made with Paint 3D.
 - [Ship](https://thenounproject.com/icon/ship-3863477/) by Andrejs Kirma. Modified
 - [pattern](https://thenounproject.com/icon/pattern-8749/) by Mike Rowe. Modified
 - [Ship](https://thenounproject.com/icon/ship-1445537/) by yanti anis
+
+## Bali and Nusa Tenggara Civilizations
+- [barongsai](https://thenounproject.com/icon/barongsai-3178075/) by JunGSa, ID
+- [pura](https://thenounproject.com/icon/pura-3366528/) by Ian Rahmadi Kurniawan, ID
+- [sailboat](https://thenounproject.com/icon/sailboat-5396379/) by Soni Sokell, ID
+
+## The Philippines
+- [Sail Boat](https://thenounproject.com/icon/sail-boat-3564420/) by Hey Rabbit. Modified

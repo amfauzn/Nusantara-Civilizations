@@ -22,7 +22,7 @@
 		
 		// Medang (Mataram Kuno)
 		{
-			"name": "Kapal Borobudur",
+			"name": "Banawa",
 			"unitType": "Ranged Water",
 			"uniqueTo": "Medang",
 			"replaces": "Galleass",
@@ -144,8 +144,7 @@
 			"upgradesTo": "Longswordsman",
 			"obsoleteTech": "Steel",
 			"requiredResource": "Iron",
-			"uniques": ["Earn [25]% of killed [Barbarians] unit's [Cost] as [Culture]", 
-						"[+10]% Strength <when attacking>"],
+			"uniques": ["[+15]% Strength <when attacking>"],
 			"attackSound": "metalhit"
 		},
 		
@@ -182,7 +181,6 @@
 			"upgradesTo": "Longswordsman",
 			"obsoleteTech": "Steel",
 			"requiredResource": "Iron",
-			"hurryCostModifier": 20,
 			"attackSound": "metalhit"
 		},
 	
@@ -196,7 +194,6 @@
 			"uniqueTo": "Kutai Martadipura",
 			"movement": 4,
 			"cost": 75,
-			"requiredTech": "Animal Husbandry",
 			"requiredResource": "Horses",
 			"uniques": ["[+10]% Strength bonus for [Military] units within [3] tiles", 
 						"Limited to [1] per Civilization"],
@@ -237,7 +234,7 @@
 		},
 		
 		// Brunei
-		{
+		/*{
 			"name": "Kalasag",
 			"unitType": "Sword",
 			"replaces": "Swordsman",
@@ -252,22 +249,23 @@
 						"[+15]% Strength <when defending>"],
 			"hurryCostModifier": 20,
 			"attackSound": "metalhit"
-		},
-		
-		// Sulu
+		},*/
 		{
-			"name": "Garay",
+			"name": "Darussalam-Class",
 			"unitType": "Melee Water",
-			"replaces": "Privateer",
-			"uniqueTo": "Sulu",
-			"movement": 5,
-			"strength": 25,
-			"cost": 150,
-			"requiredTech": "Navigation",
-			"upgradesTo": "Destroyer",
-			"promotions": ["Coastal Raider I","Boarding Party I","Boarding Party II"],
-			"uniques": ["May capture killed [Water] units"],
-			"attackSound": "cannon"
+			"replaces": "Destroyer",
+			"uniqueTo": "Brunei",
+			"movement": 6,
+			"strength": 50,
+			"interceptRange": 2,
+			"cost": 325,
+			"requiredTech": "Combustion",
+			"uniques": ["Can see invisible [Submarine] units", 
+						"[40]% chance to intercept air attacks",
+						"May withdraw before melee ([80]%)", 
+						"[+100]% Strength <vs [Submarine] units>", 
+						"[+25]% Strength <when fighting in [Coast] tiles>"],
+			"attackSound": "shipguns"
 		},
 		
 		// Banjar
@@ -446,7 +444,9 @@
 			"requiredTech": "Civil Service",
 			"upgradesTo": "Lancer",
 			"obsoleteTech": "Metallurgy",
-			"uniques": ["[+50]% Strength <vs [Mounted] units>", "[+33]% Strength <vs [Sword] units>", "[+15] HP when healing <in [Bubung Parani] tiles>"],
+			"uniques": ["[+50]% Strength <vs [Mounted] units>", 
+						"[+33]% Strength <vs [Sword] units>", 
+						"[+15] HP when healing <in [Bubung Parani] tiles>"],
 			"attackSound": "metalhit"
 		},
 	
@@ -516,10 +516,48 @@
 			"requiredTech": "Astronomy",
 			"upgradesTo": "Ironclad",
 			"obsoleteTech": "Combustion",
-			"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)", "[-2] Movement <in [Ocean] tiles> <with [0] to [0] neighboring [Coast] tiles>"],
+			"uniques": ["[+1] Sight", 
+						"May withdraw before melee ([80]%)", 
+						"[-2] Movement <in [Ocean] tiles> <with [0] to [0] neighboring [Coast] tiles>"],
 			"replacementTextForUniques": "Deep ocean penalty",
 			"promotions": ["[Juanga] ability"],
 			"hurryCostModifier": 30,
+			"attackSound": "cannon"
+		},
+		
+	// Bali and Nusa Tenggara (Lesser Sunda)
+	
+		// Bali
+		{
+			"name": "Janggolan",
+			"unitType": "Civilian Water",
+			"replaces": "Work Boats",
+			"uniqueTo": "Bali",
+			"movement": 4,
+			"cost": 30,
+			"requiredTech": "Sailing",
+			"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", 
+						"Can instantly construct a [Fishing Boats] improvement <[3] times>"
+						"May withdraw before melee ([80]%)", 
+						"Uncapturable", 
+						"Automation is a primary action"]
+		},
+	
+	// The Philippines
+	
+		// Sulu
+		{
+			"name": "Garay",
+			"unitType": "Melee Water",
+			"replaces": "Privateer",
+			"uniqueTo": "Sulu",
+			"movement": 5,
+			"strength": 25,
+			"cost": 150,
+			"requiredTech": "Navigation",
+			"upgradesTo": "Destroyer",
+			"promotions": ["Coastal Raider I","Boarding Party I","Boarding Party II"],
+			"uniques": ["May capture killed [Water] units"],
 			"attackSound": "cannon"
 		},
 ]

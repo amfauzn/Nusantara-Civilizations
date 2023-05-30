@@ -19,7 +19,7 @@
 		{
 			"name": "Kotta mara",
 			"uniqueTo": "Banjar",
-			"terrainsCanBeBuiltOn": ["Coast"],
+			"terrainsCanBeBuiltOn": ["Coast","Lakes"],
 			"production": 1,
 			"turnsToBuild": 6,
 			"uniques": ["[+1 Gold] for each adjacent [Water resource]", 
@@ -38,7 +38,7 @@
 			"name": "Bubung Parani",
 			"uniqueTo": "Luwu",
 			"terrainsCanBeBuiltOn": ["Grassland","Plains"],
-			"faith": 1,
+			"production": 1,
 			"turnsToBuild": 4,
 			"uniques": ["[+1 Food] from [Fresh water] tiles", 
 						"[+1 Food] <after discovering [Civil Service]>", 

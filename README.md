@@ -1,8 +1,6 @@
 # Nusantara Expansion
 Add kingdoms and sultanate from Nusantara (Indonesia, Malaysia, Singapore, and The Philippines)
 -
-v1.0 (28.12.2022) - Merge Java Civilizations, Sumatra Civilizations, Borneo Civilizations, Sulawesi Civilizations, and Maluku Civilizations
-v1.1 (16.01.2023) - Balancing Srivijaya & Majapahit, Add Mataram
 
 ## Java Civilizations
 ![](/extraImages/Java%20Civilizations.png)
@@ -25,19 +23,18 @@ v1.1 (16.01.2023) - Balancing Srivijaya & Majapahit, Add Mataram
 - Srivijaya, led by Balaputradewa
 
 
-## Borneo Civilization
+## Borneo Civilizations
 ![](/extraImages/Borneo%20Civilizations.png)
 
 ### Civilization List
 - Kutai Martadipura, led by Mulawarman
 - Kutai Kertanegara, led by Sinum Panji
 - Brunei, led by Bolkiah
-- Sulu, led by Jamalul Kiram
 - Banjar, led by Hidayatullah
 - Sarawak, led by James Brooke
 
 
-## Sulawesi Civilization
+## Sulawesi Civilizations
 ![](/extraImages/Sulawesi%20Civilizations.png)
 
 ### Civilization List
@@ -49,9 +46,23 @@ v1.1 (16.01.2023) - Balancing Srivijaya & Majapahit, Add Mataram
 - Luwu, led by Simpurusiang
 
 
-## Maluku Civilization
+## Maluku Civilizations
 ![](/extraImages/Maluku%20Civilizations.png)
 
 ### Civilization List
 - Ternate, led by Baabullah
 - Tidore, led by Nuku
+
+
+## Bali and Nusa Tenggara (Lesser Sunda) Civilizations
+![](/extraImages/Bali%20Civilizations.png)
+
+### Civilization List
+- Bali, led by Waturenggong
+
+
+## The Philippines
+![](/extraImages/The%20Philippines.png)
+
+### Civilization List
+- Sulu, led by Jamalul Kiram

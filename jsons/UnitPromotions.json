@@ -1,7 +1,11 @@
 [
 	{
+		"name": "Wareg",
+		"uniques": ["[+15] HP when healing <in [Enemy Land] tiles>"]
+	},
+	{
 		"name": "[Bedil] ability",
-		"uniques": ["[+25]% Strength <vs [Wounded] units>"]
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"]
 	},
 	{
 		"name": "Slave",
@@ -9,7 +13,7 @@
 	},
 	{
 		"name": "Kota",
-		"uniques": ["Can construct [Kotta mara]"]
+		"uniques": ["Can instantly construct a [Kotta mara] improvement <by consuming this unit>"]
 	},
 	{
 		"name": "Headhunter",
