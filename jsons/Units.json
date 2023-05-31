@@ -537,7 +537,8 @@
 			"cost": 30,
 			"requiredTech": "Sailing",
 			"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", 
-						"Can instantly construct a [Fishing Boats] improvement <[3] times>"
+						"Can instantly construct a [Fishing Boats] improvement <[3] times>", 
+						"Can instantly construct a [Offshore Platform] improvement <[3] times>", 
 						"May withdraw before melee ([80]%)", 
 						"Uncapturable", 
 						"Automation is a primary action"]
