@@ -1,5 +1,9 @@
 [
 	{
+		"name": "Silent Strike",
+		"uniques": ["[+50]% Strength <when attacking> <with [50]% chance>"]
+	},
+	{
 		"name": "Wareg",
 		"uniques": ["[+15] HP when healing <in [Enemy Land] tiles>"]
 	},
@@ -8,16 +12,21 @@
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"]
 	},
 	{
-		"name": "Slave",
-		"uniques": ["Gain [35] [Gold] <by consuming this unit>"]
+		"name": "Seller",
+		"uniques": ["Can instantly construct a [Floating Market] improvement <by consuming this unit>"]
 	},
 	{
-		"name": "Kota",
-		"uniques": ["Can instantly construct a [Kotta mara] improvement <by consuming this unit>"]
+		"name": "[Nabur Swordsman] ability",
+		"uniques": ["[+25]% Strength <when fighting in [Fresh water] tiles>"]
 	},
 	{
 		"name": "Headhunter",
 		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
+	},
+	{
+		"name": "Rural Chieftain",
+		"uniques": ["[+25]% Strength <in [Rough terrain] tiles> <when defending>", 
+					"[+25]% Strength <when adjacent to a [Bogani] unit>"]
 	},
 	{
 		"name": "[Tappi Swordsman] ability",
@@ -38,4 +47,13 @@
 		"name": "[Juanga] ability",
 		"uniques": ["[+15]% Strength <vs [Water] units>"]
 	}
+	{
+		"name": "Slave",
+		"uniques": ["Gain [35] [Gold] <by consuming this unit>"]
+	},
+	{
+		"name": "Apologetics",
+		"uniques": ["Prevents spreading of religion to the city it is next to",
+					"Religious Unit"]
+	},
 ]

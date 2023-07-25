@@ -1,5 +1,98 @@
 [
-	// Java Civilizations
+	// Sumatra and Malay Peninsula
+	
+		// Aceh
+		{
+			"name": "Ghali",					// Acehnese famous weapon are Rencong, but I prefer water unit for them
+			"unitType": "Ranged Water",
+			"uniqueTo": "Aceh",
+			"replaces": "Galleass",
+			"movement": 3,
+			"strength": 18,
+			"rangedStrength": 19,
+			"cost": 100,
+			"requiredTech": "Compass",
+			"obsoleteTech": "Navigation",
+			"upgradesTo": "Frigate",
+			"uniques": ["Cannot enter ocean tiles"],
+			"attackSound": "arrow"
+		},
+		
+		// Jambi
+		{
+			"name": "Rudus Swordsman",
+			"unitType": "Sword",
+			"uniqueTo": "Jambi",
+			"replaces": "Swordsman",
+			"movement": 2,
+			"strength": 14,
+			"cost": 75,
+			"requiredTech": "Iron Working",
+			"upgradesTo": "Longswordsman",
+			"obsoleteTech": "Steel",
+			"requiredResource": "Iron",
+			"uniques": ["[+15]% Strength <when attacking>"],
+			"attackSound": "metalhit"
+		},
+		
+		// Malacca
+		
+		// Pagaruyung
+		{
+			"name": "Pandeka",
+			"unitType": "Sword",
+			"replaces": "Longswordsman",
+			"uniqueTo": "Pagaruyung",
+			"movement": 3,
+			"strength": 21,
+			"cost": 120,
+			"requiredTech": "Steel",
+			"upgradesTo": "Musketman",
+			"obsoleteTech": "Gunpowder",
+			"requiredResource": "Iron",
+			"promotions": ["Drill I"],
+			"attackSound": "metalhit"
+		},
+		
+		// Siak
+		{
+			"name": "Lancang",
+			"unitType": "Melee Water",
+			"uniqueTo": "Siak",
+			"replaces": "Caravel",
+			"movement": 4,
+			"strength": 20,
+			"cost": 120,
+			"requiredTech": "Astronomy",
+			"upgradesTo": "Ironclad",
+			"obsoleteTech": "Combustion",
+			"uniques": ["[+1] Sight", 
+						"May withdraw before melee ([80]%)", 
+						"Ignores Zone of Control"],
+			"promotions": ["Mobility"],
+			"hurryCostModifier": 30,
+			"attackSound": "cannon"
+		},
+		
+		// Srivijaya
+		{
+			"name": "Karambit Warrior",
+			"unitType": "Sword",
+			"uniqueTo": "Srivijaya",
+			"replaces": "Swordsman",
+			"movement": 2,
+			"strength": 14,
+			"cost": 50,
+			"requiredTech": "Iron Working",
+			"upgradesTo": "Longswordsman",
+			"obsoleteTech": "Steel",
+			"requiredResource": "Iron",
+			"promotions": ["Silent Strike"],
+			"attackSound": "metalhit"
+		},
+	
+	
+	// Java and Bali
 	
 		// Tarumanagara
 		{
@@ -37,6 +130,23 @@
 						"[+1] Movement <after discovering [Astronomy]>"],
 			"promotions": ["Bombardment I"],
 			"attackSound": "arrow"
+		},
+		
+		// Bali
+		{
+			"name": "Janggolan",
+			"unitType": "Civilian Water",
+			"replaces": "Work Boats",
+			"uniqueTo": "Bali",
+			"movement": 4,
+			"cost": 30,
+			"requiredTech": "Sailing",
+			"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", 
+						"Can instantly construct a [Fishing Boats] improvement <[3] times>", 
+						"Can instantly construct a [Offshore Platform] improvement <[3] times>", 
+						"May withdraw before melee ([80]%)", 
+						"Uncapturable", 
+						"Automation is a primary action"]
 		},
 		
 		// Majapahit
@@ -110,88 +220,13 @@
 		},
 	
 	
-	// Sumatra Civilizations
-	
-		// Aceh
-		{
-			"name": "Ghali",					// Acehnese famous weapon are Rencong, but I prefer water unit for them
-			"unitType": "Ranged Water",
-			"uniqueTo": "Aceh",
-			"replaces": "Galleass",
-			"movement": 3,
-			"strength": 18,
-			"rangedStrength": 19,
-			"cost": 100,
-			"requiredTech": "Compass",
-			"obsoleteTech": "Navigation",
-			"upgradesTo": "Frigate",
-			"uniques": ["Cannot enter ocean tiles"],
-			"attackSound": "arrow"
-		},
-		
-		// Dharmasraya
-		
-		// Jambi
-		{
-			"name": "Rudus Swordsman",
-			"unitType": "Sword",
-			"uniqueTo": "Jambi",
-			"replaces": "Swordsman",
-			"movement": 2,
-			"strength": 14,
-			"cost": 75,
-			"requiredTech": "Iron Working",
-			"upgradesTo": "Longswordsman",
-			"obsoleteTech": "Steel",
-			"requiredResource": "Iron",
-			"uniques": ["[+15]% Strength <when attacking>"],
-			"attackSound": "metalhit"
-		},
-		
-		// Siak
-		{
-			"name": "Lancang",
-			"unitType": "Melee Water",
-			"uniqueTo": "Siak",
-			"replaces": "Caravel",
-			"movement": 4,
-			"strength": 20,
-			"cost": 120,
-			"requiredTech": "Astronomy",
-			"upgradesTo": "Ironclad",
-			"obsoleteTech": "Combustion",
-			"uniques": ["[+1] Sight", 
-						"May withdraw before melee ([80]%)", 
-						"Ignores Zone of Control"],
-			"promotions": ["Mobility"],
-			"hurryCostModifier": 30,
-			"attackSound": "cannon"
-		},
-		
-		// Srivijaya
-		{
-			"name": "Karambit Warrior",
-			"unitType": "Sword",
-			"uniqueTo": "Srivijaya",
-			"replaces": "Swordsman",
-			"movement": 2,
-			"strength": 14,
-			"cost": 50,
-			"requiredTech": "Iron Working",
-			"upgradesTo": "Longswordsman",
-			"obsoleteTech": "Steel",
-			"requiredResource": "Iron",
-			"attackSound": "metalhit"
-		},
-	
-	
-	// Borneo Civilizations
+	// Borneo
 	
 		// Kutai Martadipura
 		{
-			"name": "Aswamedha Horse",
+			"name": "Asvamedha Horse",
 			"unitType": "Civilian",
-			"uniqueTo": "Kutai Martadipura",
+			"uniqueTo": "Kutai",
 			"movement": 4,
 			"cost": 75,
 			"requiredResource": "Horses",
@@ -203,10 +238,10 @@
 			"name": "Lonjo",
 			"unitType": "Sword",
 			"replaces": "Spearman",
-			"uniqueTo": "Kutai Martadipura",
+			"uniqueTo": "Kutai",
 			"movement": 2,
 			"strength": 11,
-			"cost": 50,
+			"cost": 56,
 			"requiredTech": "Bronze Working",
 			"obsoleteTech": "Civil Service",
 			"upgradesTo": "Pikeman",
@@ -215,41 +250,7 @@
 			"attackSound": "metalhit"
 		},
 		
-		// Kutai Kertanegara
-		{
-			"name": "Mandau Dohong",
-			"unitType": "Sword",
-			"replaces": "Swordsman",
-			"uniqueTo": "Kutai Kartanegara",
-			"movement": 2,
-			"strength": 16,
-			"cost": 75,
-			"requiredTech": "Iron Working",
-			"upgradesTo": "Longswordsman",
-			"obsoleteTech": "Steel",
-			"requiredResource": "Iron",
-			"promotions": ["Quick Study"],
-			"hurryCostModifier": 20,
-			"attackSound": "metalhit"
-		},
-		
 		// Brunei
-		/*{
-			"name": "Kalasag",
-			"unitType": "Sword",
-			"replaces": "Swordsman",
-			"uniqueTo": "Brunei",
-			"movement": 2,
-			"strength": 14,
-			"cost": 75,
-			"requiredTech": "Iron Working",
-			"upgradesTo": "Longswordsman",
-			"obsoleteTech": "Steel",
-			"uniques": ["[-10]% Strength <when attacking>", 
-						"[+15]% Strength <when defending>"],
-			"hurryCostModifier": 20,
-			"attackSound": "metalhit"
-		},*/
 		{
 			"name": "Darussalam-Class",
 			"unitType": "Melee Water",
@@ -270,19 +271,6 @@
 		
 		// Banjar
 		{
-			"name": "Swordsman",
-			"unitType": "Sword",
-			"movement": 2,
-			"strength": 14,
-			"cost": 75,
-			"requiredTech": "Iron Working",
-			"upgradesTo": "Longswordsman",
-			"obsoleteTech": "Steel",
-			"requiredResource": "Iron",
-			"hurryCostModifier": 20,
-			"attackSound": "metalhit"
-		},
-		{
 			"name": "Nabur Swordsman",
 			"unitType": "Sword",
 			"replaces": "Swordsman",
@@ -294,7 +282,7 @@
 			"upgradesTo": "Longswordsman",
 			"obsoleteTech": "Steel",
 			"requiredResource": "Iron",
-			"promotions": ["Drill I"],
+			"promotions": ["[Nabur Swordsman] ability"],
 			"uniques": ["Ignores Zone of Control"],
 			"hurryCostModifier": 20,
 			"attackSound": "metalhit"
@@ -337,8 +325,26 @@
 		},
 	
 	
-	// Sulawsi Civilizations
+	// Sulawsi
 	
+		// Bolaang Mongondow
+		{
+			"name": "Bogani",
+			"unitType": "Sword",
+			"replaces": "Spearman",
+			"uniqueTo": "Bolaang Mongondow",
+			"movement": 2,
+			"strength": 11,
+			"cost": 56,
+			"requiredTech": "Bronze Working",
+			"obsoleteTech": "Civil Service",
+			"upgradesTo": "Pikeman",
+			"uniques": ["[+50]% Strength <vs [Mounted] units>", 
+						"[+1] Movement <in [Rough terrain] tiles>"],
+			"promotions": ["Rural Chieftain"],
+			"attackSound": "metalhit"
+		},
+		
 		// Bone
 		{
 			"name": "Tappi Swordsman",
@@ -451,8 +457,24 @@
 		},
 	
 	
-	// Maluku Civilizations
-	
+	// Lesser Sunda, Maluku, and Papua
+		
+		// Larantuka
+		{
+			"name": "Larantuqueiros",
+			"unitType": "Gunpowder",
+			"replaces": "Musketman",
+			"uniqueTo": "Larantuka",
+			"movement": 2,
+			"strength": 24,
+			"cost": 150,
+			"requiredTech": "Gunpowder",
+			"upgradesTo": "Rifleman",
+			"obsoleteTech": "Rifling",
+			"promotions": ["Shock I","Amphibious"],
+			"attackSound": "shot"
+		},
+		
 		// Ternate
 		{
 			"name": "Kora kora",
@@ -525,24 +547,6 @@
 			"attackSound": "cannon"
 		},
 		
-	// Bali and Nusa Tenggara (Lesser Sunda)
-	
-		// Bali
-		{
-			"name": "Janggolan",
-			"unitType": "Civilian Water",
-			"replaces": "Work Boats",
-			"uniqueTo": "Bali",
-			"movement": 4,
-			"cost": 30,
-			"requiredTech": "Sailing",
-			"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", 
-						"Can instantly construct a [Fishing Boats] improvement <[3] times>", 
-						"Can instantly construct a [Offshore Platform] improvement <[3] times>", 
-						"May withdraw before melee ([80]%)", 
-						"Uncapturable", 
-						"Automation is a primary action"]
-		},
 	
 	// The Philippines
 	
@@ -561,5 +565,24 @@
 			"uniques": ["May capture killed [Water] units"],
 			"attackSound": "cannon"
 		},
+		
+		// Manguindanao
+		{
+			"name": "Balasiong Swordsman",
+			"unitType": "Sword",
+			"replaces": "Longswordsman",
+			"uniqueTo": "Manguindanao",
+			"movement": 2,
+			"strength": 21,
+			"cost": 120,
+			"requiredTech": "Steel",
+			"upgradesTo": "Musketman",
+			"obsoleteTech": "Gunpowder",
+			"requiredResource": "Iron",
+			"promotions": ["Apologetics"],
+			"uniques": ["Can [Remove Foreign religions from your own cities] [1] times", 
+						"Religious Unit"],
+			"attackSound": "metalhit"
+		}
 ]
 

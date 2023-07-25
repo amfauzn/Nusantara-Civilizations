@@ -1,35 +1,52 @@
 [
+	{
+		"name": "Oil well",
+		"production": 1,
+		"turnsToBuild": 9,
+		"uniques": ["Can only be built to improve a resource", 
+					"Cannot be built on [Water] tiles", 
+					"Pillaging this improvement yields approximately [+20 Gold]"],
+		"techRequired": "Biology",
+		"shortcutKey": "W"
+	},
+	{
+		"name": "Offshore Platform",
+		"production": 1,
+		"uniques": ["Can only be built to improve a resource", 
+					"Can only be built on [Water] tiles", 
+					"Pillaging this improvement yields approximately [+20 Gold]"],
+		"techRequired": "Refrigeration",
+		"shortcutKey": "P"
+	},
+	
+	
 	// Borneo Civiizations
 		
 		// Kutai Martadipura
 		{
 			"name": "Yupa",
-			"uniqueTo": "Kutai Martadipura",
+			"uniqueTo": "Kutai",
 			"terrainsCanBeBuiltOn": ["Land"],
-			"faith": 1,
+			"science": 1,
 			"turnsToBuild": 8,
 			"uniques": ["[+1 Culture] for each adjacent [Pasture]", 
 						"[+1 Culture, +1 Science] <after discovering [Archaeology]>", 
 						"Pillaging this improvement yields approximately [+10 Gold]"],
 			"techRequired": "Writing",
-			"shortcutKey": "M"
+			"shortcutKey": "Y"
 		},
 		
 		// Banjar
 		{
-			"name": "Kotta mara",
+			"name": "Floating Market",
 			"uniqueTo": "Banjar",
-			"terrainsCanBeBuiltOn": ["Coast","Lakes"],
-			"production": 1,
-			"turnsToBuild": 6,
-			"uniques": ["[+1 Gold] for each adjacent [Water resource]", 
-						"Gives a defensive bonus of [50]%",
-						"Adjacent enemy units ending their turn take [15] damage",
+			"terrainsCanBeBuiltOn": ["Lakes","Flood plains"],
+			"gold": 1,
+			"uniques": ["[+1 Food, +1 Gold] <after discovering [Economics]>", 
 						"Pillaging this improvement yields approximately [+10 Gold]"],
-			"techRequired": "Engineering",
-			"shortcutKey": "O"
+			"techRequired": "Guilds",
+			"shortcutKey": "T"
 		},
-		
 		
 	// Sulawesi Civiizations
 	

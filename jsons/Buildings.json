@@ -1,5 +1,98 @@
 [
-	// Java Civilizations
+	// Sumatra and Malay Peninsula
+		
+		// Aceh
+		{
+			"name": "Gunongan",
+			"replaces": "Garden",
+			"uniqueTo": "Aceh",
+			"happiness":2,
+			"uniques": ["[+25]% Great Person generation [in this city]"],
+			"hurryCostModifier": 25,
+			"maintenance": 1,
+			"requiredTech": "Theology",
+			"civilopediaText": [
+				{"text": "A garden built by Iskandar Muda for his empress, Putroe Phang of Pahang, so that she won't be lonely during his time with the empire."},
+			]
+		},
+		
+		// Jambi
+		{
+			"name": "Stone House",
+			"replaces": "Castle",
+			"uniqueTo": "Jambi",
+			"culture": 3,
+			"cityStrength": 7,
+			"cityHealth": 25,
+			"cost": 120,
+			"hurryCostModifier": 25,
+			"requiredBuilding": "Walls",
+			"uniques": ["Destroyed when the city is captured"],
+			"requiredTech": "Chivalry",
+			"civilopediaText": [
+				{"text": "Located in Olak Kemang, Stone House is a unique house with three architectural styles namely European style, Chinese style and Arabic style."},
+			]
+		},
+		
+		// Pagaruyung
+		{
+			"name": "Rumah Gadang",
+			"replaces": "Amphitheater",
+			"uniqueTo": "Pagaruyung",
+			"cost": 120,
+			"culture": 4,
+			"food": 2,
+			"specialistSlots": {"Artist": 1},
+			"requiredBuilding": "Monument",
+			"maintenance": 2,
+			"uniques": ["Destroyed when the city is captured"],
+			"requiredTech": "Drama and Poetry",
+			"civilopediaText": [
+				{"text": "Rumah Gadang are the traditional homes (Indonesian: \"rumah adat\") of the Minangkabau in West Sumatra, Indonesia. The architecture, construction, internal and external decoration, and the functions of the house reflect the culture and values of the Minangkabau. A Rumah Gadang serves as a residence, a hall for family meetings, and for ceremonial activities. In the matrilineal Minangkabau society, the Rumah Gadang is owned by the women of the family who live there; ownership is passed from mother to daughter."},
+			]
+		},
+		
+		// Malacca
+		
+		// Siak
+		{
+			"name": "Olang-Olang Stage",
+			"replaces": "Amphitheater",
+			"uniqueTo": "Siak",
+			"culture": 4,
+			"gold": 2,
+			"specialistSlots": {"Artist": 1},
+			"requiredBuilding": "Monument",
+			"maintenance": 2,
+			"hurryCostModifier": 25,
+			"uniques": ["Destroyed when the city is captured"],
+			"requiredTech": "Drama and Poetry",
+			"civilopediaText": [
+				{"text": "A stage where the Olang-Olang ritual is performed. Olang-Olang is a healing ritual performed primarily by the Sakai tribe from Siak."},
+			]
+		},
+		
+		// Srivijaya
+		{
+			"name": "Dermaga",
+			"replaces": "Harbor",
+			"uniqueTo": "Srivijaya",
+			"cost": 120,
+			"cityHealth": 50,
+			"maintenance": 2,
+			"hurryCostModifier": 25,
+			"uniques": ["[+1 Production] from [Water resource] tiles [in this city]", 
+						"Connects trade routes over water", 
+						"Must be next to [Coast]", 
+						"Provides 1 extra copy of each improved luxury resource near this City"],
+			"requiredTech": "Compass",
+			"civilopediaText": [
+				{"text": "A harbor used by Sriwijaya to increase revenue and inhibit the decline of the empire. Merchant ships that don't want to stop will be attacked by a group of privateer."},
+			]
+		},
+		
+	
+	// Java and Bali
 	
 		// Tarumanagara
 		{
@@ -25,7 +118,8 @@
 			"cost": 1,
 			"uniques": ["Unsellable", "Must be on [River]", 
 						"Will not be displayed in Civilopedia",
-						"[+1] population [in this city]"],
+						"[+1] population [in this city]", 
+						"Automatically built in all cities where it is buildable"],
 			"requiredTech": "Agriculture"
 		},
 		
@@ -49,6 +143,24 @@
 			]
 		},
 		
+		// Bali
+		{
+			"name": "Pura",
+			"replaces": "Temple",
+			"uniqueTo": "Bali",
+			"faith": 2,
+			"culture": 2,
+			"requiredBuilding": "Shrine",
+			"maintenance": 2,
+			"uniques": ["Hidden when religion is disabled", 
+						"[+25]% Natural religion spread [in this city]", 
+						"Destroyed when the city is captured"],
+			"requiredTech": "Philosophy",
+			"civilopediaText": [
+				{"text": "A Balinese Hindu temple, and the place of worship for adherents of Balinese Hinduism in Indonesia. Puras are built in accordance to rules, style, guidance and rituals found in Balinese architecture."},
+			]
+		},
+		
 		// Banten
 		{
 			"name": "Tasikardi",
@@ -67,20 +179,6 @@
 		},
 		
 		// Mataram Islam
-		/*{
-			"name": "Wayang",
-			"replaces": "Theatre",
-			"uniqueTo": "Mataram",
-			"happiness": 3,
-			"hurryCostModifier": 10,
-			"maintenance": 2,
-			"requiredBuilding": "Colosseum",
-			"uniques": ["[+1 Gold, +1 Faith] per [4] population [in this city]"],
-			"requiredTech": "Printing Press",
-			"civilopediaText": [
-				{"text": "A puppet theatre play originating from the Indonesian island of Java, in which depict mythologies, such as episodes from the Hindu epics the Ramayana and the Mahabharata, as well as local adaptations of cultural legends. Performances of wayang puppet theatre are accompanied by a gamelan orchestra in Java, and by gender wayang in Bali."},
-			]
-		},*/
 		{
 			"name": "Lumbung Pari",
 			"replaces": "Armory",
@@ -97,114 +195,8 @@
 		},
 	
 	
-	// Sumatra Civilizations
+	// Borneo
 	
-		// Aceh
-		{
-			"name": "Gunongan",
-			"replaces": "Garden",
-			"uniqueTo": "Aceh",
-			"happiness":2,
-			"uniques": ["[+25]% Great Person generation [in this city]"],
-			"hurryCostModifier": 25,
-			"maintenance": 1,
-			"requiredTech": "Theology",
-			"civilopediaText": [
-				{"text": "A garden built by Iskandar Muda for his empress, Putroe Phang of Pahang, so that she won't be lonely during his time with the empire."},
-			]
-		},
-		
-		// Dharmasraya
-		
-		// Jambi
-		{
-			"name": "Stone House",
-			"replaces": "Castle",
-			"uniqueTo": "Jambi",
-			"culture": 3,
-			"cityStrength": 7,
-			"cityHealth": 25,
-			"cost": 120,
-			"hurryCostModifier": 25,
-			"requiredBuilding": "Walls",
-			"uniques": ["Destroyed when the city is captured"],
-			"requiredTech": "Chivalry",
-			"civilopediaText": [
-				{"text": "Located in Olak Kemang, Stone House is a unique house with three architectural styles namely European style, Chinese style and Arabic style."},
-			]
-		},
-		
-		// Siak
-		{
-			"name": "Olang-Olang Stage",
-			"replaces": "Amphitheater",
-			"uniqueTo": "Siak",
-			"culture": 4,
-			"gold": 2,
-			"specialistSlots": {"Artist": 1},
-			"requiredBuilding": "Monument",
-			"maintenance": 2,
-			"hurryCostModifier": 25,
-			"uniques": ["Destroyed when the city is captured"],
-			"requiredTech": "Drama and Poetry",
-			"civilopediaText": [
-				{"text": "A stage where the Olang-Olang ritual is performed. Olang-Olang is a healing ritual performed primarily by the Sakai tribe from Siak."},
-			]
-		},
-		
-		// Srivijaya
-		/*{
-			"name": "Temple Bonus",
-			"uniqueTo": "Srivijaya",
-			"percentStatBonus": {"science": 10},
-			"cost": 1,
-			"maintenance": 0,
-			"uniques": ["Destroyed when the city is captured", 
-						"Limited to [8] per Civilization", 
-						"Only available <in cities with a [Temple]>", 
-						"Will not be displayed in Civilopedia"],
-			"requiredTech": "Agriculture"
-		},*/
-		{
-			"name": "Dermaga",
-			"replaces": "Harbor",
-			"uniqueTo": "Srivijaya",
-			"cost": 120,
-			"cityHealth": 50,
-			"maintenance": 2,
-			"hurryCostModifier": 25,
-			"uniques": ["[+1 Production] from [Water resource] tiles [in this city]", 
-						"Connects trade routes over water", 
-						"Must be next to [Coast]", 
-						"Provides 1 extra copy of each improved luxury resource near this City"],
-			"requiredTech": "Compass",
-			"civilopediaText": [
-				{"text": "A harbor used by Sriwijaya to increase revenue and inhibit the decline of the empire. Merchant ships that don't want to stop will be attacked by a group of privateer."},
-			]
-		},
-	
-	
-	// Borneo Civilizations
-	
-		// Kutai Kertanegara
-		{
-			"name": "Kedaton",
-			"replaces": "Castle",
-			"uniqueTo": "Kutai Kartanegara",
-			"cost": 120,
-			"cityStrength": 7,
-			"cityHealth": 25,
-			"science": 2,
-			"hurryCostModifier": 25,
-			"requiredBuilding": "Walls",
-			"uniques": ["[+1 Gold] [in this city] <before discovering [Steam Power]>", 
-						"Destroyed when the city is captured"],
-			"requiredTech": "Chivalry",
-			"civilopediaText": [
-				{"text": "A residence of a King of Kutai Kartanegara. Because the capital of Kutai moved several times, a new Kedaton was built."},
-			]
-		},
-		
 		// Brunei
 		{
 			"name": "Kampong Ayer",
@@ -213,9 +205,11 @@
 			"cost": 80,
 			"maintenance": 0,
 			"hurryCostModifier": 25,
-			"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
-						"[+1 Food, +1 Gold] from [Coast] tiles [in this city]", 
+			"uniques": ["Must be next to [Coast]", 
+						"[+1 Food] from [Ocean] tiles [in this city]",
+						"[+1 Food] from [Coast] tiles [in this city]", 
 						"[+1 Food] from [Fish] tiles [in this city]", 
+						"[+1 Gold] from [Coast] tiles [in this city]", 
 						"Provides [1] [Oil] <after discovering [Biology]>"],
 			"requiredTech": "Sailing",
 			"civilopediaText": [
@@ -224,7 +218,7 @@
 		},
 		
 		
-	// Sulawesi Civilizations
+	// Sulawesi
 	
 		// Bolaang Mongondow
 		{
@@ -239,27 +233,11 @@
 			"cityStrength": 2,
 			"cost": 1,
 			"specialistSlots": {"Artist": 1, "Scientist": 1, "Merchant": 1, "Engineer": 1},
-			"uniques": ["Indicates the capital city", "[+10]% Production when constructing [All] buildings [in this city]", 
+			"uniques": ["Indicates the capital city", 
+						"[+10]% Production when constructing [All] buildings [in this city]", 
 						"+1 slot of every specialist in this city"],
 			"civilopediaText": [
 				{"text": "Located in Kotamobagu, Komalig is a residence of Punu', ruler of Bolaang Mongondow."},
-			]
-		},
-		{
-			"name": "Sigi",
-			"replaces": "Temple",
-			"uniqueTo": "Bolaang Mongondow",
-			"faith": 2,
-			"food": 1,
-			"requiredBuilding": "Shrine",
-			"maintenance": 2,
-			"hurryCostModifier": 25,
-			"uniques": ["[5]% Food is carried over after population increases [in this city]", 
-						"Hidden when religion is disabled", 
-						"Destroyed when the city is captured"],
-			"requiredTech": "Philosophy",
-			"civilopediaText": [
-				{"text": "Places of offerings, washing away sins, and performing religious ceremonies such as healing ceremony called Monibi."},
 			]
 		},
 		
@@ -317,23 +295,31 @@
 			]
 		},
 	
-	// Bali and Nusa Tenggara (Lesser Sunda)
 	
-		// Bali
+	// Lesser Sunda, Maluku, and Papua
+			
+		// Larantuka
 		{
-			"name": "Pura",
-			"replaces": "Temple",
-			"uniqueTo": "Bali",
-			"faith": 2,
-			"culture": 2,
-			"requiredBuilding": "Shrine",
-			"maintenance": 2,
-			"uniques": ["Hidden when religion is disabled", 
-						"[+25]% Natural religion spread [in this city]", 
-						"Destroyed when the city is captured"],
-			"requiredTech": "Philosophy",
+			"name": "Katedral Reinha Rosari",
+			"replaces": "Grand Temple",
+			"uniqueTo": "Larantuka",
+			"cost": 125,
+			"culture": 1,
+			"faith": 8,
+			"isNationalWonder": true,
+			"uniques": ["Requires a [Temple] in all cities", 
+						"Cost increases by [30] per owned city",
+						"[+100]% Natural religion spread [in this city]", 
+						"Can only be built [in holy cities]", 
+						"Free Social Policy <upon entering the [Industrial era]>", 
+						"Free Social Policy <upon entering the [Modern era]>", 
+						"Free Social Policy <upon entering the [Atomic era]>", 
+						"Free Social Policy <upon entering the [Information era]>", 
+						"Free Social Policy <upon entering the [Future era]>"],
+			"replacementTextForUniques": "Free Social Policy upon entering new era",
+			"requiredTech": "Theology",
 			"civilopediaText": [
-				{"text": "A Balinese Hindu temple, and the place of worship for adherents of Balinese Hinduism in Indonesia. Puras are built in accordance to rules, style, guidance and rituals found in Balinese architecture."},
+				{"text": "A Catholic cathedral dedicated to Queen Mary's title, Reinha Rosary. The cathedral is the seat of the Bishop of Larantuka."},
 			]
 		},
 	
@@ -356,6 +342,24 @@
 						"[+2 Culture] [in this city] <after discovering [Archaeology]>"],
 			"civilopediaText": [
 				{"text": "The palace of the Sultanate of Sulu based in Maimbung, Sulu. It was destroyed by a typhoon in 1932."},
+			]
+		},
+		
+		// Manguindanao
+		{
+			"name": "Palengke",
+			"replaces": "Market",
+			"uniqueTo": "Manguindanao",
+			"gold": 4,
+			"specialistSlots": {"Merchant": 1},
+			"hurryCostModifier": 25,
+			"percentStatBonus": {"gold": 25},
+			"uniques": ["[+1 Food] from [Bonus resource] tiles [in this city] <in tiles without [Stone]>", 
+						"[+1 Production] from [Bonus resource] tiles [in this city] <in [Stone] tiles>"],
+			"replacementTextForUniques": "+1 Food from every Bonus resource tiles except Stone in which +1 Production instead",
+			"requiredTech": "Currency",
+			"civilopediaText": [
+				{"text": "A permanent wet market in the Philippines (differentiated from periodic wet markets called talipapa), usually composed of several dozen stalls arranged in rows under a shared roof. There is little control over the day-to-day management of individual stalls, including commodity pricing. This has resulted in what has been called \"palengke mechanics\"."},
 			]
 		},
 ]

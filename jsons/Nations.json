@@ -1,175 +1,7 @@
 [
-	// Java Civilizations
 	
-		// Tarumanagara
-		{
-			"name": "Tarumanagara",						// 358–669
-			"leaderName": "Purnawarman",
-			"adjective": ["Tarumanagaran"],
-			"startBias": ["Fresh Water"],
-			"preferredVictoryType": "Cultural",
-			"favoredReligion": "Hinduism",
-			
-			"startIntroPart1": "God grant you strength, O' Purnawarman, clever and divine king of Tarumanagara! Your people, the Tarumanagaran, were ancestor of Sundanese, and of all the peoples in Java to till the earth and carve her stone into cities and stele, yours were the first. Tarumanagara emerged along the banks of the Citarum river, known for its advanced agriculture and irrigation system including the excavations of the Chandrabaga and Gomati Rivers. The kingdom was also renowned for its art and culture, with notable examples being the ornate temples, sculptures, and stone inscriptions found throughout the region.",
-			"startIntroPart2": "Purnawarman, Tarumanagara remains vibrant in the hearts of the Sundanese people, but your legacy dwindles in the annals of Indonesia. Will you rise again, and return Tarumanagara to its prosperity? Or will you conquer to rival the mighty powers around you and redeem your descendant mistakes? Can you build a civilization to stand the test of time?",
-			
-			"declaringWar": "I have tried all other avenues, but yet you persist in this madness. I hope, for your sake, your end is swift.",
-			"attacked": "You can see how fruitless this will be for you, no?",
-			"defeated": "Has God withdrawn his favor from me, that Tarumanagara must fall? Oh, what a calamity!",
-			"introduction": "Welcome. It is an honor to meet you in person. It seems great minds do attract each other, after all.",
-			
-			"neutralHello": "Greetings.",
-			"hateHello": "So?"
-			"tradeRequest": "My friend, does this seem reasonable to you?",
-			
-			"outerColor": [ 80,  0, 70],
-			"innerColor": [228,171,119],
-			"uniqueName": "Sundanese Ancestor",
-			"uniqueText": "+1 Population in cities on River\n+2 [Production] from every Aqueduct",
-			"uniques": ["[+2 Production] from every [Aqueduct]"],
-			"cities": ["Sundapura","Pandeglang","Cupunagara","Ujung Kulon","Tangerang","Purbalingga","Cianjur","Rangkasbitung","Indramayu","Cilegon",
-				"Majalengka","Cimanuk","Pangalengan","Purwakarta","Cirebon","Banyumas","Garut","Tegal","Gunung Manik","Bitung", 
-				"Tanjung Kalapa","Sumurwangi","Bekasi","Karawang","Pandeglang","Tasikmalaya","Kuningan","Majalengka","Bogor","Lebak"],
-			"spyNames": ["Sartika","Asep","Atep","Mihardja","Sukaesih","Tamala","Ratnadilla","Surapranata","Heryawan","Kartasasmita"]
-		},
+	// Sumatra and Malay Peninsula
 		
-		// Medang (Mataram Kuno)
-		{
-			"name": "Medang",						// 732–1016
-			"leaderName": "Rakai Panangkaran",
-			"adjective": ["Javanese"],
-			"startBias": ["Plains"],
-			"preferredVictoryType": "Cultural",
-			"favoredReligion": "Buddhism",
-
-			"startIntroPart1": ".",
-			"startIntroPart2": "Can you build a civilization that will stand the test of time?",
-			
-			"declaringWar": "The world will be more beautiful without you. Prepare for war.",
-			"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
-			"defeated": "I did lose, but my legacy will be eternal.",
-			"introduction": "Goodness to all of us, my name is Dyah Pañcapaṇa, maybe you know me better as Rakai Panangkaran.",
-			
-			"neutralHello": "Welcome.",
-			"hateHello": "What do you want?",
-			"tradeRequest": "It doesn't matter how much I give, this offer comes from the heart",
-			
-			"outerColor": [ 79, 73, 6],
-			"innerColor": [255,233,23],
-			"uniqueName": "Javanese Art Center",
-			"uniques": ["Receive free [Great Artist] when you discover [Theology]",
-						"[+25]% Production when constructing [All] wonders [in all cities] <during the [Classical era]>",
-						"[+25]% Production when constructing [All] wonders [in all cities] <during the [Medieval era]>"],
-			"cities": ["Mataram Kuno","Mamratipura","Magelang","Klaten","Solo","Salatiga","Semarang","Purworejo","Wonosobo","Temanggung",
-				"Pekalongan","Batang","Kendal","Banjarnegara","Boyolali","Demak","Grobogan","Yogyakarta","Sragen","Karanganyar",
-				"Sukoharjo","Wonogiri","Ngawi","Magetan","Madiun","Nganjuk","Kadiri","Lamongan","Jombang","Mojokerto",
-				"Malang","Batu","Pasuruan","Surabaya","Sidoarjo"],
-			"spyNames": ["Sankhara","Manara","Salaḍū","Lokapāla","Dewendra","Bhadra","Garuda Mukha","Daksa","Sindok","Pardiyem"]
-		},
-		
-		// Majapahit
-		{
-			"name": "Majapahit",						// 1293–1527
-			"leaderName": "Hayam Wuruk",
-			"adjective": ["Javanese"],
-			"startBias": ["Coast"],
-			"preferredVictoryType": "Domination",
-			"favoredReligion": "Buddhism",
-
-			"startIntroPart1": ".",
-			"startIntroPart2": "Can you build a civilization that will stand the test of time?",
-			
-			"declaringWar": "Before this war ends, you will know the fury of a thousand ships.",
-			"attacked": "Finally! A worthy opponent! Our battle will be legendary!",
-			"defeated": "The dream of Nusantara is lost to the turning tide.",
-			"introduction": "I am Hayam Wuruk, King of Majapahit and leader of Nusantara. Who are you? What victories can you speak of?",
-			
-			"neutralHello": "Hello.",
-			"hateHello": "Shameless fool!",
-			"tradeRequest": "With this, we can be friends.",
-			
-			"outerColor": [121,  0,  2],
-			"innerColor": [235,225,138],
-			"uniqueName": "Nagarakretagama",
-			"uniques": ["[+50]% Strength <for [Land] units> <when fighting in [Coastal] tiles> <vs cities>", 
-						"Upon capturing a city, receive [5] times its [Gold] production as [Gold] immediately"],
-			"cities": ["Trowulan","Klaten","Kadiri","Surabaya","Malang","Probolinggo","Madiun","Mojokerto","Semarang","Solo",
-				"Pekalongan","Tegal","Salatiga","Magelang","Palembang","Bandar Lampung","Pangkalpinang","Denpasar","Bengkulu","Jambi",
-				"Pekanbaru","Padang","Medan","Makassar","Batam","Samarinda","Ambon","Kupang","Banda Aceh","Pontianak"
-				"Palembang","Pekanbaru","Bandar Lampung","Palangka Raya","Banjarmasin","Samarinda","Kupang","Mataram Kuno","Bima","Kendari",
-				"Mamuju","Palu","Manado","Ambon","Dili","Manokwari","Johor","Malaccaa","Alor Setar","Seremban",
-				"Kuantan","Penang","Ipoh","Kuala Terengganu","Selangor","Kuching","Kota Kinabalu","Bandar Brunei","Pontianak","Balikpapan",
-				"Komodo","Biak","Kudus","Lombok","Samosir","Sragen","Garut","Gresik","Nias","Sragen"],
-			"spyNames": ["Wijaya","Soheeta","Jayanagara","Gitarja","Aji","Nyoman","Setyanto","Joko","Siti","Soegimin"]
-		},
-		
-		// Banten
-		{
-			"name": "Banten",						// 1527–1813
-			"leaderName": "Tirtayasa",
-			"adjective": ["Sundanese"],
-			"startBias": ["Grassland"],
-			"preferredVictoryType": "Scientific",
-			"favoredReligion": "Islam",
-
-			"startIntroPart1": ".",
-			"startIntroPart2": "Can you build a civilization that will stand the test of time?",
-			
-			"declaringWar": "As our protests are in vain, we hereby declare war.",
-			"attacked": "Our hearts will not tremble before your multitudes.",
-			"defeated": "As I feared... The looming threat that my people might not evade in time... is here.",
-			"introduction": "I am Tirtayasa. Leader of Sundanese—be it through the battle on land or over the sea.",
-			
-			"neutralHello": "Hello.",
-			"hateHello": "Speak!",
-			"tradeRequest": "It is a fair trade, no?",
-			
-			"outerColor": [210,255,195],
-			"innerColor": [  0, 74, 35],
-			"uniqueName": "Solar Prince",
-			"uniques": ["[+2 Science] from all [Faith] buildings"],
-			"cities": ["Surosowan","Serang","Cilegon","Pandeglang","Tangerang","Lebak","Kalapa","Bekasi","Depok","Bogor","Sukabumi",
-				"Cianjur","Garut","Bandar Lampung","Pesawaran","Metro","Pringsewu","Tanggamus","Pesisir Barat","Tulang Bawang","Waykanan",
-				"Ogah Komering","Kaur","Pagar Alam","Seluma","Bengkulu"],
-			"spyNames": ["Fatahillah","Ma'ruf","Melati","Dijaya","Ulfah","Cadasari","Arman","Felisha","Nasuha","Mursadat"]
-		},
-		
-		// Mataram Islam
-		{
-			"name": "Mataram",						// 1586–1755
-			"leaderName": "Anyakrakusuma",
-			"adjective": ["Matawis"],
-			"preferredVictoryType": "Domination",
-			"favoredReligion": "Islam",
-
-			"startIntroPart1": "Eternal glory to you, Sampeyan Dalem Ingkang Sinuhun Kangjeng Sultan Agung Adi Prabu Anyakrakusuma of Mataram! The Sultanate of Mataram was the last major independent Indonesian kingdom on Java before the island was colonized by the Dutch. Under your leadership, Mataram expand more than double its territory, taking over nearby states such as Surabaya, Cirebon and Malang. By establishing your influence throughout Java, you spread your beliefs and show your devotion to your religion. Your victory in the Pati rebellion proves that you were not to be messed with.",
-			"startIntroPart2": "Maulana Matarani Al-Jawi, your people has called upon you once again, to rise up and lead them to glory. Will you take up the challenge, great sultan? Can you build a civilization that will stand the test of time?",
-			
-			"declaringWar": "I must protect the interests of the Matawis. Surrender quickly so that this may end without bloodshed.",
-			"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
-			"defeated": "The Sultanate falls, but I will be remembered. Will you?",
-			"introduction": "Let it be known between us- I, Sultan Agung, will repay treachery with blood! But, if you are a true friend, we will have peace."
-			
-			"neutralHello": "Sugeng rawuh.",
-			"hateHello": "Speak!",
-			"tradeRequest": "This agreement, will you accept it?",
-			
-			"outerColor": [109,211,255],
-			"innerColor": [139,32,23],
-			"uniqueName": "Kadipaten",
-			"uniques": ["[+50]% [Gold] [in puppeted cities]", 
-						"[-50]% Unhappiness from [Population] [in puppeted cities]", 
-						"[+50]% Production when constructing [Courthouse] buildings [in annexed cities]"],
-			"cities": ["Kutagede","Plered","Kartasura","Klaten","Yogyakarta","Solo","Salatiga","Kulonprogo","Bantul","Sleman",
-				"Gunungkidul","Magelang","Rembang","Jepara","Semarang","Pekalongan","Tegal","Banyumas","Pacitan","Madiun",
-				"Kadiri","Blitar","Batu","Malang","Mojokerto","Pasuruan","Surabaya","Probolinggo","Madura","Cirebon",
-				"Banjar","Tasikmalaya","Bandung","Cimahi","Bekasi","Bogor","Depok","Karawang","Cianjur","Sukadana"],
-			"spyNames": ["Sutawijaya","Pakubuwana","Hamengkubuwana","Mangkunegara","Pakualam","Agus","Budi","Mulyani","Didik","Sugeng"]
-		},
-	
-	
-	// Sumatra Civilizations
-	
 		// Aceh
 		{
 			"name": "Aceh",						// 1496 - 1903
@@ -194,14 +26,14 @@
 			"outerColor": [203,  5,  3],
 			"innerColor": [244,232,154],
 			"uniqueName": "Marhum Mahkota Alam",
-			"uniques": ["[+2 Science] from each Trade Route", "[+10]% [Science] <while the empire is happy>"],
+			"uniques": ["[+2 Science] from each Trade Route", 
+						"[+10]% [Science] <while the empire is happy>"],
 			"cities": ["Banda Aceh","Pidie","Sabang","Lhokseumawe","Nagan Raya","Gayo Leus","Langsa","Subulussalam","Daya","Pedir",
 				"Lamuri","Linge","Samudera Pasai","Binjai","Medan","Tanjung Balai","Sibolga","Nias","Padang Sidempuan","Pematang Siantar",
 				"Perak","Kuantan","Johor","Temasek","Pariaman","Padang","Solok","Dumai","Batam","Tanjungpinang",
 				"Alor Setar","Patani","Jambi","Sungai Penuh","Bengkulu"],
 			"spyNames": ["Fansuri","Thani","Jauhar ul-Alam","Syamsul","Meutia","Bereueh","Dhien","Keumala","Qory","Ichsan"]
 		},
-		
 		
 		// Jambi
 		{
@@ -224,13 +56,48 @@
 			"hateHello": "So, out with it!",
 			"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
 			
-			"outerColor": [42,34,0],
+			"outerColor": [ 42, 34,  0],
 			"innerColor": [255,205,205],
 			"uniqueName": "Pusako Batuah",
-			"uniques": ["[+10]% [Culture] [in capital]", "[+1 Culture] from every [Plantation]"],
+			"uniques": ["[+10]% [Culture] [in capital]", 
+						"[+1 Culture] from every [Plantation]"],
 			"cities": ["Tanah Pilih","Jambi","Sengeti","Tanjung Jabung","Batanghari","Tebo","Bungo","Merangin","Sungai Penuh","Kerinci",
 				"Taman Rajo","Kumpeh","Maro Sebo","Mestong","Sekernan","Bahar","Gelam","Musi Banyuasin","Musi Rawas","Bangko"],
 			"spyNames": ["Ingalaga","Mikaela","Gleadys","Thaha","Astra","Dilaga","Afsari","Abundjani","Mattaher","Junid"]
+		},
+		
+		// Malacca
+		
+		// Pagaruyung
+		{
+			"name": "Pagaruyung",						// 1347–1825
+			"leaderName": "Puti Jamilan",
+			"adjective": ["Minang"],
+			"startBias": ["Hill"],
+			"preferredVictoryType": "Diplomatic",
+			"favoredReligion": "Islam",
+
+			"startIntroPart1": "Gratitude for your presence, Bundo Kanduang, Women King of Minangkabau! You, as queen mother, nurtured the children and youths of the nation to bring harmony to Pagaruyung after the death of your husband, Sultan Alif II. Not only did you ensure amity in the homeland between the Rajo Adat and Rajo Ibadat, but you also extended Pagaruyung's influence to the whole of Malay World. Raja Kecik, the first founder of Siak Sri Indrapura, was your adopted son, whom you raised and aided for his reclamation to the rightful throne of Johor.",
+			"startIntroPart2": "Puti Jamilan, once more the people look to you for guidance. Will you bring your family and people the honor and glory they deserve? Can you build a civilization that will stand the test of time?",
+			
+			"declaringWar": "Your very existence tramples the peace and dignity of our people, prepare for war!",
+			"attacked": "As peace cost us more than it cost you, the Minang must turn to war.",
+			"defeated": "The age... is no longer ours. I hope the candlelight dance would never speak of my people's sorrow.",
+			"introduction": "Salam kenal, sanak. I am Puti Jamilan, mother and queen of Minang.",
+			
+			"neutralHello": "Apo kaba?",
+			"hateHello": "Kalera!"
+			"tradeRequest": "Perhaps we should exchange resources, for the better of our kingdoms.",
+			
+			"outerColor": [103, 18, 28],
+			"innerColor": [249,243,167],
+			"uniqueName": "Minang Homeland",
+			"uniques": ["Double quantity of [Gold Ore] produced", 
+						"Double quantity of [Silver] produced", 
+						"[Great Merchant] is earned [33]% faster"],
+			"cities": ["Pagaruyung","Padang","Bukittinggi","Buo","Tiku","Pariaman","Sumpur Kudus","Sungai Tarab","Payakumbuh","Sumanik",
+				"Suruaso","Batipuh","Solok","Padang Panjang","Sawah Lunto"],
+			"spyNames": ["Hatta","Koto","Piliang","Caniago","Jambak","Yamin","Tanjung","Adityawarman","Fatmawati","Irma"]
 		},
 		
 		// Siak
@@ -306,24 +173,239 @@
 		},
 	
 	
-	// Borneo Civilizations
+	// Java and Bali
 	
-		// Kutai Martadipura
+		// Tarumanagara
 		{
-			"name": "Kutai Martadipura",			/// 399 - 1635, First Hindu in Indonesia
-			"leaderName": "Mulavarman",
-			"adjective": ["Martadipuran"],
-			"startBias": ["Jungle","River"],
+			"name": "Tarumanagara",						// 358–669
+			"leaderName": "Purnawarman",
+			"adjective": ["Tarumanagaran"],
+			"startBias": ["Fresh Water"],
+			"preferredVictoryType": "Cultural",
+			"favoredReligion": "Hinduism",
+			
+			"startIntroPart1": "God grant you strength, O' Purnawarman, clever and divine king of Tarumanagara! Your people, the Tarumanagaran, were ancestor of Sundanese, and of all the peoples in Java to till the earth and carve her stone into cities and stele, yours were the first. Tarumanagara emerged along the banks of the Citarum river, known for its advanced agriculture and irrigation system including the excavations of the Chandrabaga and Gomati Rivers. The kingdom was also renowned for its art and culture, with notable examples being the ornate temples, sculptures, and stone inscriptions found throughout the region.",
+			"startIntroPart2": "Purnawarman, Tarumanagara remains vibrant in the hearts of the Sundanese people, but your legacy dwindles in the annals of Indonesia. Will you rise again, and return Tarumanagara to its prosperity? Or will you conquer to rival the mighty powers around you and redeem your descendant mistakes? Can you build a civilization to stand the test of time?",
+			
+			"declaringWar": "I have tried all other avenues, but yet you persist in this madness. I hope, for your sake, your end is swift.",
+			"attacked": "You can see how fruitless this will be for you, no?",
+			"defeated": "Has God withdrawn his favor from me, that Tarumanagara must fall? Oh, what a calamity!",
+			"introduction": "Welcome. It is an honor to meet you in person. It seems great minds do attract each other, after all.",
+			
+			"neutralHello": "Greetings.",
+			"hateHello": "So?"
+			"tradeRequest": "My friend, does this seem reasonable to you?",
+			
+			"outerColor": [ 80,  0, 70],
+			"innerColor": [228,171,119],
+			"uniqueName": "Sundanese Ancestor",
+			"uniqueText": "+1 Population in cities on River\n+2 [Production] from every Aqueduct",
+			"uniques": ["[+2 Production] from every [Aqueduct]"],
+			"cities": ["Sundapura","Pandeglang","Cupunagara","Ujung Kulon","Tangerang","Purbalingga","Cianjur","Rangkasbitung","Indramayu","Cilegon",
+				"Majalengka","Cimanuk","Pangalengan","Purwakarta","Cirebon","Banyumas","Garut","Tegal","Gunung Manik","Bitung", 
+				"Tanjung Kalapa","Sumurwangi","Bekasi","Karawang","Pandeglang","Tasikmalaya","Kuningan","Majalengka","Bogor","Lebak"],
+			"spyNames": ["Sartika","Asep","Atep","Mihardja","Sukaesih","Tamala","Ratnadilla","Surapranata","Heryawan","Kartasasmita"]
+		},
+		
+		// Medang (Mataram Kuno)
+		{
+			"name": "Medang",						// 732–1016
+			"leaderName": "Rakai Panangkaran",
+			"adjective": ["Javanese"],
+			"startBias": ["Plains"],
+			"preferredVictoryType": "Cultural",
+			"favoredReligion": "Buddhism",
+
+			"startIntroPart1": ".",
+			"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+			
+			"declaringWar": "The world will be more beautiful without you. Prepare for war.",
+			"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+			"defeated": "I did lose, but my legacy will be eternal.",
+			"introduction": "Goodness to all of us, my name is Dyah Pañcapaṇa, maybe you know me better as Rakai Panangkaran.",
+			
+			"neutralHello": "Welcome.",
+			"hateHello": "What do you want?",
+			"tradeRequest": "It doesn't matter how much I give, this offer comes from the heart",
+			
+			"outerColor": [ 79, 73, 6],
+			"innerColor": [255,233,23],
+			"uniqueName": "Javanese Art Center",
+			"uniques": ["Receive free [Great Artist] when you discover [Theology]",
+						"[+25]% Production when constructing [All] wonders [in all cities] <during the [Classical era]>",
+						"[+25]% Production when constructing [All] wonders [in all cities] <during the [Medieval era]>"],
+			"cities": ["Mataram Kuno","Mamratipura","Magelang","Klaten","Solo","Salatiga","Semarang","Purworejo","Wonosobo","Temanggung",
+				"Pekalongan","Batang","Kendal","Banjarnegara","Boyolali","Demak","Grobogan","Yogyakarta","Sragen","Karanganyar",
+				"Sukoharjo","Wonogiri","Ngawi","Magetan","Madiun","Nganjuk","Kadiri","Lamongan","Jombang","Mojokerto",
+				"Malang","Batu","Pasuruan","Surabaya","Sidoarjo"],
+			"spyNames": ["Sankhara","Manara","Salaḍū","Lokapāla","Dewendra","Bhadra","Garuda Mukha","Daksa","Sindok","Pardiyem"]
+		},
+		
+		// Bali
+		{
+			"name": "Bali",					// 914 - 1686
+			"leaderName": "Waturenggong",
+			"adjective": ["Balinese"],
+			"startBias": ["Coast"],
+			"preferredVictoryType": "Cultural",
+			"favoredReligion": "Hinduism",
+
+			"startIntroPart1": ".",
+			"startIntroPart2": "Divine Dalem Waturenggong, will you lead Bali into a period of not just sovereignty, but success? Can you bring Bali under divine protection and cement it's legacy as a land of the gods? Can you build a civilization that will stand the test of time?",
+
+			"declaringWar": "We won't let your arrogance upon the divinity be permitted! And we will attain the gods benevolence!",
+			"attacked": "You dare to touch our sacred lands? It will be your grave!",
+			"defeated": "May the heavens forgive my weakness! I had no strength to prevent this defeat.",
+			"introduction": "I am Waturenggong, dalem (king) and protector of Bali, abode of the gods on earth. What offerings have you brought me?",
+			
+			"neutralHello": "Swastiastu.",
+			"hateHello": "Bebangkang!",
+			"tradeRequest": "A trade request one might say.",
+
+			"outerColor": [ 28,51,119],
+			"innerColor": [225,225,20],
+			"uniqueName": "Puputan",
+			"uniqueText": "+33% Strength for Land units when below 40 HP\nUpon constructing [Faith] buildings/wonders, Gain 2 times [Faith] and [Culture] equal to the building's [Faith] output",
+			"uniques": ["[+33]% Strength <for [Land] units> <when below [40] HP>", 
+						"Gain [2] [Faith] <upon constructing [Shrine]>", 
+						"Gain [2] [Culture] <upon constructing [Shrine]>", 
+						"Gain [4] [Faith] <upon constructing [Temple]>", 
+						"Gain [4] [Culture] <upon constructing [Temple]>", 
+						"Gain [16] [Faith] <upon constructing [Grand Temple]>", 
+						"Gain [16] [Culture] <upon constructing [Grand Temple]>", 
+						"Gain [10] [Faith] <upon constructing [Stonehenge]>", 
+						"Gain [10] [Culture] <upon constructing [Stonehenge]>", 
+						"Gain [6] [Faith] <upon constructing [Hagia Sophia]>", 
+						"Gain [6] [Culture] <upon constructing [Hagia Sophia]>", 
+						"Gain [6] [Faith] <upon constructing [Great Mosque of Djenne]>", 
+						"Gain [6] [Culture] <upon constructing [Great Mosque of Djenne]>", 
+						"Gain [8] [Faith] <upon constructing [Notre Dame]>", 
+						"Gain [8] [Culture] <upon constructing [Notre Dame]>"],
+			"cities": ["Gelgel","Klungkung","Bedulu","Samprangan","Buleleng","Karangasem","Mengwi","Badung","Tabanan",
+				"Gianyar","Bangli","Jembrana","Denpasar","Susut","Ubud","Marga","Pekutatan","Bebandem","Nusa Penida",
+				"Petang","Tempuku","Kubutumbahan","Tampaksiring","Nagara","Selemadeg"],
+			"spyNames": ["Ngurah Rai","Gede","Alit","Ketut","Wayan","Putu","Upadisari","Liyer","Made","Kadek"]
+		},
+		
+		// Majapahit
+		{
+			"name": "Majapahit",						// 1293–1527
+			"leaderName": "Hayam Wuruk",
+			"adjective": ["Javanese"],
+			"startBias": ["Coast"],
+			"preferredVictoryType": "Domination",
+			"favoredReligion": "Buddhism",
+
+			"startIntroPart1": ".",
+			"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+			
+			"declaringWar": "Before this war ends, you will know the fury of a thousand ships.",
+			"attacked": "Finally! A worthy opponent! Our battle will be legendary!",
+			"defeated": "The dream of Nusantara is lost to the turning tide.",
+			"introduction": "I am Hayam Wuruk, King of Majapahit and leader of Nusantara. Who are you? What victories can you speak of?",
+			
+			"neutralHello": "Hello.",
+			"hateHello": "Shameless fool!",
+			"tradeRequest": "With this, we can be friends.",
+			
+			"outerColor": [121,  0,  2],
+			"innerColor": [235,225,138],
+			"uniqueName": "Nagarakretagama",
+			"uniques": ["[+50]% Strength <for [Land] units> <when fighting in [Coastal] tiles> <vs cities>", 
+						"Upon capturing a city, receive [5] times its [Gold] production as [Gold] immediately"],
+			"cities": ["Trowulan","Klaten","Kadiri","Surabaya","Malang","Probolinggo","Madiun","Mojokerto","Semarang","Solo",
+				"Pekalongan","Tegal","Salatiga","Magelang","Palembang","Bandar Lampung","Pangkalpinang","Denpasar","Bengkulu","Jambi",
+				"Pekanbaru","Padang","Medan","Makassar","Batam","Samarinda","Ambon","Kupang","Banda Aceh","Pontianak"
+				"Palembang","Pekanbaru","Bandar Lampung","Palangka Raya","Banjarmasin","Samarinda","Kupang","Mataram Kuno","Bima","Kendari",
+				"Mamuju","Palu","Manado","Ambon","Dili","Manokwari","Johor","Malacca","Alor Setar","Seremban",
+				"Kuantan","Penang","Ipoh","Kuala Terengganu","Selangor","Kuching","Kota Kinabalu","Bandar Brunei","Pontianak","Balikpapan",
+				"Komodo","Biak","Kudus","Lombok","Samosir","Sragen","Garut","Gresik","Nias","Sragen"],
+			"spyNames": ["Wijaya","Soheeta","Jayanagara","Gitarja","Aji","Nyoman","Setyanto","Joko","Siti","Soegimin"]
+		},
+		
+		// Banten
+		{
+			"name": "Banten",						// 1527–1813
+			"leaderName": "Tirtayasa",
+			"adjective": ["Sundanese"],
+			"startBias": ["Grassland"],
 			"preferredVictoryType": "Scientific",
+			"favoredReligion": "Islam",
+
+			"startIntroPart1": ".",
+			"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+			
+			"declaringWar": "As our protests are in vain, we hereby declare war.",
+			"attacked": "Our hearts will not tremble before your multitudes.",
+			"defeated": "As I feared... The looming threat that my people might not evade in time... is here.",
+			"introduction": "I am Tirtayasa. Leader of Sundanese—be it through the battle on land or over the sea.",
+			
+			"neutralHello": "Hello.",
+			"hateHello": "Speak!",
+			"tradeRequest": "It is a fair trade, no?",
+			
+			"outerColor": [210,255,195],
+			"innerColor": [  0, 74, 35],
+			"uniqueName": "Solar Prince",
+			"uniques": ["[+2 Science] from all [Faith] buildings"],
+			"cities": ["Surosowan","Serang","Cilegon","Pandeglang","Tangerang","Lebak","Kalapa","Bekasi","Depok","Bogor","Sukabumi",
+				"Cianjur","Garut","Bandar Lampung","Pesawaran","Metro","Pringsewu","Tanggamus","Pesisir Barat","Tulang Bawang","Waykanan",
+				"Ogah Komering","Kaur","Pagar Alam","Seluma","Bengkulu"],
+			"spyNames": ["Fatahillah","Ma'ruf","Melati","Dijaya","Ulfah","Cadasari","Arman","Felisha","Nasuha","Mursadat"]
+		},
+		
+		// Mataram Islam
+		{
+			"name": "Mataram",						// 1586–1755
+			"leaderName": "Anyakrakusuma",
+			"adjective": ["Matawis"],
+			"preferredVictoryType": "Domination",
+			"favoredReligion": "Islam",
+
+			"startIntroPart1": "Eternal glory to you, Sampeyan Dalem Ingkang Sinuhun Kangjeng Sultan Agung Adi Prabu Anyakrakusuma of Mataram! The Sultanate of Mataram was the last major independent Indonesian kingdom on Java before the island was colonized by the Dutch. Under your leadership, Mataram expand more than double its territory, taking over nearby states such as Surabaya, Cirebon and Malang. By establishing your influence throughout Java, you spread your beliefs and show your devotion to your religion. Your victory in the Pati rebellion proves that you were not to be messed with.",
+			"startIntroPart2": "Maulana Matarani Al-Jawi, your people has called upon you once again, to rise up and lead them to glory. Will you take up the challenge, great sultan? Can you build a civilization that will stand the test of time?",
+			
+			"declaringWar": "I must protect the interests of the Matawis. Surrender quickly so that this may end without bloodshed.",
+			"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
+			"defeated": "The Sultanate falls, but I will be remembered. Will you?",
+			"introduction": "Let it be known between us- I, Sultan Agung, will repay treachery with blood! But, if you are a true friend, we will have peace."
+			
+			"neutralHello": "Sugeng rawuh.",
+			"hateHello": "Speak!",
+			"tradeRequest": "This agreement, will you accept it?",
+			
+			"outerColor": [109,211,255],
+			"innerColor": [139, 32, 23],
+			"uniqueName": "Kadipaten",
+			"uniques": ["[+50]% [Gold] [in puppeted cities]", 
+						"[-50]% Unhappiness from [Population] [in puppeted cities]", 
+						"[+50]% Production when constructing [Courthouse] buildings [in annexed cities]"],
+			"cities": ["Kutagede","Plered","Kartasura","Klaten","Yogyakarta","Solo","Salatiga","Kulonprogo","Bantul","Sleman",
+				"Gunungkidul","Magelang","Rembang","Jepara","Semarang","Pekalongan","Tegal","Banyumas","Pacitan","Madiun",
+				"Kadiri","Blitar","Batu","Malang","Mojokerto","Pasuruan","Surabaya","Probolinggo","Madura","Cirebon",
+				"Banjar","Tasikmalaya","Bandung","Cimahi","Bekasi","Bogor","Depok","Karawang","Cianjur","Sukadana"],
+			"spyNames": ["Sutawijaya","Pakubuwana","Hamengkubuwana","Mangkunegara","Pakualam","Agus","Budi","Mulyani","Didik","Sugeng"]
+		},
+	
+	
+	// Borneo
+	
+		// Kutai
+		{
+			"name": "Kutai",			/// 399 - 1635 as Hindu, 1300–1844 as Islam
+			"leaderName": "Mulavarman",
+			"adjective": ["Dayak Lawangan"],
+			"startBias": ["Jungle"],
+			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Hinduism",
 
 			"startIntroPart1": ".",
 			"startIntroPart2": "King Mulavarman, your people look to you once more, to make them powerful and wealthy, to keep them supplied with the weapons they need to defeat any foe. Can you save them from destruction, oh King? Can you build a civilization that will stand the test of time?",
 
-			"declaringWar": "Now we will see if you are cowards or warriors!",
-			"attacked": "Oh well, I presume you know what you're doing.",
+			"declaringWar": "I had a vision from God himself, and he has told me to smite you down!",
+			"attacked": "Do you really think you can walk over us so easily?",
 			"defeated": "It is over. Perhaps now I shall have peace, at last.",
-			"introduction": "I am Mulawarman, King of Martadipura. May there always be peace between us.",
+			"introduction": "I am Mulawarman, King of Kutai. May there always be peace between us.",
 			
 			"neutralHello": "Greetings.",
 			"hateHello": "What do YOU want?!",
@@ -331,47 +413,12 @@
 
 			"outerColor": [238,201,9],
 			"innerColor": [ 53, 0,87],
-			"uniqueName": "Aswamedha",
-			"uniqueText": "+2 [Food] from every [Cattle] \n+1 [Food], +1 [Gold] from every [Farm] adjacent to River",
-			"uniques": ["[+2 Food] from every [Cattle]", 
-						"[+1 Food, +1 Gold] from every [Farm] <with [1] to [6] neighboring [River] tiles>"],
-			"cities": ["Muara Kaman","Melintang","Pela","Muara Wis","Sabemban","Kahala","Kembang Janggut","Muara Bengkal","Lamin","Semayang",
-				"Tubuhan","Bingkai","Teluk Muda","Teluk Tuha","Lebak Cilong","Lebak Mantan","Muara Ancalong","Tabang","Long Mesangat","Pandan",
-				"Ampar","Rantau Pulung","Sangatta","Telen","Susang"],
-			"spyNames": ["Kudungga","Wamsekerta","Perana","Warmadewa","Mulavarni","Puan","Reniq","Satya","Gadingga","Cendera"]
-		},
-		
-		// Kutai Kartanegara
-		{
-			"name": "Kutai Kartanegara",			// 1300 - 
-			"leaderName": "Sinum Panji",
-			"adjective": ["Kartanagaran"],
-			"startBias": ["Avoid [Desert]","Avoid [Tundra]"],
-			"preferredVictoryType": "Domination",
-			"favouredReligion": "Islam",
-
-			"startIntroPart1": ".",
-			"startIntroPart2": "Aji Pangeran Sinum Panji, you are called to rise up and lead your people to renewed power and triumph! Will you answer their call, glorious leader? Can you build a civilization that will stand the test of time?",
-			
-			"declaringWar": "You have strayed from God's path, and now we will correct it.",
-			"attacked": "Do you really think you can walk over us so easily?",
-			"defeated": "You have somehow become my undoing! What kind of beast are you?",
-			"introduction": "I am Aji Pangeran Sinum Panji. Kutai people honor me with respect. Will I see the same from you?",
-			
-			"neutralHello": "How are you today?",
-			"hateHello": "Oh. It's you?",
-			"tradeRequest": "Kartanagaran send you gifts of greeting.",
-			
-			"outerColor": [251,236,127],
-			"innerColor": [146, 74,  1],
-			"uniqueName": "Kutai Unification",
-			"uniqueText": "+15% [Production] in capital \nUpon capturing a city, receive Technology and Policy boost",
-			"uniques": ["[+15]% [Production] [in capital]", 
-						"Upon capturing a city, receive [10] times its [Faith] production as [Culture] immediately", 
-						"Upon capturing a city, receive [3] times its [Production] production as [Science] immediately"],
-			"cities": ["Kutai Lama","Pemarangan","Tenggarong","Anggana","Sanga-Sanga","Muara Badak","Muara Jawa","Samboja","Loa Janan","Loa Kulu",
-				"Tenggarong Seberang","Marang Kayu","Sebulu","Mardipura","Mahakam","Belayan","Semayang","Muara Muntai","Menamang"],
-			"spyNames": ["Nira","Mandarsyah","Parikesit","Darmansyah","Mendapa","Dilanggar","Narsih","Bayabaya","Surawangsa","Melenu"]
+			"uniqueName": "Asvamedha",
+			"uniques": ["[+1 Faith] from every [Horses]", 
+						"[+2 Food] from every [Pasture]"],
+			"cities": ["Muara Kaman","Kutai Lama","Pemarangan","Tenggarong","Samarinda","Balikpapan","Bontang","Mahakam","Samboja","Muara Jawa",
+				"Barong Tongkok","Melak","Sendawar","Sangatta","Kota Bangun","Damai","Tabang","Bongan","Sangkulirang","Penajam"],
+			"spyNames": ["Kudungga","Nira","Perana","Mulavarni","Puan","Nanjan","Reniq","Danum","Narsih","Cendera"]
 		},
 		
 		// Brunei
@@ -383,15 +430,15 @@
 			"preferredVictoryType":"Diplomatic",
 			"favoredReligion": "Islam",
 
-			"startIntroPart1": ".",
+			"startIntroPart1": "May the blessings of God be upon you, Nakhoda Ragam, Bolkiah of Brunei! You lead Brunei, a wealthy kingdom located in Nusantara. Brunei was a regional power that dabbled in the politics and patronage of China, Srivijaya, and Majapahit, before converting to Islam in the 15th century. Under your reign, most esteemed Sultan, Brunei reached its height, experiencing both intelectual golden age and military strength as Brunei came to control the entire coastline of Borneo. Although Brunei's size has diminished, modern Brunei remains a powerful nation. It possesses vast reserves of oil and boasts a debt-free economy, making it one of the wealthiest and most developed nations in the world!",
 			"startIntroPart2": "Yang Dipertuan Sultan Bolkiah, your people wish for a sultanate of their own once more and require a leader of unparalleled greatness! Will you accept the challenge? Can you build a civilization that will stand the test of time?",
 
 			"declaringWar": "You deserve nothing less than war, but in my abundant mercy, I will make it brief and decisive.",
 			"attacked": "You could have found another way. Now, your regrets will be measured in blood.",
 			"defeated": "We resisted to the last, but it was too late … too late.",
-			"introduction": "Salam, stranger! I am Bolkiah, Sultan of Brunei!",
+			"introduction": "It is my pleasure to welcome you to Brunei, the abode of peace. I am Bolkiah, I hope you will find this land as beautiful as I do.",
 
-			"neutralHello": "Greetings!",
+			"neutralHello": "Salam!",
 			"hateHello": "What?",
 			"tradeRequest": "We are happy to offer this trade with you.",
 
@@ -411,16 +458,16 @@
 			"name": "Banjar",						// 1520 - 1905
 			"leaderName": "Hidayatullah",
 			"adjective": ["Banjarese"],
-			"startBias":["Avoid [Tundra]"],
+			"startBias":["River"],
 			"preferredVictoryType": "Diplomatic",
 			"favoredReligion": "Islam",
 
-			"startIntroPart1": " ",
+			"startIntroPart1": ".",
 			"startIntroPart2": "Religious King, the time for greatness is upon you once more. Will you channel the will of God and restore your once proud sultanate to its greatest heights? Can you build a civilization that will stand the test of time?",
 			
 			"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 			"attacked": "As predicted, you know only how to take. Come, then—choose the manner of your defeat.",
-			"defeated": "May God grant me these last wishes -- peace and prosperity for Banjar.",
+			"defeated": "Just as the sun fades in the west, it seems it that Banjar's time of twilight has come.",
 			"introduction": "May God bless us, I am Sultan Hidayatullah of Banjar.",
 			
 			"neutralHello": "Salam.",
@@ -429,11 +476,9 @@
 			
 			"outerColor": [146,221,9],
 			"innerColor": [ 41,83,42],
-			"uniqueName": "Hikayat Banjar",
-			"uniqueText": "+25% Natural religion spread in all cities \n+2 [Gold] from every Luxury resource",
-			"uniques": ["[+25]% Natural religion spread [in all cities]", 
-						"[+2 Gold] from every [Luxury resource]", 
-						"[Work Boats] units gain the [Kota] promotion"],
+			"uniqueName": "Barakat",
+			"uniques": ["[+2 Gold] from every [Luxury resource]", 
+						"Starts with [Cultural Diplomacy] adopted"],
 			"cities": ["Kuin","Banjarmasin","Pemakuan","Muara Tambangan","Sambas","Lawai","Sukadana","Kotawaringin","Pembuang","Mendawai",
 				"Sampit","Kahayan Hilir","Kahayan Hulu","Satui","Pasir","Pulau Laut","Asam Asam","Kintap","Swarangan","Kutai"],
 			"spyNames": ["Kasuma","Sofyan","Ramlan","Antasari","Khairul","Hanafiah","Yusran","Basoeni","Djazouli","Yusliani"]
@@ -469,10 +514,10 @@
 				"Matu","Selangau","Mukah","Kapit","Tatau","Bintulu","Belaga","Marudi","Miri","Limbang"],
 			"spyNames": ["Rentap","Openg","Raweng","Badruddin","George","Charles","Jane","Pandelela","Pengiran","Kanang"]
 		},
-	
-	
-	// Sulawesi Civilizations
-	
+		
+		
+	// Sulawesi
+		
 		// Bolaang Mongondow
 		{
 			"name": "Bolaang Mongondow",		// 1320 - 1933
@@ -530,7 +575,8 @@
 			"innerColor": [28, 51,119],
 			"uniqueName": "Tellumpoccoe",
 			"uniqueText": "+3 [Production], +3 [Gold] in cities with 5 population or less\nGain a free [Granary] in your first 3 cities",
-			"uniques": ["[+3 Production, +3 Gold] [in all cities]", "[-3 Production, -3 Gold] [in all cities] <in cities with at least [6] [Population]>", 
+			"uniques": ["[+3 Production, +3 Gold] [in all cities]", 
+						"[-3 Production, -3 Gold] [in all cities] <in cities with at least [6] [Population]>", 
 						"Provides a [Granary] in your first [3] cities for free"],
 			"cities": ["Watampone","Tanete Riattang","Awangpone","Palakka","Barebbo","Sibulue","Cina","Ponre","Ulaweng","Bengo",
 				"Libureng","Mare","Patimpeng","Tonra","Salomekko","Kajuara","Kahu","Bonto Cani","Lappa Riaja","Tellu Liompe",
@@ -667,9 +713,44 @@
 				"Jampu Daido","Mutty Mattayang","Hatta Risadju","Gani Limpo","Indah Marakarma"]
 		},
 		
+		
+	// Lesser Sunda, Maluku, and Papua
 	
-	// Maluku Civilizations
-	
+		// Larantuka
+		{
+			"name": "Larantuka",					// 1600 - 1904
+			"leaderName": "Ola Adobala",
+			"adjective": ["Nagi"],
+			"startBias": ["Coast"],
+			"preferredVictoryType": "Cultural",
+			"favoredReligion": "Christianity",
+
+			"startIntroPart1": ".",
+			"startIntroPart2": "?",
+
+			"declaringWar": "Those who deny others freedom do not deserve it themselves.",
+			"attacked": "As we can reach no peaceful resolution with you, the Larantuqueiros must turn to war.",
+			"defeated": "A darkness falls upon me. But never did a darkness not give way to dawn.",
+			"introduction": "I am Ola Adobala, leader of the Nagi and Larantuqueiros, friend to those who would steer their trade ships in my direction, and terrible to those who oppose me.",
+			
+			"neutralHello": "Gena tebae?",
+			"hateHello": "Enko ni anji!",
+			"tradeRequest": "Trading. It's a fine thing God has bring, don't you agree?",
+
+			"outerColor": [  0,  0,128],
+			"innerColor": [211,211,211],
+			"uniqueName": "Semana Santa",
+			"uniqueText": "Cities produce 50% more [Culture] and [Faith] during We Love The King Day \n+1 [Culture] from every Fishing Boats",
+			"uniques": ["[+50]% [Culture] [in all cities] <during We Love The King Day>", 
+						"[+50]% [Faith] [in all cities] <during We Love The King Day>", 
+						"[+1 Culture] from every [Fishing Boats]"],
+			"cities": ["Larantuka","Solor","Adonara","Ile Boleng","Tanjung Bunga","Witihama","Titihena","Kelubagolit","Wotan Ulu Mado",
+				"Wulanggitang","Ile Mandiri","Demon Pagong","Ile Bura","Lewolema"],
+			"spyNames": ["Manek","Kopong","Nggawa","Denis","Ernest","Ruben","Auberta","Orlin","Saskia","Latisha"]
+		},
+		
+		// Wewiku-Wehali
+		
 		// Ternate
 		{
 			"name": "Ternate",					// 1257 - 1914
@@ -733,66 +814,23 @@
 			"spyNames": ["Bosamawange","Balibunga Matulessy","Duko Adoya","Kie Matiti","Arif Matagena","Carolyn Tiahahu","Gapi Baguna","Mole Maginyau","Jou Latuhihin","Jallo Kahaela"]
 		},
 		
-	// Bali and Nusa Tenggara (Lesser Sunda)
-	
-		// Bali
-		{
-			"name": "Bali",					// 914 - 1686
-			"leaderName": "Waturenggong",
-			"adjective": ["Balinese"],
-			"startBias": ["Coast"],
-			"preferredVictoryType": "Cultural",
-			"favoredReligion": "Hinduism",
-
-			"startIntroPart1": ".",
-			"startIntroPart2": "Divine Dalem Waturenggong, will you lead Bali into a period of not just sovereignty, but success? Can you bring Bali under divine protection and cement it's legacy as a land of the gods? Can you build a civilization that will stand the test of time?",
-
-			"declaringWar": "We won't let your arrogance upon the divinity be permitted! And we will attain the gods benevolence!",
-			"attacked": "You dare to touch our sacred lands? It will be your grave!",
-			"defeated": "May the heavens forgive my weakness! I had no strength to prevent this defeat.",
-			"introduction": "I am Waturenggong, dalem (king) and protector of Bali, abode of the gods on earth. What offerings have you brought me?",
-			
-			"neutralHello": "Swastiastu.",
-			"hateHello": "Bebangkang!",
-			"tradeRequest": "A trade request one might say.",
-
-			"outerColor": [ 28, 51,119],
-			"innerColor": [249,249,20],
-			"uniqueName": "Puputan",
-			"uniqueText": "+33% Strength for Land units when below 40 HP\nUpon constructing [Faith] buildings/wonders, Gain 2 times [Faith] and [Culture] equal to the building's [Faith] output",
-			"uniques": ["[+33]% Strength <for [Land] units> <when below [40] HP>", 
-						"Gain [2] [Faith] <upon constructing [Shrine]>", 
-						"Gain [2] [Culture] <upon constructing [Shrine]>", 
-						"Gain [4] [Faith] <upon constructing [Temple]>", 
-						"Gain [4] [Culture] <upon constructing [Temple]>", 
-						"Gain [16] [Faith] <upon constructing [Grand Temple]>", 
-						"Gain [16] [Culture] <upon constructing [Grand Temple]>", 
-						"Gain [10] [Faith] <upon constructing [Stonehenge]>", 
-						"Gain [10] [Culture] <upon constructing [Stonehenge]>", 
-						"Gain [6] [Faith] <upon constructing [Hagia Sophia]>", 
-						"Gain [6] [Culture] <upon constructing [Hagia Sophia]>", 
-						"Gain [6] [Faith] <upon constructing [Great Mosque of Djenne]>", 
-						"Gain [6] [Culture] <upon constructing [Great Mosque of Djenne]>", 
-						"Gain [8] [Faith] <upon constructing [Notre Dame]>", 
-						"Gain [8] [Culture] <upon constructing [Notre Dame]>"],
-			"cities": ["Gelgel","Klungkung","Bedulu","Samprangan","Buleleng","Karangasem","Mengwi","Badung","Tabanan",
-				"Gianyar","Bangli","Jembrana","Denpasar","Susut","Ubud","Marga","Pekutatan","Bebandem","Nusa Penida",
-				"Petang","Tempuku","Kubutumbahan","Tampaksiring","Nagara","Selemadeg"],
-			"spyNames": ["Bosamawange","Balibunga Matulessy","Duko Adoya","Kie Matiti","Arif Matagena","Carolyn Tiahahu","Gapi Baguna","Mole Maginyau","Jou Latuhihin","Jallo Kahaela"]
-		},
-	
+		// Papua
+		
+		
 	// The Philippines
-	
+		
+		// Tondo
+		
 		// Sulu
 		{
 			"name": "Sulu",							// 1405 - 1915
 			"leaderName": "Jamalul Kiram",
-			"adjective": ["Dayak Kadazan"],
+			"adjective": ["Tausug"],
 			"startBias": ["Coast"],
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Islam",
 
-			"startIntroPart1": " ",
+			"startIntroPart1": ".",
 			"startIntroPart2": "Oh clever and virtuous Jamalul Kiram, will you rebuild Sulu and lead your people to even greater heights of glory? Will you take up the challenge and vanquish your foes under heaven's watchful eyes? Can you build a civilization that will stand the test of time?",
 
 			"declaringWar": "Your transgressions are as deep as oceans. Prepare for war!",
@@ -814,6 +852,41 @@
 				"Tawi-tawi","Jolo","Basilan","Zamboanga","Indanan","Pangutaran","Parang","Patikul","Talipao","Mactan"],
 			"spyNames": ["Hashim","Alauddin","Muiz","Nasiruddin","Bakhtiar","Rashid","Muwallil","Azam","A'lam","Halim"]
 		},
+		
+		// Manguindanao
+		{
+			"name": "Manguindanao",							// 1520–1928
+			"leaderName": "Kudarat",
+			"adjective": ["Manguindanaon"],
+			"startBias": ["Coast"],
+			"preferredVictoryType": "Diplomatic",
+			"favoredReligion": "Islam",
+
+			"startIntroPart1": ".",
+			"startIntroPart2": ".",
+
+			"declaringWar": "It is not my wish to conquer your realm by force, but we arrive at a point now where there is no alternative.",
+			"attacked": "Here come a bunch of armed men waving around and shouting. Should I let this behaviour be?",
+			"defeated": "The road ahead is dark, the surrounding pines are dense like walls, the sky and earth are full dark.",
+			"introduction": "Welcome, stranger. Do remember, the name is Kudarat. I hope soon we will be close friends.",
+
+			"neutralHello": "Mapia maudtu.",
+			"hateHello": "What now?",
+			"tradeRequest": "May this offer interest you, my friend?",
+
+			"outerColor": [251,236,127],
+			"innerColor": [146, 74,  1],
+			"uniqueName": "Helper of the Faith",
+			"uniqueText": "Militaristic City-States grant units 2 times as fast when at war with a common nation \n+33% [Production] when constructing Defensive buildings in all cities",
+			"uniques": ["Militaristic City-States grant units [2] times as fast when you are at war with a common nation", 
+						"[+33]% Production when constructing [Walls] buildings [in all cities]", 
+						"[+33]% Production when constructing [Castle] buildings [in all cities]", 
+						"[+33]% Production when constructing [Arsenal] buildings [in all cities]"],
+			"cities": ["Kuta Watu","Tamontaka","Dinaig","Tumbao","Pollok","Padang-Padang","Talavan","Tinungkul","Buayan",
+				"Kitakubong","Buluan","Tukuran","Inuk","Kalamansig","Pula","Glan","Pinagurusan","Kuruan","Bolong"],
+			"spyNames": ["Sajid","Ampatuan","Datumanong","Mariam","Baraguir","Ameni","Murad","Gumbay","Pendatun","Sinsuat"]
+		},
+	
 	
 	// City-State
 	{
@@ -837,7 +910,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Unacceptable!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [153,10,96],
+		"innerColor": [163,34,111],
 		"cities": ["Tidung"]
 	},
 	

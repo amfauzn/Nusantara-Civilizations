@@ -1,28 +1,15 @@
 # Development
-* [amfauzn (AKA faw)](https://github.com/amfauzn) - sprites, idea, icon, code, lore, Indonesian translation
+* [amfauzn (AKA faw)](https://github.com/amfauzn) - idea, code, lore, icon, sprites, Indonesian translation
+* [hyunamae (AKA Kāne)](https://github.com/hyunamae) - idea, lore, icon
+* riceroll - idea, lore, balancing idea
+* [Smashfanful](https://github.com/Smashfanful) - Italian translation
 * [AceHank](https://github.com/AceHank) - balancing idea
 * [Bambboolord](https://github.com/RealBamboolord) - balancing idea
-* riceroll - balancing idea
 
 # Credits
 Any icons not listed below are self made with Paint 3D.
 
-## Java Civilizations
-- [Tiger](https://thenounproject.com/icon/tiger-4038089/) by IronSV
-- [Pagoda](https://thenounproject.com/icon/pagoda-4944468/) by Amethyst Studio, TH
-- [dagger](https://thenounproject.com/icon/dagger-4931031/) by Febrian Hidayat, ID
-- [Mandala](https://thenounproject.com/icon/mandala-2533520/) by Dament, ID
-- [temple](https://thenounproject.com/icon/temple-5212638/) by Cahya Kurniawan, ID
-- [Sail Boat](https://thenounproject.com/icon/sail-boat-6475/) by Kirsty Randell
-- [Cannon](https://thenounproject.com/icon/cannon-3774/) by Nick Green, US
-- [Jong](https://github.com/k4zoo/Civilization-6-Mod/blob/master/Images/UnitIcons/Jong.png) from Civilization 6 Mod by Red11 and k4zoo
-- [octagon mandala](https://thenounproject.com/icon/octagon-mandala-2207922/) by Hassan Khaled, EG\
-- [Fountain](https://thenounproject.com/icon/fountain-2089425/) by bmijnlieff, NL
-- [Cannon](https://thenounproject.com/icon/cannon-1122662/) by Madison Apple, US
-- [Barn](https://thenounproject.com/icon/barn-4574113/) by The Icon Z, ID
-- [arquebus](https://thenounproject.com/icon/arquebus-2349021/) by Cédric Villain, FR
-
-## Sumatra Civilizations
+## Sumatra and Malay Peninsula
 - [Borobudur](https://thenounproject.com/icon/borobudur-2412861/) by Phạm Thanh Lộc, VN
 - [Castle](https://thenounproject.com/icon/castle-3339601/) by Victoruler
 - [headdress](https://thenounproject.com/icon/headdress-5125485/) by Satawat Anukul, TH
@@ -31,8 +18,27 @@ Any icons not listed below are self made with Paint 3D.
 - [Machete](https://thenounproject.com/icon/machete-28359/) by Kailen Nordhausen, US
 - [ship sagres](https://thenounproject.com/icon/ship-sagres-2381748/) by Sérgio Filipe Cardoso Pires, PT
 - [karambit](https://thenounproject.com/icon/karambit-3930089/) by Firza Alamsyah, ID
+- All icons of Pagaruyung by hyunamae AKA Kāne
 
-## Borneo Civilizations
+## Java and Bali
+- [Tiger](https://thenounproject.com/icon/tiger-4038089/) by IronSV
+- [Pagoda](https://thenounproject.com/icon/pagoda-4944468/) by Amethyst Studio, TH
+- [Mandala](https://thenounproject.com/icon/mandala-2533520/) by Dament, ID
+- [temple](https://thenounproject.com/icon/temple-5212638/) by Cahya Kurniawan, ID
+- [Sail Boat](https://thenounproject.com/icon/sail-boat-6475/) by Kirsty Randell
+- [barongsai](https://thenounproject.com/icon/barongsai-3178075/) by JunGSa, ID
+- [pura](https://thenounproject.com/icon/pura-3366528/) by Ian Rahmadi Kurniawan, ID
+- [sailboat](https://thenounproject.com/icon/sailboat-5396379/) by Soni Sokell, ID
+- [Cannon](https://thenounproject.com/icon/cannon-3774/) by Nick Green, US
+- [Jong](https://github.com/k4zoo/Civilization-6-Mod/blob/master/Images/UnitIcons/Jong.png) from Civilization 6 Mod by Red11 and k4zoo
+- [octagon mandala](https://thenounproject.com/icon/octagon-mandala-2207922/) by Hassan Khaled, EG\
+- [Fountain](https://thenounproject.com/icon/fountain-2089425/) by bmijnlieff, NL
+- [Cannon](https://thenounproject.com/icon/cannon-1122662/) by Madison Apple, US
+- [Barn](https://thenounproject.com/icon/barn-4574113/) by The Icon Z, ID
+- [arquebus](https://thenounproject.com/icon/arquebus-2349021/) by Cédric Villain, FR
+- Icon of Kujang Warrior by hyunamae AKA Kāne
+
+## Borneo
 - [Horse](https://thenounproject.com/icon/horse-1023745/) by Bakunetsu Kaito
 - [Stone inscription](https://thenounproject.com/icon/stone-inscription-4704020/) by Hey Rabbit. Modified
 - [The Leopard](https://thenounproject.com/icon/the-leopard-342706/) by nicomo
@@ -43,16 +49,17 @@ Any icons not listed below are self made with Paint 3D.
 - [Sword](https://thenounproject.com/icon/sword-718406/) by Daniela Baptista
 - [Spear](https://thenounproject.com/icon/spear-1215452/) by Guilherme Furtado. Modified
 - [Shield](https://thenounproject.com/icon/shield-1002903/) by Alena Artemova
+- [Long Tailed Boat](https://thenounproject.com/icon/long-tailed-boat-1764311/) by ATOM, TH
 - [Sword](https://thenounproject.com/icon/sword-1547638/) by Nociconist
 - [frigate](https://thenounproject.com/icon/frigate-4635884/) by Danil Polshin. Modified
 - [shackle](https://thenounproject.com/icon/shackle-217216) by Robert Bjushagen
 - [Sword](https://thenounproject.com/icon/sword-1173956/) by DinosoftLab
 - [Hammer](https://thenounproject.com/search/?q=Hammer&i=667666) By Hea Poh Lin
 
-## Sulawesi Civilizations
+## Sulawesi
 - [cotton](https://thenounproject.com/icon/cotton-3849009/) by The Icon Z, ID
 - [Palace](https://thenounproject.com/icon/palace-3758730/) by iconcheese. Modified
-- [temple](https://thenounproject.com/icon/temple-1409169/) by Shadows of love, IN
+- [indian fathers](https://thenounproject.com/icon/indian-feathers-5736333/) by Delwar Hossain, BD
 - [Snake](https://thenounproject.com/icon/snake-65620/) by m. turan ercan, TR
 - [indonesian traditional house](https://thenounproject.com/icon/indonesian-traditional-house-3183413/) by pixiodesign, ID
 - [Kris](https://thenounproject.com/icon/kris-1642662/) by Mochammad Kafi
@@ -67,18 +74,17 @@ Any icons not listed below are self made with Paint 3D.
 - [Lotus](https://thenounproject.com/icon/lotus-2011976/) by dhul, ID
 - [Well](https://thenounproject.com/icon/well-1514882/) by Artdabana@Design, ID
 - [trisula](https://thenounproject.com/icon/trisula-3547400/) by satrio bagus permadi, ID
+- Icon of Bogani by hyunamae AKA Kāne
 
-## Maluku Civilizations
+## lesser Sunda, Maluku, and Papua
+- [Barcelona cathedral](https://thenounproject.com/icon/barcelona-cathedral-752630/) by abeldb, ES
 - [stingray](https://thenounproject.com/icon/stingray-1078139/) by Laymik
 - [Viking](https://thenounproject.com/icon/viking-4509240/) by Vectorstall
 - [Ship](https://thenounproject.com/icon/ship-3863477/) by Andrejs Kirma. Modified
 - [pattern](https://thenounproject.com/icon/pattern-8749/) by Mike Rowe. Modified
 - [Ship](https://thenounproject.com/icon/ship-1445537/) by yanti anis
-
-## Bali and Nusa Tenggara Civilizations
-- [barongsai](https://thenounproject.com/icon/barongsai-3178075/) by JunGSa, ID
-- [pura](https://thenounproject.com/icon/pura-3366528/) by Ian Rahmadi Kurniawan, ID
-- [sailboat](https://thenounproject.com/icon/sailboat-5396379/) by Soni Sokell, ID
+- Icon of Larantuka by hyunamae AKA Kāne
 
 ## The Philippines
 - [Sail Boat](https://thenounproject.com/icon/sail-boat-3564420/) by Hey Rabbit. Modified
+- [Market](https://thenounproject.com/icon/market-1240092/) by arif fajar yulianto, ID
