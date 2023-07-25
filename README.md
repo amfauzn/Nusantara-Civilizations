@@ -9,10 +9,10 @@ Add polity, kingdoms and sultanate from Nusantara (Indonesia, Malaysia, Singapor
 ![](/extraImages/Java%20and%20Bali.png)
 
 ## Borneo
-![](/extraImages/Borneo%20Civilizations.png)
+![](/extraImages/Borneo.png)
 
 ## Sulawesi Civilizations
-![](/extraImages/Sulawesi%20Civilizations.png)
+![](/extraImages/Sulawesi.png)
 
 ## Lesser Sunda, Maluku, and Papua
 ![](/extraImages/Lesser%20Sunda%2C%20Maluku%2C%20and%20Papua.png)
