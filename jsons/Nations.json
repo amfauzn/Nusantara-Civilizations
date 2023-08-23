@@ -159,8 +159,8 @@
 			"hateHello": "What do YOU want?!",
 			"tradeRequest": "Better hurry, this offer won't be valid for a long time.",
 			
-			"outerColor": [121,  0,  2],
-			"innerColor": [234,225,158],
+			"outerColor": [196,161,192],
+			"innerColor": [109,  9, 52],
 			"uniqueName": "Malay Trade Route",
 			"uniques": ["[+15]% Strength <for [non-air] units> <when fighting in [Coast] tiles>", 
 						"[+10]% [Science] from every [Temple]"],
@@ -244,19 +244,19 @@
 		// Bali
 		{
 			"name": "Bali",					// 914 - 1686
-			"leaderName": "Waturenggong",
+			"leaderName": "Baturenggong",
 			"adjective": ["Balinese"],
 			"startBias": ["Coast"],
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Hinduism",
 
-			"startIntroPart1": ".",
-			"startIntroPart2": "Divine Dalem Waturenggong, will you lead Bali into a period of not just sovereignty, but success? Can you bring Bali under divine protection and cement it's legacy as a land of the gods? Can you build a civilization that will stand the test of time?",
+			"startIntroPart1": "May the heavens always shine upon your path, divine Baturenggong, the resolute ruler of Bali and its people! Renowned worldwide as the island of a thousand temples, Bali, the sacred island, has witnessed the rise and fall of various civilizations, as well as the devout and hardworking spirit of its inhabitants. During a period when the kingdoms of Java were ensnared in turmoil, you ascended the throne, bringing together and reinstating the sovereignty of Bali's entire populace. Personifying both wisdom and divinity in your rule, you embraced the intricate tapestry of Balinese society, blending the domains of politics, religion, and art. Through the expansion of the Gelgel Kingdom's dominion, you encompassed the entirety of Bali, in addition to Lombok Island and Sumbawa Island.",
+			"startIntroPart2": "Divine Dalem Baturenggong, will you lead Bali into a period of not just sovereignty, but success? Can you bring Bali under divine protection and cement it's legacy as a land of the gods? Can you build a civilization that will stand the test of time?",
 
 			"declaringWar": "We won't let your arrogance upon the divinity be permitted! And we will attain the gods benevolence!",
 			"attacked": "You dare to touch our sacred lands? It will be your grave!",
 			"defeated": "May the heavens forgive my weakness! I had no strength to prevent this defeat.",
-			"introduction": "I am Waturenggong, dalem (king) and protector of Bali, abode of the gods on earth. What offerings have you brought me?",
+			"introduction": "I am Baturenggong, dalem (king) and protector of Bali, abode of the gods on earth. What offerings have you brought me?",
 			
 			"neutralHello": "Swastiastu.",
 			"hateHello": "Bebangkang!",
@@ -296,20 +296,20 @@
 			"preferredVictoryType": "Domination",
 			"favoredReligion": "Buddhism",
 
-			"startIntroPart1": ".",
-			"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+			"startIntroPart1": "Hail to you, illustrious Hayam Wuruk, radiant ruler of Majapahit! Born amidst the tumultuous times following the Yuan-Mongol invasion of Java, Majapahit rose like a phoenix from the remnants of the Singhasari Empire. Assisted by the valorous Gajah Mada and the skilled Laksamana Nala, you led Majapahit through the challenges of expansion and diplomacy. Your reign was a tapestry of triumph as you solidified Majapahit's stature in the region. Its dominion spanned across the lush islands of Java, Sumatra, Bali, Borneo, and more.  The realm flourished as a splendid hub of trade and culture, where art and architecture blended in exquisite harmony. It was an empire of splendor that shimmered like the tropical seas that embraced it.",
+			"startIntroPart2": "Maharaja Sri Rājasanagara, once again your people turn their gaze to you, hoping to reclaim the glory of Majapahit! Will you  set out to conquer the neighboring kingdoms, further expanding the glory of your empire? Can you build a civilization that will stand the test of time?",
 			
 			"declaringWar": "Before this war ends, you will know the fury of a thousand ships.",
 			"attacked": "Finally! A worthy opponent! Our battle will be legendary!",
 			"defeated": "The dream of Nusantara is lost to the turning tide.",
-			"introduction": "I am Hayam Wuruk, King of Majapahit and leader of Nusantara. Who are you? What victories can you speak of?",
+			"introduction": "Welcome, seeker of majesty. I am Hayam Wuruk, ruler of Majapahit. What brings you to our shores?",
 			
 			"neutralHello": "Hello.",
 			"hateHello": "Shameless fool!",
 			"tradeRequest": "With this, we can be friends.",
 			
 			"outerColor": [121,  0,  2],
-			"innerColor": [235,225,138],
+			"innerColor": [234,225,158],
 			"uniqueName": "Nagarakretagama",
 			"uniques": ["[+50]% Strength <for [Land] units> <when fighting in [Coastal] tiles> <vs cities>", 
 						"Upon capturing a city, receive [5] times its [Gold] production as [Gold] immediately"],
@@ -332,8 +332,8 @@
 			"preferredVictoryType": "Scientific",
 			"favoredReligion": "Islam",
 
-			"startIntroPart1": ".",
-			"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+			"startIntroPart1": "May the blessings of God be upon you, revered leader of Banten, Sultan Ageng Tirtayasa! Nestled on the verdant shores of the Sunda Strait, Banten stands as a bastion of maritime might and cultural richness. As a visionary leader, you skillfully navigated the complexities of geopolitics, forging diplomatic ties that safeguarded your realm's interests. By leveraging its strategic location, you transformed Banten into a thriving trading hub that attracted ships from distant lands, continuing the Javanese tradition of long-distance trade. The bustling harbors and vibrant markets bore witness to the convergence of goods, ideas, and people, creating a mosaic of cultures that defined the essence of the sultanate.",
+			"startIntroPart2": "Great Sultan, your reign was the zenith of Banten's greatness. You extended Banten's rule to Landak in western Borneo, Lampung in Sumatra, and acquired the Cirebon area following the Mataram civil war. Will you, once again, seize the mantle of leadership and mold its destiny anew? Can you build a civilization that will stand the test of time?",
 			
 			"declaringWar": "As our protests are in vain, we hereby declare war.",
 			"attacked": "Our hearts will not tremble before your multitudes.",
@@ -819,18 +819,16 @@
 		
 	// The Philippines
 		
-		// Tondo
-		
 		// Sulu
 		{
 			"name": "Sulu",							// 1405 - 1915
-			"leaderName": "Jamalul Kiram",
+			"leaderName": "Jamalul Kiram I",
 			"adjective": ["Tausug"],
 			"startBias": ["Coast"],
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Islam",
 
-			"startIntroPart1": ".",
+			"startIntroPart1": "Stand proud, Jamalul Kiram I, the first of his name, sovereign ruler of the Sultanate of Sulu! Amidst the turquoise waters and coral isles of the Sulu Archipelago, your dynasty carved its name in history. Under your rule, the Sultanate of Sulu emerged as a maritime power, commanding trade routes and fostering cultural exchange in the Sulu Archipelago. Notorious for its so-called 'Moro Raids' or acts of piracy directed toward Spanish settlements, the sultanate managed to thwart Spanish attempts to subjugate the Moro people for centuries.",
 			"startIntroPart2": "Oh clever and virtuous Jamalul Kiram, will you rebuild Sulu and lead your people to even greater heights of glory? Will you take up the challenge and vanquish your foes under heaven's watchful eyes? Can you build a civilization that will stand the test of time?",
 
 			"declaringWar": "Your transgressions are as deep as oceans. Prepare for war!",
@@ -855,7 +853,7 @@
 		
 		// Manguindanao
 		{
-			"name": "Manguindanao",							// 1520–1928
+			"name": "Manguindanao",						// 1520–1928
 			"leaderName": "Kudarat",
 			"adjective": ["Manguindanaon"],
 			"startBias": ["Coast"],

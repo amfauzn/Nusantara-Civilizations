@@ -327,7 +327,7 @@
 	
 		// Sulu
 		{
-			"name": "Daru Jambangan",
+			"name": "Darul Jambangan",
 			"replaces": "Palace",
 			"uniqueTo": "Sulu",
 			"isNationalWonder": true,
@@ -343,6 +343,19 @@
 			"civilopediaText": [
 				{"text": "The palace of the Sultanate of Sulu based in Maimbung, Sulu. It was destroyed by a typhoon in 1932."},
 			]
+		},
+		
+		// The following just to make sure the update doesn't break old save
+		{
+			"name": "Daru Jambangan",
+			"uniqueTo": "Sulu",
+			"isNationalWonder": true,
+			"production": 1,
+			"cost": 1,
+			"uniques": ["Unbuildable", 
+						"Unsellable", 
+						"Will not be displayed in Civilopedia", 
+						"Destroyed when the city is captured"]
 		},
 		
 		// Manguindanao
