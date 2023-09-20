@@ -36,6 +36,50 @@
 		},
 		
 		// Malacca
+		{
+			"name": "Lancaran",
+			"unitType": "Melee Water",
+			"uniqueTo": "Malacca",
+			"replaces": "Caravel",
+			"movement": 4,
+			"strength": 20,
+			"cost": 120,
+			"requiredTech": "Compass",
+			"upgradesTo": "Ironclad",
+			"obsoleteTech": "Combustion",
+			"uniques": ["[+1] Sight", 
+						"May withdraw before melee ([80]%)", 
+						"Research Compass vs Astronomy", 
+						"Cannot enter ocean tiles <before discovering [Astronomy]>", 
+						"[+2] Movement <in [Coast] tiles>"],
+			"hurryCostModifier": 30,
+			"attackSound": "cannon"
+		},
+		{
+			"name": "Seri Bija Diraja",
+			"unitType": "Civilian",
+			"uniqueTo": "Malacca",
+			"replaces": "Great General",
+			"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", 
+						"[+15]% Strength bonus for [Military] units within [2] tiles",
+						"Can instantly construct a [Citadel] improvement <by consuming this unit>", 
+						"Can transform to [Laksamana]", 
+						"Great Person - [War]", 
+						"Unbuildable", 
+						"Uncapturable"],
+			"movement": 2
+		},
+		{
+			"name": "Laksamana",
+			"unitType": "Civilian Water",
+			"uniques": ["[+30]% Strength bonus for [{Military} {Water}] units within [2] tiles", 
+						"Can instantly construct a [Sea fort] improvement <by consuming this unit>", 
+						"Can transform to [Great General]", 
+						"Great Person - [Navy]", 
+						"Unbuildable", 
+						"Uncapturable",],
+			"movement": 6
+		}
 		
 		// Pagaruyung
 		{
@@ -302,7 +346,8 @@
 			"obsoleteTech": "Steel",
 			"requiredResource": "Iron",
 			"promotions": ["Headhunter"],
-			"uniques": ["Can move immediately once bought"],
+			"uniques": ["Cheaper to buy", 
+						"Can move immediately once bought"],
 			"hurryCostModifier": -33,
 			"attackSound": "metalhit"
 		},

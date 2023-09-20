@@ -38,3 +38,12 @@
 - Add Pagaruyung, Larantuka, and Manguindanao
 - Add translation template
 
+# v1.4 (20.09.2023)
+- Add Malacca
+- Buton
+	Add Coast as starting bias
+- Pagaruyung
+	UB Rumah Gadang cost 120 -> cost 110
+- Rename Banda Aceh -> Kutaraja
+
+

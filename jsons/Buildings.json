@@ -39,7 +39,7 @@
 			"name": "Rumah Gadang",
 			"replaces": "Amphitheater",
 			"uniqueTo": "Pagaruyung",
-			"cost": 120,
+			"cost": 110,
 			"culture": 4,
 			"food": 2,
 			"specialistSlots": {"Artist": 1},
