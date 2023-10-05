@@ -16,6 +16,32 @@
 			]
 		},
 		
+		// Batak
+		{
+			"name": "Bale Pasogit",
+			"replaces": "Shrine",
+			"uniqueTo": "Batak",
+			"faith": 1,
+			"cost": 40,
+			"maintenance": 1,
+			"requiredTech": "Pottery",
+			"uniques": ["Instantly gain 3 Faith and 3 Culture multiplied by owned Bale Pasogit", 
+						"Unsellable", 
+						"Hidden when religion is disabled"],
+			"civilopediaText": [
+				{"text": "A complex with Batak architecture (gorga) serves as a place of worship for Ugamo Malim followers (Parmalim). Parmalim holds the Sipaha Lima ritual once a year in the complex, a gratitude ceremony from the people for the good fortune, grace, and gifts that Debata Mulajadi na Bolon has bestowed upon them throughout the year. The timing of Sipaha Lima is determined by the Batak calendar known as parhalaan"},
+			]
+		},
+		{
+			"name": "BP counter",
+			"cost": 1,
+			"uniques": ["Only available <in cities with a [Bale Pasogit]>", 
+						"Automatically built in all cities where it is buildable", 
+						"Provides [1] [Parmalim]", 
+						"Destroyed when the city is captured", 
+						"Will not be displayed in Civilopedia"]
+		},
+		
 		// Jambi
 		{
 			"name": "Stone House",
@@ -216,6 +242,28 @@
 				{"text": "A traditional settlement in Bandar Seri Begawan, the capital of Brunei. It comprises neighbourhoods of traditional houses, schools and mosques built on stilts above the Brunei River near the capital's city centre."},
 			]
 		},
+		
+		// Lanfang
+		{
+			"name": "Zongting",
+			"replaces": "Forge",
+			"uniqueTo": "Lanfang",
+			"culture": 2,
+			"maintenance": 1,
+			"hurryCostModifier": 25,
+			"requiredNearbyImprovedResources": ["Iron","Gold Ore"],
+			"uniques": ["Research Guilds vs Metal Casting", 
+						"[+15]% Production when constructing [Spaceship part] units [in this city]",
+						"[+15]% Production when constructing [Land] units [in this city]",
+						"[+1 Production] from [Iron] tiles [in this city]", 
+						"[+1 Production] from [Gold Ore] tiles [in this city]", 
+						"[-15]% maintenance cost for buildings [in this city]"],
+			"requiredTech": "Guilds",
+			"civilopediaText": [
+				{"text": "The main body of the kongsi republics was the assembly hall (zongting), an assembly of delegates representing the constituent kongsi mining communities. The zongting exercised both executive and legislative functions."},
+			]
+		},
+		
 		
 		
 	// Sulawesi

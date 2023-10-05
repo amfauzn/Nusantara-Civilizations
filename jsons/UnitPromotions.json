@@ -1,5 +1,11 @@
 [
 	{
+		"name": "Spiritual Encouragement",
+		"uniques": ["+15% Strength bonus for Military units within 1 tiles", 
+					"Uncapturable", 
+					"Gain [50] [Faith] <upon being defeated>"]
+	},
+	{
 		"name": "Silent Strike",
 		"uniques": ["[+50]% Strength <when attacking> <with [50]% chance>"]
 	},
@@ -17,7 +23,7 @@
 	},
 	{
 		"name": "[Nabur Swordsman] ability",
-		"uniques": ["[+25]% Strength <when fighting in [Fresh water] tiles>"]
+		"uniques": ["[+25]% Strength <when fighting in [Fresh Water] tiles>"]
 	},
 	{
 		"name": "Headhunter",
@@ -44,9 +50,13 @@
 		"uniques": ["[+1] Movement <in [Hill] tiles>"]
 	},
 	{
+		"name": "[Salawaku Warrior] ability",
+		"uniques": ["May withdraw before melee ([33]%)"]
+	},
+	{
 		"name": "[Juanga] ability",
 		"uniques": ["[+15]% Strength <vs [Water] units>"]
-	}
+	},
 	{
 		"name": "Slave",
 		"uniques": ["Gain [35] [Gold] <by consuming this unit>"]

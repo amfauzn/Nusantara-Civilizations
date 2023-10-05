@@ -4,7 +4,7 @@
 		
 		// Aceh
 		{
-			"name": "Aceh",						// 1496 - 1903
+			"name": "Aceh",							// 1496 - 1903
 			"leaderName": "Iskandar Muda",
 			"adjective": ["Acehnese"],
 			"startBias": ["Coast"],
@@ -35,9 +35,72 @@
 			"spyNames": ["Fansuri","Thani","Jauhar ul-Alam","Syamsul","Meutia","Bereueh","Dhien","Keumala","Qory","Ichsan"]
 		},
 		
+		{
+			"name": "Batak",						// 1550 - 1878
+			"leaderName": "Sisingamangaraja XII",
+			"adjective": ["Batak"],
+			"startBias": ["Marsh","Lakes"],
+			"preferredVictoryType": "Cultural",
+
+			"startIntroPart1": "",
+			"startIntroPart2": "",
+
+			"declaringWar": "Pangulahonmu banta i, dung mulak ma bisi sasuduanki!", // We declare war on you, prepare for a fierce battle!
+			"attacked": "Ai boasa loak hian ho, nasotung pambahenonmi!", // What a fool are you, now  face the consequences!
+			"defeated": "Ahu Sisingamangaraja. Ahu Sisingamangaraja.",
+			"introduction": "Horas jala gabe ma dihita saluhutna! Ahu Sisingamangaraja, the defender of the Batak people. Why have you come before us?",
+			
+			"neutralHello": "Horas!",
+			"hateHello": "Bodat!",
+			"tradeRequest": "Greetings to you, sai anggo ma ho holan mangaluluihon ahu", // Greetings to you, let's talk about what you have to offer in this trade.
+
+			"outerColor": [202, 34, 33],
+			"innerColor": [250,210,210],
+			"uniqueName": "Punguan Parmalim",
+			"uniqueText": "+1 [Culture] from every Marsh \n+1 [Culture] from every Farm adjacent to Fresh water",
+			"uniques": ["[+1 Culture] from every [Marsh]", 
+						"[+1 Culture] from [Farm] tiles [in all cities] <in [River] tiles>", 
+						"[+1 Culture] from [Farm] tiles [in all cities] <with [1] to [6] neighboring [Oasis] tiles>", 
+						"[Faith] cost of purchasing [Malim] units [-10]%", // Malim cost reduction
+						"[+15]% Strength <for [Military] units> <when adjacent to a [Malim] unit>", // Malim bonus
+						"Gain [3] [Faith] <upon constructing [Bale Pasogit]> <when below [1] [Parmalim]>", 
+						"Gain [6] [Faith] <upon constructing [Bale Pasogit]> <when above [0] [Parmalim]> <when below [2] [Parmalim]>", 
+						"Gain [9] [Faith] <upon constructing [Bale Pasogit]> <when above [1] [Parmalim]> <when below [3] [Parmalim]>", 
+						"Gain [12] [Faith] <upon constructing [Bale Pasogit]> <when above [2] [Parmalim]> <when below [4] [Parmalim]>", 
+						"Gain [15] [Faith] <upon constructing [Bale Pasogit]> <when above [3] [Parmalim]> <when below [5] [Parmalim]>", 
+						"Gain [18] [Faith] <upon constructing [Bale Pasogit]> <when above [4] [Parmalim]> <when below [6] [Parmalim]>", 
+						"Gain [21] [Faith] <upon constructing [Bale Pasogit]> <when above [5] [Parmalim]> <when below [7] [Parmalim]>", 
+						"Gain [24] [Faith] <upon constructing [Bale Pasogit]> <when above [6] [Parmalim]> <when below [8] [Parmalim]>", 
+						"Gain [27] [Faith] <upon constructing [Bale Pasogit]> <when above [7] [Parmalim]> <when below [9] [Parmalim]>", 
+						"Gain [30] [Faith] <upon constructing [Bale Pasogit]> <when above [8] [Parmalim]> <when below [10] [Parmalim]>", 
+						"Gain [33] [Faith] <upon constructing [Bale Pasogit]> <when above [9] [Parmalim]> <when below [11] [Parmalim]>", 
+						"Gain [36] [Faith] <upon constructing [Bale Pasogit]> <when above [10] [Parmalim]> <when below [12] [Parmalim]>", 
+						"Gain [39] [Faith] <upon constructing [Bale Pasogit]> <when above [11] [Parmalim]> <when below [13] [Parmalim]>", 
+						"Gain [42] [Faith] <upon constructing [Bale Pasogit]> <when above [12] [Parmalim]> <when below [14] [Parmalim]>", 
+						"Gain [45] [Faith] <upon constructing [Bale Pasogit]> <when above [13] [Parmalim]>", 
+						"Gain [3] [Culture] <upon constructing [Bale Pasogit]> <when below [1] [Parmalim]>", 
+						"Gain [6] [Culture] <upon constructing [Bale Pasogit]> <when above [0] [Parmalim]> <when below [2] [Parmalim]>", 
+						"Gain [9] [Culture] <upon constructing [Bale Pasogit]> <when above [1] [Parmalim]> <when below [3] [Parmalim]>", 
+						"Gain [12] [Culture] <upon constructing [Bale Pasogit]> <when above [2] [Parmalim]> <when below [4] [Parmalim]>", 
+						"Gain [15] [Culture] <upon constructing [Bale Pasogit]> <when above [3] [Parmalim]> <when below [5] [Parmalim]>", 
+						"Gain [18] [Culture] <upon constructing [Bale Pasogit]> <when above [4] [Parmalim]> <when below [6] [Parmalim]>", 
+						"Gain [21] [Culture] <upon constructing [Bale Pasogit]> <when above [5] [Parmalim]> <when below [7] [Parmalim]>", 
+						"Gain [24] [Culture] <upon constructing [Bale Pasogit]> <when above [6] [Parmalim]> <when below [8] [Parmalim]>", 
+						"Gain [27] [Culture] <upon constructing [Bale Pasogit]> <when above [7] [Parmalim]> <when below [9] [Parmalim]>", 
+						"Gain [30] [Culture] <upon constructing [Bale Pasogit]> <when above [8] [Parmalim]> <when below [10] [Parmalim]>", 
+						"Gain [33] [Culture] <upon constructing [Bale Pasogit]> <when above [9] [Parmalim]> <when below [11] [Parmalim]>", 
+						"Gain [36] [Culture] <upon constructing [Bale Pasogit]> <when above [10] [Parmalim]> <when below [12] [Parmalim]>", 
+						"Gain [39] [Culture] <upon constructing [Bale Pasogit]> <when above [11] [Parmalim]> <when below [13] [Parmalim]>", 
+						"Gain [42] [Culture] <upon constructing [Bale Pasogit]> <when above [12] [Parmalim]> <when below [14] [Parmalim]>", 
+						"Gain [45] [Culture] <upon constructing [Bale Pasogit]> <when above [13] [Parmalim]>"],
+			"cities": ["Bakkara","Samosir","Dolok Sanggul","Kabanjahe","Berastagi","Merek","Pangururan","Siallagan","Sigulatti","Tomok",
+				"Parapat","Pematangsiantar","Sidamanik","Balige","Parmonangan"],
+			"spyNames": ["Pandjaitan","Hutapea","Simatupang","Situmorang","Nasution","Nainggolan","Munte","Manik","Ginting","Hasibuan"]
+		},
+		
 		// Jambi
 		{
-			"name": "Jambi",					// 1615–1904
+			"name": "Jambi",						// 1615–1904
 			"leaderName": "Kedah",
 			"adjective": ["Jambinese"],
 			"startBias": ["Grassland","Forest"],
@@ -68,7 +131,7 @@
 		
 		// Malacca
 		{
-			"name": "Malacca",					// 1400–1511
+			"name": "Malacca",						// 1400–1511
 			"leaderName": "Mansur Shah",
 			"adjective": ["Malaccan"],
 			"startBias": ["Coast"],
@@ -123,7 +186,7 @@
 		
 		// Pagaruyung
 		{
-			"name": "Pagaruyung",						// 1347–1825
+			"name": "Pagaruyung",					// 1347–1825
 			"leaderName": "Puti Jamilan",
 			"adjective": ["Minang"],
 			"startBias": ["Hill"],
@@ -147,7 +210,7 @@
 			"uniqueName": "Minang Homeland",
 			"uniques": ["Double quantity of [Gold Ore] produced", 
 						"Double quantity of [Silver] produced", 
-						"[Great Merchant] is earned [33]% faster"],
+						"[Great Merchant] is earned [50]% faster"],
 			"cities": ["Pagaruyung","Padang","Bukittinggi","Buo","Tiku","Pariaman","Sumpur Kudus","Sungai Tarab","Payakumbuh","Sumanik",
 				"Suruaso","Batipuh","Solok","Padang Panjang","Sawah Lunto"],
 			"spyNames": ["Hatta","Koto","Piliang","Caniago","Jambak","Yamin","Tanjung","Adityawarman","Fatmawati","Irma"]
@@ -155,7 +218,7 @@
 		
 		// Siak
 		{
-			"name": "Siak",					// 1723 - 1945
+			"name": "Siak",							// 1723 - 1945
 			"leaderName": "Sayyid Ali",
 			"adjective": ["Siak"],
 			"startBias": ["Coast"],
@@ -177,14 +240,16 @@
 			"outerColor": [ 4, 144, 95],
 			"innerColor": [253,245,155],
 			"uniqueName": "The Colony of 12",
-			"uniqueText": "+50% [Production] when constructing Lighthouse, Harbor, and Seaport\n+2 [Gold] from every Lighthouse, Harbor, and Seaport\n+10% [Gold] in cities with a Lighthouse, Harbor, and Seaport",
+			"uniqueText": "+50% [Production] when constructing Lighthouse, Harbor, and Seaport \n+2 [Gold] from every Lighthouse, Harbor, and Seaport \n+5% [Gold] in cities with a Lighthouse, increased to +10% with Harbor, and +15% with Seaport",
 			"uniques": ["[+50]% Production when constructing [Lighthouse] buildings [in all cities]", 
 						"[+50]% Production when constructing [Harbor] buildings [in all cities]", 
 						"[+50]% Production when constructing [Seaport] buildings [in all cities]", 
 						"[+2 Gold] from every [Lighthouse]", 
 						"[+2 Gold] from every [Harbor]", 
 						"[+2 Gold] from every [Seaport]", 
-						"[+10]% [Gold] [in all cities] <in cities with a [Lighthouse]> <in cities with a [Harbor]> <in cities with a [Seaport]>"],
+						"[+5]% [Gold] [in all cities] <in cities with a [Lighthouse]>", 
+						"[+10]% [Gold] [in all cities] <in cities with a [Lighthouse]> <in cities with a [Harbor]>", 
+						"[+15]% [Gold] [in all cities] <in cities with a [Lighthouse]> <in cities with a [Harbor]> <in cities with a [Seaport]>"],
 			"cities": ["Buantan","Mempura","Pekanbaru","Bengkalis","Kampar","Dumai","Kubu","Bangko","Tanah Putih","Pelalawan",
 				"Meranti","Indragiri","Kota Pinang","Pagarawan","Batubara","Bedagai","Kualuh","Panai","Bilah","Asahan",
 				"Serdang","Langkat","Binjai","Temiang","Deli"],
@@ -193,7 +258,7 @@
 		
 		// Srivijaya
 		{
-			"name": "Srivijaya",				// 670–1025
+			"name": "Srivijaya",					// 670–1025
 			"leaderName": "Balaputradewa",
 			"adjective": ["Srivijayan"],
 			"startBias": ["Forest"],
@@ -230,7 +295,7 @@
 	
 		// Tarumanagara
 		{
-			"name": "Tarumanagara",						// 358–669
+			"name": "Tarumanagara",					// 358–669
 			"leaderName": "Purnawarman",
 			"adjective": ["Tarumanagaran"],
 			"startBias": ["Fresh Water"],
@@ -284,7 +349,7 @@
 			"outerColor": [ 79, 73, 6],
 			"innerColor": [255,233,23],
 			"uniqueName": "Javanese Art Center",
-			"uniques": ["Receive free [Great Artist] when you discover [Theology]",
+			"uniques": ["Free [Great Artist] appears <upon discovering [Theology]>",
 						"[+25]% Production when constructing [All] wonders [in all cities] <during the [Classical era]>",
 						"[+25]% Production when constructing [All] wonders [in all cities] <during the [Medieval era]>"],
 			"cities": ["Mataram Kuno","Mamratipura","Magelang","Klaten","Solo","Salatiga","Semarang","Purworejo","Wonosobo","Temanggung",
@@ -296,7 +361,7 @@
 		
 		// Bali
 		{
-			"name": "Bali",					// 914 - 1686
+			"name": "Bali",							// 914 - 1686
 			"leaderName": "Baturenggong",
 			"adjective": ["Balinese"],
 			"startBias": ["Coast"],
@@ -318,22 +383,15 @@
 			"outerColor": [ 28,51,119],
 			"innerColor": [225,225,20],
 			"uniqueName": "Puputan",
-			"uniqueText": "+33% Strength for Land units when below 40 HP\nUpon constructing [Faith] buildings/wonders, Gain 2 times [Faith] and [Culture] equal to the building's [Faith] output",
+			"uniqueText": "+33% Strength for Land units when below 40 HP \nGain 15% of [Faith] building/worder's production cost as [Culture]",
 			"uniques": ["[+33]% Strength <for [Land] units> <when below [40] HP>", 
-						"Gain [2] [Faith] <upon constructing [Shrine]>", 
-						"Gain [2] [Culture] <upon constructing [Shrine]>", 
-						"Gain [4] [Faith] <upon constructing [Temple]>", 
-						"Gain [4] [Culture] <upon constructing [Temple]>", 
-						"Gain [16] [Faith] <upon constructing [Grand Temple]>", 
-						"Gain [16] [Culture] <upon constructing [Grand Temple]>", 
-						"Gain [10] [Faith] <upon constructing [Stonehenge]>", 
-						"Gain [10] [Culture] <upon constructing [Stonehenge]>", 
-						"Gain [6] [Faith] <upon constructing [Hagia Sophia]>", 
-						"Gain [6] [Culture] <upon constructing [Hagia Sophia]>", 
-						"Gain [6] [Faith] <upon constructing [Great Mosque of Djenne]>", 
-						"Gain [6] [Culture] <upon constructing [Great Mosque of Djenne]>", 
-						"Gain [8] [Faith] <upon constructing [Notre Dame]>", 
-						"Gain [8] [Culture] <upon constructing [Notre Dame]>"],
+						"Gain [6] [Culture] <upon constructing [Shrine]>", 
+						"Gain [15] [Culture] <upon constructing [Temple]>", 
+						"Gain [28] [Culture] <upon constructing [Grand Temple]>", 
+						"Gain [28] [Culture] <upon constructing [Stonehenge]>", 
+						"Gain [45] [Culture] <upon constructing [Hagia Sophia]>", 
+						"Gain [45] [Culture] <upon constructing [Great Mosque of Djenne]>", 
+						"Gain [60] [Culture] <upon constructing [Notre Dame]>"],
 			"cities": ["Gelgel","Klungkung","Bedulu","Samprangan","Buleleng","Karangasem","Mengwi","Badung","Tabanan",
 				"Gianyar","Bangli","Jembrana","Denpasar","Susut","Ubud","Marga","Pekutatan","Bebandem","Nusa Penida",
 				"Petang","Tempuku","Kubutumbahan","Tampaksiring","Nagara","Selemadeg"],
@@ -342,7 +400,7 @@
 		
 		// Majapahit
 		{
-			"name": "Majapahit",						// 1293–1527
+			"name": "Majapahit",					// 1293–1527
 			"leaderName": "Hayam Wuruk",
 			"adjective": ["Javanese"],
 			"startBias": ["Coast"],
@@ -445,7 +503,7 @@
 	
 		// Kutai
 		{
-			"name": "Kutai",			/// 399 - 1635 as Hindu, 1300–1844 as Islam
+			"name": "Kutai",						/// 399 - 1635 as Hindu, 1300–1844 as Islam
 			"leaderName": "Mulavarman",
 			"adjective": ["Dayak Lawangan"],
 			"startBias": ["Jungle"],
@@ -537,6 +595,37 @@
 			"spyNames": ["Kasuma","Sofyan","Ramlan","Antasari","Khairul","Hanafiah","Yusran","Basoeni","Djazouli","Yusliani"]
 		},
 		
+		// Lanfang Republic
+		{
+			"name": "Lanfang",						// 1777 - 1884
+			"leaderName": "Luo Fangbo",
+			"adjective": ["Lanfangren"],
+			"preferredVictoryType": "Diplomatic",
+			"favouredReligion": "Taoism",
+
+			"startIntroPart1": "Greetings to you, Luo Fangbo, enlightened traveler, and the pioneer of the democratic way of life! You are the elected leader of the Lanfang Republic, a remarkable testament to human ambition and cooperation. Born in the 18th century on the island of Borneo, it was a unique experiment in self-governance, considered one of the earliest modern republics in the world, predating the establishment of the United States as a republic by more than a decade. Lanfang was founded as a haven for Chinese immigrants who sought a better life and the opportunity to work together in harmony, far from the upheavals of their homeland.",
+			"startIntroPart2": "President Luo, the world needs your example and wisdom now more than ever! The people have spoken, and once again, you are to lead them into a new era of multicultural harmony. Can you, as you have in the past, protect the interests of the people? Can you build a civilization that will stand the test of time?",
+
+			"declaringWar": "Ling tiou! Sa du ling bu?", // Prepare for battle! Do you dare to challenge us?
+			"attacked": "We will bear the sword of freedom in defiance of you!",
+			"defeated": "So this is how liberty dies.",
+			"introduction": "Huan ying ni, peng you! (Welcome, friend!) What brings you to the Republic of Lanfang? Are you interested in our system of government?",
+			
+			"neutralHello": "Ni hao!",
+			"hateHello": "Who?",
+			"tradeRequest": "Let us discuss opportunities for cooperation.",
+
+			"outerColor": [243,240,14],
+			"innerColor": [ 50, 50,39],
+			"uniqueName": "Kongsi Federation",
+			"uniques": ["[+1 Gold] from every [Mine]", 
+						"[+1 Gold] from every [Quarry]"],
+			"cities": ["Dong Wan Li","Pontianak","Sungai Raya","Ketapang","Sanggau","Sintang","Ngabang","Mempawah","Putussibau","Bengkayang",
+				"Singkawang","Sekadau","Nanga Pinoh","Sukadana","Pahuman","Sungaipinyuh","Jungkat","Rasau","Sungaiduri","Pemali"],
+			"spyNames": ["Jiang","Yan","Song","Liu","Liubo","Xie","Tenghui","Ganxing","Asheng","Ah Sin"]
+
+		},
+		
 		// Sarawak
 		{
 			"name": "Sarawak", 						// 1841 - 1946
@@ -558,7 +647,7 @@
 			"tradeRequest": "Greetings. Would you be interested in this trade agreement?",
 			
 			"outerColor": [210,63,63],
-			"innerColor": [0,45,85],
+			"innerColor": [  0,45,85],
 			"uniqueName": "White Rajah",
 			"uniques": ["[+1 Production, +1 Gold] from every [Coal]", 
 						"Double quantity of [Coal] produced", 
@@ -758,7 +847,7 @@
 			"outerColor": [ 65, 54, 42],
 			"innerColor": [225,190,190],
 			"uniqueName": "La Galigo",
-			"uniques": ["Receive free [Great General] when you discover [Philosophy]", 
+			"uniques": ["Free [Great General] appears <upon discovering [Philosophy]>", 
 						"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>"],
 			"cities": ["Palopo","Bua","Ponrang","Bassesang Tempe","Bajo","Belopa","Latimojong","Suli","Walenrang","Lamasi",
 				"Larompong","Masambe","Seko","Malili","Sidenreng Rappang","Pinrang","Wajo","Poso","Sigi","Mamuju",

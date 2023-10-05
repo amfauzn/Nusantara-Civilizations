@@ -41,7 +41,6 @@ Any icons not listed below are self made with Paint 3D.
 ## Borneo
 - [Horse](https://thenounproject.com/icon/horse-1023745/) by Bakunetsu Kaito
 - [Stone inscription](https://thenounproject.com/icon/stone-inscription-4704020/) by Hey Rabbit. Modified
-- [The Leopard](https://thenounproject.com/icon/the-leopard-342706/) by nicomo
 - [Palace](https://thenounproject.com/icon/palace-4734191/) by Lia Rahdiah
 - [palace of parlianment](https://thenounproject.com/icon/palace-of-parliament-4009207/) by Vector Portal
 - [Town](https://thenounproject.com/icon/town-631486/) by Hamish
@@ -68,7 +67,6 @@ Any icons not listed below are self made with Paint 3D.
 - [Spear](https://thenounproject.com/icon/spear-3930031/) by Firza Alamsyah, ID
 - [coconut](https://thenounproject.com/icon/coconut-2094460/) by Nook Fulloption, TH
 - [Community](https://thenounproject.com/icon/community-2326294/) by designer expert
-- [Rooster](https://thenounproject.com/icon/rooster-1159553/) by Mr Balind, ID
 - [Cannon](https://thenounproject.com/icon/cannon-1599554/) by sandra. Modified
 - [Ship](https://thenounproject.com/icon/ship-1017575/) by leo-graph.com, IN
 - [Lotus](https://thenounproject.com/icon/lotus-2011976/) by dhul, ID

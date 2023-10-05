@@ -3,7 +3,8 @@ Add polity, kingdoms and sultanate from Nusantara (Indonesia, Malaysia, Singapor
 -
 
 ## Sumatra and Malay Peninsula
-![](/extraImages/Sumatra%20and%20Malay%20Peninsula.png)
+![](/extraImages/Sumatra%20and%20Malay%20Peninsula%20A.png)
+![](/extraImages/Sumatra%20and%20Malay%20Peninsula%20B.png)
 
 ## Java and Bali
 ![](/extraImages/Java%20and%20Bali.png)

@@ -44,6 +44,16 @@
 	Add Coast as starting bias
 - Pagaruyung
 	UB Rumah Gadang cost 120 -> cost 110
-- Rename Banda Aceh -> Kutaraja
 
-
+# v1.5 (05.10.2023)
+- Add Batak & Lanfang
+- Pagaruyung
+	UA Great Merchant earned 33% faster -> 50% fater
+- Siak
+	UA +10% Gold in cities with a Lighthouse, Harbor, and Seaport -> +5% Gold in cities with a Lighthouse, increased to +10% with Harbor, and +15% with Seaport
+- Bali
+	UA Gain 2 Faith and Culture multiplied by building/wonder's Faith output -> nGain 15% of Faith building/worder's production cost as Culture
+- Banjar
+	UU Remove Ignores Zone of Control
+- Manguindanao
+	Uu Remove foreign religion 1 times -> 2 times

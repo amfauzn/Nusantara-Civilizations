@@ -21,5 +21,13 @@
 					"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>"],
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	}, 
+	
+	// Unique resources
+	{
+		"name": "Parmalim",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
+					"Cannot be traded"]
 	}
 ]
