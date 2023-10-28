@@ -77,10 +77,10 @@ Any icons not listed below are self made with Paint 3D.
 ## lesser Sunda, Maluku, and Papua
 - [Barcelona cathedral](https://thenounproject.com/icon/barcelona-cathedral-752630/) by abeldb, ES
 - [stingray](https://thenounproject.com/icon/stingray-1078139/) by Laymik
-- [Viking](https://thenounproject.com/icon/viking-4509240/) by Vectorstall
 - [Ship](https://thenounproject.com/icon/ship-3863477/) by Andrejs Kirma. Modified
 - [pattern](https://thenounproject.com/icon/pattern-8749/) by Mike Rowe. Modified
 - [Ship](https://thenounproject.com/icon/ship-1445537/) by yanti anis
+- [Viking](https://thenounproject.com/icon/viking-4509240/) by Vectorstall
 - Icon of Larantuka by hyunamae AKA Kāne
 
 ## The Philippines

@@ -274,7 +274,7 @@
 			"introduction": "You stand before Balaputradewa of Srivijaya, emperor of Malay kingdoms and protector of the realm. Do not be afraid… I am good to my friends.",
 			
 			"neutralHello": "Good day.",
-			"hateHello": "What do YOU want?!",
+			"hateHello": "Kampang!",
 			"tradeRequest": "Better hurry, this offer won't be valid for a long time.",
 			
 			"outerColor": [196,161,192],
@@ -343,7 +343,7 @@
 			"introduction": "Goodness to all of us, my name is Dyah Pañcapaṇa, maybe you know me better as Rakai Panangkaran.",
 			
 			"neutralHello": "Welcome.",
-			"hateHello": "What do you want?",
+			"hateHello": "Asu Raimu!",
 			"tradeRequest": "It doesn't matter how much I give, this offer comes from the heart",
 			
 			"outerColor": [ 79, 73, 6],
@@ -482,7 +482,7 @@
 			"introduction": "Let it be known between us- I, Sultan Agung, will repay treachery with blood! But, if you are a true friend, we will have peace."
 			
 			"neutralHello": "Sugeng rawuh.",
-			"hateHello": "Speak!",
+			"hateHello": "Heh ndlogok!",
 			"tradeRequest": "This agreement, will you accept it?",
 			
 			"outerColor": [109,211,255],
@@ -582,7 +582,7 @@
 			"introduction": "May God bless us, I am Sultan Hidayatullah of Banjar.",
 			
 			"neutralHello": "Salam.",
-			"hateHello": "What do you want?",
+			"hateHello": "Si bungul!",
 			"tradeRequest": "I offer this, for your consideration.",
 			
 			"outerColor": [146,221,9],
@@ -682,7 +682,7 @@
 			
 			"outerColor": [  4,144,95],
 			"innerColor": [249,249,20],
-			"uniqueName": "Social Stratification",
+			"uniqueName": "Bond and Oath",
 			"uniques": ["[+2 Culture] [in capital]", 
 						"[+1 Happiness, +1 Culture] [in all cities with a garrison]"],
 			"cities": ["Bolaang","Mongondow","Bumbungon","Itang","Kaidipang","Gunung Babo","Kotobangon","Siauw","Kotamobagu","Tudu im Bakid",
@@ -771,10 +771,10 @@
 			"declaringWar": "By the grace of God, your days are numbered.",
 			"attacked": "Oh well, I presume you know what you're doing.",
 			"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
-			"introduction": "Welcome foreigner, I am Ilahudu, unifier of Gorontalo.",
+			"introduction": "Leengahu lodunggaaya wo lanto. Paladu lo’aawota, I am Ilahudu, unifier of Gorontalo.", // Pleased to meet you. Let me introduce myself, I am Ilahudu, unifier of Gorontalo
 			
-			"neutralHello": "Salam.",
-			"hateHello": "What do you want?!",
+			"neutralHello": "Wolo habali?",
+			"hateHello": "Tinggolopu mujelas!",
 			"tradeRequest": "Come forth, let's do business.",
 
 			"outerColor": [61, 0, 109],
@@ -918,8 +918,10 @@
 			"outerColor": [  0,  7,201],
 			"innerColor": [225,225,225],
 			"uniqueName": "Uli Lima",
-			"uniques": ["[+50]% Production when constructing [Water] units [in all coastal cities]"
-						"Enables [All] units to enter ocean tiles <after discovering [Optics]>"],
+			"uniqueText": "+50% [Production] when constructing [Water] units \nEnables All units to enter ocean tiles after discovering [Optics]",
+			"uniques": ["[+50]% Production when constructing [Water] units [in all cities]"
+						"Enables [All] units to enter ocean tiles <after discovering [Optics]>", 
+						"[+33]% Production when constructing [Albahdir] units [in capital]"],
 			"cities": ["Ternate","Jailolo","Loloda","Makian","Sula","Talaud","Sitaro","Sanana","Moro","Western Seram",
 				"Gorontalo","Bolaang Mongondow","Sausu","Donggala","Banggai","Muna","Sikka","Ende","Bima","Tambora", "Marshall Island"],
 			"spyNames": ["Hanavi Hehanusa","Elly Manuhatu","Das Alwi","Ferni Lestusen","Sonny Hiariej","Erwin Pical","Andre Latuharhary","Debby Lilipaly","Umar Pattikawa","Rian Sahetapy"]
