@@ -588,7 +588,7 @@
 			"cost": 90,
 			"requiredTech": "Civil Service",
 			"uniques": ["Trained 33% faster in capital", 
-						"[+20]% Strength <vs [Melee] units>"],
+						"[+25]% Strength <vs [Melee] units>"],
 			"upgradesTo": "Musketman",
 			"obsoleteTech": "Metallurgy",
 			"attackSound": "metalhit"
