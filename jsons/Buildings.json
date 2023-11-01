@@ -1,4 +1,19 @@
 [
+	// Common Building
+		{
+			"name": "Stable",
+			"maintenance": 1,
+			"requiredNearbyImprovedResources": ["Cattle","Horses","Sheep","Water Buffalo"],
+			"hurryCostModifier": 25,
+			"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]", 
+					"[+1 Production] from [Cattle] tiles [in this city]", 
+					"[+1 Production] from [Horses] tiles [in this city]", 
+					"[+1 Production] from [Sheep] tiles [in this city]", 
+					"[+1 Production] from [Water Buffalo] tiles [in this city]"],
+			"requiredTech": "Horseback Riding"
+		},
+	
+	
 	// Sumatra and Malay Peninsula
 		
 		// Aceh
