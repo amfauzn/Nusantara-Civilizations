@@ -12,7 +12,7 @@ Not every polity in Nusantara will become a separate civilization. Some of them 
 - The Philippines (Mindanao and Visayas)
 
 ### Mandala
-The mandala is a model for describing the patterns of diffuse political power in Southeast Asian history, when local power was more important than the central leadership. It is employed to denote traditional Southeast Asian political formations, such as federation of kingdoms or vassalized polity under a center of domination.
+The mandala is a model for describing the patterns of diffuse political power in Southeast Asian history, when local power was more important than the central leadership. It is employed to denote traditional Southeast Asian political formations, such as federation of kingdoms or vassalized polity under a center of domination. (Think of it as an empire).
 - Srivijaya    
 - Medang (Mataram)
 - Majapahit
@@ -20,7 +20,7 @@ The mandala is a model for describing the patterns of diffuse political power in
 - Luwu (Luwuq/Wareq)
 - Gowa-Tallo (Makassar)
 - Cebu (planned)
-Notes: Kadiri (Kediri/Panjalu) and Singhasari are also a Mandala. Currently, they're a City-state
+- Notes: Kadiri (Kediri/Panjalu) and Singhasari are also a Mandala. Currently, they're a City-state
 
 ### Regional Powers
 Regional powers are a sovereign polity that exercises significant power within a given geographical region. Polity that wield unrivaled power and influence within a region possess regional hegemony.

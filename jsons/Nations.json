@@ -760,7 +760,7 @@
 		{
 			"name": "Gorontalo",				/// 1300 - 1878
 			"leaderName": "Ilahudu",
-			"adjective": ["Gorontalo"],
+			"adjective": ["Gorontalese"],
 			"startBias": ["Hill","Mountain"],
 			"preferredVictoryType": "Diplomatic",
 			"favoredReligion": "Islam",
