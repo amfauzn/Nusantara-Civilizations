@@ -14,7 +14,7 @@
 		"uniques": ["[+15] HP when healing <in [Enemy Land] tiles>"]
 	},
 	{
-		"name": "[Bedil] ability",
+		"name": "[Pambedil] ability",
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"]
 	},
 	{
@@ -47,7 +47,12 @@
 	},
 	{
 		"name": "[Huwangga] ability",
-		"uniques": ["[+1] Movement <in [Hill] tiles>"]
+		"uniques": ["Double movement in [Hill]"]
+	},
+	{
+		"name": "Landing Party",
+		"uniques": ["Eliminates combat penalty for attacking across a coast"],
+		"unitTypes": ["Melee Water"],
 	},
 	{
 		"name": "[Salawaku Warrior] ability",
@@ -59,7 +64,7 @@
 	},
 	{
 		"name": "Slave",
-		"uniques": ["Gain [35] [Gold] <by consuming this unit>"]
+		"uniques": ["Gain [35] [Gold] (modified by game speed) <by consuming this unit>"]
 	},
 	{
 		"name": "Apologetics",

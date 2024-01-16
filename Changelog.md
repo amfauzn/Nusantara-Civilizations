@@ -35,7 +35,7 @@
 	UI Kotta mara -> UI Floating Market
 - Bolaang Mongondow
 	UB Sigi -> UU Bogani
-- Add Pagaruyung, Larantuka, and Manguindanao
+- Add Pagaruyung, Larantuka, and Maguindanao
 - Add translation template
 
 # v1.4 (20.09.2023)
@@ -55,5 +55,40 @@
 	UA Gain 2 Faith and Culture multiplied by building/wonder's Faith output -> nGain 15% of Faith building/worder's production cost as Culture
 - Banjar
 	UU Remove Ignores Zone of Control
-- Manguindanao
+- Maguindanao
 	Uu Remove foreign religion 1 times -> 2 times
+	
+# v1.6 (16.01.2024)
+- Malacca
+	UA +1 Faith from every Coast -> +1 Faith in all coastal cities
+- Pagaruyung
+	UB building cost now same as normal Amphiteater
+- Srivijaya
+	UU Change Karambit Warrior -> Borobudur Ship
+- Medang
+	UA rework
+	UB rework
+	UU Change Banawa -> Silpin
+- Banten
+	UA Gain a free Tasikardi in capital
+- Lanfang
+	Sinicization some city names
+	UB can now be built either in holy cities or in capital
+- Gorontalo
+	UU +1 Movement in Hill -> Double Movement in Hill
+- Ternate
+	UU Change Salawaku Warrior -> Albahdir
+- Tidore
+	UA +10% Gold in coastal cities -> +1 Happiness in coastal cities
+	UA +5% Science in coastal cities -> +2% Science for each coastal cities, up to +15%
+	UU Juanga now replaces Galleass
+- Sulu
+	UA Selling Worker now modified by game speed
+- Maguindanao
+	UB Change Palengke -> Torogan
+	Uu Ability to remove foreign religion -> Can be purchased with Faith
+- New Civ: Cebu
+- Fix Laksamana appears on Free Great Person picker window
+- FIx Siak's UA
+- Bonus resource Water Buffalo
+- Now support HexaRealm style for unit sprite (only land units)

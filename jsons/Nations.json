@@ -107,8 +107,8 @@
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Islam",
 
-			//"startIntroPart1": "Hail mighty Bismarck, first chancellor of Germany and her empire! Germany is an upstart nation, fashioned from the ruins of the Holy Roman Empire and finally unified in 1871, a little more than a century ago. The German people have proven themselves to be creative, industrious and ferocious warriors. Despite enduring great catastrophes in the first half of the 20th century, Germany remains a worldwide economic, artistic and technological leader.",
-			//"startIntroPart2": "Great Prince Bismarck, the German people look up to you to lead them to greater days of glory. Their determination is strong, and now they turn to you, their beloved iron chancellor, to guide them once more. Will you rule and conquer through blood and iron, or foster the Germanic arts and industry? Can you build a civilization that will stand the test of time?",
+			"startIntroPart1": "",
+			"startIntroPart2": "",
 			
 			"declaringWar": "The world will be more beautiful without you. Prepare for war.",
 			"attacked": "Recourse to war is regrettable, but necessary, when dealing with vipers like you.",
@@ -153,7 +153,7 @@
 			"outerColor": [ 21, 34, 78],
 			"innerColor": [251,236,127],
 			"uniqueName": "Undang-Undang Laut Melaka",
-			"uniqueText": "+50% yields from Improvement on Coastal tiles except Great Improvement\n +2 [Gold] per each type of Luxury resource owned\n +1 [Faith] from every Coast",
+			"uniqueText": "+50% yields from Improvement on Coastal tiles except Great Improvement\n +2 [Gold] per each type of Luxury resource owned\n +1 [Faith] in all coastal cities",
 			"uniques": ["[+50]% Yield from every [Improvement] <in [Coastal] tiles> ", 
 						"[+2 Gold] <with [Citrus]>", 
 						"[+2 Gold] <with [Copper]>", 
@@ -177,7 +177,7 @@
 						"[+2 Gold] <with [Whales]>", 
 						"[+2 Gold] <with [Jewelry]>", 
 						"[+2 Gold] <with [Porcelain]>", 
-						"[+1 Faith] from every [Coast]"],
+						"[+1 Faith] [in all coastal cities]"],
 			"cities": ["Malacca", "Singapura", "Maur", "Ujong Tanah", "Bintan", "Pattani", "Kuantan", "Rokan", "Kelantan", "Kuala Terengganu", 
 				"Buantan", "Rengat", "Indragiri", "Penang", "Perlis", "Alor Seta", "Singora", "Selangor", "Perak", "Langkasuka"],
 			"spyNames": ["Iskandar","Megat","Muzaffar","Alauddin Riayat","Mahmud","Ermieyati","Redzuan","Tuah","Jebat","Kasturi"]
@@ -188,7 +188,7 @@
 		{
 			"name": "Pagaruyung",					// 1347–1825
 			"leaderName": "Puti Jamilan",
-			"adjective": ["Minang"],
+			"adjective": ["Minangkabau"],
 			"startBias": ["Hill"],
 			"preferredVictoryType": "Diplomatic",
 			"favoredReligion": "Islam",
@@ -220,7 +220,7 @@
 		{
 			"name": "Siak",							// 1723 - 1945
 			"leaderName": "Sayyid Ali",
-			"adjective": ["Siak"],
+			"adjective": ["Siak"], // Malay Siak
 			"startBias": ["Coast"],
 			"preferredVictoryType":"Diplomatic",
 			"favoredReligion": "Islam",
@@ -260,8 +260,8 @@
 		{
 			"name": "Srivijaya",					// 670–1025
 			"leaderName": "Balaputradewa",
-			"adjective": ["Srivijayan"],
-			"startBias": ["Forest"],
+			"adjective": ["Srivijayan"], // Malay Palembang
+			"startBias": ["Forest","Coast"],
 			"preferredVictoryType": "Domination",
 			"favoredReligion": "Buddhism",
 
@@ -297,7 +297,7 @@
 		{
 			"name": "Tarumanagara",					// 358–669
 			"leaderName": "Purnawarman",
-			"adjective": ["Tarumanagaran"],
+			"adjective": ["Tarumanagaran"], // Sundanese
 			"startBias": ["Fresh Water"],
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Hinduism",
@@ -348,10 +348,11 @@
 			
 			"outerColor": [ 79, 73, 6],
 			"innerColor": [255,233,23],
-			"uniqueName": "Javanese Art Center",
-			"uniques": ["Free [Great Artist] appears <upon discovering [Theology]>",
-						"[+25]% Production when constructing [All] wonders [in all cities] <during the [Classical era]>",
-						"[+25]% Production when constructing [All] wonders [in all cities] <during the [Medieval era]>"],
+			"uniqueName": "Monumental Age",
+			"uniques": ["+2 Great Engineer point from every Faith buildings", 
+						"+2 [Food], +2 [Production] from every Holy site constructed by Silpin", 
+						"+15% [Production] when constructing wonders in cities with a Holy site", 
+						"Free [Worker] appears <upon gaining a [Silpin] unit> <hidden from users>"],
 			"cities": ["Mataram Kuno","Mamratipura","Magelang","Klaten","Solo","Salatiga","Semarang","Purworejo","Wonosobo","Temanggung",
 				"Pekalongan","Batang","Kendal","Banjarnegara","Boyolali","Demak","Grobogan","Yogyakarta","Sragen","Karanganyar",
 				"Sukoharjo","Wonogiri","Ngawi","Magetan","Madiun","Nganjuk","Kadiri","Lamongan","Jombang","Mojokerto",
@@ -458,7 +459,8 @@
 			"outerColor": [210,255,195],
 			"innerColor": [  0, 74, 35],
 			"uniqueName": "Solar Prince",
-			"uniques": ["[+2 Science] from all [Faith] buildings"],
+			"uniques": ["[+2 Science] from all [Faith] buildings", 
+						"Gain a free [Tasikardi] [in capital]"],
 			"cities": ["Surosowan","Serang","Cilegon","Pandeglang","Tangerang","Lebak","Kalapa","Bekasi","Depok","Bogor","Sukabumi",
 				"Cianjur","Garut","Bandar Lampung","Pesawaran","Metro","Pringsewu","Tanggamus","Pesisir Barat","Tulang Bawang","Waykanan",
 				"Ogah Komering","Kaur","Pagar Alam","Seluma","Bengkulu"],
@@ -469,7 +471,8 @@
 		{
 			"name": "Mataram",						// 1586–1755
 			"leaderName": "Anyakrakusuma",
-			"adjective": ["Matawis"],
+			"adjective": ["Matawis"], // Javanese
+			"startBias": ["Avoid [Tundra]","Avoid [Coast]"],
 			"preferredVictoryType": "Domination",
 			"favoredReligion": "Islam",
 
@@ -490,7 +493,7 @@
 			"uniqueName": "Kadipaten",
 			"uniques": ["[+50]% [Gold] [in puppeted cities]", 
 						"[-50]% Unhappiness from [Population] [in puppeted cities]", 
-						"[+50]% Production when constructing [Courthouse] buildings [in annexed cities]"],
+						"[+100]% Production when constructing [Courthouse] buildings [in annexed cities]"],
 			"cities": ["Kutagede","Plered","Kartasura","Klaten","Yogyakarta","Solo","Salatiga","Kulonprogo","Bantul","Sleman",
 				"Gunungkidul","Magelang","Rembang","Jepara","Semarang","Pekalongan","Tegal","Banyumas","Pacitan","Madiun",
 				"Kadiri","Blitar","Batu","Malang","Mojokerto","Pasuruan","Surabaya","Probolinggo","Madura","Cirebon",
@@ -505,7 +508,7 @@
 		{
 			"name": "Kutai",						/// 399 - 1635 as Hindu, 1300–1844 as Islam
 			"leaderName": "Mulavarman",
-			"adjective": ["Dayak Lawangan"],
+			"adjective": ["Kutai"], // Dayak Lawangan
 			"startBias": ["Jungle"],
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Hinduism",
@@ -589,7 +592,8 @@
 			"innerColor": [ 41,83,42],
 			"uniqueName": "Barakat",
 			"uniques": ["[+2 Gold] from every [Luxury resource]", 
-						"Starts with [Cultural Diplomacy] adopted"],
+						"Starts with [Cultural Diplomacy] adopted", 
+						"[Worker] units gain the [Seller] promotion <hidden from users>"],
 			"cities": ["Kuin","Banjarmasin","Pemakuan","Muara Tambangan","Sambas","Lawai","Sukadana","Kotawaringin","Pembuang","Mendawai",
 				"Sampit","Kahayan Hilir","Kahayan Hulu","Satui","Pasir","Pulau Laut","Asam Asam","Kintap","Swarangan","Kutai"],
 			"spyNames": ["Kasuma","Sofyan","Ramlan","Antasari","Khairul","Hanafiah","Yusran","Basoeni","Djazouli","Yusliani"]
@@ -600,6 +604,7 @@
 			"name": "Lanfang",						// 1777 - 1884
 			"leaderName": "Luo Fangbo",
 			"adjective": ["Lanfangren"],
+			"startBias": ["Avoid [Desert]","Avoid [Coast]"],
 			"preferredVictoryType": "Diplomatic",
 			"favouredReligion": "Taoism",
 
@@ -620,8 +625,8 @@
 			"uniqueName": "Kongsi Federation",
 			"uniques": ["[+1 Gold] from every [Mine]", 
 						"[+1 Gold] from every [Quarry]"],
-			"cities": ["Dong Wan Li","Pontianak","Sungai Raya","Ketapang","Sanggau","Sintang","Ngabang","Mempawah","Putussibau","Bengkayang",
-				"Singkawang","Sekadau","Nanga Pinoh","Sukadana","Pahuman","Sungaipinyuh","Jungkat","Rasau","Sungaiduri","Pemali"],
+			"cities": ["Dong Wan Li","Khun Tien","Sung Kieu Lo Ya","Tau Pang","Sanggau","Sin Tong","Ngabang","Nam Pa Oa","Putussibau","Bengkayang",
+				"San Khieu Yong","Sekadau","Nanga Pinoh","Sukadana","Pahuman","Sungaipinyuh","Jungkat","Rasau","Pak Bu Jan","Pemali"], // Khun Tien Pontianak, Sung Kieu Lo Ya Sungai Raya, Tau Pang Ketapang, Sin Tong Sintang, Nam Pa Oa Mempawah, San Khieu Yong Singkawang, Pak Bu Jan Sungaiduri
 			"spyNames": ["Jiang","Yan","Song","Liu","Liubo","Xie","Tenghui","Ganxing","Asheng","Ah Sin"]
 
 		},
@@ -730,7 +735,7 @@
 		{
 			"name": "Buton",					// 1332 - 1908
 			"leaderName": "La Tumparasi",
-			"adjective": ["Butonese"],
+			"adjective": ["Butuni"],
 			"startBias": ["Coast"],
 			"favouredReligion": "Islam",
 
@@ -760,7 +765,7 @@
 		{
 			"name": "Gorontalo",				/// 1300 - 1878
 			"leaderName": "Ilahudu",
-			"adjective": ["Gorontalese"],
+			"adjective": ["Hulontalo"],
 			"startBias": ["Hill","Mountain"],
 			"preferredVictoryType": "Diplomatic",
 			"favoredReligion": "Islam",
@@ -769,7 +774,7 @@
 			"startIntroPart2": "O fair and virtuous Ilahudu! Your composed demeanor once protected the people from the many conflicts that plague the nations of men, and the kingdom looks to you to assure peace once again. Will you lead the people with courage and authority, moving forward into a new age? Can you build a civilization that stands the test of time?",
 
 			"declaringWar": "By the grace of God, your days are numbered.",
-			"attacked": "Oh well, I presume you know what you're doing.",
+			"attacked": "I will not allow you to remain in power any longer. You have offended me for too long!",
 			"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
 			"introduction": "Leengahu lodunggaaya wo lanto. Paladu lo’aawota, I am Ilahudu, unifier of Gorontalo.", // Pleased to meet you. Let me introduce myself, I am Ilahudu, unifier of Gorontalo
 			
@@ -795,7 +800,7 @@
 			"name": "Gowa-Tallo",				// 1320 - 1905
 			"leaderName": "Matoaya",
 			"adjective": ["Makassarese"],
-			"startBias":["Avoid [Desert]"],
+			"startBias":["Avoid [Desert]","Avoid [Tundra]"],
 			"preferredVictoryType": "Scientific",
 			"favoredReligion": "Islam",
 
@@ -814,8 +819,8 @@
 			"outerColor": [255,215,0],
 			"innerColor": [  0,  0,0],
 			"uniqueName": "Founder of Makassar",
-			"uniqueText": "+100% Yield from every Luxury resource",
-			"uniques": ["[+100]% Yield from every [Luxury resource]", "New [Galle'] units start with [10] Experience [in all cities]"],
+			"uniques": ["[+100]% Yield from every [Luxury resource]", 
+						"New [Galle'] units start with [10] Experience [in all cities] <hidden from users>"],
 			"cities": ["Somba Opu","Tallo","Tamalate","Ujung Tanah","Balla Kiria","Pabineang","Jongaya","Selayar","Marusu","Wajo",
 				"Soppeng","Balanipa","Mamuju","Sigi","Palu","Parigi","Toli-Toli","Tolulu","Buol","Bulango",
 				"Manado","Banggai","Bungku","Mokongga","Konawe","Buton","Lombok","Sumbawa","Flores","Sumba",
@@ -827,7 +832,7 @@
 		{
 			"name": "Luwu",						// 1300 - 1888
 			"leaderName": "Simpurusiang",
-			"adjective": ["Buginese"],
+			"adjective": ["Luwu"], // Luwu Buginese
 			"startBias": ["Plains","Hill"],
 			"preferredVictoryType":"Domination",
 			"favoredReligion": "Hinduism",
@@ -861,9 +866,9 @@
 	
 		// Larantuka
 		{
-			"name": "Larantuka",					// 1600 - 1904
+			"name": "Larantuka",				// 1600 - 1904
 			"leaderName": "Ola Adobala",
-			"adjective": ["Nagi"],
+			"adjective": ["Lamaholot"],
 			"startBias": ["Coast"],
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Christianity",
@@ -874,7 +879,7 @@
 			"declaringWar": "Those who deny others freedom do not deserve it themselves.",
 			"attacked": "As we can reach no peaceful resolution with you, the Larantuqueiros must turn to war.",
 			"defeated": "A darkness falls upon me. But never did a darkness not give way to dawn.",
-			"introduction": "I am Ola Adobala, leader of the Nagi and Larantuqueiros, friend to those who would steer their trade ships in my direction, and terrible to those who oppose me.",
+			"introduction": "I am Ola Adobala, leader of the Lamaholot and Larantuqueiros, friend to those who would steer their trade ships in my direction, and terrible to those who oppose me.",
 			
 			"neutralHello": "Gena tebae?",
 			"hateHello": "Enko ni anji!",
@@ -886,7 +891,9 @@
 			"uniqueText": "Cities produce 50% more [Culture] and [Faith] during We Love The King Day \n+1 [Culture] from every Fishing Boats",
 			"uniques": ["[+50]% [Culture] [in all cities] <during We Love The King Day>", 
 						"[+50]% [Faith] [in all cities] <during We Love The King Day>", 
-						"[+1 Culture] from every [Fishing Boats]"],
+						"[+1 Culture] from every [Fishing Boats]", 
+						"Gain a free [KRR builder] [in capital] <hidden from users>", 
+						"Gain a free [KRR builder] [in holy cities] <hidden from users>"],
 			"cities": ["Larantuka","Solor","Adonara","Ile Boleng","Tanjung Bunga","Witihama","Titihena","Kelubagolit","Wotan Ulu Mado",
 				"Wulanggitang","Ile Mandiri","Demon Pagong","Ile Bura","Lewolema"],
 			"spyNames": ["Manek","Kopong","Nggawa","Denis","Ernest","Ruben","Auberta","Orlin","Saskia","Latisha"]
@@ -918,10 +925,9 @@
 			"outerColor": [  0,  7,201],
 			"innerColor": [225,225,225],
 			"uniqueName": "Uli Lima",
-			"uniqueText": "+50% [Production] when constructing [Water] units \nEnables All units to enter ocean tiles after discovering [Optics]",
 			"uniques": ["[+50]% Production when constructing [Water] units [in all cities]"
 						"Enables [All] units to enter ocean tiles <after discovering [Optics]>", 
-						"[+33]% Production when constructing [Albahdir] units [in capital]"],
+						"[+33]% Production when constructing [Albahdir] units [in capital] <hidden from users>"],
 			"cities": ["Ternate","Jailolo","Loloda","Makian","Sula","Talaud","Sitaro","Sanana","Moro","Western Seram",
 				"Gorontalo","Bolaang Mongondow","Sausu","Donggala","Banggai","Muna","Sikka","Ende","Bima","Tambora", "Marshall Island"],
 			"spyNames": ["Hanavi Hehanusa","Elly Manuhatu","Das Alwi","Ferni Lestusen","Sonny Hiariej","Erwin Pical","Andre Latuharhary","Debby Lilipaly","Umar Pattikawa","Rian Sahetapy"]
@@ -952,8 +958,16 @@
 			"innerColor": [  7,  0, 54],
 			"uniqueName": "Uli Siwa",
 			"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", 
-						"[+5]% [Science] [in all coastal cities]", 
-						"[+10]% [Gold] [in all coastal cities]"],
+						"[+1 Happiness] [in all coastal cities]", 
+						"+2% [Science] for each coastal cities, up to +15%", 
+						"[+2]% [Science] <when above [0] [CoastalCounter]> <when below [2] [CoastalCounter]> <hidden from users>", 
+						"[+4]% [Science] <when above [1] [CoastalCounter]> <when below [3] [CoastalCounter]> <hidden from users>" , 
+						"[+6]% [Science] <when above [2] [CoastalCounter]> <when below [4] [CoastalCounter]> <hidden from users>" , 
+						"[+8]% [Science] <when above [3] [CoastalCounter]> <when below [5] [CoastalCounter]> <hidden from users>" , 
+						"[+10]% [Science] <when above [4] [CoastalCounter]> <when below [6] [CoastalCounter]> <hidden from users>" , 
+						"[+12]% [Science] <when above [5] [CoastalCounter]> <when below [7] [CoastalCounter]> <hidden from users>" , 
+						"[+14]% [Science] <when above [6] [CoastalCounter]> <when below [8] [CoastalCounter]> <hidden from users>" , 
+						"[+15]% [Science] <when above [7] [CoastalCounter]> <hidden from users>"],
 			"cities": ["Tidore","Weda","Labuha","Maba","Raja Ampat","Eastern Seram","Sorong","Tambraun","Taybrat","Manokwari",
 				"Bintuni","Arfak","Kaimana","Wondama","Nabire","Dogiyai","Paniai","Intan Jaya","Mimika","Biak"],
 			"spyNames": ["Bosamawange","Balibunga Matulessy","Duko Adoya","Kie Matiti","Arif Matagena","Carolyn Tiahahu","Gapi Baguna","Mole Maginyau","Jou Latuhihin","Jallo Kahaela"]
@@ -963,6 +977,47 @@
 		
 		
 	// The Philippines
+		
+		// Cebu  (Sugbu)
+		{
+			"name": "Cebu",							// 1400 - 1565
+			"leaderName": "Humabon",
+			"adjective": ["Cebuano"],
+			"startBias": ["Coast"],
+			"favoredReligion": "Christianity",
+
+			"startIntroPart1": " ",
+			"startIntroPart2": " ",
+
+			"declaringWar": "I have come across few as weak as you. Your name will be forgotten!",
+			"attacked": "I believe our peoples can work together. But alas, you resort to physical violence over words.",
+			"defeated": "Who will there be left to trade with when you've conquered the world?",
+			"introduction": "Welcome to the sinibuayang hingpit. We have traded with many great lands, but none as distant as yours.",
+
+			"neutralHello": "Bless you.",
+			"hateHello": "Piste ka!", // Such a pest!
+			"tradeRequest": "Do you bring goods to trade? Could I interest you in trading with me?",
+
+			"outerColor": [  0,56,168],
+			"innerColor": [252,209,22],
+			"uniqueName": "Kota Raya Kita",
+			"uniques": ["Gain 100 [Gold] (modified by game speed) upon adopting Policy opener", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Tradition]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Liberty]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Honor]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Piety]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Patronage]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Commerce]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Rationalism]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Freedom]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Autocracy]> <hidden from users>", 
+						"Gain [100] [Gold] (modified by game speed) <upon adopting [Order]> <hidden from users>", 
+						"[1] Movement point cost to embark <for [All] units>"],
+			"cities": ["Singhapala","Lalan","Bulacao","Mambaling","Duljo","Suba","Tinago","Mandawi","Subangdaku","Tipolo",
+				"Tabok", "Looc","Opao","Umapad","Labusin","Lulutan","Kutkut","Silot","Gabi","Bangbang",
+				"Buagsong","Dapitan","Gilutongan","Ibabao","Babag","Basak","Pajo","Pusok","Bulaya","Ibo","Opong"],
+			"spyNames": ["Lumay","Bantug","Tupas","Solon","Labajo","Baylon","Catacutan","Lapu-Lapu","Cobonpue","Kilat"]
+		},
 		
 		// Sulu
 		{
@@ -977,7 +1032,7 @@
 			"startIntroPart2": "Oh clever and virtuous Jamalul Kiram, will you rebuild Sulu and lead your people to even greater heights of glory? Will you take up the challenge and vanquish your foes under heaven's watchful eyes? Can you build a civilization that will stand the test of time?",
 
 			"declaringWar": "Your transgressions are as deep as oceans. Prepare for war!",
-			"attacked": "I will not allow you to remain in power any longer. You have offended me for too long!",
+			"attacked": "I have raided many ships and fought many battles. You shall be the next.",
 			"defeated": "With God's help, may Sulu people one day reclaim its territory.",
 			"introduction": "I am Jamulul Kiram, Sultan of Sulu. It is my great pleasure to finally meet you.",
 
@@ -988,19 +1043,19 @@
 			"outerColor": [ 52, 14, 32],
 			"innerColor": [225,225,225],
 			"uniqueName": "Moro Raids",
-			"uniqueText": "Free Worker appears upon constructing Courthouse\nMay sell Worker for 35 [Gold]",
 			"uniques": ["Free [Worker] appears <upon constructing [Courthouse]>", 
-						"[Worker] units gain the [Slave] promotion"],
+						"May sell Worker for 35 [Gold] (modified by game speed)", 
+						"[Worker] units gain the [Slave] promotion <hidden from users>"],
 			"cities": ["Buana","Maimbung","Palawan","Moroland","Sandakan","Kudat","Lahad Datu","Tawau","Semporna",
 				"Tawi-tawi","Jolo","Basilan","Zamboanga","Indanan","Pangutaran","Parang","Patikul","Talipao","Mactan"],
 			"spyNames": ["Hashim","Alauddin","Muiz","Nasiruddin","Bakhtiar","Rashid","Muwallil","Azam","A'lam","Halim"]
 		},
 		
-		// Manguindanao
+		// Maguindanao
 		{
-			"name": "Manguindanao",						// 1520–1928
+			"name": "Maguindanao",						// 1520–1928
 			"leaderName": "Kudarat",
-			"adjective": ["Manguindanaon"],
+			"adjective": ["Maguindanaon"],
 			"startBias": ["Coast"],
 			"preferredVictoryType": "Diplomatic",
 			"favoredReligion": "Islam",
@@ -1020,11 +1075,12 @@
 			"outerColor": [251,236,127],
 			"innerColor": [146, 74,  1],
 			"uniqueName": "Helper of the Faith",
-			"uniqueText": "Militaristic City-States grant units 2 times as fast when at war with a common nation \n+33% [Production] when constructing Defensive buildings in all cities",
 			"uniques": ["Militaristic City-States grant units [2] times as fast when you are at war with a common nation", 
-						"[+33]% Production when constructing [Walls] buildings [in all cities]", 
-						"[+33]% Production when constructing [Castle] buildings [in all cities]", 
-						"[+33]% Production when constructing [Arsenal] buildings [in all cities]"],
+						"[+33]% Production when constructing [Walls] buildings [in all cities] <hidden from users>", 
+						"[+33]% Production when constructing [Castle] buildings [in all cities] <hidden from users>", 
+						"[+33]% Production when constructing [Arsenal] buildings [in all cities] <hidden from users>", 
+						"[+33]% Production when constructing [Military Base] buildings [in all cities] <hidden from users>", 
+						"+33% [Production] when constructing Defensive buildings in all cities"],
 			"cities": ["Kuta Watu","Tamontaka","Dinaig","Tumbao","Pollok","Padang-Padang","Talavan","Tinungkul","Buayan",
 				"Kitakubong","Buluan","Tukuran","Inuk","Kalamansig","Pula","Glan","Pinagurusan","Kuruan","Bolong"],
 			"spyNames": ["Sajid","Ampatuan","Datumanong","Mariam","Baraguir","Ameni","Murad","Gumbay","Pendatun","Sinsuat"]
@@ -1036,11 +1092,12 @@
 		"name": "Donggala",
 		"adjective": ["Balaesang"],
 		"cityStateType": "Cultured",
+		"startBias": ["Coast"],
 
 		"declaringWar": "I didn't want to do this. We declare war.",
 		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
-		"outerColor": [0, 0, 0],
+		"defeated": "Unacceptable!",
+		"outerColor": [  0,  0,  0],
 		"innerColor": [200,255,200],
 		"cities": ["Donggala"]
 	},
@@ -1052,7 +1109,7 @@
 		"declaringWar": "I didn't want to do this. We declare war.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Unacceptable!",
-		"outerColor": [0, 0, 0],
+		"outerColor": [  0, 0,  0],
 		"innerColor": [163,34,111],
 		"cities": ["Tidung"]
 	},
@@ -1065,7 +1122,7 @@
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "I regret not defending my country to the last, although it was not of use.",
-		"outerColor": [0, 0, 0],
+		"outerColor": [0,  0,  0],
 		"innerColor": [0,255,128],
 		"cities": ["Tanjungpura"]
 	},
@@ -1073,11 +1130,12 @@
 		"name": "Jailolo",
 		"adjective": ["Jailolo"],
 		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "I regret not defending my country to the last, although it was not of use.",
-		"outerColor": [0, 0, 0],
+		"outerColor": [0,  0,  0],
 		"innerColor": [0,245,088],
 		"cities": ["Jailolo"]
 	},
@@ -1088,12 +1146,24 @@
 		"cityStateType": "Mercantile",
 		"startBias": ["Coast"],
 
-		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"declaringWar": "There is no choice. I shall take peace by force!",
 		"attacked": "You can see how fruitless this will be for you... right?",
 		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [211, 220, 103],
+		"outerColor": [  0,  0,  0],
+		"innerColor": [211,220,103],
 		"cities": ["Sambas"]
+	},
+	{
+		"name": "Kadiri",
+		"adjective": ["Javanese"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "There is no choice. I shall take peace by force!",
+		"attacked": "You can see how fruitless this will be for you... right?",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [  0,  0, 0],
+		"innerColor": [240,220,60],
+		"cities": ["Kadiri"]
 	},
 	
 	{
@@ -1101,9 +1171,9 @@
 		"adjective": ["Banggai"],
 		"cityStateType": "Militaristic",
 
-		"declaringWar": "You leave us no choice. War it must be.",
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Unacceptable!",
+		"defeated": "Why have you forsaken us my lord?",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,50,50],
 		"cities": ["Banggai"]
@@ -1114,25 +1184,37 @@
 		"cityStateType": "Militaristic",
 		"startBias": ["Coast"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"defeated": "Why have you forsaken us my lord?",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,50,50],
 		"cities": ["Singhasari"]
 	},
-	
 	
 	{
 		"name": "Demak",
 		"adjective": ["Javanese"],
 		"cityStateType": "Religious",
 
-		"declaringWar": "You leave us no choice. War it must be.",
+		"declaringWar": "By the grace of God, we declare war on you!",
 		"attacked": "I will fear no evil. For god is with me!",
-		"defeated": "Why have you forsaken us my lord?",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [200,255,200],
 		"cities": ["Demak"]
+	},
+	{
+		"name": "Johor",
+		"adjective": ["Johorean"], // Johor Malay
+		"cityStateType": "Religious",
+		"startBias": ["Coast"],
+
+		"declaringWar": "By the grace of God, we declare war on you!",
+		"attacked": "I will fear no evil. For god is with me!",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200,255,200],
+		"cities": ["Johor"]
 	}
 ]

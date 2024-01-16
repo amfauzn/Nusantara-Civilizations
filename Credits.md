@@ -1,10 +1,11 @@
 # Development
 * [amfauzn (AKA faw)](https://github.com/amfauzn) - idea, code, lore, icon, sprites, Indonesian translation
 * [hyunamae (AKA Kāne)](https://github.com/hyunamae) - idea, lore, icon
-* riceroll - idea, lore, balancing idea
+* riceroll - idea, lore, balancing
 * [Smashfanful](https://github.com/Smashfanful) - Italian translation
-* [AceHank](https://github.com/AceHank) - balancing idea
-* [Bambboolord](https://github.com/RealBamboolord) - balancing idea
+* [AceHank](https://github.com/AceHank) - balancing
+* [Bambboolord](https://github.com/RealBamboolord) - balancing
+* X2003 - idea
 
 # Credits
 Any icons not listed below are self made with Paint 3D.
@@ -17,7 +18,7 @@ Any icons not listed below are self made with Paint 3D.
 - [Boat](https://thenounproject.com/icon/boat-1998594/) by VANISHA, SZ
 - [Machete](https://thenounproject.com/icon/machete-28359/) by Kailen Nordhausen, US
 - [ship sagres](https://thenounproject.com/icon/ship-sagres-2381748/) by Sérgio Filipe Cardoso Pires, PT
-- [karambit](https://thenounproject.com/icon/karambit-3930089/) by Firza Alamsyah, ID
+- [Sail Boat](https://thenounproject.com/icon/sail-boat-6475/) by Kirsty Randell
 - All icons of Pagaruyung by hyunamae AKA Kāne
 
 ## Java and Bali
@@ -25,7 +26,6 @@ Any icons not listed below are self made with Paint 3D.
 - [Pagoda](https://thenounproject.com/icon/pagoda-4944468/) by Amethyst Studio, TH
 - [Mandala](https://thenounproject.com/icon/mandala-2533520/) by Dament, ID
 - [temple](https://thenounproject.com/icon/temple-5212638/) by Cahya Kurniawan, ID
-- [Sail Boat](https://thenounproject.com/icon/sail-boat-6475/) by Kirsty Randell
 - [barongsai](https://thenounproject.com/icon/barongsai-3178075/) by JunGSa, ID
 - [pura](https://thenounproject.com/icon/pura-3366528/) by Ian Rahmadi Kurniawan, ID
 - [sailboat](https://thenounproject.com/icon/sailboat-5396379/) by Soni Sokell, ID

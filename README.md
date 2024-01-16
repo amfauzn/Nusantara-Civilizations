@@ -9,32 +9,37 @@ Not every polity in Nusantara will become a separate civilization. Some of them 
 - Borneo
 - Sulawesi
 - Lesser Sunda, Maluku, and Papua
-- The Philippines (Mindanao and Visayas)
+- The Philippines
 
-### Mandala
-The mandala is a model for describing the patterns of diffuse political power in Southeast Asian history, when local power was more important than the central leadership. It is employed to denote traditional Southeast Asian political formations, such as federation of kingdoms or vassalized polity under a center of domination. (Think of it as an empire).
-- Srivijaya    
+### Mandala and Empires
+The mandala is a model for describing the patterns of diffuse political power in Southeast Asian history, when local power was more important than the central leadership. It is employed to denote traditional Southeast Asian political formations, such as federation of kingdoms or vassalized polity under a center of domination.
+The basic difference between a mandala and an empire is that an empire has multi-level, overlapping jurisdictions, whereas a mandala does not directly intervene with the domestic affairs of its vassal states outside of its core realms.
+- Aceh
+- Johor CS
+- Malacca
+- Srivijaya
 - Medang (Mataram)
+- Kadiri (Kediri/Panjalu) CS
+- Singhasari CS
 - Majapahit
+- Demak CS
 - Mataram (Mataram Islam)
+- Banjar
+- Brunei
 - Luwu (Luwuq/Wareq)
 - Gowa-Tallo (Makassar)
-- Cebu (planned)
-- Notes: Kadiri (Kediri/Panjalu) and Singhasari are also a Mandala. Currently, they're a City-state
+- Ternate
+- Tidore
+- Cebu (Sugbu)
+- Tondo
 
 ### Regional Powers
 Regional powers are a sovereign polity that exercises significant power within a given geographical region. Polity that wield unrivaled power and influence within a region possess regional hegemony.
 - Pagaruyung
-- Malacca
-- Aceh
 - Sunda (currently represented by Tarumanagara and Banten)
 - Kutai
-- Brunei
-- Banjar
 - Sarawak
 - Bone
-- Ternate
-- Tidore
 - Sulu
 
 ### Unique Polities
@@ -42,33 +47,15 @@ Despite the fact that they didn't possess a large area of power, their influence
 - Batak
 - Bali
 - Lanfang
-- Gorontalo
 - Bolaang Mongondow
+- Buton
+- Gorontalo
 - Larantuka
-- Wewiku-Wewahali (planned)
-- Manguindanao
+- Wewiku-Wewahali
+- Maguindanao
 
 ### Additional Polities
 - Jambi
 - Siak
-- Wajo (beta)
-- Biak (beta)
 
-## Sumatra and Malay Peninsula
-![](/extraImages/Sumatra%20and%20Malay%20Peninsula%20A.png)
-![](/extraImages/Sumatra%20and%20Malay%20Peninsula%20B.png)
-
-## Java and Bali
-![](/extraImages/Java%20and%20Bali.png)
-
-## Borneo
-![](/extraImages/Borneo.png)
-
-## Sulawesi
-![](/extraImages/Sulawesi.png)
-
-## Lesser Sunda, Maluku, and Papua
-![](/extraImages/Lesser%20Sunda%2C%20Maluku%2C%20and%20Papua.png)
-
-## The Philippines
-![](/extraImages/The%20Philippines.png)
+- Notes: CS currently a City-state

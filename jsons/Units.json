@@ -90,6 +90,7 @@
 						"Can transform to [Laksamana]", 
 						"[1] Movement point cost to embark", 
 						"[1] Movement point cost to disembark", 
+						"Can be earned through combat", 
 						"Great Person - [War]", 
 						"Unbuildable", 
 						"Uncapturable"],
@@ -100,7 +101,6 @@
 			"unitType": "Civilian Water",
 			"uniqueTo": "Malacca",
 			"uniques": ["[+30]% Strength bonus for [{Military} {Water}] units within [2] tiles", 
-						//"Can instantly construct a [Sea fort] improvement <by consuming this unit>", 
 						"Can transform to [Seri Bija Diraja]", 
 						"Unbuildable", 
 						"Uncapturable",],
@@ -123,6 +123,21 @@
 			"promotions": ["Drill I"],
 			"attackSound": "metalhit"
 		},
+		/*{
+			"name": "Karambit Warrior",
+			"unitType": "Sword",
+			"uniqueTo": "Pagaruyung",
+			"replaces": "Swordsman",
+			"movement": 2,
+			"strength": 14,
+			"cost": 50,
+			"requiredTech": "Iron Working",
+			"upgradesTo": "Longswordsman",
+			"obsoleteTech": "Steel",
+			"requiredResource": "Iron",
+			"promotions": ["Silent Strike"],
+			"attackSound": "metalhit"
+		},*/
 		
 		// Siak
 		{
@@ -146,19 +161,22 @@
 		
 		// Srivijaya
 		{
-			"name": "Karambit Warrior",
-			"unitType": "Sword",
+			"name": "Borobudur Ship",
+			"unitType": "Ranged Water",
 			"uniqueTo": "Srivijaya",
-			"replaces": "Swordsman",
-			"movement": 2,
-			"strength": 14,
-			"cost": 50,
-			"requiredTech": "Iron Working",
-			"upgradesTo": "Longswordsman",
-			"obsoleteTech": "Steel",
-			"requiredResource": "Iron",
-			"promotions": ["Silent Strike"],
-			"attackSound": "metalhit"
+			"replaces": "Galleass",
+			"movement": 3,
+			"strength": 16,
+			"rangedStrength": 16,
+			"range": 1,
+			"cost": 100,
+			"requiredTech": "Compass",
+			"obsoleteTech": "Navigation",
+			"upgradesTo": "Frigate",
+			"uniques": ["[+1] Range <when adjacent to a [Borobudur Ship] unit>", 
+						"[+1] Range <in [Coast] tiles>", 
+						"May heal outside of friendly territory"],
+			"attackSound": "arrow"
 		},
 	
 	
@@ -185,21 +203,17 @@
 		
 		// Medang (Mataram Kuno)
 		{
-			"name": "Banawa",
-			"unitType": "Ranged Water",
+			"name": "Silpin",
+			"unitType": "Civilian",
 			"uniqueTo": "Medang",
-			"replaces": "Galleass",
-			"movement": 3,
-			"strength": 16,
-			"rangedStrength": 17,
-			"cost": 110,
-			"requiredTech": "Compass",
-			"obsoleteTech": "Navigation",
-			"upgradesTo": "Frigate",
-			"uniques": ["Cannot enter ocean tiles",
-						"[+1] Movement <after discovering [Astronomy]>"],
-			"promotions": ["Bombardment I"],
-			"attackSound": "arrow"
+			"replaces": "Great Engineer",
+			"uniques": ["Can speed up construction of a building", 
+						"Can instantly construct a [Silpin Holy site] improvement <by consuming this unit>", 
+						"Appear with a [Worker]", // Should be Worker appears upon being expended
+						"Great Person - [Production]", 
+						"Unbuildable", 
+						"Uncapturable"],
+			"movement": 2
 		},
 		
 		// Bali
@@ -275,7 +289,7 @@
 		
 		// Mataram Islam
 		{
-			"name": "Bedil",
+			"name": "Pambedil",
 			"unitType": "Gunpowder",
 			"uniqueTo": "Mataram",
 			"replaces": "Musketman",
@@ -285,7 +299,7 @@
 			"requiredTech": "Gunpowder",
 			"upgradesTo": "Rifleman",
 			"obsoleteTech": "Rifling",
-			"promotions": ["[Bedil] ability"],
+			"promotions": ["[Pambedil] ability"],
 			"attackSound": "shot"
 		},
 	
@@ -302,7 +316,6 @@
 			"requiredResource": "Horses",
 			"uniques": ["[+10]% Strength bonus for [Military] units within [3] tiles", 
 						"Limited to [1] per Civilization"],
-			//"replacementTextForUniques": "Unlock All Heroes"
 		},
 		{
 			"name": "Lonjo",
@@ -369,8 +382,8 @@
 			"requiredTech": "Rifling",
 			"obsoleteTech": "Replaceable Parts",
 			"upgradesTo": "Great War Infantry",
-			"uniques": ["[+25]% Strength <within [1] tiles of a [Mine]>", 
-						"[+25]% Strength <within [1] tiles of a [Quarry]>"],
+			"uniques": ["[+20]% Strength <within [1] tiles of a [Mine]>", 
+						"[+20]% Strength <within [1] tiles of a [Quarry]>"],
 			"attackSound": "shot"
 		},
 		
@@ -614,26 +627,40 @@
 		{
 			"name": "Juanga",
 			"unitType": "Melee Water",
-			"replaces": "Caravel",
+			"replaces": "Galleass",
 			"uniqueTo": "Tidore",
-			"movement": 5,
-			"strength": 24,
-			"cost": 120,
-			"requiredTech": "Astronomy",
+			"movement": 4,
+			"strength": 22,
+			"cost": 100,
+			"requiredTech": "Compass",
 			"upgradesTo": "Ironclad",
 			"obsoleteTech": "Combustion",
 			"uniques": ["[+1] Sight", 
-						"May withdraw before melee ([80]%)", 
-						"[-2] Movement <in [Ocean] tiles> <with [0] to [0] neighboring [Coast] tiles>"],
-			"replacementTextForUniques": "Deep ocean penalty",
-			"promotions": ["[Juanga] ability"],
-			"hurryCostModifier": 30,
+						"May withdraw before melee ([80]%)"],
 			"attackSound": "cannon"
 		},
 		
 	
 	// The Philippines
 	
+		// Cebu
+		{
+			"name": "Timawa",
+			"unitType": "Sword",
+			"replaces": "Longswordsman",
+			"uniqueTo": "Cebu",
+			"movement": 2,
+			"strength": 21,
+			"cost": 120,
+			"requiredTech": "Steel",
+			"upgradesTo": "Musketman",
+			"obsoleteTech": "Gunpowder",
+			"requiredResource": "Iron",
+			"uniques": ["May attack when embarked", 
+						"[+50]% Strength <vs [Mounted] units>"],
+			"attackSound": "metalhit"
+		},
+		
 		// Sulu
 		{
 			"name": "Garay",
@@ -650,12 +677,12 @@
 			"attackSound": "cannon"
 		},
 		
-		// Manguindanao
+		// Maguindanao
 		{
 			"name": "Balasiong Swordsman",
 			"unitType": "Sword",
 			"replaces": "Longswordsman",
-			"uniqueTo": "Manguindanao",
+			"uniqueTo": "Maguindanao",
 			"movement": 2,
 			"strength": 21,
 			"cost": 120,
@@ -664,8 +691,8 @@
 			"obsoleteTech": "Gunpowder",
 			"requiredResource": "Iron",
 			"promotions": ["Apologetics"],
-			"uniques": ["Can remove other religions from cities <in [Friendly] tiles> <[2] times> <after which this unit is consumed>", 
-						"Religious Unit"],
+			"uniques": ["Can be purchased for [120] [Faith] [in all cities]", 
+						"Takes your religion over the one in their birth city"],
 			"attackSound": "metalhit"
 		}
 ]

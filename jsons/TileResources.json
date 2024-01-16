@@ -7,11 +7,12 @@
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [18] tiles <in [Featureless] [Grassland] tiles>", 
-					"Generated on every [14] tiles <in [Grassland] [Forest] tiles> <in tiles without [Hill]>", 
-					"Generated on every [8] tiles <in [Marsh] tiles>", 
-					"Generated on every [20] tiles <in [Plains] [Forest] tiles> <in tiles without [Hill]>", 
-					"Generated on every [26] tiles <in [River] tiles> <in tiles without [Hill]>"]
+		"uniques": ["Generated on every [20] tiles <in [Featureless] [Grassland] tiles>", 
+					"Generated on every [18] tiles <in [Grassland] [Forest] tiles> <in tiles without [Hill]>", 
+					"Generated on every [10] tiles <in [Marsh] tiles>", 
+					"Generated on every [22] tiles <in [Plains] [Forest] tiles> <in tiles without [Hill]>", 
+					"Generated on every [28] tiles <in [River] tiles> <in tiles without [Hill]>", 
+					"Doesn't generate naturally <in [Tundra] tiles>"]
 	},
 	
 	// Base-game resource
@@ -44,6 +45,14 @@
 		"name": "Parmalim",
 		"resourceType": "Strategic",
 		"uniques": ["Not shown on world screen", 
-					"Cannot be traded"]
+					"Cannot be traded", 
+					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "CoastalCounter",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
+					"Cannot be traded", 
+					"Will not be displayed in Civilopedia"]
 	}
 ]

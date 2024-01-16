@@ -176,18 +176,19 @@
 		"shortcutKey": "F"
 	},
 	
+	// Java and Bali
 	
-	// Sumatra and Malay Peninsula
-	
-		// Malacca
+		// Medang
 		{
-			"name": "Sea fort",
-			"gold": 1,
-			"terrainsCanBeBuiltOn": ["Coast"],
+			"name": "Silpin Holy site",
+			"terrainsCanBeBuiltOn": ["Land"],
+			"food": 2,
+			"faith": 6,
+			"production": 2,
 			"uniques": ["Great Improvement", 
-						"Gives a defensive bonus of [50]%", 
-						"Adjacent enemy units ending their turn take [10] damage", 
-						"[+1 Gold] for each adjacent [Land]"]
+						"Removes removable features when built", 
+						"Pillaging this improvement yields approximately [+20 Gold]", 
+						"Will not be displayed in Civilopedia"]
 		},
 	
 	// Borneo
