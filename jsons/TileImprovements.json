@@ -212,9 +212,9 @@
 			"name": "Floating Market",
 			"uniqueTo": "Banjar",
 			"terrainsCanBeBuiltOn": ["Lakes","Flood plains"],
-			"gold": 1,
-			"uniques": ["[+1 Food, +1 Gold] <after discovering [Economics]>", 
-						"Pillaging this improvement yields approximately [+10 Gold]"],
+			"gold": 2,
+			"uniques": ["[+2 Food, +1 Gold] <after discovering [Economics]>", 
+						"Pillaging this improvement yields approximately [+12 Gold]"],
 			"techRequired": "Guilds",
 			"shortcutKey": "T"
 		},

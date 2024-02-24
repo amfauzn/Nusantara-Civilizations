@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Spiritual Encouragement",
-		"uniques": ["+15% Strength bonus for Military units within 1 tiles", 
+		"uniques": ["Comment [+15% Strength bonus for Military units within 1 tiles]", 
 					"Uncapturable", 
 					"Gain [50] [Faith] <upon being defeated>"]
 	},
@@ -61,6 +61,15 @@
 	{
 		"name": "[Juanga] ability",
 		"uniques": ["[+15]% Strength <vs [Water] units>"]
+	},
+	{
+		"name": "[Warion] ability",
+		"uniques": ["[+2] Movement"]
+	},
+	{
+		"name": "Raider of the East",
+		"uniques": ["[+25]% Strength <vs [Water] units>", 
+					"Earn [50]% of the damage done to [Water] units as [Gold]"]
 	},
 	{
 		"name": "Slave",

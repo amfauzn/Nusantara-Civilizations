@@ -225,7 +225,7 @@
 			"preferredVictoryType":"Diplomatic",
 			"favoredReligion": "Islam",
 
-			"startIntroPart1": "May long your reign, and welcome to the land of the East Sun, Sultan Assaidis Syarif Ali Abdul Jalil Saifuddin. Siak is a young country, born from the feud of the throne of Johor. As one of the descendant of the founder of SIak Sri Indrapura, you were not content when Siak weakened under the leadership of Sultan Yahya. With the support of Muhammad Ali, the former sultan, and because of your influence as Siak warlord, you claimed the throne. Fearing the growing influence of the Dutch who want to seize the sovereignty of Siak, you and your compatriot moved the center of the sultanate to Kota Tinggi. Your simple yet efficient strategy  has not only made Siak successful in conquering 'the colony of 12'. but also aid Siak reclaimed its territory from the Dutch.",
+			"startIntroPart1": "May long your reign, and welcome to the land of the East Sun, Sultan Assaidis Syarif Ali Abdul Jalil Saifuddin. Siak is a young country, born from the feud of the throne of Johor. As one of the descendant of the founder of Siak Sri Indrapura, you were not content when Siak weakened under the leadership of Sultan Yahya. With the support of Muhammad Ali, the former sultan, and because of your influence as Siak warlord, you claimed the throne. Fearing the growing influence of the Dutch who want to seize the sovereignty of Siak, you and your compatriot moved the center of the sultanate to Kota Tinggi. Your simple yet efficient strategy  has not only made Siak successful in conquering 'the colony of 12', but also aid Siak reclaimed its territory from the Dutch.",
 			"startIntroPart2": "Yang Dipertuan Besar Sayyid Ali Syah, heed the call of your people! Bring your empire back to the height of its power and glory! Are you ready to accept the challenge? Can you build a civilization that will stand the test of time?",
 
 			"declaringWar": "Siak Sri Indrapura people does not fear you. When we defeat you, we will be stronger than ever.",
@@ -240,16 +240,18 @@
 			"outerColor": [ 4, 144, 95],
 			"innerColor": [253,245,155],
 			"uniqueName": "The Colony of 12",
-			"uniqueText": "+50% [Production] when constructing Lighthouse, Harbor, and Seaport \n+2 [Gold] from every Lighthouse, Harbor, and Seaport \n+5% [Gold] in cities with a Lighthouse, increased to +10% with Harbor, and +15% with Seaport",
-			"uniques": ["[+50]% Production when constructing [Lighthouse] buildings [in all cities]", 
-						"[+50]% Production when constructing [Harbor] buildings [in all cities]", 
-						"[+50]% Production when constructing [Seaport] buildings [in all cities]", 
-						"[+2 Gold] from every [Lighthouse]", 
-						"[+2 Gold] from every [Harbor]", 
-						"[+2 Gold] from every [Seaport]", 
-						"[+5]% [Gold] [in all cities] <in cities with a [Lighthouse]>", 
-						"[+5]% [Gold] [in all cities] <in cities with a [Harbor]>", 
-						"[+5]% [Gold] [in all cities] <in cities with a [Harbor]> <in cities with a [Seaport]>"],
+			"uniques": ["Comment [+50% [Production] when constructing Lighthouse, Harbor, and Seaport]", 
+						"Comment [+2 [Gold] from every Lighthouse, Harbor, and Seaport]", 
+						"Comment [+5% [Gold] in cities with a Lighthouse, increased to +10% with a Harbor, and +15% with a Seaport]", 
+						"[+50]% Production when constructing [Lighthouse] buildings [in all cities] <hidden from users>", 
+						"[+50]% Production when constructing [Harbor] buildings [in all cities] <hidden from users>", 
+						"[+50]% Production when constructing [Seaport] buildings [in all cities] <hidden from users>", 
+						"[+2 Gold] from every [Lighthouse] <hidden from users>", 
+						"[+2 Gold] from every [Harbor] <hidden from users>", 
+						"[+2 Gold] from every [Seaport] <hidden from users>", 
+						"[+5]% [Gold] [in all cities] <in cities with a [Lighthouse]> <hidden from users>", 
+						"[+5]% [Gold] [in all cities] <in cities with a [Harbor]> <hidden from users>", 
+						"[+5]% [Gold] [in all cities] <in cities with a [Harbor]> <in cities with a [Seaport]> <hidden from users>"],
 			"cities": ["Buantan","Mempura","Pekanbaru","Bengkalis","Kampar","Dumai","Kubu","Bangko","Tanah Putih","Pelalawan",
 				"Meranti","Indragiri","Kota Pinang","Pagarawan","Batubara","Bedagai","Kualuh","Panai","Bilah","Asahan",
 				"Serdang","Langkat","Binjai","Temiang","Deli"],
@@ -293,35 +295,44 @@
 	
 	// Java and Bali
 	
-		// Tarumanagara
+		// Sunda
 		{
-			"name": "Tarumanagara",					// 358–669
-			"leaderName": "Purnawarman",
-			"adjective": ["Tarumanagaran"], // Sundanese
-			"startBias": ["Fresh Water"],
+			"name": "Sunda",						// 669 - 1579
+			"leaderName": "Siliwangi",
+			"adjective": ["Sundanese"],
+			"startBias": ["Avoid [Desert]"],
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Hinduism",
-			
-			"startIntroPart1": "God grant you strength, O' Purnawarman, clever and divine king of Tarumanagara! Your people, the Tarumanagaran, were ancestor of Sundanese, and of all the peoples in Java to till the earth and carve her stone into cities and stele, yours were the first. Tarumanagara emerged along the banks of the Citarum river, known for its advanced agriculture and irrigation system including the excavations of the Chandrabaga and Gomati Rivers. The kingdom was also renowned for its art and culture, with notable examples being the ornate temples, sculptures, and stone inscriptions found throughout the region.",
-			"startIntroPart2": "Purnawarman, Tarumanagara remains vibrant in the hearts of the Sundanese people, but your legacy dwindles in the annals of Indonesia. Will you rise again, and return Tarumanagara to its prosperity? Or will you conquer to rival the mighty powers around you and redeem your descendant mistakes? Can you build a civilization to stand the test of time?",
-			
+
+			"startIntroPart1": "The sun shines from behind you, Prabu Siliwangi, the deity king of Sunda and Galuh! As the grandson of Niskala Wastu Kancana, you reclaimed your place on the throne after an evil usurper murdered the king. Inspired by your grandfather's rule, you led and united the Sundanese people under one banner, ushering in a long era of peace and prosperity. Amidst continuing attacks from Islamic forces of Demak and Cireban, you steadfastly upheld the Sunda Wiwitan faith. Truly a brave noble, you did not waver against the threats initiated by your own kin.",
+			"startIntroPart2": "Oh King Jayadewata, your people need a little more light and guidance. The collapse of the Ten Bakti has thrown Sunda and Galuh into disarray. Will you return from the mountain to rebuild Pakuan Pajajaran? Can you nurture your lands and drive back those who would impose their faith upon you? Can you build a civilization that will stand the test of time?",
+
 			"declaringWar": "I have tried all other avenues, but yet you persist in this madness. I hope, for your sake, your end is swift.",
 			"attacked": "You can see how fruitless this will be for you, no?",
-			"defeated": "Has God withdrawn his favor from me, that Tarumanagara must fall? Oh, what a calamity!",
-			"introduction": "Welcome. It is an honor to meet you in person. It seems great minds do attract each other, after all.",
-			
+			"defeated": "What did you want? Gold? Pepper? There were far, far easier ways to get your hands on them.",
+			"introduction": "Welcome to Sunda, weary traveler. It must have been a long journey for you to get here. People call me Siliwangi, but I prefer to be called Jayadewata.",
+
 			"neutralHello": "Greetings.",
 			"hateHello": "So?"
 			"tradeRequest": "My friend, does this seem reasonable to you?",
-			
+
 			"outerColor": [ 80,  0, 70],
 			"innerColor": [228,171,119],
-			"uniqueName": "Sundanese Ancestor",
-			"uniqueText": "+1 Population in cities on River\n+2 [Production] from every Aqueduct",
-			"uniques": ["[+2 Production] from every [Aqueduct]"],
-			"cities": ["Sundapura","Pandeglang","Cupunagara","Ujung Kulon","Tangerang","Purbalingga","Cianjur","Rangkasbitung","Indramayu","Cilegon",
-				"Majalengka","Cimanuk","Pangalengan","Purwakarta","Cirebon","Banyumas","Garut","Tegal","Gunung Manik","Bitung", 
-				"Tanjung Kalapa","Sumurwangi","Bekasi","Karawang","Pandeglang","Tasikmalaya","Kuningan","Majalengka","Bogor","Lebak"],
+			"uniqueName": "Seren Taun",
+			"uniques": ["Comment [Triggers global Seren Taun upon entering new era, cities produce 10% more [Gold] and [Culture] for 10 turns]", 
+						"Comment [Constructing Temple in capital for the first time triggers local Seren Taun with triple duration and effect]",  
+						"Gain a free [STaun Bonus] [in capital] <hidden from users>", 
+						"Gain a free [STaun Global] [in capital] <upon entering the [Classical era]> <hidden from users>", 
+						"Gain a free [STaun Global] [in capital] <upon entering the [Medieval era]> <hidden from users>", 
+						"Gain a free [STaun Global] [in capital] <upon entering the [Renaissance era]> <hidden from users>", 
+						"Gain a free [STaun Global] [in capital] <upon entering the [Industrial era]> <hidden from users>", 
+						"Gain a free [STaun Global] [in capital] <upon entering the [Modern era]> <hidden from users>", 
+						"Gain a free [STaun Global] [in capital] <upon entering the [Atomic era]> <hidden from users>", 
+						"Gain a free [STaun Global] [in capital] <upon entering the [Information era]> <hidden from users>", 
+						"Gain a free [STaun Local] [in capital] <upon constructing [Temple] [in capital]> <hidden from users>"],
+			"cities": ["Pakuan Pajajaran","Kawali","Saunggalah","Kalapa","Kutamaya","Majalengka","Banten","Kampung Naga","Galunggung","Garut",
+				"Cirebon","Kanekes","Batujaya","Tasikmalaya","Pulasiri","Cigugur","Cianjur","Ciampea","Pangandaran","Cigede",
+				"Bojong Menje","Cipari","Cimahi","Cicatih","Sumedang","Ciamis","Kuningan","Sukabumi","Karangtengah","Cihampela"],
 			"spyNames": ["Sartika","Asep","Atep","Mihardja","Sukaesih","Tamala","Ratnadilla","Surapranata","Heryawan","Kartasasmita"]
 		},
 		
@@ -334,8 +345,8 @@
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Buddhism",
 
-			"startIntroPart1": ".",
-			"startIntroPart2": "Can you build a civilization that will stand the test of time?",
+			"startIntroPart1": "God grants you wisdom, Rakai Panangkaran, the great builder of the majestic Medang Kingdom. Since your ascension in 760, the kingdom immediately reached its zenith. Credited with at least five major temple projects, your visionary leadership extended to Candi Sewu, a monumental undertaking that began under your guidance and reached completion in 792. Although you did not witness its completion, your vision laid the foundation for the grandest temple complex of its time, a sacred ground for important stately religious ceremonies. This later inspired Samaratungga to build the largest Buddhist temple in the world, Borobudur.",
+			"startIntroPart2": "Śrī Mahārāja Dyaḥ Pañcapaṇa, your people look back to your reign as a period of remarkable development and cultural enlightenment. Will you, in the spirit of your visionary leadership and wisdom, rise again to guide them to even greater heights of grandeur? Can you build a civilization that will stand the test of time?",
 			
 			"declaringWar": "The world will be more beautiful without you. Prepare for war.",
 			"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
@@ -349,9 +360,9 @@
 			"outerColor": [ 79, 73, 6],
 			"innerColor": [255,233,23],
 			"uniqueName": "Monumental Age",
-			"uniques": ["+2 Great Engineer point from every Faith buildings", 
-						"+2 [Food], +2 [Production] from every Holy site constructed by Silpin", 
-						"+15% [Production] when constructing wonders in cities with a Holy site", 
+			"uniques": ["Comment [+2 Great Engineer point from every Faith buildings]", 
+						"Comment [+2 [Food], +2 [Production] from every Holy site constructed by [Silpin]]", 
+						"Comment [+15% [Production] when constructing wonders in cities with a [Holy site]]", 
 						"Free [Worker] appears <upon gaining a [Silpin] unit> <hidden from users>"],
 			"cities": ["Mataram Kuno","Mamratipura","Magelang","Klaten","Solo","Salatiga","Semarang","Purworejo","Wonosobo","Temanggung",
 				"Pekalongan","Batang","Kendal","Banjarnegara","Boyolali","Demak","Grobogan","Yogyakarta","Sragen","Karanganyar",
@@ -384,15 +395,15 @@
 			"outerColor": [ 28,51,119],
 			"innerColor": [225,225,20],
 			"uniqueName": "Puputan",
-			"uniqueText": "+33% Strength for Land units when below 40 HP \nGain 15% of [Faith] building/worder's production cost as [Culture]",
-			"uniques": ["[+33]% Strength <for [Land] units> <when below [40] HP>", 
-						"Gain [6] [Culture] <upon constructing [Shrine]>", 
-						"Gain [15] [Culture] <upon constructing [Temple]>", 
-						"Gain [28] [Culture] <upon constructing [Grand Temple]>", 
-						"Gain [28] [Culture] <upon constructing [Stonehenge]>", 
-						"Gain [45] [Culture] <upon constructing [Hagia Sophia]>", 
-						"Gain [45] [Culture] <upon constructing [Great Mosque of Djenne]>", 
-						"Gain [60] [Culture] <upon constructing [Notre Dame]>"],
+			"uniques": ["[+33]% Strength <for [Land] units> <when below [50] HP>", 
+						"Comment [Gain 15% of [Faith] building/worder's production cost as [Culture]]", 
+						"Gain [6] [Culture] <upon constructing [Shrine]> <hidden from users>", 
+						"Gain [15] [Culture] <upon constructing [Temple]> <hidden from users>", 
+						"Gain [28] [Culture] <upon constructing [Grand Temple]> <hidden from users>", 
+						"Gain [28] [Culture] <upon constructing [Stonehenge]> <hidden from users>", 
+						"Gain [45] [Culture] <upon constructing [Hagia Sophia]> <hidden from users>", 
+						"Gain [45] [Culture] <upon constructing [Great Mosque of Djenne]> <hidden from users>", 
+						"Gain [60] [Culture] <upon constructing [Notre Dame]> <hidden from users>"],
 			"cities": ["Gelgel","Klungkung","Bedulu","Samprangan","Buleleng","Karangasem","Mengwi","Badung","Tabanan",
 				"Gianyar","Bangli","Jembrana","Denpasar","Susut","Ubud","Marga","Pekutatan","Bebandem","Nusa Penida",
 				"Petang","Tempuku","Kubutumbahan","Tampaksiring","Nagara","Selemadeg"],
@@ -423,7 +434,7 @@
 			"outerColor": [121,  0,  2],
 			"innerColor": [234,225,158],
 			"uniqueName": "Nagarakretagama",
-			"uniques": ["[+50]% Strength <for [Land] units> <when fighting in [Coastal] tiles> <vs cities>", 
+			"uniques": ["[+50]% Strength <for [Land] units> <when fighting in [Coastal] tiles>", 
 						"Upon capturing a city, receive [5] times its [Gold] production as [Gold] immediately"],
 			"cities": ["Trowulan","Klaten","Kadiri","Surabaya","Malang","Probolinggo","Madiun","Mojokerto","Semarang","Solo",
 				"Pekalongan","Tegal","Salatiga","Magelang","Palembang","Bandar Lampung","Pangkalpinang","Denpasar","Bengkulu","Jambi",
@@ -513,7 +524,7 @@
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Hinduism",
 
-			"startIntroPart1": ".",
+			"startIntroPart1": ".", // May your rule ever bring security and stability
 			"startIntroPart2": "King Mulavarman, your people look to you once more, to make them powerful and wealthy, to keep them supplied with the weapons they need to defeat any foe. Can you save them from destruction, oh King? Can you build a civilization that will stand the test of time?",
 
 			"declaringWar": "I had a vision from God himself, and he has told me to smite you down!",
@@ -576,8 +587,8 @@
 			"preferredVictoryType": "Diplomatic",
 			"favoredReligion": "Islam",
 
-			"startIntroPart1": ".",
-			"startIntroPart2": "Religious King, the time for greatness is upon you once more. Will you channel the will of God and restore your once proud sultanate to its greatest heights? Can you build a civilization that will stand the test of time?",
+			"startIntroPart1": "There is much to be done, Hidayatullah Halil Illah, the rightful Sultan of Banjar. Succeeding Tamjidullah II, who unilaterally seized the Banjar throne on Dutch orders, you called for independence for the Banjar people. Together with the Dayaks led by Dipati Jaya Raja and with the help of reliable commanders such as Antasari and Demang Lehman, you initiated an attack on the Dutch coal mines in Pengaron, marking the outbreak of the Banjarmasin War. Using guerrilla tactics, you roamed throughout the jungles, engaging in battles with the Dutch from one place to another. Undeterred, you fought against the much better-equipped Dutch.",
+			"startIntroPart2": "Alas, there are no great men without a mother's love, and you, religious sultan, who had to give up when victory was in sight - get another chance to restore your once proud sultanate. Can you protect the safety of your mother and your people? Can you build a civilization that will stand the test of time?",
 			
 			"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 			"attacked": "As predicted, you know only how to take. Come, then—choose the manner of your defeat.",
@@ -721,7 +732,7 @@
 			"outerColor": [68,142,249],
 			"innerColor": [28, 51,119],
 			"uniqueName": "Tellumpoccoe",
-			"uniqueText": "+3 [Production], +3 [Gold] in cities with 5 population or less\nGain a free [Granary] in your first 3 cities",
+			"uniqueText": "+3 [Production], +3 [Gold] in cities with 5 population or less\nGain a free [Granary] in your first 5 cities",
 			"uniques": ["[+3 Production, +3 Gold] [in all cities]", 
 						"[-3 Production, -3 Gold] [in all cities] <in cities with at least [6] [Population]>", 
 						"Provides a [Granary] in your first [3] cities for free"],
@@ -765,7 +776,7 @@
 		{
 			"name": "Gorontalo",				/// 1300 - 1878
 			"leaderName": "Ilahudu",
-			"adjective": ["Hulontalo"],
+			"adjective": ["Hulontaloan"],
 			"startBias": ["Hill","Mountain"],
 			"preferredVictoryType": "Diplomatic",
 			"favoredReligion": "Islam",
@@ -785,14 +796,14 @@
 			"outerColor": [61, 0, 109],
 			"innerColor": [68,142,249],
 			"uniqueName": "Pohala'a",
-			"uniques": ["[+2 Gold] [in all cities connected to capital]", 
-						"[+2 Gold] from every [Harbor]", 
-						"[-25]% maintenance on road & railroads"],
+			"uniques": ["Comment [50% chance a Pohala'a emerged in a random city upon entering Golden Age, +4 Population in said city]", 
+						"[+4] population in a random city <upon entering a Golden Age> <with [50]% chance> <hidden from users>",
+						"[+50]% Natural religion spread [in holy cities]",  
+						"[+2 Gold] [in all cities connected to capital]"],
 			"cities": ["Hulawa","Tula Denggi","Biawu","Hunginaa","Lupoyo","Bilinggata","Wuwabu","Padengo","Huwangobotu Olowala","Tapa",
 				"Lauwonu","Toto","Dumati","Ilotidea","Pantungo","Panggulo","Huangobotu Oloyihi","Tamboo","Hulontalangi","Palasa",
 				"Boalemo","Bone Boalemo","Pohuwato","Limboto","Kwandang"],
-			"spyNames": ["Nusi Bilondatu","Jusuf Niode","Hoesa Lahay","Marten Botutihe","Anis Liputo",
-				"Nurdin Habibie","Darwis Pagau","Tayeb Taha","Haris Pou","Mbuinga"]
+			"spyNames": ["Nusi Bilondatu","Hoesa Lahay","Anis Liputo","Nurdin Habibie","Darwis Pagau","Tayeb Taha","Haris Pou","Niode","Botutihe","Mbuinga"]
 		},
 		
 		// Gowa-Tallo (Makassar)
@@ -818,7 +829,7 @@
 			
 			"outerColor": [255,215,0],
 			"innerColor": [  0,  0,0],
-			"uniqueName": "Founder of Makassar",
+			"uniqueName": "Anging Mamiri",
 			"uniques": ["[+100]% Yield from every [Luxury resource]", 
 						"New [Galle'] units start with [10] Experience [in all cities] <hidden from users>"],
 			"cities": ["Somba Opu","Tallo","Tamalate","Ujung Tanah","Balla Kiria","Pabineang","Jongaya","Selayar","Marusu","Wajo",
@@ -888,7 +899,6 @@
 			"outerColor": [  0,  0,128],
 			"innerColor": [211,211,211],
 			"uniqueName": "Semana Santa",
-			"uniqueText": "Cities produce 50% more [Culture] and [Faith] during We Love The King Day \n+1 [Culture] from every Fishing Boats",
 			"uniques": ["[+50]% [Culture] [in all cities] <during We Love The King Day>", 
 						"[+50]% [Faith] [in all cities] <during We Love The King Day>", 
 						"[+1 Culture] from every [Fishing Boats]", 
@@ -910,13 +920,13 @@
 			"preferredVictoryType": "Domination",
 			"favoredReligion": "Islam",
 
-			"startIntroPart1": "Long life and triumph to you, The Ruler of 72 Islands, Sultan Baabullah. Ternate is a maritime sultanate that prioritizes trade. During your reign, Ternate reached its Golden Age and encompassed most of the eastern part of Indonesia and a part of southern Philippines. Ternate was a major producer of cloves and a regional power from the 15th to 17th centuries.",
-			"startIntroPart2": "Sultan Baabullah, your people call out to you to lead them! They look to you once more to return the glory and greatness of Ternate. Can you build a civilization that will stand the test of time?",
+			"startIntroPart1": "Long life and triumph to you, overlord of 72 Islands, Sultan Baabullah! After your father was murdered, you rose to the throne and forged a vast empire encompassing most of the eastern part of Indonesia and a part of southern Philippines. You build countless temples, palaces, and citadels to strengthen your rule, uniting the disparate tribes under the banner of Islam. Prioritize trading, your empire achieved its zenith, rivaled even the union of Spain of Portugal.",
+			"startIntroPart2": "Sultan Baabullah, your people call out to you to lead them and restore the throne of Ternate to its rightful place. Will you become the overlord of Maluku once again? Can you build a civilization that will stand the test of time?",
 			
 			"declaringWar": "Let's have a nice little War, shall we?",
 			"attacked": "If you need your nose bloodied, we'll happily serve.",
 			"defeated": "Defeat is defeat, no excuses. Surely my descendant will rise, one day..",
-			"introduction": "Hello, I am Baabullah, ruler of 72 islands..",
+			"introduction": "Hello, I am Baabullah, overlord of 72 islands. Gaze upon my many fortresses!",
 			
 			"neutralHello": "Hello.",
 			"hateHello": "Shame on you.",
@@ -927,10 +937,10 @@
 			"uniqueName": "Uli Lima",
 			"uniques": ["[+50]% Production when constructing [Water] units [in all cities]"
 						"Enables [All] units to enter ocean tiles <after discovering [Optics]>", 
-						"[+33]% Production when constructing [Albahdir] units [in capital] <hidden from users>"],
+						"[+50]% Production when constructing [Albahdir] units [in capital] <hidden from users>"],
 			"cities": ["Ternate","Jailolo","Loloda","Makian","Sula","Talaud","Sitaro","Sanana","Moro","Western Seram",
 				"Gorontalo","Bolaang Mongondow","Sausu","Donggala","Banggai","Muna","Sikka","Ende","Bima","Tambora", "Marshall Island"],
-			"spyNames": ["Hanavi Hehanusa","Elly Manuhatu","Das Alwi","Ferni Lestusen","Sonny Hiariej","Erwin Pical","Andre Latuharhary","Debby Lilipaly","Umar Pattikawa","Rian Sahetapy"]
+			"spyNames": ["Hehanusa","Manuhatu","Lestusen","Hiariej","Sahetapy","Das Alwi","Erwin Pical","Andre Latuharhary","Debby Lilipaly","Umar Pattikawa"]
 		},
 		
 		// Tidore
@@ -942,12 +952,12 @@
 			"preferredVictoryType": "Scientific",
 			"favoredReligion": "Islam",
 
-			"startIntroPart1": "Salam, o' Sultan Nuku, The Breaker of Chains. Tidore is an independent sultanate. During the Portuguese and Spanish occupations, Tidore united forces with Ternate to expel both of them. With your wisdom, m'lord managed to avenge the betrayal of the Dutch, reclaim the sovereignty of Tidore, and resist the Dutch attacks who wanted to control the land of Maluku and Papua. Tidore is not only about the people of Maluku, but also about the people of Papua.",
-			"startIntroPart2": "M'lord Sultan Nuku, your people expect your return to lead your descendants and all of your people. Can you build a civilization that will stand the test of time?",
+			"startIntroPart1": "Salam, O Sultan Nuku Muhammad Amiruddin, Prince of Maluku and Lord of Papua. You are the legitimate Sultan of Tidore, an independent sultanate that defied colonial rule and upheld traditions. You succeeded in repairing ancient rivalries with the Ternatans, forming a united force against the Portuguese and Spanish. Through cunning alliances and naval prowess, you managed to avenge the betrayal of the Dutch, reclaim the sovereignty of Tidore, and resist their subsequent attacks. Your death spelled the end of Tidore's independence, but your legacy remains vibrant in the hearts of the people of Maluku and Papua.",
+			"startIntroPart2": "Sultan Nuku the Breaker of Chains, your people expect your return once more, to expels those who seek to harm the tradition of Tidore. Will you rise from the deep sea and take arms with your people?  Can you build a civilization that will stand the test of time?",
 
 			"declaringWar": "I will not allow my people to suffer any longer. The time has come to end this charade!",
 			"attacked": "The armies of Tidore await you with open arms!",
-			"defeated": "It is over. Perhaps now I shall have peace, at last.",
+			"defeated": "Despite my efforts, my fleets were no match for your manpower. Perhaps now I shall have peace, at last.",
 			"introduction": "Welcome! I am the great overlord and Sultan of Tidore, Nuku Muhammad Amiruddin. My fleets are impressive, are they not?",
 			
 			"neutralHello": "Greetings.",
@@ -959,7 +969,7 @@
 			"uniqueName": "Uli Siwa",
 			"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", 
 						"[+1 Happiness] [in all coastal cities]", 
-						"+2% [Science] for each coastal cities, up to +15%", 
+						"Comment [+2% [Science] for each coastal cities, up to +15%]", 
 						"[+2]% [Science] <when above [0] [CoastalCounter]> <when below [2] [CoastalCounter]> <hidden from users>", 
 						"[+4]% [Science] <when above [1] [CoastalCounter]> <when below [3] [CoastalCounter]> <hidden from users>" , 
 						"[+6]% [Science] <when above [2] [CoastalCounter]> <when below [4] [CoastalCounter]> <hidden from users>" , 
@@ -970,11 +980,41 @@
 						"[+15]% [Science] <when above [7] [CoastalCounter]> <hidden from users>"],
 			"cities": ["Tidore","Weda","Labuha","Maba","Raja Ampat","Eastern Seram","Sorong","Tambraun","Taybrat","Manokwari",
 				"Bintuni","Arfak","Kaimana","Wondama","Nabire","Dogiyai","Paniai","Intan Jaya","Mimika","Biak"],
-			"spyNames": ["Bosamawange","Balibunga Matulessy","Duko Adoya","Kie Matiti","Arif Matagena","Carolyn Tiahahu","Gapi Baguna","Mole Maginyau","Jou Latuhihin","Jallo Kahaela"]
+			"spyNames": ["Bosamawange","Matagena","Tiahahu","Matiti","Balibunga","Duko Adoya","Gapi Matulessy","Mole Maginyau","Jou Latuhihin","Jallo Kahaela"]
 		},
 		
 		// Papua
-		
+		{
+			"name": "Biak",
+			"leaderName": "Kurabesi",
+			"adjective": ["Biak"],
+			"startBias": ["Coast"],
+			"preferredVictoryType": "Domination",
+			//"favoredReligion": "Islam",
+
+			"startIntroPart1": "Power and strength to you, Kurabesi, the man, the myth, and the legend of Papua.",
+			"startIntroPart2": "Kurabesi, your bravery remains vibrant in the hearts of the Papua people, but your legacy dwindles in the annals of Indonesia. Will you rise again, and return Papua to its prosperity? Or will you conquer to rival the mighty powers around you and redeem your descendant mistakes? Can you build a civilization to stand the test of time?",
+
+			"declaringWar": "Not that I care about you, but my people and my ally didn't like you. Prepare for war!",
+			"attacked": "Oh, really? A war with the kind of you?",
+			"defeated": "This is a regrettable outcome.",
+			"introduction": "I haven't seen your face before. I am Kurabesi, king of Papua. Who are you, and why have you come?",
+
+			"neutralHello": "Rosaiso?",
+			"hateHello": "What?",
+			"tradeRequest": "A fair trade, yes?",
+
+			"outerColor": [156,197,237],
+			"innerColor": [ 17, 43,119],
+			"uniqueName": "People of the Reef",
+			"uniques": ["[+2 Food, +1 Production] from every [Atoll]", 
+						"[+2 Food, +1 Production] from every [Crab]", 
+						"[+2 Food, +1 Production] from every [Pearls]", 
+						"[+2 Food, +1 Production] from every [Whales]"],
+			"cities": ["Biak","Numfor","Misool","Salawati","Batanta","Waigeo","Supiori","Samofa","Sorong","Aimas",
+				"Warsa","Yendidori","Swandiwe","Orridek","Yawosi","Andey","Padaido","Aimando Padaido","Bruyadori","Orkeri"],
+			"spyNames": ["Warnosadoi","Rumbiak","Obed","Simbiak","Ondi","Ordeko","Wanma","Sabe","Rumere","Wabia"]
+		},
 		
 	// The Philippines
 		
@@ -1001,7 +1041,7 @@
 			"outerColor": [  0,56,168],
 			"innerColor": [252,209,22],
 			"uniqueName": "Kota Raya Kita",
-			"uniques": ["Gain 100 [Gold] (modified by game speed) upon adopting Policy opener", 
+			"uniques": ["Comment [Gain 100 [Gold] (modified by game speed) upon adopting Policy opener]", 
 						"Gain [100] [Gold] (modified by game speed) <upon adopting [Tradition]> <hidden from users>", 
 						"Gain [100] [Gold] (modified by game speed) <upon adopting [Liberty]> <hidden from users>", 
 						"Gain [100] [Gold] (modified by game speed) <upon adopting [Honor]> <hidden from users>", 
@@ -1022,13 +1062,13 @@
 		// Sulu
 		{
 			"name": "Sulu",							// 1405 - 1915
-			"leaderName": "Jamalul Kiram I",
+			"leaderName": "Azim Ud-Din I",
 			"adjective": ["Tausug"],
 			"startBias": ["Coast"],
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Islam",
 
-			"startIntroPart1": "Stand proud, Jamalul Kiram I, the first of his name, sovereign ruler of the Sultanate of Sulu! Amidst the turquoise waters and coral isles of the Sulu Archipelago, your dynasty carved its name in history. Under your rule, the Sultanate of Sulu emerged as a maritime power, commanding trade routes and fostering cultural exchange in the Sulu Archipelago. Notorious for its so-called 'Moro Raids' or acts of piracy directed toward Spanish settlements, the sultanate managed to thwart Spanish attempts to subjugate the Moro people for centuries.",
+			"startIntroPart1": "Stand proud, Azim Ud-Din I, the first of his name, sovereign ruler of the Sultanate of Sulu! Amidst the turquoise waters and coral isles of the Sulu Archipelago, your dynasty carved its name in history. Under your rule, the Sultanate of Sulu emerged as a maritime power, commanding trade routes and fostering cultural exchange in the Sulu Archipelago. Notorious for its so-called 'Moro Raids' or acts of piracy directed toward Spanish settlements, the sultanate managed to thwart Spanish attempts to subjugate the Moro people for centuries.",
 			"startIntroPart2": "Oh clever and virtuous Jamalul Kiram, will you rebuild Sulu and lead your people to even greater heights of glory? Will you take up the challenge and vanquish your foes under heaven's watchful eyes? Can you build a civilization that will stand the test of time?",
 
 			"declaringWar": "Your transgressions are as deep as oceans. Prepare for war!",
@@ -1044,7 +1084,7 @@
 			"innerColor": [225,225,225],
 			"uniqueName": "Moro Raids",
 			"uniques": ["Free [Worker] appears <upon constructing [Courthouse]>", 
-						"May sell Worker for 35 [Gold] (modified by game speed)", 
+						"Comment [May sell Worker for 35 [Gold] (modified by game speed)]", 
 						"[Worker] units gain the [Slave] promotion <hidden from users>"],
 			"cities": ["Buana","Maimbung","Palawan","Moroland","Sandakan","Kudat","Lahad Datu","Tawau","Semporna",
 				"Tawi-tawi","Jolo","Basilan","Zamboanga","Indanan","Pangutaran","Parang","Patikul","Talipao","Mactan"],
@@ -1076,11 +1116,11 @@
 			"innerColor": [146, 74,  1],
 			"uniqueName": "Helper of the Faith",
 			"uniques": ["Militaristic City-States grant units [2] times as fast when you are at war with a common nation", 
+						"Comment [+33% [Production] when constructing Defensive buildings in all cities]", 
 						"[+33]% Production when constructing [Walls] buildings [in all cities] <hidden from users>", 
 						"[+33]% Production when constructing [Castle] buildings [in all cities] <hidden from users>", 
 						"[+33]% Production when constructing [Arsenal] buildings [in all cities] <hidden from users>", 
-						"[+33]% Production when constructing [Military Base] buildings [in all cities] <hidden from users>", 
-						"+33% [Production] when constructing Defensive buildings in all cities"],
+						"[+33]% Production when constructing [Military Base] buildings [in all cities] <hidden from users>"],
 			"cities": ["Kuta Watu","Tamontaka","Dinaig","Tumbao","Pollok","Padang-Padang","Talavan","Tinungkul","Buayan",
 				"Kitakubong","Buluan","Tukuran","Inuk","Kalamansig","Pula","Glan","Pinagurusan","Kuruan","Bolong"],
 			"spyNames": ["Sajid","Ampatuan","Datumanong","Mariam","Baraguir","Ameni","Murad","Gumbay","Pendatun","Sinsuat"]

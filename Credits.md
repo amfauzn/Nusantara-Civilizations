@@ -1,6 +1,7 @@
 # Development
 * [amfauzn (AKA faw)](https://github.com/amfauzn) - idea, code, lore, icon, sprites, Indonesian translation
 * [hyunamae (AKA Kāne)](https://github.com/hyunamae) - idea, lore, icon
+* KrankeWagon - leader portrait
 * riceroll - idea, lore, balancing
 * [Smashfanful](https://github.com/Smashfanful) - Italian translation
 * [AceHank](https://github.com/AceHank) - balancing
@@ -8,7 +9,7 @@
 * X2003 - idea
 
 # Credits
-Any icons not listed below are self made with Paint 3D.
+Some of the icon made by me.
 
 ## Sumatra and Malay Peninsula
 - [Borobudur](https://thenounproject.com/icon/borobudur-2412861/) by Phạm Thanh Lộc, VN
@@ -22,8 +23,6 @@ Any icons not listed below are self made with Paint 3D.
 - All icons of Pagaruyung by hyunamae AKA Kāne
 
 ## Java and Bali
-- [Tiger](https://thenounproject.com/icon/tiger-4038089/) by IronSV
-- [Pagoda](https://thenounproject.com/icon/pagoda-4944468/) by Amethyst Studio, TH
 - [Mandala](https://thenounproject.com/icon/mandala-2533520/) by Dament, ID
 - [temple](https://thenounproject.com/icon/temple-5212638/) by Cahya Kurniawan, ID
 - [barongsai](https://thenounproject.com/icon/barongsai-3178075/) by JunGSa, ID
@@ -41,13 +40,10 @@ Any icons not listed below are self made with Paint 3D.
 ## Borneo
 - [Horse](https://thenounproject.com/icon/horse-1023745/) by Bakunetsu Kaito
 - [Stone inscription](https://thenounproject.com/icon/stone-inscription-4704020/) by Hey Rabbit. Modified
-- [Palace](https://thenounproject.com/icon/palace-4734191/) by Lia Rahdiah
-- [palace of parlianment](https://thenounproject.com/icon/palace-of-parliament-4009207/) by Vector Portal
 - [Town](https://thenounproject.com/icon/town-631486/) by Hamish
 - [warship](https://thenounproject.com/icon/warship-2048530/) by Hada Arkanda, ID
 - [Sword](https://thenounproject.com/icon/sword-718406/) by Daniela Baptista
 - [Spear](https://thenounproject.com/icon/spear-1215452/) by Guilherme Furtado. Modified
-- [Shield](https://thenounproject.com/icon/shield-1002903/) by Alena Artemova
 - [Long Tailed Boat](https://thenounproject.com/icon/long-tailed-boat-1764311/) by ATOM, TH
 - [Sword](https://thenounproject.com/icon/sword-1547638/) by Nociconist
 - [frigate](https://thenounproject.com/icon/frigate-4635884/) by Danil Polshin. Modified
@@ -66,7 +62,6 @@ Any icons not listed below are self made with Paint 3D.
 - [textile fabric](https://thenounproject.com/icon/textile-fabric-3961065/) by varvarvarvarra
 - [Spear](https://thenounproject.com/icon/spear-3930031/) by Firza Alamsyah, ID
 - [coconut](https://thenounproject.com/icon/coconut-2094460/) by Nook Fulloption, TH
-- [Community](https://thenounproject.com/icon/community-2326294/) by designer expert
 - [Cannon](https://thenounproject.com/icon/cannon-1599554/) by sandra. Modified
 - [Ship](https://thenounproject.com/icon/ship-1017575/) by leo-graph.com, IN
 - [Lotus](https://thenounproject.com/icon/lotus-2011976/) by dhul, ID
@@ -80,7 +75,6 @@ Any icons not listed below are self made with Paint 3D.
 - [Ship](https://thenounproject.com/icon/ship-3863477/) by Andrejs Kirma. Modified
 - [pattern](https://thenounproject.com/icon/pattern-8749/) by Mike Rowe. Modified
 - [Ship](https://thenounproject.com/icon/ship-1445537/) by yanti anis
-- [Viking](https://thenounproject.com/icon/viking-4509240/) by Vectorstall
 - Icon of Larantuka by hyunamae AKA Kāne
 
 ## The Philippines

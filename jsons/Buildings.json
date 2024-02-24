@@ -40,7 +40,7 @@
 			"cost": 40,
 			"maintenance": 1,
 			"requiredTech": "Pottery",
-			"uniques": ["Instantly gain 3 Faith and 3 Culture multiplied by owned Bale Pasogit", 
+			"uniques": ["Comment [Instantly gain 3 Faith and 3 Culture multiplied by owned Bale Pasogit]", 
 						"Unsellable", 
 						"Hidden when religion is disabled"],
 			"civilopediaText": [
@@ -52,7 +52,7 @@
 			"cost": 1,
 			"uniques": ["Only available <in cities with a [Bale Pasogit]>", 
 						"Automatically built in all cities where it is buildable", 
-						"Provides [1] [Parmalim]", 
+						"Provides [1] [Parmalim] <hidden from users>", 
 						"Destroyed when the city is captured", 
 						"Will not be displayed in Civilopedia"]
 		},
@@ -134,33 +134,56 @@
 	
 	// Java and Bali
 	
-		// Tarumanagara
+		// Sunda
 		{
-			"name": "Kampung Muara",
-			"replaces": "Amphitheater",
-			"uniqueTo": "Tarumanagara",
-			"culture": 3,
-			"specialistSlots": {"Inscriptor": 1},
-			"requiredBuilding": "Monument",
-			"maintenance": 2,
-			"hurryCostModifier": 10,
-			"uniques": ["Unlock Inscriptor specialist (+3 Culture, +3 Science, +4 Great Artist point)", 
-						"Destroyed when the city is captured"],
-			"requiredTech": "Drama and Poetry",
+			"name": "Leuit",
+			"replaces": "Granary",
+			"uniqueTo": "Sunda",
+			"food": 2,
+			"faith": 1,
+			"maintenance": 1,
+			"hurryCostModifier": 25,
+			"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+						"[+1 Food] from [Bananas] tiles [in this city]",
+						"[+1 Food] from [Wheat] tiles [in this city]", 
+						"[+1 Culture] <after discovering [Theology]>"],
+			"requiredTech": "Pottery",
 			"civilopediaText": [
-				{"text": "A historical site where inscriptions such as Kebon Kopi, Muara Cianten, and Ciaruteun were found. This Cultural Heritage Site is flanked by the Cisadane, Cianteun, and Ciaruteun rivers."},
+				{"text": "A type of vernacular rice barn used to store rice after harvest for future and daily use. A leuit is an essential part of Sundanese agricultural tradition, especially during annual Seren Taun harvest ceremony. It symbolizes sustainance and livelihood."},
 			]
 		},
 		{
-			"name": "FreePop",
-			"uniqueTo": "Tarumanagara",
-			"maintenance": 0,
+			"name": "STaun Bonus",
+			"uniqueTo": "Sunda",
 			"cost": 1,
-			"uniques": ["Unsellable", "Must be on [River]", 
-						"Will not be displayed in Civilopedia",
-						"[+1] population [in this city]", 
-						"Automatically built in all cities where it is buildable"],
-			"requiredTech": "Agriculture"
+			"uniques": ["Unbuildable", 
+						"Instantly consumes [1] [ST Global] <upon turn end> <when above [0] [ST Global]> <hidden from users>", 
+						"Instantly consumes [1] [ST Local] <upon turn end> <when above [0] [ST Local]> <hidden from users>", 
+						"[+10]% [Culture] [in all cities] <when above [0] [ST Global]>", 
+						"[+10]% [Gold] [in all cities] <when above [0] [ST Global]>", 
+						"[+30]% [Culture] [in this city] <when above [0] [ST Local]>", 
+						"[+30]% [Gold] [in this city] <when above [0] [ST Local]>", 
+						"Destroyed when the city is captured", 
+						"Will not be displayed in Civilopedia"],
+		},
+		{
+			"name": "STaun Global",
+			"uniqueTo": "Sunda",
+			"cost": 1,
+			"uniques": ["Unbuildable", 
+						"Instantly provides [10] [ST Global]", 
+						"Remove [STaun Global] [in this city]", 
+						"Will not be displayed in Civilopedia"],
+		},
+		{
+			"name": "STaun Local",
+			"uniqueTo": "Sunda",
+			"cost": 1,
+			"uniques": ["Unbuildable", 
+						"Unsellable", 
+						"Instantly provides [30] [ST Local]", 
+						"Destroyed when the city is captured", 
+						"Will not be displayed in Civilopedia"],
 		},
 		
 		// Medang (Mataram Kuno)
@@ -172,7 +195,7 @@
 			"culture": 8,
 			"faith": 8,
 			"isNationalWonder": true,
-			"uniques": ["Research Philosophy vs Theology", 
+			"uniques": ["Comment [Research Philosophy vs Theology]", 
 						"Cost increases by [30] per owned city", 
 						"Gain a free [Temple] [in all cities]"],
 			"requiredTech": "Philosophy",
@@ -346,7 +369,7 @@
 			"maintenance": 1,
 			"hurryCostModifier": 25,
 			"requiredNearbyImprovedResources": ["Iron","Gold Ore"],
-			"uniques": ["Research Guilds vs Metal Casting", 
+			"uniques": ["Comment [Research Guilds vs Metal Casting]", 
 						"[+15]% Production when constructing [Spaceship part] units [in this city]",
 						"[+15]% Production when constructing [Land] units [in this city]",
 						"[+1 Production] from [Iron] tiles [in this city]", 
@@ -357,7 +380,6 @@
 				{"text": "The main body of the kongsi republics was the assembly hall (zongting), an assembly of delegates representing the constituent kongsi mining communities. The zongting exercised both executive and legislative functions."},
 			]
 		},
-		
 		
 		
 	// Sulawesi
@@ -377,7 +399,7 @@
 			"specialistSlots": {"Artist": 1, "Scientist": 1, "Merchant": 1, "Engineer": 1},
 			"uniques": ["Indicates the capital city", 
 						"[+10]% Production when constructing [All] buildings [in this city]", 
-						"+1 slot of every specialist in this city"],
+						"Comment [Provides 1 slot of every specialist in this city]"],
 			"civilopediaText": [
 				{"text": "Located in Kotamobagu, Komalig is a residence of Punu', ruler of Bolaang Mongondow."},
 			]
@@ -408,7 +430,7 @@
 			"production": 2,
 			"maintenance": 0,
 			"hurryCostModifier": 25,
-			"uniques": ["Can be built in any city", 
+			"uniques": ["Comment [Can be built in any city]", 
 						"[+2 Gold] from [Gold Ore] tiles [in this city]", 
 						"[+2 Gold] from [Silver] tiles [in this city]", 
 						"[+2 Gold] from [Cotton] tiles [in this city]", 
@@ -422,19 +444,32 @@
 		
 		// Gorontalo
 		{
-			"name": "Buatulo Bala",
-			"replaces": "Armory",
+			"name": "Dulohupa",
+			"replaces": "Courthouse",
 			"uniqueTo": "Gorontalo",
-			"cityStrength": 10,
-			"hurryCostModifier": 25,
+			"faith": 3,
 			"maintenance": 2,
-			"requiredBuilding": "Barracks",
-			"uniques": ["New [Military] units start with [15] Experience [in this city]",
-						"Destroyed when the city is captured"],
-			"requiredTech": "Steel",
+			"hurryCostModifier": 0,
+			"uniques": ["Remove extra unhappiness from annexed cities",
+						"Can only be built [in annexed cities]", 
+						"Comment [Can also be built in capital]", 
+						"Comment [+3 [Happiness], +3 [Culture], 0 Maintenance if constructed in capital]"],
+			"requiredTech": "Mathematics",
 			"civilopediaText": [
-				{"text": "An institution that operates as national defense and security,. It controls and distributing weapons to the troops of the Gorontalo sultanate."},
+				{"text": "Meaning 'Consensus' in Gorontaloan language, Dulohupa is a traditional building used to deliberate to reach consensus in traditional cases during the reign of Gorontalo kings in the past. Dulohupa also used as a place to try someone who commits a crime."},
 			]
+		},
+		{
+			"name": "Dulohupa Capital",
+			"uniqueTo": "Gorontalo",
+			"culture": 3,
+			"happiness": 3,
+			"faith": 3,
+			"maintenance": 0,
+			"uniques": ["Only available <in cities with a [Palace]>", 
+						"Destroyed when the city is captured", 
+						"Will not be displayed in Civilopedia"],
+			"requiredTech": "Mathematics"
 		},
 	
 	
@@ -456,17 +491,17 @@
 			"culture": 1,
 			"faith": 8,
 			"isNationalWonder": true,
-			"uniques": ["Requires a [Temple] in all cities", 
+			"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", 
 						"Cost increases by [30] per owned city",
 						"[+100]% Natural religion spread [in this city]", 
-						"Only available <in cities with a [KRR builder]>", 
-						"Free Social Policy <upon entering the [Renaissance era]>", 
-						"Free Social Policy <upon entering the [Industrial era]>", 
-						"Free Social Policy <upon entering the [Modern era]>", 
-						"Free Social Policy <upon entering the [Atomic era]>", 
-						"Free Social Policy <upon entering the [Information era]>", 
-						"Free Social Policy <upon entering the [Future era]>"],
-			"replacementTextForUniques": "Free Social Policy upon entering new era",
+						"Comment [Can also be built in capital]", 
+						"Comment [Free Social Policy upon entering new era]", 
+						"Only available <in cities with a [KRR builder]> <hidden from users>", 
+						"Free Social Policy <upon entering the [Renaissance era]> <hidden from users>", 
+						"Free Social Policy <upon entering the [Industrial era]> <hidden from users>", 
+						"Free Social Policy <upon entering the [Modern era]> <hidden from users>", 
+						"Free Social Policy <upon entering the [Atomic era]> <hidden from users>", 
+						"Free Social Policy <upon entering the [Information era]> <hidden from users>"],
 			"requiredTech": "Theology",
 			"civilopediaText": [
 				{"text": "A Catholic cathedral dedicated to Queen Mary's title, Reinha Rosary. The cathedral is the seat of the Bishop of Larantuka."},
@@ -480,10 +515,31 @@
 			"cost": 1,
 			"uniques": ["Must be next to [Coast]", 
 						"Automatically built in all cities where it is buildable", 
-						"Provides [1] [CoastalCounter]", 
+						"Provides [1] [CoastalCounter] <hidden from users>", 
 						"Limited to [9] per Civilization", 
 						"Destroyed when the city is captured", 
 						"Will not be displayed in Civilopedia"]
+		},
+		
+		// Biak
+		{
+			"name": "Rumsram",
+			"replaces": "Barracks",
+			"uniqueTo": "Biak",
+			"cost": 90,
+			"hurryCostModifier": 25,
+			"maintenance": 1,
+			"uniques": ["New [Military] units start with [15] Experience [in this city]", 
+						"New [{Ranged} {non-air} {non-[Ranged Gunpowder]}] units start with [-15] Experience [in this city] <hidden from users>", 
+						"All newly-trained [{Ranged} {non-air} {non-[Ranged Gunpowder]] units [in this city] receive the [Logistics] promotion <hidden from users>", 
+						"Comment [All newly-trained Ranged non-Gunpowder units receive the [Logistics] promotion]", 
+						"Comment [New Military units without [Logistics] promotion start with 15 Experience]", 
+						"[+15]% Production when constructing [Water] units [in this city]", 
+						"Destroyed when the city is captured"],
+			"requiredTech": "Bronze Working",
+			"civilopediaText": [
+				{"text": "A place for activities in teaching and educating men who are starting to be teenagers, usually 6-8 years old, in seeking life experiences. In this place, men are educated to learn sculpting, shielding, boat building, and war techniques."},
+			]
 		},
 	
 	// The Philippines
@@ -497,8 +553,9 @@
 			"maintenance": 0,
 			"hurryCostModifier": 25,
 			"uniques": ["[+1 Production] from [Water resource] tiles [in this city]", 
-						"[+1 Gold] from [Luxury resource] tiles [in this city]", 
-						"Connects trade routes over water"],
+						"[+2 Gold] from [Luxury resource] tiles [in this city]", 
+						"Connects trade routes over water", 
+						"Must be next to [Coast]"],
 			"requiredTech": "Compass",
 			"civilopediaText": [
 				{"text": "Sinibuayang hingpit (the place for trading), shortened to Sibu or Sibo (to trade), was an important trading center where agricultural products were bartered. From Japan, perfume and glass utensils were usually traded for native goods. Ivory products, leather, precious and semi-precious stones and śarkarā (sugar) mostly came from India and Burma traders."},

@@ -92,3 +92,21 @@
 - FIx Siak's UA
 - Bonus resource Water Buffalo
 - Now support HexaRealm style for unit sprite (only land units)
+
+# v1.7 (24.02.2024)
+- Bali
+	UU Janggolan now a Melee Naval unit, 10 Strength, Cannot attack
+- Banjar
+	UI Floating Market balancing
+	+1 Gold -> +2 Gold,
+	+1 Food, +1 Gold after discovering Economics -> +2 Food, +1 Gold,
+	Pillaging yields +10 Gold -> +12 Gold
+- Gorontalo
+	UA rework
+	UB Change Buatulo Bala -> Dulohupa
+- Cebu
+	UB Sibo now can only be built in coastal cities
+	Ub +1 Gold from Luxury tiles -> +2 Gold
+- Removed Civ: Tarumanagara
+- New Civs: Biak and Sunda
+- Add leader portrait by KrankeWagon

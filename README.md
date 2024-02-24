@@ -36,7 +36,8 @@ The basic difference between a mandala and an empire is that an empire has multi
 ### Regional Powers
 Regional powers are a sovereign polity that exercises significant power within a given geographical region. Polity that wield unrivaled power and influence within a region possess regional hegemony.
 - Pagaruyung
-- Sunda (currently represented by Tarumanagara and Banten)
+- Banten
+- Sunda
 - Kutai
 - Sarawak
 - Bone
@@ -57,5 +58,6 @@ Despite the fact that they didn't possess a large area of power, their influence
 ### Additional Polities
 - Jambi
 - Siak
+- Biak
 
-- Notes: CS currently a City-state
+- Notes: CS as City-state

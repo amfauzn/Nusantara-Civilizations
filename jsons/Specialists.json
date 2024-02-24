@@ -1,9 +1,0 @@
-[
-	{
-		"name":"Inscriptor",
-		"culture": 3,
-		"science": 3,
-		"greatPersonPoints": {"Great Artist": 4},
-		"color": [160,32,240]
-	}
-]

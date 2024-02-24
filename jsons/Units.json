@@ -25,7 +25,7 @@
 			"uniqueTo": "Batak",
 			"replaces": "Great Prophet",
 			"uniques": ["Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>", 
-						"Can Spread Religion <[4] times>", 
+						"Can Spread Religion <for [2] movement> <[4] times>", 
 						"Removes other religions when spreading religion", 
 						"May found a religion <by consuming this unit> <if it hasn't used other actions yet>", 
 						"May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>", 
@@ -33,7 +33,7 @@
 						"Takes your religion over the one in their birth city", 
 						"[-1] Sight", 
 						"Great Person - [Faith]", 
-						"-10% Faith cost to purchase", 
+						"Comment [-10% Faith cost to purchase]", 
 						"Unbuildable", 
 						"Religious Unit", 
 						"Hidden when religion is disabled"],
@@ -73,7 +73,7 @@
 			"obsoleteTech": "Combustion",
 			"uniques": ["[+1] Sight", 
 						"May withdraw before melee ([80]%)", 
-						"Research Compass vs Astronomy", 
+						"Comment [Research Compass vs Astronomy]", 
 						"Cannot enter ocean tiles <before discovering [Astronomy]>", 
 						"[+2] Movement <in [Coast] tiles>"],
 			"hurryCostModifier": 30,
@@ -175,18 +175,19 @@
 			"upgradesTo": "Frigate",
 			"uniques": ["[+1] Range <when adjacent to a [Borobudur Ship] unit>", 
 						"[+1] Range <in [Coast] tiles>", 
-						"May heal outside of friendly territory"],
+						"May heal outside of friendly territory", 
+						"[+5] HP when healing <in [Foreign Land] tiles> <hidden from users>"],
 			"attackSound": "arrow"
 		},
 	
 	
 	// Java and Bali
 	
-		// Tarumanagara
+		// Sunda
 		{
 			"name": "Kujang Warrior",
 			"unitType": "Sword",
-			"uniqueTo": "Tarumanagara",
+			"uniqueTo": "Sunda",
 			"replaces": "Swordsman",
 			"movement": 2,
 			"strength": 14,
@@ -195,8 +196,10 @@
 			"upgradesTo": "Longswordsman",
 			"obsoleteTech": "Steel",
 			"requiredResource": "Iron",
-			"uniques": ["No movement cost to pillage", 
-						"[-100]% maintenance costs"],
+			"uniques": ["This Unit gains [1] XP <upon ending a turn in a [Farm] tile>", 
+						"This Unit gains [1] XP <upon ending a turn in a [Plantation] tile>", 
+						//"[-100]% maintenance costs"
+						],
 			"hurryCostModifier": 20,
 			"attackSound": "metalhit"
 		},
@@ -209,7 +212,7 @@
 			"replaces": "Great Engineer",
 			"uniques": ["Can speed up construction of a building", 
 						"Can instantly construct a [Silpin Holy site] improvement <by consuming this unit>", 
-						"Appear with a [Worker]", // Should be Worker appears upon being expended
+						"Comment [Appear with a [Worker]]", // Should be Worker appears upon being expended
 						"Great Person - [Production]", 
 						"Unbuildable", 
 						"Uncapturable"],
@@ -219,15 +222,18 @@
 		// Bali
 		{
 			"name": "Janggolan",
-			"unitType": "Civilian Water",
+			"unitType": "Melee Water",
 			"replaces": "Work Boats",
 			"uniqueTo": "Bali",
 			"movement": 4,
+			"strength": 10,
 			"cost": 30,
 			"requiredTech": "Sailing",
 			"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", 
-						"Can instantly construct a [Fishing Boats] improvement <[3] times>", 
-						"Can instantly construct a [Offshore Platform] improvement <[3] times>", 
+						"Can instantly construct a [Fishing Boats] improvement <[3] times> <after which this unit is consumed> <hidden from users>", 
+						"Can instantly construct a [Offshore Platform] improvement <[3] times> <after which this unit is consumed> <hidden from users>", 
+						"Comment [May create improvements on water resources 3 times]", 
+						"Cannot attack"
 						"May withdraw before melee ([80]%)", 
 						"Uncapturable", 
 						"Automation is a primary action"]
@@ -401,7 +407,7 @@
 			"obsoleteTech": "Steel",
 			"requiredResource": "Iron",
 			"promotions": ["Headhunter"],
-			"uniques": ["Cheaper to buy", 
+			"uniques": ["Comment [Cheaper to buy]", 
 						"Can move immediately once bought"],
 			"hurryCostModifier": -33,
 			"attackSound": "metalhit"
@@ -534,7 +540,7 @@
 			"obsoleteTech": "Navigation",
 			"upgradesTo": "Frigate",
 			"uniques": ["Cannot enter ocean tiles", 
-						"Start with extra 10 Experience"],
+						"Comment [Start with 10 Experience]"],
 			"attackSound": "arrow"
 		},
 		
@@ -600,7 +606,7 @@
 			"strength": 16,
 			"cost": 90,
 			"requiredTech": "Civil Service",
-			"uniques": ["Trained 33% faster in capital", 
+			"uniques": ["Comment [Trained 50% faster in capital]", 
 						"[+25]% Strength <vs [Melee] units>"],
 			"upgradesTo": "Musketman",
 			"obsoleteTech": "Metallurgy",
@@ -638,6 +644,23 @@
 			"uniques": ["[+1] Sight", 
 						"May withdraw before melee ([80]%)"],
 			"attackSound": "cannon"
+		},
+		
+		// Biak
+		{
+			"name": "Warion",
+			"unitType": "Melee Water",
+			"uniqueTo": "Biak",
+			"replaces": "Trireme",
+			"movement": 4,
+			"strength": 10,
+			"cost": 45,
+			"requiredTech": "Sailing",
+			"uniques": ["Cannot enter ocean tiles"],
+			"promotions": ["[Warion] ability","Raider of the East"],
+			"upgradesTo": "Caravel",
+			"obsoleteTech": "Astronomy",
+			"attackSound": "nonmetalhit"
 		},
 		
 	
