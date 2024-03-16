@@ -70,6 +70,8 @@ Some of the icon made by me.
 - Icon of Bogani by hyunamae AKA Kāne
 
 ## lesser Sunda, Maluku, and Papua
+- [Joss Stick](https://thenounproject.com/icon/joss-stick-583033/) By Hea Poh Lin
+- [feather](https://thenounproject.com/icon/feather-6646931/) by Soetarman Atmodjo, ID
 - [Barcelona cathedral](https://thenounproject.com/icon/barcelona-cathedral-752630/) by abeldb, ES
 - [stingray](https://thenounproject.com/icon/stingray-1078139/) by Laymik
 - [Ship](https://thenounproject.com/icon/ship-3863477/) by Andrejs Kirma. Modified

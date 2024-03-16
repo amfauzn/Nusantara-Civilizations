@@ -508,6 +508,55 @@
 			]
 		},
 		
+		// Wewiku-Wehali
+		{
+			"name": "Ume",
+			"replaces": "Granary",
+			"uniqueTo": "Wewiku-Wehali",
+			"food": 2,
+			"maintenance": 1,
+			"hurryCostModifier": 25,
+			"uniques": ["Comment [+1 [Food] from Land tiles next to city center in this city]",
+						"[+1 Food] from [Land] tiles [in this city] <with [1] to [6] neighboring [City center] tiles> <hidden from users>"],
+			"requiredTech": "Pottery",
+			"civilopediaText": [
+				{"text": "Ume means house in Tetun. There are so many kinds of Umes with different functions from dwelling to the place of worship."},
+			]
+		},
+		{
+			"name": "Sandalwoods producer",
+			"uniqueTo": "Wewiku-Wehali",
+			"cost": 1,
+			"uniques": ["Must be next to [Forest]", 
+						"Unsellable", 
+						"Automatically built in all cities where it is buildable", 
+						"Provides [1] [Sandalwoods] <hidden from users>", 
+						"Destroyed when the city is captured", 
+						"Will not be displayed in Civilopedia"]
+		},
+		{
+			"name": "Incense producer",
+			"uniqueTo": "Wewiku-Wehali",
+			"cost": 1,
+			"uniques": ["Only available <with [Sandalwoods]> <in cities without a [Aromatheraphy producer]>", 
+						"Unsellable",
+						"Consumes [1] [Sandalwoods]", 
+						"Provides [1] [Incense]", 
+						"Destroyed when the city is captured", 
+						"Will not be displayed in Civilopedia"],
+		},
+		{
+			"name": "Aromatherapy producer",
+			"uniqueTo": "Wewiku-Wehali",
+			"cost": 1,
+			"uniques": ["Only available <with [Sandalwoods]> <in cities without a [Incense producer]>", 
+						"Unsellable",
+						"Consumes [1] [Sandalwoods]", 
+						"Provides [1] [Aromatherapy]", 
+						"Destroyed when the city is captured", 
+						"Will not be displayed in Civilopedia"],
+		},
+		
 		// Tidore
 		{
 			"name": "CoastalCities counter",

@@ -50,13 +50,6 @@
 					"Will not be displayed in Civilopedia"]
 	},
 	{
-		"name": "CoastalCounter",
-		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen", 
-					"Cannot be traded", 
-					"Will not be displayed in Civilopedia"]
-	}
-	{
 		"name": "ST Global",
 		"resourceType": "Strategic",
 		"uniques": ["Not shown on world screen", 
@@ -70,6 +63,28 @@
 		"resourceType": "Strategic",
 		"uniques": ["Not shown on world screen", 
 					"Stockpiled", 
+					"Cannot be traded", 
+					"Excluded from map editor", 
+					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Sandalwoods",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
+					"Cannot be traded", 
+					"Excluded from map editor", 
+					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Aromatherapy",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Excluded from map editor"]
+	},
+	{
+		"name": "CoastalCounter",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
 					"Cannot be traded", 
 					"Excluded from map editor", 
 					"Will not be displayed in Civilopedia"]

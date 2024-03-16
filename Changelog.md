@@ -110,3 +110,7 @@
 - Removed Civ: Tarumanagara
 - New Civs: Biak and Sunda
 - Add leader portrait by KrankeWagon
+
+# v1.8 (16.08.2024)
+- New Civ: Wewiku-Wehali
+- Add personality for Iskandar Muda (Aceh), Balaputradewa (Srivijaya), Siliwangi (Sunda), Rakai Panangkaran (Medang), Hayam Wuruk (Majapahit), Hidayatullah (Banjar), Matoaya (Gowa-Tallo)

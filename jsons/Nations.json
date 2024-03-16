@@ -8,7 +8,7 @@
 			"leaderName": "Iskandar Muda",
 			"adjective": ["Acehnese"],
 			"startBias": ["Coast"],
-			"preferredVictoryType": "Scientific",
+			"personality": "Iskandar Muda",
 			"favoredReligion": "Islam",
 
 			"startIntroPart1": "Saleum Teuka, Sultan Iskandar Muda, ruler and leader of the sultans of the Malay world. Since the beginning, Aceh displayed their potential for greatness, marching to war against their many enemies, and conquered neighboring kingdoms such as Daya, Pedir, Lidie, Jeumpa, and Samudera Pasai. With your wisdom, Aceh cooperated with The Ottomans and emerged as a mighty sultanate stretching from Jambi to the southern part of Thailand. Even when the surrounding areas had been colonialized by the Dutch and the British, Seuramo Mecca remaines independent.",
@@ -181,7 +181,6 @@
 			"cities": ["Malacca", "Singapura", "Maur", "Ujong Tanah", "Bintan", "Pattani", "Kuantan", "Rokan", "Kelantan", "Kuala Terengganu", 
 				"Buantan", "Rengat", "Indragiri", "Penang", "Perlis", "Alor Seta", "Singora", "Selangor", "Perak", "Langkasuka"],
 			"spyNames": ["Iskandar","Megat","Muzaffar","Alauddin Riayat","Mahmud","Ermieyati","Redzuan","Tuah","Jebat","Kasturi"]
-
 		},
 		
 		// Pagaruyung
@@ -264,7 +263,7 @@
 			"leaderName": "Balaputradewa",
 			"adjective": ["Srivijayan"], // Malay Palembang
 			"startBias": ["Forest","Coast"],
-			"preferredVictoryType": "Domination",
+			"personality": "Balaputradewa",
 			"favoredReligion": "Buddhism",
 
 			"startIntroPart1": "Hail to you, Sri Maharaja Balaputradewa, emperor of the mighty Srivijaya Empire! Srivijaya is the center of Buddhism in Southeast Asia from the 7th to the 12th century and became the stopping point for Chinese Buddhist pilgrims on their way to India.. Due to its location, Srivijaya became the first empire to dominate the trade route through the strait of Malacca and the strait of Sunda. Srivijaya established trade relations not only with the states in the Malay Archipelago, but also with China and India.. By the 10th century, the Srivijayan controlled most of Java, Sumatra, Malay Peninsula, Western Borneo, and Mekong River. But the empire fell at last under the assault of greedy Chola, led by Rajendra - who betrayed the trust of the Srivijayan and monopolize the sea route between South and East Asia.",
@@ -301,7 +300,7 @@
 			"leaderName": "Siliwangi",
 			"adjective": ["Sundanese"],
 			"startBias": ["Avoid [Desert]"],
-			"preferredVictoryType": "Cultural",
+			"personality": "Siliwangi",
 			"favoredReligion": "Hinduism",
 
 			"startIntroPart1": "The sun shines from behind you, Prabu Siliwangi, the deity king of Sunda and Galuh! As the grandson of Niskala Wastu Kancana, you reclaimed your place on the throne after an evil usurper murdered the king. Inspired by your grandfather's rule, you led and united the Sundanese people under one banner, ushering in a long era of peace and prosperity. Amidst continuing attacks from Islamic forces of Demak and Cireban, you steadfastly upheld the Sunda Wiwitan faith. Truly a brave noble, you did not waver against the threats initiated by your own kin.",
@@ -342,7 +341,7 @@
 			"leaderName": "Rakai Panangkaran",
 			"adjective": ["Javanese"],
 			"startBias": ["Plains"],
-			"preferredVictoryType": "Cultural",
+			"personality": "Rakai Panangkaran",
 			"favoredReligion": "Buddhism",
 
 			"startIntroPart1": "God grants you wisdom, Rakai Panangkaran, the great builder of the majestic Medang Kingdom. Since your ascension in 760, the kingdom immediately reached its zenith. Credited with at least five major temple projects, your visionary leadership extended to Candi Sewu, a monumental undertaking that began under your guidance and reached completion in 792. Although you did not witness its completion, your vision laid the foundation for the grandest temple complex of its time, a sacred ground for important stately religious ceremonies. This later inspired Samaratungga to build the largest Buddhist temple in the world, Borobudur.",
@@ -416,7 +415,7 @@
 			"leaderName": "Hayam Wuruk",
 			"adjective": ["Javanese"],
 			"startBias": ["Coast"],
-			"preferredVictoryType": "Domination",
+			"personality": "Hayam Wuruk",
 			"favoredReligion": "Buddhism",
 
 			"startIntroPart1": "Hail to you, illustrious Hayam Wuruk, radiant ruler of Majapahit! Born amidst the tumultuous times following the Yuan-Mongol invasion of Java, Majapahit rose like a phoenix from the remnants of the Singhasari Empire. Assisted by the valorous Gajah Mada and the skilled Laksamana Nala, you led Majapahit through the challenges of expansion and diplomacy. Your reign was a tapestry of triumph as you solidified Majapahit's stature in the region. Its dominion spanned across the lush islands of Java, Sumatra, Bali, Borneo, and more.  The realm flourished as a splendid hub of trade and culture, where art and architecture blended in exquisite harmony. It was an empire of splendor that shimmered like the tropical seas that embraced it.",
@@ -584,7 +583,7 @@
 			"leaderName": "Hidayatullah",
 			"adjective": ["Banjarese"],
 			"startBias":["River"],
-			"preferredVictoryType": "Diplomatic",
+			"personality": "Hidayatullah",
 			"favoredReligion": "Islam",
 
 			"startIntroPart1": "There is much to be done, Hidayatullah Halil Illah, the rightful Sultan of Banjar. Succeeding Tamjidullah II, who unilaterally seized the Banjar throne on Dutch orders, you called for independence for the Banjar people. Together with the Dayaks led by Dipati Jaya Raja and with the help of reliable commanders such as Antasari and Demang Lehman, you initiated an attack on the Dutch coal mines in Pengaron, marking the outbreak of the Banjarmasin War. Using guerrilla tactics, you roamed throughout the jungles, engaging in battles with the Dutch from one place to another. Undeterred, you fought against the much better-equipped Dutch.",
@@ -812,7 +811,7 @@
 			"leaderName": "Matoaya",
 			"adjective": ["Makassarese"],
 			"startBias":["Avoid [Desert]","Avoid [Tundra]"],
-			"preferredVictoryType": "Scientific",
+			"personality": "Matoaya",
 			"favoredReligion": "Islam",
 
 			"startIntroPart1": "The blessings of God be upon you, Karaeng Matoaya, educated and reliable prime minister of Makassar. During your reign, Makassar was a busy trading post for various European and Asian nations. You also extended Makassar's military influence to the northern and central regions of Sulawesi, Buton, and Nusa Tenggara. Guided by your wisdom, Makassar made cannons and gunpowder, build new ships with more sophisticated designs, standardize trade currency, and strengthen forts on the coast of Gowa. But the empire fell at last under the assault of VOC-Bone-Buton-Ternate alliance",
@@ -910,6 +909,38 @@
 		},
 		
 		// Wewiku-Wehali
+		{
+			"name": "Wewiku-Wehali",				// 1600 - 1904
+			"leaderName": "Neken Liurai",
+			"adjective": ["Tetun-Atoni"],
+			"startBias": ["Forest","Coast"],
+			"preferredVictoryType": "Cultural",
+			"favoredReligion": "Christianity",
+
+			"startIntroPart1": ".",
+			"startIntroPart2": "?",
+
+			"declaringWar": "How regrettable; we must resolve our problem through war.",
+			"attacked": "You have no respect for our lands, our elders, and our traditions. If we must die, we will die defending our rights!",
+			"defeated": "Oh dear me, I fear that after my defeat, the casualties of this unending war keep increasing.",
+			"introduction": "Welcome to Nusa Cendana. I see you aren't Javanese, Makassarese, or Sina Mutin Malaka. Who might you be?",
+			
+			"neutralHello": "Diak kalay?",
+			"hateHello": "Spit it out!",
+			"tradeRequest": "Just like how we met, we were destined to trade.",
+
+			"outerColor": [ 66, 59,59],
+			"innerColor": [255,178,72],
+			"uniqueName": "Nusa Cendana",
+			"uniques": ["Comment [Cities founded next to [Forest] provides Sandalwoods]", 
+						"Comment [May convert Sandalwoods to Incense or Aromatherapy Luxury resource]", 
+						"Comment [Capital will always provides Sandalwoods]", 
+						"Gain a free [Sandalwoods producer] [in capital] <hidden from users>"],
+			"cities": ["Wehali","Wewiku","Rinhat","Atambua","Insana","Kefamenanu","Soe","Kupang","Dili","Oelamasi",
+				"Suai","Maliana","Pante Macassar","Ainaro","Ermera","Same","Ba'a","Alor","Aileu","Flores"],
+			"spyNames": ["Diak Malaka","Don Peur","Alesu","Tae Bobot","Tere Atok","Fahik","Sanaka","Dinik","Bria Seran","Nahak"]
+		},
+		
 		
 		// Ternate
 		{

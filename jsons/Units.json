@@ -581,6 +581,25 @@
 			"attackSound": "shot"
 		},
 		
+		// Wewiku-Wehali
+		{
+			"name": "Meo",
+			"unitType": "Scout",
+			"replaces": "Scout",
+			"uniqueTo": "Wewiku-Wehali",
+			"movement": 2,
+			"strength": 5,
+			"cost": 25,
+			"upgradesTo": "Longswordsman",
+			"obsoleteTech": "Gunpowder",
+			"uniques": ["Comment [Upgrade to Longswordsman]", 
+						"Comment [Obsolete with [Gunpowder]]", 
+						"Cannot attack", 
+						"May enter foreign tiles without open borders"],
+			"promotions": ["Ignore terrain cost"],
+			"attackSound": "nonmetalhit"
+		},
+		
 		// Ternate
 		{
 			"name": "Kora kora",
