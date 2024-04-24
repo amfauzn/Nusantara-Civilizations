@@ -114,3 +114,22 @@
 # v1.8 (16.08.2024)
 - New Civ: Wewiku-Wehali
 - Add personality for Iskandar Muda (Aceh), Balaputradewa (Srivijaya), Siliwangi (Sunda), Rakai Panangkaran (Medang), Hayam Wuruk (Majapahit), Hidayatullah (Banjar), Matoaya (Gowa-Tallo)
+
+# v1.9 (24.04.2024)
+- Malacca
+	UA +50% Yield from improvement in Coastal tiles -> +100% Yield
+	UA +2 Gold per each type of Luxury resource owned -> +1 Gold
+- Gorontalo
+	UA 50% chance a Pohala'a born upon entering Golden Age -> 100% chance
+	UA +4 pop in random city when a Pohala'a born -> +1 pop
+	UA remove +50% Natural religion spread in holy cities
+- Wewiku-Wehali
+	UB +2 Food from the building -> +1 Food
+- Biak
+	UA remove +2 Food, +1 Production from Whales
+- Sulu
+	UA Free Worker appears upon constructing Courthouse -> upon defeating a Military Water unit
+- Add more personalities
+- CS related
+	Add Tarumanagara (Cultural), Blambangan (Militaristik), Mactan (Militaristik), Samudera Pasai (Religious)
+	Banggai Militaristik -> Mercantile

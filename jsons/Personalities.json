@@ -26,16 +26,70 @@
 		}
 	},
 	
+	// Batak
+	{
+		"name": "Sisingamangaraja XII",
+		"preferredVictoryType": "Cultural",
+		"food": 7,
+		"production": 5,
+		"science": 6,
+		"culture": 8,
+		"gold": 5,
+		"faith": 7,
+		"happiness": 6,
+		"military": 5,
+		"warMongering": 4,
+		"priorities": {
+			"Tradition": 30,
+			"Liberty": 10,
+			"Honor": 0,
+			"Piety": 20,
+			"Patronage": 10,
+			"Commerce": 10,
+			"Rationalism": 0,
+			"Freedom": 50,
+			"Autocracy": 0,
+			"Order": 10
+		}
+	},
+	
+	// Pagaruyung
+	{
+		"name": "Puti Jamilan",
+		"preferredVictoryType": "Diplomatic",
+		"food": 7,
+		"production": 5,
+		"science": 5,
+		"culture": 7,
+		"gold": 7,
+		"faith": 4,
+		"happiness": 5,
+		"military": 6,
+		"warMongering": 4,
+		"priorities": {
+			"Tradition": 30,
+			"Liberty": 10,
+			"Honor": 0,
+			"Piety": 0,
+			"Patronage": 20,
+			"Commerce": 10,
+			"Rationalism": 10,
+			"Freedom": 50,
+			"Autocracy": 10,
+			"Order": 10
+		}
+	},
+	
 	// Srivijaya
 	{
 		"name": "Balaputradewa",
 		"preferredVictoryType": "Domination",
-		"food": 4,
+		"food": 5,
 		"production": 7,
 		"science": 6,
 		"culture": 3,
 		"gold": 5,
-		"faith": 6,
+		"faith": 7,
 		"military": 9,
 		"warMongering": 7,
 		"priorities": {
@@ -56,7 +110,7 @@
 	{
 		"name": "Siliwangi",
 		"preferredVictoryType": "Cultural",
-		"food": 5,
+		"food": 6,
 		"production": 5,
 		"science": 4,
 		"culture": 8,
@@ -104,14 +158,116 @@
 		}
 	},
 	
-	// Majapahit
+	// Banten
 	{
-		"name": "Hayam Wuruk",
-		"preferredVictoryType": "Domination",
-		"food": 3,
-		"production": 7,
-		"science": 7,
+		"name": "Tirtayasa",
+		"preferredVictoryType": "Scientific",
+		"food": 7,
+		"production": 5,
+		"science": 8,
 		"culture": 2,
+		"gold": 5,
+		"faith": 6,
+		"military": 6,
+		"warMongering": 5,
+		"priorities": {
+			"Tradition": 30,
+			"Liberty": 10,
+			"Honor": 10,
+			"Piety": 0,
+			"Patronage": 0,
+			"Commerce": 10,
+			"Rationalism": 20,
+			"Freedom": 40,
+			"Autocracy": 10,
+			"Order": 40
+		}
+	},
+	
+	// Bone
+	{
+		"name": "Arung Palakka",
+		"preferredVictoryType": "Diplomatic",
+		"food": 5,
+		"production": 7,
+		"science": 6,
+		"culture": 3,
+		"gold": 7,
+		"faith": 5,
+		"military": 8,
+		"warMongering": 7,
+		"priorities": {
+			"Tradition": 10,
+			"Liberty": 10,
+			"Honor": 30,
+			"Piety": 0,
+			"Patronage": 10,
+			"Commerce": 10,
+			"Rationalism": 10,
+			"Freedom": 10,
+			"Autocracy": 50,
+			"Order": 10
+		}
+	},
+	
+	// Maguindanao
+	{
+		"name": "Kudarat",
+		"preferredVictoryType": "Diplomatic",
+		"food": 6,
+		"production": 5,
+		"science": 6,
+		"culture": 4,
+		"gold": 7,
+		"faith": 7,
+		"military": 4,
+		"warMongering": 3,
+		"priorities": {
+			"Tradition": 10,
+			"Liberty": 10,
+			"Honor": 10,
+			"Piety": 10,
+			"Patronage": 30,
+			"Commerce": 10,
+			"Rationalism": 10,
+			"Freedom": 10,
+			"Autocracy": 50,
+			"Order": 10
+		}
+	},
+	
+	// Shared Personalities
+	{
+		"name": "Aggressive Diplomator", // Malacca, Brunei
+		"preferredVictoryType": "Diplomatic",
+		"food": 5,
+		"production": 6,
+		"science": 6,
+		"culture": 3,
+		"gold": 8,
+		"faith": 5,
+		"military": 7,
+		"warMongering": 7,
+		"priorities": {
+			"Tradition": 10,
+			"Liberty": 10,
+			"Honor": 10,
+			"Piety": 10,
+			"Patronage": 30,
+			"Commerce": 10,
+			"Rationalism": 10,
+			"Freedom": 10,
+			"Autocracy": 50,
+			"Order": 10
+		}
+	},
+	{
+		"name": "Bullying Warmonger", // Majapait, Mataram, Ternate
+		"preferredVictoryType": "Domination",
+		"food": 5,
+		"production": 7,
+		"science": 6,
+		"culture": 4,
 		"gold": 6,
 		"faith": 2,
 		"military": 9,
@@ -122,43 +278,64 @@
 			"Honor": 40,
 			"Piety": 0,
 			"Patronage": 0,
-			"Commerce": 30,
+			"Commerce": 20,
 			"Rationalism": 20,
 			"Freedom": 10,
 			"Autocracy": 50,
 			"Order": 10
 		}
 	},
-	
-	// Banjar
 	{
-		"name": "Hidayatullah",
-		"preferredVictoryType": "Diplomatic",
-		"food": 6,
-		"production": 5,
-		"science": 5,
-		"culture": 5,
-		"gold": 8,
-		"faith": 5,
-		"military": 7,
+		"name": "Centralized Creativity", // Jambi, Bolaang Mongondow, Larantuka
+		"preferredVictoryType": "Cultural",
+		"food": 7,
+		"production": 6,
+		"science": 4,
+		"culture": 8,
+		"gold": 5,
+		"faith": 6,
+		"military": 5,
 		"warMongering": 3,
 		"priorities": {
-			"Tradition": 10,
+			"Tradition": 30,
 			"Liberty": 10,
 			"Honor": 0,
-			"Piety": 0,
-			"Patronage": 30,
+			"Piety": 10,
+			"Patronage": 10,
 			"Commerce": 10,
 			"Rationalism": 10,
-			"Freedom": 10,
-			"Autocracy": 10,
-			"Order": 50
+			"Freedom": 50,
+			"Autocracy": 0,
+			"Order": 10
 		}
 	},
-	
-	// Gowa-Tallo
 	{
-		"name": "Matoaya",
+		"name": "Cultural Ambassador", // Bali, Kutai, Wewiku-Wehali
+		"preferredVictoryType": "Cultural",
+		"food": 6,
+		"production": 4,
+		"science": 5,
+		"culture": 8,
+		"gold": 6,
+		"faith": 6,
+		"happiness": 5,
+		"military": 5,
+		"warMongering": 4,
+		"priorities": {
+			"Tradition": 30,
+			"Liberty": 10,
+			"Honor": 0,
+			"Piety": 10,
+			"Patronage": 20,
+			"Commerce": 10,
+			"Rationalism": 10,
+			"Freedom": 50,
+			"Autocracy": 10,
+			"Order": 10
+		}
+	},
+	{
+		"name": "Majestic Ingenity",
 		"preferredVictoryType": "Scientific",
 		"food": 6,
 		"production": 5,
@@ -179,6 +356,54 @@
 			"Freedom": 10,
 			"Autocracy": 10,
 			"Order": 40
+		}
+	},
+	{
+		"name": "Organized Expansionist", // Luwu, Biak
+		"preferredVictoryType": "Domination",
+		"food": 6,
+		"production": 6,
+		"science": 5,
+		"culture": 5,
+		"gold": 5,
+		"faith": 3,
+		"military": 7,
+		"warMongering": 7,
+		"priorities": {
+			"Tradition": 0,
+			"Liberty": 20,
+			"Honor": 30,
+			"Piety": 0,
+			"Patronage": 10,
+			"Commerce": 10,
+			"Rationalism": 10,
+			"Freedom": 0,
+			"Autocracy": 50,
+			"Order": 10
+		}
+	},
+	{
+		"name": "Wealthy Protector", // Siak, Banjar, Lanfang
+		"preferredVictoryType": "Diplomatic",
+		"food": 6,
+		"production": 5,
+		"science": 6,
+		"culture": 5,
+		"gold": 8,
+		"faith": 5,
+		"military": 7,
+		"warMongering": 3,
+		"priorities": {
+			"Tradition": 10,
+			"Liberty": 10,
+			"Honor": 0,
+			"Piety": 0,
+			"Patronage": 30,
+			"Commerce": 20,
+			"Rationalism": 10,
+			"Freedom": 10,
+			"Autocracy": 10,
+			"Order": 50
 		}
 	},
 ]

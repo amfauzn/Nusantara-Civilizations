@@ -9,6 +9,7 @@
 			"adjective": ["Acehnese"],
 			"startBias": ["Coast"],
 			"personality": "Iskandar Muda",
+			"preferredVictoryType": "Scientific",
 			"favoredReligion": "Islam",
 
 			"startIntroPart1": "Saleum Teuka, Sultan Iskandar Muda, ruler and leader of the sultans of the Malay world. Since the beginning, Aceh displayed their potential for greatness, marching to war against their many enemies, and conquered neighboring kingdoms such as Daya, Pedir, Lidie, Jeumpa, and Samudera Pasai. With your wisdom, Aceh cooperated with The Ottomans and emerged as a mighty sultanate stretching from Jambi to the southern part of Thailand. Even when the surrounding areas had been colonialized by the Dutch and the British, Seuramo Mecca remaines independent.",
@@ -40,6 +41,7 @@
 			"leaderName": "Sisingamangaraja XII",
 			"adjective": ["Batak"],
 			"startBias": ["Marsh","Lakes"],
+			"personality": "Sisingamangaraja XII",
 			"preferredVictoryType": "Cultural",
 
 			"startIntroPart1": "",
@@ -57,42 +59,43 @@
 			"outerColor": [202, 34, 33],
 			"innerColor": [250,210,210],
 			"uniqueName": "Punguan Parmalim",
-			"uniqueText": "+1 [Culture] from every Marsh \n+1 [Culture] from every Farm adjacent to Fresh water",
-			"uniques": ["[+1 Culture] from every [Marsh]", 
-						"[+1 Culture] from [Farm] tiles [in all cities] <in [River] tiles>", 
-						"[+1 Culture] from [Farm] tiles [in all cities] <with [1] to [6] neighboring [Oasis] tiles>", 
-						"[Faith] cost of purchasing [Malim] units [-10]%", // Malim cost reduction
-						"[+15]% Strength <for [Military] units> <when adjacent to a [Malim] unit>", // Malim bonus
-						"Gain [3] [Faith] <upon constructing [Bale Pasogit]> <when below [1] [Parmalim]>", 
-						"Gain [6] [Faith] <upon constructing [Bale Pasogit]> <when above [0] [Parmalim]> <when below [2] [Parmalim]>", 
-						"Gain [9] [Faith] <upon constructing [Bale Pasogit]> <when above [1] [Parmalim]> <when below [3] [Parmalim]>", 
-						"Gain [12] [Faith] <upon constructing [Bale Pasogit]> <when above [2] [Parmalim]> <when below [4] [Parmalim]>", 
-						"Gain [15] [Faith] <upon constructing [Bale Pasogit]> <when above [3] [Parmalim]> <when below [5] [Parmalim]>", 
-						"Gain [18] [Faith] <upon constructing [Bale Pasogit]> <when above [4] [Parmalim]> <when below [6] [Parmalim]>", 
-						"Gain [21] [Faith] <upon constructing [Bale Pasogit]> <when above [5] [Parmalim]> <when below [7] [Parmalim]>", 
-						"Gain [24] [Faith] <upon constructing [Bale Pasogit]> <when above [6] [Parmalim]> <when below [8] [Parmalim]>", 
-						"Gain [27] [Faith] <upon constructing [Bale Pasogit]> <when above [7] [Parmalim]> <when below [9] [Parmalim]>", 
-						"Gain [30] [Faith] <upon constructing [Bale Pasogit]> <when above [8] [Parmalim]> <when below [10] [Parmalim]>", 
-						"Gain [33] [Faith] <upon constructing [Bale Pasogit]> <when above [9] [Parmalim]> <when below [11] [Parmalim]>", 
-						"Gain [36] [Faith] <upon constructing [Bale Pasogit]> <when above [10] [Parmalim]> <when below [12] [Parmalim]>", 
-						"Gain [39] [Faith] <upon constructing [Bale Pasogit]> <when above [11] [Parmalim]> <when below [13] [Parmalim]>", 
-						"Gain [42] [Faith] <upon constructing [Bale Pasogit]> <when above [12] [Parmalim]> <when below [14] [Parmalim]>", 
-						"Gain [45] [Faith] <upon constructing [Bale Pasogit]> <when above [13] [Parmalim]>", 
-						"Gain [3] [Culture] <upon constructing [Bale Pasogit]> <when below [1] [Parmalim]>", 
-						"Gain [6] [Culture] <upon constructing [Bale Pasogit]> <when above [0] [Parmalim]> <when below [2] [Parmalim]>", 
-						"Gain [9] [Culture] <upon constructing [Bale Pasogit]> <when above [1] [Parmalim]> <when below [3] [Parmalim]>", 
-						"Gain [12] [Culture] <upon constructing [Bale Pasogit]> <when above [2] [Parmalim]> <when below [4] [Parmalim]>", 
-						"Gain [15] [Culture] <upon constructing [Bale Pasogit]> <when above [3] [Parmalim]> <when below [5] [Parmalim]>", 
-						"Gain [18] [Culture] <upon constructing [Bale Pasogit]> <when above [4] [Parmalim]> <when below [6] [Parmalim]>", 
-						"Gain [21] [Culture] <upon constructing [Bale Pasogit]> <when above [5] [Parmalim]> <when below [7] [Parmalim]>", 
-						"Gain [24] [Culture] <upon constructing [Bale Pasogit]> <when above [6] [Parmalim]> <when below [8] [Parmalim]>", 
-						"Gain [27] [Culture] <upon constructing [Bale Pasogit]> <when above [7] [Parmalim]> <when below [9] [Parmalim]>", 
-						"Gain [30] [Culture] <upon constructing [Bale Pasogit]> <when above [8] [Parmalim]> <when below [10] [Parmalim]>", 
-						"Gain [33] [Culture] <upon constructing [Bale Pasogit]> <when above [9] [Parmalim]> <when below [11] [Parmalim]>", 
-						"Gain [36] [Culture] <upon constructing [Bale Pasogit]> <when above [10] [Parmalim]> <when below [12] [Parmalim]>", 
-						"Gain [39] [Culture] <upon constructing [Bale Pasogit]> <when above [11] [Parmalim]> <when below [13] [Parmalim]>", 
-						"Gain [42] [Culture] <upon constructing [Bale Pasogit]> <when above [12] [Parmalim]> <when below [14] [Parmalim]>", 
-						"Gain [45] [Culture] <upon constructing [Bale Pasogit]> <when above [13] [Parmalim]>"],
+			"uniques": ["[+1 Culture] from every [Marsh]",  
+						"[+1 Culture] from [Farm] tiles [in all cities] <in [River] tiles> <hidden from users>", 
+						"[+1 Culture] from [Farm] tiles [in all cities] <with [1] to [6] neighboring [Oasis] tiles> <hidden from users>", 
+						"[+1 Culture] from [Farm] tiles [in all cities] <with [1] to [6] neighboring [Lakes] tiles> <hidden from users>", 
+						"Comment [+1 [Culture] from every Farm adjacent to Fresh water]", 
+						"[Faith] cost of purchasing [Malim] units [-10]% <hidden from users>", // Malim cost reduction
+						"[+15]% Strength <for [Military] units> <when adjacent to a [Malim] unit> <hidden from users>", // Malim bonus
+						"Gain [3] [Faith] <upon constructing [Bale Pasogit]> <when below [1] [Parmalim]> <hidden from users>", 
+						"Gain [6] [Faith] <upon constructing [Bale Pasogit]> <when above [0] [Parmalim]> <when below [2] [Parmalim]> <hidden from users>", 
+						"Gain [9] [Faith] <upon constructing [Bale Pasogit]> <when above [1] [Parmalim]> <when below [3] [Parmalim]> <hidden from users>", 
+						"Gain [12] [Faith] <upon constructing [Bale Pasogit]> <when above [2] [Parmalim]> <when below [4] [Parmalim]> <hidden from users>", 
+						"Gain [15] [Faith] <upon constructing [Bale Pasogit]> <when above [3] [Parmalim]> <when below [5] [Parmalim]> <hidden from users>", 
+						"Gain [18] [Faith] <upon constructing [Bale Pasogit]> <when above [4] [Parmalim]> <when below [6] [Parmalim]> <hidden from users>", 
+						"Gain [21] [Faith] <upon constructing [Bale Pasogit]> <when above [5] [Parmalim]> <when below [7] [Parmalim]> <hidden from users>", 
+						"Gain [24] [Faith] <upon constructing [Bale Pasogit]> <when above [6] [Parmalim]> <when below [8] [Parmalim]> <hidden from users>", 
+						"Gain [27] [Faith] <upon constructing [Bale Pasogit]> <when above [7] [Parmalim]> <when below [9] [Parmalim]> <hidden from users>", 
+						"Gain [30] [Faith] <upon constructing [Bale Pasogit]> <when above [8] [Parmalim]> <when below [10] [Parmalim]> <hidden from users>", 
+						"Gain [33] [Faith] <upon constructing [Bale Pasogit]> <when above [9] [Parmalim]> <when below [11] [Parmalim]> <hidden from users>", 
+						"Gain [36] [Faith] <upon constructing [Bale Pasogit]> <when above [10] [Parmalim]> <when below [12] [Parmalim]> <hidden from users>", 
+						"Gain [39] [Faith] <upon constructing [Bale Pasogit]> <when above [11] [Parmalim]> <when below [13] [Parmalim]> <hidden from users>", 
+						"Gain [42] [Faith] <upon constructing [Bale Pasogit]> <when above [12] [Parmalim]> <when below [14] [Parmalim]> <hidden from users>", 
+						"Gain [45] [Faith] <upon constructing [Bale Pasogit]> <when above [13] [Parmalim]> <hidden from users>", 
+						"Gain [3] [Culture] <upon constructing [Bale Pasogit]> <when below [1] [Parmalim]> <hidden from users>", 
+						"Gain [6] [Culture] <upon constructing [Bale Pasogit]> <when above [0] [Parmalim]> <when below [2] [Parmalim]> <hidden from users>", 
+						"Gain [9] [Culture] <upon constructing [Bale Pasogit]> <when above [1] [Parmalim]> <when below [3] [Parmalim]> <hidden from users>", 
+						"Gain [12] [Culture] <upon constructing [Bale Pasogit]> <when above [2] [Parmalim]> <when below [4] [Parmalim]> <hidden from users>", 
+						"Gain [15] [Culture] <upon constructing [Bale Pasogit]> <when above [3] [Parmalim]> <when below [5] [Parmalim]> <hidden from users>", 
+						"Gain [18] [Culture] <upon constructing [Bale Pasogit]> <when above [4] [Parmalim]> <when below [6] [Parmalim]> <hidden from users>", 
+						"Gain [21] [Culture] <upon constructing [Bale Pasogit]> <when above [5] [Parmalim]> <when below [7] [Parmalim]> <hidden from users>", 
+						"Gain [24] [Culture] <upon constructing [Bale Pasogit]> <when above [6] [Parmalim]> <when below [8] [Parmalim]> <hidden from users>", 
+						"Gain [27] [Culture] <upon constructing [Bale Pasogit]> <when above [7] [Parmalim]> <when below [9] [Parmalim]> <hidden from users>", 
+						"Gain [30] [Culture] <upon constructing [Bale Pasogit]> <when above [8] [Parmalim]> <when below [10] [Parmalim]> <hidden from users>", 
+						"Gain [33] [Culture] <upon constructing [Bale Pasogit]> <when above [9] [Parmalim]> <when below [11] [Parmalim]> <hidden from users>", 
+						"Gain [36] [Culture] <upon constructing [Bale Pasogit]> <when above [10] [Parmalim]> <when below [12] [Parmalim]> <hidden from users>", 
+						"Gain [39] [Culture] <upon constructing [Bale Pasogit]> <when above [11] [Parmalim]> <when below [13] [Parmalim]> <hidden from users>", 
+						"Gain [42] [Culture] <upon constructing [Bale Pasogit]> <when above [12] [Parmalim]> <when below [14] [Parmalim]> <hidden from users>", 
+						"Gain [45] [Culture] <upon constructing [Bale Pasogit]> <when above [13] [Parmalim]> <hidden from users>"],
 			"cities": ["Bakkara","Samosir","Dolok Sanggul","Kabanjahe","Berastagi","Merek","Pangururan","Siallagan","Sigulatti","Tomok",
 				"Parapat","Pematangsiantar","Sidamanik","Balige","Parmonangan"],
 			"spyNames": ["Pandjaitan","Hutapea","Simatupang","Situmorang","Nasution","Nainggolan","Munte","Manik","Ginting","Hasibuan"]
@@ -104,6 +107,7 @@
 			"leaderName": "Kedah",
 			"adjective": ["Jambinese"],
 			"startBias": ["Grassland","Forest"],
+			"personality": "Centralized Creativity",
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Islam",
 
@@ -135,6 +139,7 @@
 			"leaderName": "Mansur Shah",
 			"adjective": ["Malaccan"],
 			"startBias": ["Coast"],
+			"personality": "Aggressive Diplomator",
 			"preferredVictoryType": "Diplomatic",
 			"favoredReligion": "Islam",
 
@@ -153,31 +158,43 @@
 			"outerColor": [ 21, 34, 78],
 			"innerColor": [251,236,127],
 			"uniqueName": "Undang-Undang Laut Melaka",
-			"uniqueText": "+50% yields from Improvement on Coastal tiles except Great Improvement\n +2 [Gold] per each type of Luxury resource owned\n +1 [Faith] in all coastal cities",
-			"uniques": ["[+50]% Yield from every [Improvement] <in [Coastal] tiles> ", 
-						"[+2 Gold] <with [Citrus]>", 
-						"[+2 Gold] <with [Copper]>", 
-						"[+2 Gold] <with [Cotton]>", 
-						"[+2 Gold] <with [Dyes]>", 
-						"[+2 Gold] <with [Furs]>", 
-						"[+2 Gold] <with [Gems]>", 
-						"[+2 Gold] <with [Gold Ore]>", 
-						"[+2 Gold] <with [Incense]>", 
-						"[+2 Gold] <with [Ivory]>", 
-						"[+2 Gold] <with [Marble]>", 
-						"[+2 Gold] <with [Salt]>", 
-						"[+2 Gold] <with [Silk]>", 
-						"[+2 Gold] <with [Silver]>", 
-						"[+2 Gold] <with [Spices]>", 
-						"[+2 Gold] <with [Sugar]>", 
-						"[+2 Gold] <with [Truffles]>", 
-						"[+2 Gold] <with [Wine]>", 
-						"[+2 Gold] <with [Crab]>", 
-						"[+2 Gold] <with [Pearls]>", 
-						"[+2 Gold] <with [Whales]>", 
-						"[+2 Gold] <with [Jewelry]>", 
-						"[+2 Gold] <with [Porcelain]>", 
-						"[+1 Faith] [in all coastal cities]"],
+			"uniques": ["[+100]% Yield from every [Farm] <in [Coastal] tiles> <hidden from users>", 
+						"[+100]% Yield from every [Lumber mill] <in [Coastal] tiles> <hidden from users>", 
+						"[+100]% Yield from every [Mine] <in [Coastal] tiles> <hidden from users>", 
+						"[+100]% Yield from every [Trading post] <in [Coastal] tiles> <hidden from users>", 
+						"[+100]% Yield from every [Camp] <in [Coastal] tiles> <hidden from users>", 
+						"[+100]% Yield from every [Oil Well] <in [Coastal] tiles> <hidden from users>", 
+						"[+100]% Yield from every [Pasture] <in [Coastal] tiles> <hidden from users>", 
+						"[+100]% Yield from every [Plantation] <in [Coastal] tiles> <hidden from users>", 
+						"[+100]% Yield from every [Quarry] <in [Coastal] tiles> <hidden from users>", 
+						"[+100]% Yield from every [Moai] <in [Coastal] tiles> <hidden from users>", 
+						"[+100]% Yield from every [Terrace farm] <in [Coastal] tiles> <hidden from users>", 
+						"[+100]% Yield from every [Yupa] <in [Coastal] tiles> <hidden from users>", 
+						"[+100]% Yield from every [Bubung Parani] <in [Coastal] tiles> <hidden from users>", 
+						"Comment [+100% Yield from every improvement in Coastal tiles except Great Improvement]",
+						"[+1 Gold] <with [Citrus]> <hidden from users>", 
+						"[+1 Gold] <with [Copper]> <hidden from users>", 
+						"[+1 Gold] <with [Cotton]> <hidden from users>", 
+						"[+1 Gold] <with [Dyes]> <hidden from users>", 
+						"[+1 Gold] <with [Furs]> <hidden from users>", 
+						"[+1 Gold] <with [Gems]> <hidden from users>", 
+						"[+1 Gold] <with [Gold Ore]> <hidden from users>", 
+						"[+1 Gold] <with [Incense]> <hidden from users>", 
+						"[+1 Gold] <with [Ivory]> <hidden from users>", 
+						"[+1 Gold] <with [Marble]> <hidden from users>", 
+						"[+1 Gold] <with [Salt]> <hidden from users>", 
+						"[+1 Gold] <with [Silk]> <hidden from users>", 
+						"[+1 Gold] <with [Silver]> <hidden from users>", 
+						"[+1 Gold] <with [Spices]> <hidden from users>", 
+						"[+1 Gold] <with [Sugar]> <hidden from users>", 
+						"[+1 Gold] <with [Truffles]> <hidden from users>", 
+						"[+1 Gold] <with [Wine]> <hidden from users>", 
+						"[+1 Gold] <with [Crab]> <hidden from users>", 
+						"[+1 Gold] <with [Pearls]> <hidden from users>", 
+						"[+1 Gold] <with [Whales]> <hidden from users>", 
+						"[+1 Gold] <with [Jewelry]> <hidden from users>", 
+						"[+1 Gold] <with [Porcelain]> <hidden from users>", 
+						"Comment [+1 [Gold] per each type of Luxury resource owned]"],
 			"cities": ["Malacca", "Singapura", "Maur", "Ujong Tanah", "Bintan", "Pattani", "Kuantan", "Rokan", "Kelantan", "Kuala Terengganu", 
 				"Buantan", "Rengat", "Indragiri", "Penang", "Perlis", "Alor Seta", "Singora", "Selangor", "Perak", "Langkasuka"],
 			"spyNames": ["Iskandar","Megat","Muzaffar","Alauddin Riayat","Mahmud","Ermieyati","Redzuan","Tuah","Jebat","Kasturi"]
@@ -189,6 +206,7 @@
 			"leaderName": "Puti Jamilan",
 			"adjective": ["Minangkabau"],
 			"startBias": ["Hill"],
+			"personality": "Puti Jamilan",
 			"preferredVictoryType": "Diplomatic",
 			"favoredReligion": "Islam",
 
@@ -221,6 +239,7 @@
 			"leaderName": "Sayyid Ali",
 			"adjective": ["Siak"], // Malay Siak
 			"startBias": ["Coast"],
+			"personality": "Wealthy Protector",
 			"preferredVictoryType":"Diplomatic",
 			"favoredReligion": "Islam",
 
@@ -264,6 +283,7 @@
 			"adjective": ["Srivijayan"], // Malay Palembang
 			"startBias": ["Forest","Coast"],
 			"personality": "Balaputradewa",
+			"preferredVictoryType": "Domination",
 			"favoredReligion": "Buddhism",
 
 			"startIntroPart1": "Hail to you, Sri Maharaja Balaputradewa, emperor of the mighty Srivijaya Empire! Srivijaya is the center of Buddhism in Southeast Asia from the 7th to the 12th century and became the stopping point for Chinese Buddhist pilgrims on their way to India.. Due to its location, Srivijaya became the first empire to dominate the trade route through the strait of Malacca and the strait of Sunda. Srivijaya established trade relations not only with the states in the Malay Archipelago, but also with China and India.. By the 10th century, the Srivijayan controlled most of Java, Sumatra, Malay Peninsula, Western Borneo, and Mekong River. But the empire fell at last under the assault of greedy Chola, led by Rajendra - who betrayed the trust of the Srivijayan and monopolize the sea route between South and East Asia.",
@@ -301,6 +321,7 @@
 			"adjective": ["Sundanese"],
 			"startBias": ["Avoid [Desert]"],
 			"personality": "Siliwangi",
+			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Hinduism",
 
 			"startIntroPart1": "The sun shines from behind you, Prabu Siliwangi, the deity king of Sunda and Galuh! As the grandson of Niskala Wastu Kancana, you reclaimed your place on the throne after an evil usurper murdered the king. Inspired by your grandfather's rule, you led and united the Sundanese people under one banner, ushering in a long era of peace and prosperity. Amidst continuing attacks from Islamic forces of Demak and Cireban, you steadfastly upheld the Sunda Wiwitan faith. Truly a brave noble, you did not waver against the threats initiated by your own kin.",
@@ -342,6 +363,7 @@
 			"adjective": ["Javanese"],
 			"startBias": ["Plains"],
 			"personality": "Rakai Panangkaran",
+			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Buddhism",
 
 			"startIntroPart1": "God grants you wisdom, Rakai Panangkaran, the great builder of the majestic Medang Kingdom. Since your ascension in 760, the kingdom immediately reached its zenith. Credited with at least five major temple projects, your visionary leadership extended to Candi Sewu, a monumental undertaking that began under your guidance and reached completion in 792. Although you did not witness its completion, your vision laid the foundation for the grandest temple complex of its time, a sacred ground for important stately religious ceremonies. This later inspired Samaratungga to build the largest Buddhist temple in the world, Borobudur.",
@@ -376,6 +398,7 @@
 			"leaderName": "Baturenggong",
 			"adjective": ["Balinese"],
 			"startBias": ["Coast"],
+			"personality": "Cultural Ambassador",
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Hinduism",
 
@@ -415,7 +438,8 @@
 			"leaderName": "Hayam Wuruk",
 			"adjective": ["Javanese"],
 			"startBias": ["Coast"],
-			"personality": "Hayam Wuruk",
+			"personality": "Bullying Warmonger",
+			"preferredVictoryType": "Domination",
 			"favoredReligion": "Buddhism",
 
 			"startIntroPart1": "Hail to you, illustrious Hayam Wuruk, radiant ruler of Majapahit! Born amidst the tumultuous times following the Yuan-Mongol invasion of Java, Majapahit rose like a phoenix from the remnants of the Singhasari Empire. Assisted by the valorous Gajah Mada and the skilled Laksamana Nala, you led Majapahit through the challenges of expansion and diplomacy. Your reign was a tapestry of triumph as you solidified Majapahit's stature in the region. Its dominion spanned across the lush islands of Java, Sumatra, Bali, Borneo, and more.  The realm flourished as a splendid hub of trade and culture, where art and architecture blended in exquisite harmony. It was an empire of splendor that shimmered like the tropical seas that embraced it.",
@@ -434,7 +458,7 @@
 			"innerColor": [234,225,158],
 			"uniqueName": "Nagarakretagama",
 			"uniques": ["[+50]% Strength <for [Land] units> <when fighting in [Coastal] tiles>", 
-						"Upon capturing a city, receive [5] times its [Gold] production as [Gold] immediately"],
+						"Upon capturing a city, receive [5] times its [Food] production as [Gold] immediately"],
 			"cities": ["Trowulan","Klaten","Kadiri","Surabaya","Malang","Probolinggo","Madiun","Mojokerto","Semarang","Solo",
 				"Pekalongan","Tegal","Salatiga","Magelang","Palembang","Bandar Lampung","Pangkalpinang","Denpasar","Bengkulu","Jambi",
 				"Pekanbaru","Padang","Medan","Makassar","Batam","Samarinda","Ambon","Kupang","Kutaraja","Pontianak"
@@ -451,6 +475,7 @@
 			"leaderName": "Tirtayasa",
 			"adjective": ["Sundanese"],
 			"startBias": ["Grassland"],
+			"personality": "Tirtayasa",
 			"preferredVictoryType": "Scientific",
 			"favoredReligion": "Islam",
 
@@ -483,6 +508,7 @@
 			"leaderName": "Anyakrakusuma",
 			"adjective": ["Matawis"], // Javanese
 			"startBias": ["Avoid [Tundra]","Avoid [Coast]"],
+			"personality": "Bullying Warmonger",
 			"preferredVictoryType": "Domination",
 			"favoredReligion": "Islam",
 
@@ -520,6 +546,7 @@
 			"leaderName": "Mulavarman",
 			"adjective": ["Kutai"], // Dayak Lawangan
 			"startBias": ["Jungle"],
+			"personality": "Cultural Ambassador",
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Hinduism",
 
@@ -551,6 +578,7 @@
 			"leaderName": "Bolkiah",
 			"adjective": ["Bruneian"],
 			"startBias": ["Coast"],
+			"personality": "Aggressive Diplomator",
 			"preferredVictoryType":"Diplomatic",
 			"favoredReligion": "Islam",
 
@@ -583,7 +611,8 @@
 			"leaderName": "Hidayatullah",
 			"adjective": ["Banjarese"],
 			"startBias":["River"],
-			"personality": "Hidayatullah",
+			"personality": "Wealthy Protector",
+			"preferredVictoryType": "Diplomatic",
 			"favoredReligion": "Islam",
 
 			"startIntroPart1": "There is much to be done, Hidayatullah Halil Illah, the rightful Sultan of Banjar. Succeeding Tamjidullah II, who unilaterally seized the Banjar throne on Dutch orders, you called for independence for the Banjar people. Together with the Dayaks led by Dipati Jaya Raja and with the help of reliable commanders such as Antasari and Demang Lehman, you initiated an attack on the Dutch coal mines in Pengaron, marking the outbreak of the Banjarmasin War. Using guerrilla tactics, you roamed throughout the jungles, engaging in battles with the Dutch from one place to another. Undeterred, you fought against the much better-equipped Dutch.",
@@ -615,6 +644,7 @@
 			"leaderName": "Luo Fangbo",
 			"adjective": ["Lanfangren"],
 			"startBias": ["Avoid [Desert]","Avoid [Coast]"],
+			"personality": "Wealthy Protector",
 			"preferredVictoryType": "Diplomatic",
 			"favouredReligion": "Taoism",
 
@@ -681,6 +711,7 @@
 			"leaderName": "Tadohe",
 			"adjective": ["Mongondow"],
 			"startBias": ["Coast"],
+			"personality": "Centralized Creativity",
 			"preferredVictoryType": "Cultural",
 
 			"startIntroPart1": "Welcome, oh ye who stabilize life, King Tadohe, ruler of Bolaang Mongondow! It was your wisdom and effort that led the Mongondow people to a better life. If previously your people only knew the king and subject system, you made major changes by dividing your kingdom into small parts and appointing representatives at each regional level that you created. With this social stratum, not only you ensure the welfare of your people, but also ensure that there is no rebellion in your territory.",
@@ -713,6 +744,7 @@
 			"leaderName": "Arung Palakka",
 			"adjective": ["Buginese"],
 			"startBias": ["Grassland"],
+			"personality": "Arung Palakka",
 			"preferredVictoryType": "Diplomatic",
 			"favouredReligion": "Islam",
 
@@ -731,10 +763,10 @@
 			"outerColor": [68,142,249],
 			"innerColor": [28, 51,119],
 			"uniqueName": "Tellumpoccoe",
-			"uniqueText": "+3 [Production], +3 [Gold] in cities with 5 population or less\nGain a free [Granary] in your first 5 cities",
-			"uniques": ["[+3 Production, +3 Gold] [in all cities]", 
-						"[-3 Production, -3 Gold] [in all cities] <in cities with at least [6] [Population]>", 
-						"Provides a [Granary] in your first [3] cities for free"],
+			"uniques": ["[+3 Production, +3 Gold] [in all cities] <hidden from users>", 
+						"[-3 Production, -3 Gold] [in all cities] <in cities with at least [6] [Population]> <hidden from users>", 
+						"Comment [+3 [Production], +3 [Gold] in cities with 5 population or less]", 
+						"Provides a [Granary] in your first [5] cities for free"],
 			"cities": ["Watampone","Tanete Riattang","Awangpone","Palakka","Barebbo","Sibulue","Cina","Ponre","Ulaweng","Bengo",
 				"Libureng","Mare","Patimpeng","Tonra","Salomekko","Kajuara","Kahu","Bonto Cani","Lappa Riaja","Tellu Liompe",
 				"Tellu Siattinge","Amali","Cenrana","Dua Boccoe","Ajangale"],
@@ -795,9 +827,8 @@
 			"outerColor": [61, 0, 109],
 			"innerColor": [68,142,249],
 			"uniqueName": "Pohala'a",
-			"uniques": ["Comment [50% chance a Pohala'a emerged in a random city upon entering Golden Age, +4 Population in said city]", 
-						"[+4] population in a random city <upon entering a Golden Age> <with [50]% chance> <hidden from users>",
-						"[+50]% Natural religion spread [in holy cities]",  
+			"uniques": ["Comment [A Pohala'a emerged in a random city upon entering Golden Age, +1 Population in said city]", 
+						"[+1] population in a random city <upon entering a Golden Age> <hidden from users>",
 						"[+2 Gold] [in all cities connected to capital]"],
 			"cities": ["Hulawa","Tula Denggi","Biawu","Hunginaa","Lupoyo","Bilinggata","Wuwabu","Padengo","Huwangobotu Olowala","Tapa",
 				"Lauwonu","Toto","Dumati","Ilotidea","Pantungo","Panggulo","Huangobotu Oloyihi","Tamboo","Hulontalangi","Palasa",
@@ -811,7 +842,8 @@
 			"leaderName": "Matoaya",
 			"adjective": ["Makassarese"],
 			"startBias":["Avoid [Desert]","Avoid [Tundra]"],
-			"personality": "Matoaya",
+			"personality": "Majestic Ingenuity",
+			"preferredVictoryType": "Scientific",
 			"favoredReligion": "Islam",
 
 			"startIntroPart1": "The blessings of God be upon you, Karaeng Matoaya, educated and reliable prime minister of Makassar. During your reign, Makassar was a busy trading post for various European and Asian nations. You also extended Makassar's military influence to the northern and central regions of Sulawesi, Buton, and Nusa Tenggara. Guided by your wisdom, Makassar made cannons and gunpowder, build new ships with more sophisticated designs, standardize trade currency, and strengthen forts on the coast of Gowa. But the empire fell at last under the assault of VOC-Bone-Buton-Ternate alliance",
@@ -845,6 +877,7 @@
 			"adjective": ["Luwu"], // Luwu Buginese
 			"startBias": ["Plains","Hill"],
 			"preferredVictoryType":"Domination",
+			"personality": "Organized Expansionist",
 			"favoredReligion": "Hinduism",
 
 			"startIntroPart1": "Tomatoaku maneng malebbi'ku, Simpurusiang, founding father of Luwu. You are the leader of the Buginese, one of the oldest and the greatest civilization in Sulawesi. Your kingdom is an inspiration and a role model for other Buginese kingdoms, such as Wajo, Soppeng, Sidenreng, Rappang, and even Bone. Before the other upstart Sulawesi civilizations were even conceived, Luwu became the center of power in Sulawesi!",
@@ -862,7 +895,7 @@
 			"outerColor": [ 65, 54, 42],
 			"innerColor": [225,190,190],
 			"uniqueName": "La Galigo",
-			"uniques": ["Free [Great General] appears <upon discovering [Philosophy]>", 
+			"uniques": ["Free [Great General] appears <upon discovering [Philosophy] technology>", 
 						"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>"],
 			"cities": ["Palopo","Bua","Ponrang","Bassesang Tempe","Bajo","Belopa","Latimojong","Suli","Walenrang","Lamasi",
 				"Larompong","Masambe","Seko","Malili","Sidenreng Rappang","Pinrang","Wajo","Poso","Sigi","Mamuju",
@@ -880,6 +913,7 @@
 			"leaderName": "Ola Adobala",
 			"adjective": ["Lamaholot"],
 			"startBias": ["Coast"],
+			"personality": "Centralized Creativity",
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Christianity",
 
@@ -914,6 +948,7 @@
 			"leaderName": "Neken Liurai",
 			"adjective": ["Tetun-Atoni"],
 			"startBias": ["Forest","Coast"],
+			"personality": "Cultural Ambassador",
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Christianity",
 
@@ -948,6 +983,7 @@
 			"leaderName": "Baabullah",
 			"adjective": ["Ternatan"],
 			"startBias": ["Coast"],
+			"personality": "Bullying Warmonger",
 			"preferredVictoryType": "Domination",
 			"favoredReligion": "Islam",
 
@@ -966,7 +1002,7 @@
 			"outerColor": [  0,  7,201],
 			"innerColor": [225,225,225],
 			"uniqueName": "Uli Lima",
-			"uniques": ["[+50]% Production when constructing [Water] units [in all cities]"
+			"uniques": ["[+50]% Production when constructing [Water] units [in all cities]", 
 						"Enables [All] units to enter ocean tiles <after discovering [Optics]>", 
 						"[+50]% Production when constructing [Albahdir] units [in capital] <hidden from users>"],
 			"cities": ["Ternate","Jailolo","Loloda","Makian","Sula","Talaud","Sitaro","Sanana","Moro","Western Seram",
@@ -980,6 +1016,7 @@
 			"leaderName": "Nuku",
 			"adjective": ["Tidorese"],
 			"startBias": ["Coast","Mountain"],
+			"personality": "Majestic Ingenuity",
 			"preferredVictoryType": "Scientific",
 			"favoredReligion": "Islam",
 
@@ -1020,6 +1057,7 @@
 			"leaderName": "Kurabesi",
 			"adjective": ["Biak"],
 			"startBias": ["Coast"],
+			"personality": "Organized Expansionist",
 			"preferredVictoryType": "Domination",
 			//"favoredReligion": "Islam",
 
@@ -1041,7 +1079,8 @@
 			"uniques": ["[+2 Food, +1 Production] from every [Atoll]", 
 						"[+2 Food, +1 Production] from every [Crab]", 
 						"[+2 Food, +1 Production] from every [Pearls]", 
-						"[+2 Food, +1 Production] from every [Whales]"],
+						//"[+2 Food, +1 Production] from every [Whales]"
+						],
 			"cities": ["Biak","Numfor","Misool","Salawati","Batanta","Waigeo","Supiori","Samofa","Sorong","Aimas",
 				"Warsa","Yendidori","Swandiwe","Orridek","Yawosi","Andey","Padaido","Aimando Padaido","Bruyadori","Orkeri"],
 			"spyNames": ["Warnosadoi","Rumbiak","Obed","Simbiak","Ondi","Ordeko","Wanma","Sabe","Rumere","Wabia"]
@@ -1114,7 +1153,7 @@
 			"outerColor": [ 52, 14, 32],
 			"innerColor": [225,225,225],
 			"uniqueName": "Moro Raids",
-			"uniques": ["Free [Worker] appears <upon constructing [Courthouse]>", 
+			"uniques": ["Free [Worker] appears <upon defeating a [{Military} {Water}] unit>", 
 						"Comment [May sell Worker for 35 [Gold] (modified by game speed)]", 
 						"[Worker] units gain the [Slave] promotion <hidden from users>"],
 			"cities": ["Buana","Maimbung","Palawan","Moroland","Sandakan","Kudat","Lahad Datu","Tawau","Semporna",
@@ -1128,6 +1167,7 @@
 			"leaderName": "Kudarat",
 			"adjective": ["Maguindanaon"],
 			"startBias": ["Coast"],
+			"personality": "Kudarat",
 			"preferredVictoryType": "Diplomatic",
 			"favoredReligion": "Islam",
 
@@ -1168,9 +1208,22 @@
 		"declaringWar": "I didn't want to do this. We declare war.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Unacceptable!",
-		"outerColor": [  0,  0,  0],
-		"innerColor": [200,255,200],
+		"outerColor": [  0, 0,  0],
+		"innerColor": [194,34,233],
 		"cities": ["Donggala"]
+	},
+	{
+		"name": "Tarumanagara",
+		"adjective": ["Tarumanagaran"],
+		"cityStateType": "Cultured",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I didn't want to do this. We declare war.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [  0, 0,  0],
+		"innerColor": [194,34,233],
+		"cities": ["Tarumanagara"]
 	},
 	{
 		"name": "Tidung",
@@ -1181,7 +1234,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Unacceptable!",
 		"outerColor": [  0, 0,  0],
-		"innerColor": [163,34,111],
+		"innerColor": [194,34,233],
 		"cities": ["Tidung"]
 	},
 	
@@ -1212,6 +1265,18 @@
 	},
 	
 	{
+		"name": "Banggai",
+		"adjective": ["Banggai"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "There is no choice. I shall take peace by force!",
+		"attacked": "You can see how fruitless this will be for you... right?",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [  0,  0, 0],
+		"innerColor": [240,220,60],
+		"cities": ["Banggai"]
+	},
+	{
 		"name": "Sambas",
 		"adjective": ["Sambasian"],
 		"cityStateType": "Mercantile",
@@ -1220,8 +1285,8 @@
 		"declaringWar": "There is no choice. I shall take peace by force!",
 		"attacked": "You can see how fruitless this will be for you... right?",
 		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [  0,  0,  0],
-		"innerColor": [211,220,103],
+		"outerColor": [  0,  0, 0],
+		"innerColor": [240,220,60],
 		"cities": ["Sambas"]
 	},
 	{
@@ -1238,8 +1303,8 @@
 	},
 	
 	{
-		"name": "Banggai",
-		"adjective": ["Banggai"],
+		"name": "Blambangan",
+		"adjective": ["Javanese"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
@@ -1247,7 +1312,7 @@
 		"defeated": "Why have you forsaken us my lord?",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255,50,50],
-		"cities": ["Banggai"]
+		"cities": ["Blambangan"]
 	},
 	{
 		"name": "Singhasari",
@@ -1262,10 +1327,35 @@
 		"innerColor": [255,50,50],
 		"cities": ["Singhasari"]
 	},
+	{
+		"name": "Mactan",
+		"adjective": ["Mactan"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Why have you forsaken us my lord?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,50,50],
+		"cities": ["Singhasari"]
+	},
 	
 	{
 		"name": "Demak",
 		"adjective": ["Javanese"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "By the grace of God, we declare war on you!",
+		"attacked": "I will fear no evil. For god is with me!",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200,255,200],
+		"cities": ["Demak"]
+	},
+	{
+		"name": "Samudera Pasai",
+		"adjective": ["Pasai"],
 		"cityStateType": "Religious",
 
 		"declaringWar": "By the grace of God, we declare war on you!",
