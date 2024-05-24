@@ -304,6 +304,24 @@
 			]
 		},
 		
+		// Demak
+		{
+			"name": "Pesantren",
+			"replaces": "University",
+			"uniqueTo": "Demak",
+			"maintenance": 2,
+			"hurryCostModifier": 15,
+			"percentStatBonus": {"science": 33},
+			"specialistSlots": {"Scientist": 2},
+			"requiredBuilding": "Library",
+			"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", 
+						"[+1 Faith] per [3] population [in this city]"],
+			"requiredTech": "Education",
+			"civilopediaText": [
+				{"text": "Pesantren are Islamic boarding schools consisting of pondok (dormitories), mosque, and the teaching of Islamic texts. The term 'pesantren' derives from the word 'santri,' which means student in Javanese, forming 'pe-santri-an' or place of the santri. Pesantren provide housing at little to no cost for the students and are led by a group of teachers and religious leaders called Kyai."},
+			]
+		},
+		
 		// Banten
 		{
 			"name": "Tasikardi",
@@ -593,6 +611,25 @@
 	
 	// The Philippines
 	
+		// Tondo
+		{
+			"name": "Palengke",
+			"replaces": "Market",
+			"uniqueTo": "Tondo",
+			"gold": 2,
+			"specialistSlots": {"Merchant": 1},
+			"hurryCostModifier": 25,
+			"percentStatBonus": {"gold": 25},
+			"uniques": ["[+1 Food] from [Bonus resource] tiles [in this city] <in tiles without [Stone]> <hidden from users>", 
+						"[+1 Production] from [Bonus resource] tiles [in this city] <in [Stone] tiles> <hidden from users>", 
+						"Comment [+1 [Food] from Bonus resource tiles in this city except [Stone]]", 
+						"Comment [+1 [Production] from [Stone] tiles in this city]"],
+			"requiredTech": "Currency",
+			"civilopediaText": [
+				{"text": "A permanent wet market in the Philippines (differentiated from periodic wet markets called talipapa), usually composed of several dozen stalls arranged in rows under a shared roof. There is little control over the day-to-day management of individual stalls, including commodity pricing. This has resulted in what has been called 'palengke mechanics'."},
+			]
+		},
+		
 		// Cebu
 		{
 			"name": "Sibo",

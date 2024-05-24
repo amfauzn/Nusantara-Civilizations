@@ -88,5 +88,68 @@
 					"Cannot be traded", 
 					"Excluded from map editor", 
 					"Will not be displayed in Civilopedia"]
-	}
+	},
+	{
+		"name": "CM mover",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
+					"Stockpiled", 
+					"Cannot be traded", 
+					"Excluded from map editor", 
+					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "NC mover",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
+					"Stockpiled", 
+					"Cannot be traded", 
+					"Excluded from map editor", 
+					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "NE mover",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
+					"Stockpiled", 
+					"Cannot be traded", 
+					"Excluded from map editor", 
+					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "HE mover",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
+					"Stockpiled", 
+					"Cannot be traded", 
+					"Excluded from map editor", 
+					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "OU mover",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
+					"Stockpiled", 
+					"Cannot be traded", 
+					"Excluded from map editor", 
+					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "IW mover",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
+					"Stockpiled", 
+					"Cannot be traded", 
+					"Excluded from map editor", 
+					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "HM mover",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
+					"Stockpiled", 
+					"Cannot be traded", 
+					"Excluded from map editor", 
+					"Will not be displayed in Civilopedia"]
+	},
 ]

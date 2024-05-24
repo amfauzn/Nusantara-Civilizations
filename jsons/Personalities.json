@@ -53,33 +53,6 @@
 		}
 	},
 	
-	// Pagaruyung
-	{
-		"name": "Puti Jamilan",
-		"preferredVictoryType": "Diplomatic",
-		"food": 7,
-		"production": 5,
-		"science": 5,
-		"culture": 7,
-		"gold": 7,
-		"faith": 4,
-		"happiness": 5,
-		"military": 6,
-		"warMongering": 4,
-		"priorities": {
-			"Tradition": 30,
-			"Liberty": 10,
-			"Honor": 0,
-			"Piety": 0,
-			"Patronage": 20,
-			"Commerce": 10,
-			"Rationalism": 10,
-			"Freedom": 50,
-			"Autocracy": 10,
-			"Order": 10
-		}
-	},
-	
 	// Srivijaya
 	{
 		"name": "Balaputradewa",
@@ -335,7 +308,7 @@
 		}
 	},
 	{
-		"name": "Majestic Ingenity",
+		"name": "Majestic Ingenity", // Gowa-Tallo, Tidore
 		"preferredVictoryType": "Scientific",
 		"food": 6,
 		"production": 5,
@@ -356,6 +329,31 @@
 			"Freedom": 10,
 			"Autocracy": 10,
 			"Order": 40
+		}
+	},
+	{
+		"name": "Mother to the People", // Pagaruyung, Tondo
+		"preferredVictoryType": "Diplomatic",
+		"food": 7,
+		"production": 5,
+		"science": 5,
+		"culture": 7,
+		"gold": 7,
+		"faith": 4,
+		"happiness": 5,
+		"military": 6,
+		"warMongering": 4,
+		"priorities": {
+			"Tradition": 30,
+			"Liberty": 10,
+			"Honor": 0,
+			"Piety": 0,
+			"Patronage": 20,
+			"Commerce": 10,
+			"Rationalism": 10,
+			"Freedom": 50,
+			"Autocracy": 10,
+			"Order": 10
 		}
 	},
 	{

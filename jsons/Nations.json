@@ -206,7 +206,7 @@
 			"leaderName": "Puti Jamilan",
 			"adjective": ["Minangkabau"],
 			"startBias": ["Hill"],
-			"personality": "Puti Jamilan",
+			"personality": "Mother to the People",
 			"preferredVictoryType": "Diplomatic",
 			"favoredReligion": "Islam",
 
@@ -469,6 +469,38 @@
 			"spyNames": ["Wijaya","Soheeta","Jayanagara","Gitarja","Aji","Nyoman","Setyanto","Joko","Siti","Soegimin"]
 		},
 		
+		{
+			"name": "Demak", 						// 1475–1554
+			"leaderName": "Trenggana",
+			"adjective": ["Javanese"],
+			"startBias": ["Coast"],
+			//"personality": "Bullying Warmonger",
+			//"preferredVictoryType": "Domination",
+			"favoredReligion": "Islam",
+
+			"startIntroPart1": "",
+			"startIntroPart2": "",
+
+			"declaringWar": "This is when we cross our sword. Either you follow me, or die before me!",
+			"attacked": "The audacity! Your crimes will cost you dearly!",
+			"defeated": "This is only a temporary setback. I'll be back before long!",
+			"introduction": "Welcome to Demak. You may call me Sultan Trenggana.",
+
+			"neutralHello": "Yes?",
+			"hateHello": "Cah gathel!",
+			"tradeRequest": "Ngeten pripun mase?",
+
+			"outerColor": [153,153, 45],
+			"innerColor": [255,255,255],
+			"uniqueName": "Faithful Expansion",
+			"uniques": ["Free [Settler] appears <upon founding a Pantheon>", 
+						"[+2 Culture] [in all cities] <in cities with an enhanced religion>"],
+			"cities": ["Demak","Jepara","Kudus","Rembang","Tingkir","Pajang","Ampel","Gresik","Bangkalan","Mojokerto",
+				"Semarang","Pati","Prawoto","Lasem","Juwana","Tuban","Jipang","Kadiri","Madura","Madiun",
+				"Surabaya","Sidoarjo","Lamongan","Pasuruan","Malang","Sengguruh","Panarukan","Brebes","Cirebon","Banten"],
+			"spyNames": ["Patah","Unus","Penangsang","Ngudung","Fatahillah","Hadiwijaya","Bayat","Kusen","Pandan Arang","Ratna Kencana"]
+		},
+		
 		// Banten
 		{
 			"name": "Banten",						// 1527–1813
@@ -707,7 +739,7 @@
 		
 		// Bolaang Mongondow
 		{
-			"name": "Bolaang Mongondow",		// 1320 - 1933
+			"name": "Bolaang Mongondow",			// 1320 - 1933
 			"leaderName": "Tadohe",
 			"adjective": ["Mongondow"],
 			"startBias": ["Coast"],
@@ -740,7 +772,7 @@
 		
 		// Bone
 		{
-			"name": "Bone",						// 1358 -  1905
+			"name": "Bone",							// 1358 -  1905
 			"leaderName": "Arung Palakka",
 			"adjective": ["Buginese"],
 			"startBias": ["Grassland"],
@@ -775,7 +807,7 @@
 		
 		// Buton
 		{
-			"name": "Buton",					// 1332 - 1908
+			"name": "Buton",						// 1332 - 1908
 			"leaderName": "La Tumparasi",
 			"adjective": ["Butuni"],
 			"startBias": ["Coast"],
@@ -805,7 +837,7 @@
 		
 		// Gorontalo
 		{
-			"name": "Gorontalo",				/// 1300 - 1878
+			"name": "Gorontalo",					/// 1300 - 1878
 			"leaderName": "Ilahudu",
 			"adjective": ["Hulontaloan"],
 			"startBias": ["Hill","Mountain"],
@@ -838,7 +870,7 @@
 		
 		// Gowa-Tallo (Makassar)
 		{
-			"name": "Gowa-Tallo",				// 1320 - 1905
+			"name": "Gowa-Tallo",					// 1320 - 1905
 			"leaderName": "Matoaya",
 			"adjective": ["Makassarese"],
 			"startBias":["Avoid [Desert]","Avoid [Tundra]"],
@@ -872,7 +904,7 @@
 		
 		// Luwu (Wareq)
 		{
-			"name": "Luwu",						// 1300 - 1888
+			"name": "Luwu",							// 1300 - 1888
 			"leaderName": "Simpurusiang",
 			"adjective": ["Luwu"], // Luwu Buginese
 			"startBias": ["Plains","Hill"],
@@ -909,7 +941,7 @@
 	
 		// Larantuka
 		{
-			"name": "Larantuka",				// 1600 - 1904
+			"name": "Larantuka",					// 1600 - 1904
 			"leaderName": "Ola Adobala",
 			"adjective": ["Lamaholot"],
 			"startBias": ["Coast"],
@@ -979,7 +1011,7 @@
 		
 		// Ternate
 		{
-			"name": "Ternate",					// 1257 - 1914
+			"name": "Ternate",						// 1257 - 1914
 			"leaderName": "Baabullah",
 			"adjective": ["Ternatan"],
 			"startBias": ["Coast"],
@@ -1012,7 +1044,7 @@
 		
 		// Tidore
 		{
-			"name": "Tidore",					// 1081 - 1815
+			"name": "Tidore",						// 1081 - 1815
 			"leaderName": "Nuku",
 			"adjective": ["Tidorese"],
 			"startBias": ["Coast","Mountain"],
@@ -1087,6 +1119,53 @@
 		},
 		
 	// The Philippines
+		
+		{
+			"name": "Tondo", 						// 900 - 1589
+			"leaderName": "Kalangitan",
+			"adjective": ["Tondonese"],
+			"startBias": ["Avoid [Desert]"],
+			"personality": "Mother to the People",
+			"preferredVictoryType": "Diplomatic",
+			"favoredReligion": "Buddhism",
+
+			"startIntroPart1": "",
+			"startIntroPart2": "",
+
+			"declaringWar": "Sometimes, power is necessary to remind an unreasonable man like you!",
+			"attacked": "I must fight, for the sake of my dignity. For the sake of my people, I will win.",
+			"defeated": "Evil begets evil, just as one good turn attracts another. Your naked cruelty will soon receive its due",
+			"introduction": "I hope the day finds you well, foreigner. I am called Kalangitan. If commerce is what you seek, then you've come to the right place.",
+
+			"neutralHello": "Kamusta ka?",
+			"hateHello": "Gunggong!",
+			"tradeRequest": "Now we can party. Shall we?",
+
+			"outerColor": [57,114,209],
+			"innerColor": [255,211,57],
+			"uniqueName": "Bayanihan",
+			"uniques": ["[+1 Gold, +1 Happiness] [in all cities] <on foreign continents>", 
+						"Comment [National Wonders constructed in capital will move to new capital when captured by enemies]", 
+						"Comment [National Wonders project and [Grand Temple] does not affected]", 
+						"Instantly provides [1] [CM mover] <upon constructing [Circus Maximus] [in capital]> <hidden from users>", 
+						"Instantly provides [1] [NC mover] <upon constructing [National College] [in capital]> <hidden from users>", 
+						"Instantly provides [1] [NE mover] <upon constructing [National Epic] [in capital]> <hidden from users>", 
+						"Instantly provides [1] [HE mover] <upon constructing [Heroic Epic] [in capital]> <hidden from users>", 
+						"Instantly provides [1] [OU mover] <upon constructing [Oxford University] [in capital]> <hidden from users>", 
+						"Instantly provides [1] [IW mover] <upon constructing [Ironworks] [in capital]> <hidden from users>", 
+						"Instantly provides [1] [HM mover] <upon constructing [Hermitage] [in capital]> <hidden from users>", 
+						"Gain a free [Circus Maximus] [in capital] <when above [0] [CM mover]> <hidden from users>", 
+						"Gain a free [National College] [in capital] <when above [0] [NC mover]> <hidden from users>", 
+						"Gain a free [National Epic] [in capital] <when above [0] [NE mover]> <hidden from users>", 
+						"Gain a free [Heroic Epic] [in capital] <when above [0] [HE mover]> <hidden from users>", 
+						"Gain a free [Oxford University] [in capital] <when above [0] [OU mover]> <hidden from users>", 
+						"Gain a free [Ironworks] [in capital] <when above [0] [IW mover]> <hidden from users>", 
+						"Gain a free [Hermitage] [in capital] <when above [0] [HM mover]> <hidden from users>"],
+			"cities": ["Tondo","Namayan","Maynila","Bitukang Manok","Sunog-Apog","Maysapan","Tagig","Nabotas","Sampalok","Mandaluyong",
+				"Binondo","Pasay","Kainta","Puliran","Kumintang","Paila","Yamagtogon","Pandakan","Tangway","Kandawe",
+				"Morong","Tayabas","Malatarlak","Katanghalan","Baybay","Omaghikon","Binwangan","Pakil","Meykatmon","Sawangan"],
+			"spyNames": ["Banuk","Daway","Angayaw","Bugna","Bagani","Hilway","Marikit","Lamitan","Tersayang","Amaya"]
+		},
 		
 		// Cebu  (Sugbu)
 		{
@@ -1342,18 +1421,6 @@
 	},
 	
 	{
-		"name": "Demak",
-		"adjective": ["Javanese"],
-		"cityStateType": "Religious",
-
-		"declaringWar": "By the grace of God, we declare war on you!",
-		"attacked": "I will fear no evil. For god is with me!",
-		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [200,255,200],
-		"cities": ["Demak"]
-	},
-	{
 		"name": "Samudera Pasai",
 		"adjective": ["Pasai"],
 		"cityStateType": "Religious",
@@ -1363,7 +1430,7 @@
 		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [200,255,200],
-		"cities": ["Demak"]
+		"cities": ["Pasai"]
 	},
 	{
 		"name": "Johor",

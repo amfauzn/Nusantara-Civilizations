@@ -274,6 +274,22 @@
 			"attackSound": "cannon"
 		},
 		
+		// Demak
+		{
+			"name": "Wali",
+			"unitType": "Civilian",
+			"uniqueTo": "Demak",
+			"replaces": "Missionary",
+			"uniques": [
+				"Can Spread Religion <for [3] movement> <[3] times> <after which this unit is consumed>", 
+				"Can remove other religions from cities <in [Friendly] tiles> <once>",
+				"May enter foreign tiles without open borders", 
+				"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", 
+				"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+			"movement": 4,
+			"religiousStrength": 1000
+		},
+		
 		// Banten
 		{
 			"name": "Meriam Ki Amuk",
@@ -590,12 +606,12 @@
 			"movement": 2,
 			"strength": 5,
 			"cost": 25,
-			"upgradesTo": "Longswordsman",
 			"obsoleteTech": "Gunpowder",
-			"uniques": ["Comment [Upgrade to Longswordsman]", 
-						"Comment [Obsolete with [Gunpowder]]", 
+			"uniques": ["Can upgrade to [Longswordsman]", 
 						"Cannot attack", 
-						"May enter foreign tiles without open borders"],
+						"May enter foreign tiles without open borders", 
+						"Comment [Obsolete with [Gunpowder]]", 
+						"[-33]% Gold cost of upgrading <hidden from users>"],
 			"promotions": ["Ignore terrain cost"],
 			"attackSound": "nonmetalhit"
 		},
@@ -685,6 +701,24 @@
 	
 	// The Philippines
 	
+		// Tondo
+		{
+			"name": "Maharlika",
+			"unitType": "Sword",
+			"uniqueTo": "Tondo",
+			"replaces": "Pikeman",
+			"movement": 2,
+			"strength": 16,
+			"cost": 90,
+			"requiredTech": "Civil Service",
+			"promotions": ["[Maharlika] ability"],
+			"uniques": ["[+50]% Strength <vs [Mounted] units>", 
+						"[+15]% Strength <when fighting units from a Civilization with more Cities than you>"],
+			"upgradesTo": "Lancer",
+			"obsoleteTech": "Metallurgy",
+			"attackSound": "metalhit"
+		},
+		
 		// Cebu
 		{
 			"name": "Timawa",

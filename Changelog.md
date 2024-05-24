@@ -133,3 +133,7 @@
 - CS related
 	Add Tarumanagara (Cultural), Blambangan (Militaristik), Mactan (Militaristik), Samudera Pasai (Religious)
 	Banggai Militaristik -> Mercantile
+
+# v.1.10 (24.05.2024)
+- New Civs: Demak and Tondo
+- Add more leader portrait

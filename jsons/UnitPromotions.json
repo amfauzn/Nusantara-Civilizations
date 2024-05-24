@@ -72,6 +72,10 @@
 					"Earn [50]% of the damage done to [Water] units as [Gold]"]
 	},
 	{
+		"name": "[Maharlika] ability",
+		"uniques": ["[-100]% maintenance costs"]
+	},
+	{
 		"name": "Slave",
 		"uniques": ["Gain [35] [Gold] (modified by game speed) <by consuming this unit>"]
 	},

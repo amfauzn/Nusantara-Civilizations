@@ -6,7 +6,7 @@
 * [Smashfanful](https://github.com/Smashfanful) - Italian translation
 * [AceHank](https://github.com/AceHank) - balancing
 * [Bambboolord](https://github.com/RealBamboolord) - balancing
-* X2003 - idea
+* [X2003](https://github.com/Xenia2003) - idea, Indonesian translation
 
 # Credits
 Some of the icon made by me.

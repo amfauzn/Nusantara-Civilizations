@@ -3,7 +3,7 @@ Add polity, kingdoms and sultanate from Nusantara (Indonesia, Malaysia, Singapor
 -
 
 ## Chosen Civilizations
-Not every polity in Nusantara will become a separate civilization. Some of them will become a City-state, while some others are unselected. They are divided into 5 (five) sub-region:
+Not every polity in Nusantara will become a separate civilization. Some of them will become a City-state, while some others are unselected. They are divided into 6 (six) sub-region:
 - Sumatra and Malay Peninsula
 - Java and Bali
 - Borneo
@@ -22,7 +22,7 @@ The basic difference between a mandala and an empire is that an empire has multi
 - Kadiri (Kediri/Panjalu) CS
 - Singhasari CS
 - Majapahit
-- Demak CS
+- Demak
 - Mataram (Mataram Islam)
 - Banjar
 - Brunei
@@ -52,7 +52,7 @@ Despite the fact that they didn't possess a large area of power, their influence
 - Buton
 - Gorontalo
 - Larantuka
-- Wewiku-Wewahali
+- Wewiku-Wehali
 - Maguindanao
 
 ### Additional Polities
