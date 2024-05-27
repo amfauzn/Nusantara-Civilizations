@@ -73,7 +73,7 @@
 			"obsoleteTech": "Combustion",
 			"uniques": ["[+1] Sight", 
 						"May withdraw before melee ([80]%)", 
-						"Comment [Research Compass vs Astronomy]", 
+						"Comment [Tech Compass vs Astronomy]", 
 						"Cannot enter ocean tiles <before discovering [Astronomy]>", 
 						"[+2] Movement <in [Coast] tiles>"],
 			"hurryCostModifier": 30,
@@ -713,7 +713,7 @@
 			"requiredTech": "Civil Service",
 			"promotions": ["[Maharlika] ability"],
 			"uniques": ["[+50]% Strength <vs [Mounted] units>", 
-						"[+15]% Strength <when fighting units from a Civilization with more Cities than you>"],
+						"[+1] Movement <in [Friendly Land] tiles>"],
 			"upgradesTo": "Lancer",
 			"obsoleteTech": "Metallurgy",
 			"attackSound": "metalhit"
