@@ -281,7 +281,7 @@
 			"name": "Srivijaya",					// 670–1025
 			"leaderName": "Balaputradewa",
 			"adjective": ["Srivijayan"], // Malay Palembang
-			"startBias": ["Forest","Coast"],
+			"startBias": ["Jungle","Coast"],
 			"personality": "Balaputradewa",
 			"preferredVictoryType": "Domination",
 			"favoredReligion": "Buddhism",
