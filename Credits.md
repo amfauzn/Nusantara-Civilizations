@@ -8,6 +8,11 @@
 * [Bambboolord](https://github.com/RealBamboolord) - balancing
 * [X2003](https://github.com/Xenia2003) - idea, Indonesian translation
 
+# Maps
+* Lesser Sunda Islands - M (90x30) by amfauzn (AKA faw)
+* Strait of Malacca - M (44x26) by amfauzn (AKA faw)
+* Philippines - XL (70x100) by Arcc
+
 # Credits
 Some of the icon made by me.
 
