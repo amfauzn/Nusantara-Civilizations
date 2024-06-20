@@ -77,7 +77,7 @@
 	},
 	{
 		"name": "Slave",
-		"uniques": ["Gain [35] [Gold] (modified by game speed) <by consuming this unit>"]
+		"uniques": ["Gain [35] [Gold] <(modified by game speed)> <by consuming this unit>"]
 	},
 	{
 		"name": "Apologetics",

@@ -11,6 +11,7 @@
 # Maps
 * Lesser Sunda Islands - M (90x30) by amfauzn (AKA faw)
 * Strait of Malacca - M (44x26) by amfauzn (AKA faw)
+* Sulawesi - L (68x56) by amfauzn (AKA faw)
 * Philippines - XL (70x100) by Arcc
 
 # Credits

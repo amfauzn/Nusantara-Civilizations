@@ -137,3 +137,8 @@
 # v.1.10 (24.05.2024)
 - New Civs: Demak and Tondo
 - Add more leader portrait
+
+# v1.11 (20.06.2024)
+- Add custom maps: Strait of Malacca, Lesser Sunda Islands, Philippines, and Sulawesi
+- Fix deprecated uniques
+- Bali's UA now modified by game speed
