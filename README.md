@@ -36,6 +36,7 @@ The basic difference between a mandala and an empire is that an empire has multi
 ### Regional Powers
 Regional powers are a sovereign polity that exercises significant power within a given geographical region. Polity that wield unrivaled power and influence within a region possess regional hegemony.
 - Pagaruyung
+- Patani
 - Banten
 - Sunda
 - Kutai

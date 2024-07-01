@@ -139,6 +139,52 @@
 			"attackSound": "metalhit"
 		},*/
 		
+		// Patani
+		{
+			"name": "Phaya Tani",
+			"unitType": "Siege",
+			"uniqueTo": "Patani",
+			"replaces": "Cannon",
+			"movement": 2,
+			"strength": 14,
+			"rangedStrength": 17,
+			"cost": 185,
+			"requiredTech": "Chemistry",
+			"upgradesTo": "Artillery",
+			"obsoleteTech": "Dynamite",
+			"uniques": ["[+200]% Strength <vs cities> <when attacking>", 
+						"No defensive terrain bonus", 
+						"Must set up to ranged attack", 
+						"[+1] Range <in [City center] tiles> <hidden from users>", 
+						"[+1] Range <in [Citadel] tiles> <hidden from users>", 
+						"Ranged attacks may be performed over obstacles <in [City center] tiles> <hidden from users>", 
+						"Ranged attacks may be performed over obstacles <in [Citadel] tiles> <hidden from users>", 
+						"Comment [When in [City center] or [Citadel], gain [Extended Range] and [Indirect Fire] ability]", 
+						"Ranged attacks may be performed over obstacles <in [Fort] tiles> <hidden from users>", 
+						"Comment [When in [Fort], gain [Indirect Fire] ability]", 
+						"[-1] Sight", 
+						"Never appears as a Barbarian unit"],
+			"attackSound": "cannon"
+		},
+		{
+			"name": "Fisherman",
+			"unitType": "Civilian",
+			"uniqueTo": "Patani",
+			"replaces": "Worker",
+			"movement": 2,
+			"uniques": ["Comment [Also replaces [Work Boats]]", 
+						"[-1] Movement <when [Embarked]> <if [The Great Lighthouse] is constructed> <hidden from users>", 
+						"[+1] Movement <when [Embarked]> <before discovering [Astronomy]> <hidden from users>", 
+						"[+1] Movement <when [Embarked]> <before discovering [Steam Power]> <hidden from users>", 
+						"Comment [Always 4 Movement when embarked]", 
+						"Can build [Land] improvements on tiles", 
+						"Can build [Water] improvements on tiles", 
+						"Can instantly construct a [Offshore Platform] improvement <by consuming this unit> <hidden from users>", 
+						"Uncapturable", 
+						"Automation is a primary action"],
+			"cost": 70
+		},
+		
 		// Siak
 		{
 			"name": "Lancang",

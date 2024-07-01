@@ -92,7 +92,17 @@
 			]
 		},
 		
-		// Malacca
+		// Patani
+		{
+			"name": "Bungamas producer",
+			"uniqueTo": "Patani",
+			"cost": 1,
+			"uniques": ["Unbuildable", 
+						"Unsellable", 
+						"Provides [1] [Bungamas] <hidden from users>", 
+						"Destroyed when the city is captured", 
+						"Will not be displayed in Civilopedia"]
+		},
 		
 		// Siak
 		{

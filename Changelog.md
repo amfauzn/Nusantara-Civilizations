@@ -142,3 +142,8 @@
 - Add custom maps: Strait of Malacca, Lesser Sunda Islands, Philippines, and Sulawesi
 - Fix deprecated uniques
 - Bali's UA now modified by game speed
+
+# v1.12 (01.07.2024)
+- New Civ:Patani
+- Add custom maps: Buru, Seram, and Ambon, North Maluku, and Kai Islands
+- Update Personalities

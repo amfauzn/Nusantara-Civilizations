@@ -195,8 +195,8 @@
 						"[+1 Gold] <with [Jewelry]> <hidden from users>", 
 						"[+1 Gold] <with [Porcelain]> <hidden from users>", 
 						"Comment [+1 [Gold] per each type of Luxury resource owned]"],
-			"cities": ["Malacca", "Singapura", "Maur", "Ujong Tanah", "Bintan", "Pattani", "Kuantan", "Rokan", "Kelantan", "Kuala Terengganu", 
-				"Buantan", "Rengat", "Indragiri", "Penang", "Perlis", "Alor Seta", "Singora", "Selangor", "Perak", "Langkasuka"],
+			"cities": ["Malacca","Singapura","Maur","Ujong Tanah","Bintan","Patani","Kuantan","Rokan","Kelantan","Teregganu", 
+				"Buantan","Rengat","Indragiri","Penang","Perlis","Alor Seta","Singora","Selangor","Perak","Langkasuka"],
 			"spyNames": ["Iskandar","Megat","Muzaffar","Alauddin Riayat","Mahmud","Ermieyati","Redzuan","Tuah","Jebat","Kasturi"]
 		},
 		
@@ -231,6 +231,40 @@
 			"cities": ["Pagaruyung","Padang","Bukittinggi","Buo","Tiku","Pariaman","Sumpur Kudus","Sungai Tarab","Payakumbuh","Sumanik",
 				"Suruaso","Batipuh","Solok","Padang Panjang","Sawah Lunto"],
 			"spyNames": ["Hatta","Koto","Piliang","Caniago","Jambak","Yamin","Tanjung","Adityawarman","Fatmawati","Irma"]
+		},
+		
+		// pATANI
+		{
+			"name": "Patani", 						// 1400 - 1902
+			"leaderName": "Raja Hijau",
+			"adjective": ["Malay Thai"],
+			"startBias": ["Coast"],
+			"personality": "Mother to the People",
+			"preferredVictoryType": "Diplomatic",
+			"favoredReligion": "Islam",
+
+			"startIntroPart1": "",
+			"startIntroPart2": "",
+
+			"declaringWar": "The time for talk has ended. I hereby declare you as an enemy of Patani!",
+			"attacked": "We will stand firm. As we always have for hundred of years.",
+			"defeated": "I suppose it was only a matter of time.",
+			"introduction": "I am Raja Ijau, ruler of Patani. May our interactions be prosperous and peaceful, as we navigate the tides of diplomacy.",
+
+			"neutralHello": "Welcome.",
+			"hateHello": "What now?",
+			"tradeRequest": "This will bring prosperity to both our people.. What do you say?",
+
+			"outerColor": [0,128,128],
+			"innerColor": [255,215,0],
+			"uniqueName": "Legend of the Mouse Deer",
+			"uniques": ["Comment [Each founded city provides [Bungamas] Luxury resource]", 
+						"Gain a free [Bungamas producer] [in this city] <upon founding a city> <hidden from users>", 
+						"Gain a free [Lighthouse] [in all coastal cities] <after discovering [Optics]>"],
+			"cities": ["Patani","Menara","Jala","Singgora","Kuk Pur","Nung Chik","Penarik","Mayu","Selindung Bayu","Jambu",
+				"Ya Li hu","Taba","Bahcok","Jeringo","Legeh","Ruso","Saka","Raweang","Sungai Golok",
+				"Sungai Padi","Sene","Jok Irong","Betung","Bendang Setar"],
+			"spyNames": ["Tu Nakpa","Chau","Patik Siam","Bahdur","Kayan","Biru","Ungu","Kuning","Chayam","Bakal"]
 		},
 		
 		// Siak
@@ -305,8 +339,8 @@
 						"[+10]% [Science] from every [Temple]"],
 			"cities": ["Palembang","Prabumulih","Pagar Alam","Lubuklinggau","Bengkulu","Jambi","Bandar Lampung","Metro","Banten","Sunda Kelapa",
 				"Bogor","Depok","Bekasi","Sukabumi","Bandung","Cimahi","Tasikmalaya","Cirebon","Pekanbaru","Dumai",
-				"Siak","Tanjungpinang","Batam","Temasek","Johor","Perak","Kuantan","Selangor","Kuala Terengganu","Kelantan",
-				"Alor Setar","Penang","Pattani","Ligor","Tegal","Pekalongan","Magelang","Semarang","Salatiga","Solo",
+				"Siak","Tanjungpinang","Batam","Temasek","Johor","Perak","Kuantan","Selangor","Terengganu","Kelantan",
+				"Alor Setar","Penang","Patani","Ligor","Tegal","Pekalongan","Magelang","Semarang","Salatiga","Solo",
 				"Ta Khmau","Phnom Penh","Siem Reap","Klaten","Yogyakarta","Singkawang","Sarawak","Bandar Brunei"],
 			"spyNames": ["Jayanasa","Wikrama","Udayaditya","Cudamani","Vijayottunggawarman","Sumatrabhumi","Warmadewa","Rudra","Sri Deva","Bahal"]
 		},
@@ -464,7 +498,7 @@
 				"Pekanbaru","Padang","Medan","Makassar","Batam","Samarinda","Ambon","Kupang","Kutaraja","Pontianak"
 				"Palembang","Pekanbaru","Bandar Lampung","Palangka Raya","Banjarmasin","Samarinda","Kupang","Mataram Kuno","Bima","Kendari",
 				"Mamuju","Palu","Manado","Ambon","Dili","Manokwari","Johor","Malacca","Alor Setar","Seremban",
-				"Kuantan","Penang","Perak","Kuala Terengganu","Selangor","Kuching","Kota Kinabalu","Bandar Brunei","Pontianak","Balikpapan",
+				"Kuantan","Penang","Perak","Terengganu","Selangor","Kuching","Kota Kinabalu","Bandar Brunei","Pontianak","Balikpapan",
 				"Komodo","Biak","Kudus","Lombok","Samosir","Sragen","Garut","Gresik","Nias","Sragen"],
 			"spyNames": ["Wijaya","Soheeta","Jayanagara","Gitarja","Aji","Nyoman","Setyanto","Joko","Siti","Soegimin"]
 		},
