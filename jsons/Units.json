@@ -167,6 +167,18 @@
 			"attackSound": "cannon"
 		},
 		{
+			"name": "Patani Work Boats",
+			"unitType": "Civilian Water",
+			"uniqueTo": "Patani",
+			"replaces": "Work Boats",
+			"movement": 4,
+			"cost": 30,
+			"requiredTech": "Sailing",
+			"uniques": ["Uncapturable", 
+						"Only available <before discovering [Agriculture]>", 
+						"Will not be displayed in Civilopedia"]
+		},
+		{
 			"name": "Fisherman",
 			"unitType": "Civilian",
 			"uniqueTo": "Patani",
