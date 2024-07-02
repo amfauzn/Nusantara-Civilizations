@@ -167,31 +167,16 @@
 			"attackSound": "cannon"
 		},
 		{
-			"name": "Patani Work Boats",
-			"unitType": "Civilian Water",
-			"uniqueTo": "Patani",
-			"replaces": "Work Boats",
-			"movement": 4,
-			"cost": 30,
-			"requiredTech": "Sailing",
-			"uniques": ["Uncapturable", 
-						"Only available <before discovering [Agriculture]>", 
-						"Will not be displayed in Civilopedia"]
-		},
-		{
 			"name": "Fisherman",
 			"unitType": "Civilian",
 			"uniqueTo": "Patani",
 			"replaces": "Worker",
 			"movement": 2,
-			"uniques": ["Comment [Also replaces [Work Boats]]", 
-						"[-1] Movement <when [Embarked]> <if [The Great Lighthouse] is constructed> <hidden from users>", 
-						"[+1] Movement <when [Embarked]> <before discovering [Astronomy]> <hidden from users>", 
+			"uniques": ["[+1] Movement <when [Embarked]> <before discovering [Astronomy]> <hidden from users>", 
 						"[+1] Movement <when [Embarked]> <before discovering [Steam Power]> <hidden from users>", 
 						"Comment [Always 4 Movement when embarked]", 
 						"Can build [Land] improvements on tiles", 
-						"Can build [Water] improvements on tiles", 
-						"Can instantly construct a [Offshore Platform] improvement <by consuming this unit> <hidden from users>", 
+						"Can build [Fishing Boats] improvements on tiles", 
 						"Uncapturable", 
 						"Automation is a primary action"],
 			"cost": 70
