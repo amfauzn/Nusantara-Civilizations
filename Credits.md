@@ -1,5 +1,5 @@
 # Development
-* [amfauzn (AKA faw)](https://github.com/amfauzn) - idea, code, lore, icon, sprites, Indonesian translation
+* [amfauzn (AKA faw)](https://github.com/amfauzn) - idea, code, lore, icon, sprites, Indonesian translation, mapper
 * [hyunamae (AKA Kāne)](https://github.com/hyunamae) - idea, lore, icon
 * KrankeWagon - leader portrait
 * riceroll - idea, lore, balancing
@@ -9,7 +9,13 @@
 * [X2003](https://github.com/Xenia2003) - idea, Indonesian translation
 
 # Maps
+* Bali - L (75x45) by amfauzn (AKA faw)
+* Borneo - L (65x65) by amfauzn (AKA faw)
+* Buru, Seram, and Ambon - L (80x45) by amfauzn (AKA faw)
+* Java - L (80x45) by amfauzn (AKA faw)
+* Kai Islands - L (65x46) by amfauzn (AKA faw)
 * Lesser Sunda Islands - M (90x30) by amfauzn (AKA faw)
+* North Maluku - L (60x54) by amfauzn (AKA faw)
 * Strait of Malacca - M (44x26) by amfauzn (AKA faw)
 * Sulawesi - L (68x56) by amfauzn (AKA faw)
 * Philippines - XL (70x100) by Arcc
