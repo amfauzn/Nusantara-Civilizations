@@ -147,3 +147,7 @@
 - New Civ:Patani
 - Add custom maps: Buru, Seram, and Ambon, North Maluku, and Kai Islands
 - Update Personalities
+
+# v1.13 (27.07.2024)
+- New Natural Wonders: Kelimutu and Chocolate Hills
+- New large sized map: Mindanao, Sumbawa, and Talaud Islands

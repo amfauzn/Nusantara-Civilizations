@@ -1,0 +1,42 @@
+[
+	
+    // Natural Wonders
+	{
+		"name": "Chocolate Hills",
+		"type": "NaturalWonder",
+		"food": 2,
+		"production": 3,
+		"science": 1,
+		"overrideStats": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Grassland","Plains"],
+		"uniques": [
+			"Must be adjacent to [0] to [0] [Desert] tiles",
+			"Must be adjacent to [1] to [6] [Plains] tiles",
+			"Must be adjacent to [0] [Water] tiles",
+			"Occurs on latitudes from [0] to [50] percent of distance equator to pole",
+			"Occurs in groups of [1] to [2] tiles"],
+		"turnsInto": "Plains",
+		"impassable": false,
+		"unbuildable": true,
+		"weight": 20
+	},
+	{
+		"name": "Kelimutu",
+		"type": "NaturalWonder",
+		"food": 2,
+		"faith": 3,
+		"science": 3,
+		"overrideStats": true,
+		"occursOn": ["Plains","Grassland"],
+		"uniques": [
+			"Must be adjacent to [1] to [6] [Grassland] tiles",
+			"Must be adjacent to [2] to [6] [Elevated] tiles",
+			"Must be adjacent to [0] to [0] [Desert] tiles",
+		],
+		"turnsInto": "Lakes",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 7
+	},
+]

@@ -72,7 +72,7 @@
 			"upgradesTo": "Ironclad",
 			"obsoleteTech": "Combustion",
 			"uniques": ["[+1] Sight", 
-						"May withdraw before melee ([80]%)", 
+						"Withdraws before melee combat <with [80]% chance>", 
 						"Comment [Tech Compass vs Astronomy]", 
 						"Cannot enter ocean tiles <before discovering [Astronomy]>", 
 						"[+2] Movement <in [Coast] tiles>"],
@@ -195,7 +195,7 @@
 			"upgradesTo": "Ironclad",
 			"obsoleteTech": "Combustion",
 			"uniques": ["[+1] Sight", 
-						"May withdraw before melee ([80]%)", 
+						"Withdraws before melee combat <with [80]% chance>", 
 						"Ignores Zone of Control"],
 			"promotions": ["Mobility"],
 			"hurryCostModifier": 30,
@@ -277,7 +277,7 @@
 						"Can instantly construct a [Offshore Platform] improvement <[3] times> <after which this unit is consumed> <hidden from users>", 
 						"Comment [May create improvements on water resources 3 times]", 
 						"Cannot attack"
-						"May withdraw before melee ([80]%)", 
+						"Withdraws before melee combat <with [80]% chance>", 
 						"Uncapturable", 
 						"Automation is a primary action"]
 		},
@@ -411,7 +411,7 @@
 			"requiredTech": "Combustion",
 			"uniques": ["Can see invisible [Submarine] units", 
 						"[40]% chance to intercept air attacks",
-						"May withdraw before melee ([80]%)", 
+						"Withdraws before melee combat <with [80]% chance>", 
 						"[+100]% Strength <vs [Submarine] units>", 
 						"[+25]% Strength <when fighting in [Coast] tiles>"],
 			"attackSound": "shipguns"
@@ -720,7 +720,7 @@
 			"upgradesTo": "Ironclad",
 			"obsoleteTech": "Combustion",
 			"uniques": ["[+1] Sight", 
-						"May withdraw before melee ([80]%)"],
+						"Withdraws before melee combat <with [80]% chance>"],
 			"attackSound": "cannon"
 		},
 		
