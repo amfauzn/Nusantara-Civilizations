@@ -20,8 +20,14 @@
 * Sulawesi - L (68x56) by amfauzn (AKA faw)
 * Philippines - XL (70x100) by Arcc
 
-# Credits
-Some of the icon made by me.
+# Sprites
+* FantasyHex mostly by [GeneralWadaling (AKA The Bucketeer)](https://github.com/GeneralWadaling)
+* FantasyHex civ coloring inspired by Civ Army Color Style Sheet by [AdityaMH](https://github.com/AdityaMH)
+* rest is by me
+
+
+# Icons
+Not listed icons is by me.
 
 ## Sumatra and Malay Peninsula
 - [Borobudur](https://thenounproject.com/icon/borobudur-2412861/) by Phạm Thanh Lộc, VN
@@ -77,7 +83,6 @@ Some of the icon made by me.
 - [Cannon](https://thenounproject.com/icon/cannon-1599554/) by sandra. Modified
 - [Ship](https://thenounproject.com/icon/ship-1017575/) by leo-graph.com, IN
 - [Lotus](https://thenounproject.com/icon/lotus-2011976/) by dhul, ID
-- [Well](https://thenounproject.com/icon/well-1514882/) by Artdabana@Design, ID
 - [trisula](https://thenounproject.com/icon/trisula-3547400/) by satrio bagus permadi, ID
 - Icon of Bogani by hyunamae AKA Kāne
 

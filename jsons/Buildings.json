@@ -40,21 +40,13 @@
 			"cost": 40,
 			"maintenance": 1,
 			"requiredTech": "Pottery",
-			"uniques": ["Comment [Instantly gain 3 Faith and 3 Culture multiplied by owned Bale Pasogit]", 
-						"Unsellable", 
-						"Hidden when religion is disabled"],
+			"uniques": ["Comment [Gain control over Fresh water tiles in a 3-tile radius]",
+						"Gain control over [Lakes] tiles in a [3]-tile radius <hidden from users>",
+						"Gain control over [Oasis] tiles in a [3]-tile radius <hidden from users>",
+						"Gain control over [River] tiles in a [3]-tile radius <hidden from users>"],
 			"civilopediaText": [
 				{"text": "A complex with Batak architecture (gorga) serves as a place of worship for Ugamo Malim followers (Parmalim). Parmalim holds the Sipaha Lima ritual once a year in the complex, a gratitude ceremony from the people for the good fortune, grace, and gifts that Debata Mulajadi na Bolon has bestowed upon them throughout the year. The timing of Sipaha Lima is determined by the Batak calendar known as parhalaan."},
 			]
-		},
-		{
-			"name": "BP counter",
-			"cost": 1,
-			"uniques": ["Only available <in cities with a [Bale Pasogit]>", 
-						"Automatically built in all cities where it is buildable", 
-						"Provides [1] [Parmalim] <hidden from users>", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"]
 		},
 		
 		// Jambi
@@ -167,12 +159,12 @@
 			"uniqueTo": "Sunda",
 			"cost": 1,
 			"uniques": ["Unbuildable", 
-						"Instantly consumes [1] [ST Global] <upon turn end> <when above [0] [ST Global]> <hidden from users>", 
-						"Instantly consumes [1] [ST Local] <upon turn end> <when above [0] [ST Local]> <hidden from users>", 
-						"[+10]% [Culture] [in all cities] <when above [0] [ST Global]>", 
-						"[+10]% [Gold] [in all cities] <when above [0] [ST Global]>", 
-						"[+30]% [Culture] [in this city] <when above [0] [ST Local]>", 
-						"[+30]% [Gold] [in this city] <when above [0] [ST Local]>", 
+						"Instantly consumes [1] [STP-1] <upon turn end> <when above [0] [STP-1]> <hidden from users>", 
+						"Instantly consumes [1] [STP-2] <upon turn end> <when above [0] [STP-2]> <hidden from users>", 
+						"[+10]% [Culture] [in all cities] <when above [0] [STP-1]>", 
+						"[+10]% [Gold] [in all cities] <when above [0] [STP-1]>", 
+						"[+30]% [Culture] [in this city] <when above [0] [STP-2]>", 
+						"[+30]% [Gold] [in this city] <when above [0] [STP-2]>", 
 						"Destroyed when the city is captured", 
 						"Will not be displayed in Civilopedia"],
 		},
@@ -181,7 +173,7 @@
 			"uniqueTo": "Sunda",
 			"cost": 1,
 			"uniques": ["Unbuildable", 
-						"Instantly provides [10] [ST Global]", 
+						"Instantly provides [10] [STP-1]", 
 						"Remove [STaun Global] [in this city]", 
 						"Will not be displayed in Civilopedia"],
 		},
@@ -191,7 +183,7 @@
 			"cost": 1,
 			"uniques": ["Unbuildable", 
 						"Unsellable", 
-						"Instantly provides [30] [ST Local]", 
+						"Instantly provides [30] [STP-2]", 
 						"Destroyed when the city is captured", 
 						"Will not be displayed in Civilopedia"],
 		},
@@ -374,7 +366,7 @@
 			"replaces": "Lighthouse",
 			"uniqueTo": "Brunei",
 			"cost": 80,
-			"maintenance": 0,
+			"maintenance": 1,
 			"hurryCostModifier": 25,
 			"uniques": ["Must be next to [Coast]", 
 						"[+1 Food] from [Ocean] tiles [in this city]",
@@ -391,24 +383,21 @@
 		// Lanfang
 		{
 			"name": "Zongting",
-			"replaces": "Forge",
+			"replaces": "Workshop",
 			"uniqueTo": "Lanfang",
-			"culture": 2,
-			"maintenance": 1,
+			"production": 2,
+			"maintenance": 2,
+			"specialistSlots": {"Engineer": 1},
 			"hurryCostModifier": 25,
-			"requiredNearbyImprovedResources": ["Iron","Gold Ore"],
+			"percentStatBonus": {"production": 10},
 			"uniques": ["Comment [Tech Guilds vs Metal Casting]", 
-						"[+15]% Production when constructing [Spaceship part] units [in this city]",
-						"[+15]% Production when constructing [Land] units [in this city]",
-						"[+1 Production] from [Iron] tiles [in this city]", 
-						"[+1 Production] from [Gold Ore] tiles [in this city]", 
-						"[-15]% maintenance cost for buildings [in this city]"],
+						"[+2 Production] from [Gold Ore] tiles [in this city]"],
 			"requiredTech": "Guilds",
 			"civilopediaText": [
 				{"text": "The main body of the kongsi republics was the assembly hall (zongting), an assembly of delegates representing the constituent kongsi mining communities. The zongting exercised both executive and legislative functions."},
 			]
 		},
-		
+	
 		
 	// Sulawesi
 	
@@ -417,19 +406,19 @@
 			"name": "Komalig",
 			"replaces": "Palace",
 			"uniqueTo": "Bolaang Mongondow",
-			"isNationalWonder": true,
+			"isNationalWonder": false,
 			"production": 3,
 			"science": 3,
 			"gold": 3,
 			"culture": 1,
 			"cityStrength": 2,
-			"cost": 1,
-			"specialistSlots": {"Artist": 1, "Scientist": 1, "Merchant": 1, "Engineer": 1},
+			"cost": 125,
 			"uniques": ["Indicates the capital city", 
-						"[+10]% Production when constructing [All] buildings [in this city]", 
-						"Comment [Provides 1 slot of every specialist in this city]"],
+						"[-15]% maintenance cost for buildings [in this city]", 
+						"Limited to [4] per Civilization"],
+			"requiredTech": "Civil Service",
 			"civilopediaText": [
-				{"text": "Located in Kotamobagu, Komalig is a residence of Punu', ruler of Bolaang Mongondow."},
+				{"text": "Komalig is the residence of Punu', rulers of Bolaang Mongondow. The Komalig in Mongondow, Bintauna, and Bolaang Uki were burned during the Permesta rebellion, which was part of the combined PRRI and Permesta uprisings."},
 			]
 		},
 		
@@ -499,6 +488,25 @@
 						"Will not be displayed in Civilopedia"],
 			"requiredTech": "Mathematics"
 		},
+		
+		// Luwu
+		{
+			"name": "Panre Bessi",
+			"replaces": "Forge",
+			"uniqueTo": "Luwu",
+			"maintenance": 0,
+			"hurryCostModifier": 25,
+			"requiredTech": "Iron Working",
+			"uniques": ["Comment [Can be built in any city]", 
+						"Comment [Tech Iron Working vs Metal Casting]", 
+						"[+15]% Production when constructing [Spaceship part] units [in this city]", 
+						"[+15]% Production when constructing [Land] units [in this city]", 
+						"[+1 Production] from [Iron] tiles [in this city]", 
+						"Free [Swordsman] appears"],
+			"civilopediaText": [
+				{"text": "Besi Luwu is a type of carbon steel produced by the Kingdom of Luwu between the 14th and 17th centuries. This steel contained nickel, making it both strong and light, ideal for weapons, especially in warfare. Its renowned quality spread across the archipelago and it was exported to foreign kingdoms, including India. It was also used in the crafting of the kris, a revered sword in Indonesia. During the Majapahit era, Luwu became the primary supplier of war weapons."},
+			]
+		},
 	
 	
 	// Lesser Sunda, Maluku, and Papua
@@ -523,13 +531,10 @@
 						"Cost increases by [30] per owned city",
 						"[+100]% Natural religion spread [in this city]", 
 						"Comment [Can also be built in capital]", 
-						"Comment [Free Social Policy upon entering new era]", 
+						//"Comment [Free Social Policy upon entering new era]", 
 						"Only available <in cities with a [KRR builder]> <hidden from users>", 
-						"Free Social Policy <upon entering the [Renaissance era]> <hidden from users>", 
-						"Free Social Policy <upon entering the [Industrial era]> <hidden from users>", 
-						"Free Social Policy <upon entering the [Modern era]> <hidden from users>", 
-						"Free Social Policy <upon entering the [Atomic era]> <hidden from users>", 
-						"Free Social Policy <upon entering the [Information era]> <hidden from users>"],
+						"Free Social Policy <upon entering a new era>", 
+						],
 			"requiredTech": "Theology",
 			"civilopediaText": [
 				{"text": "A Catholic cathedral dedicated to Queen Mary's title, Reinha Rosary. The cathedral is the seat of the Bishop of Larantuka."},
@@ -592,7 +597,7 @@
 			"cost": 1,
 			"uniques": ["Must be next to [Coast]", 
 						"Automatically built in all cities where it is buildable", 
-						"Provides [1] [CoastalCounter] <hidden from users>", 
+						"Provides [1] [Counter] <hidden from users>", 
 						"Limited to [9] per Civilization", 
 						"Destroyed when the city is captured", 
 						"Will not be displayed in Civilopedia"]
@@ -607,8 +612,12 @@
 			"hurryCostModifier": 25,
 			"maintenance": 1,
 			"uniques": ["New [Military] units start with [15] Experience [in this city]", 
-						"New [{Ranged} {non-air} {non-[Ranged Gunpowder]}] units start with [-15] Experience [in this city] <hidden from users>", 
-						"All newly-trained [{Ranged} {non-air} {non-[Ranged Gunpowder]] units [in this city] receive the [Logistics] promotion <hidden from users>", 
+						"New [{Ranged} {Water}] units start with [-15] Experience [in this city] <hidden from users>", 
+						"New [Archery] units start with [-15] Experience [in this city] <hidden from users>", 
+						"New [Siege] units start with [-15] Experience [in this city] <hidden from users>", 
+						"All newly-trained [{Ranged} {Water}] units [in this city] receive the [Logistics] promotion  <hidden from users>", 
+						"All newly-trained [Archery] units [in this city] receive the [Logistics] promotion <hidden from users>", 
+						"All newly-trained [Siege] units [in this city] receive the [Logistics] promotion <hidden from users>", 
 						"Comment [All newly-trained Ranged non-Gunpowder units receive the [Logistics] promotion]", 
 						"Comment [New Military units without [Logistics] promotion start with 15 Experience]", 
 						//"[+15]% Production when constructing [Water] units [in this city]", 
@@ -667,12 +676,13 @@
 			"production": 3,
 			"science": 3,
 			"gold": 3,
-			"culture": 2,
-			"faith": 1,
+			"culture": 1,
 			"cityStrength": 2,
 			"cost": 1,
 			"uniques": ["Indicates the capital city", 
-						"[+2 Culture] [in this city] <after discovering [Archaeology]>"],
+						"Comment [Double yield starting from the Renaissance era]",
+						"[+3 Production, +3 Science, +3 Gold, +1 Culture] <starting from the [Renaissance era]> <hidden from users>",
+						"[+2 Faith] <after adopting [Divine inspiration]> <starting from the [Renaissance era]> <hidden from users>"],
 			"civilopediaText": [
 				{"text": "The palace of the Sultanate of Sulu based in Maimbung, Sulu. It was destroyed by a typhoon in 1932."},
 			]

@@ -151,3 +151,32 @@
 # v1.13 (27.07.2024)
 - New Natural Wonders: Kelimutu and Chocolate Hills
 - New large sized map: Mindanao, Sumbawa, and Talaud Islands
+
+# v1.14 (12.09.2024)
+- Batak
+	UB Gain amount of Faith and Culture -> Gain control over Fresh water in 3 radius
+	UU remove bonus Faith upon being defeated
+- Bolaang Mongondow
+	UB each specialist slot removed
+	UB bonus Production towards building -> building maintenance reduction
+	UB can now be constructed in 4 cities
+	UU bonus defensive strength on Rough terrain lost when upgraded
+	UU bonus strength in formation retained even after upgraded
+- Demak
+	UU ability to remove foreign religion removed
+	UU now available as Putihan (may spread religion 1 additional time) and Abangan (gain amount of foreign religion as Culture)
+- Lanfang
+	UB Zongting now replaces Workshop
+	UB building maintenance reduction removed
+	UB +1 Production from Gold Ore increased to +2
+- Luwu
+	UI Bubung Parani removed
+	UB Panre Bessi added
+- Medang
+	UU Silpin appears with a Worker -> Free Worker appears upon being expended
+- Sulu
+	UB +2 Culture after discovering Archaeology -> double yields starting from the Renaissance era
+- Tondo
+	UA now only move pre-Medieval era National wonder
+- New Civ: Igorot
+- Add more unit sprites

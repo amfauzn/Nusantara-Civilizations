@@ -1,14 +1,20 @@
 [
 	{
 		"name": "Spiritual Encouragement",
-		"uniques": ["Comment [+15% Strength bonus for Military units within 1 tiles]", 
-					"Uncapturable", 
-					"Gain [50] [Faith] <upon being defeated>"]
+		"uniques": ["Comment [+15% Strength bonus for Military units within 1 tiles]"]
 	},
 	{
 		"name": "Silent Strike",
 		"uniques": ["[+50]% Strength <when attacking> <with [50]% chance>"]
 	},
+	{
+		"name": "Abangan",
+		"uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Culture]"]
+    },
+	{
+		"name": "Putihan",
+		"uniques": ["Can Spread Religion <[1] additional time(s)>"]
+    },
 	{
 		"name": "Wareg",
 		"uniques": ["[+15] HP when healing <in [Enemy Land] tiles>"]
@@ -31,8 +37,7 @@
 	},
 	{
 		"name": "Rural Chieftain",
-		"uniques": ["[+25]% Strength <in [Rough terrain] tiles> <when defending>", 
-					"[+25]% Strength <when adjacent to a [Bogani] unit>"]
+		"uniques": ["[+25]% Strength <when adjacent to a [Rural Chieftain] unit>"]
 	},
 	{
 		"name": "[Tappi Swordsman] ability",
@@ -71,6 +76,16 @@
 		"uniques": ["[+25]% Strength <vs [Water] units>", 
 					"Earn [50]% of the damage done to [Water] units as [Gold]"]
 	},
+	{
+		"name": "Highlander",
+		"uniques": ["Can pass through impassable tiles"]
+    },
+	{
+		"name": "Papangat",
+		"uniques": ["Heal this unit by [50] HP <upon ending a turn in a [Mountain] tile>", 
+					"Comment [Starting from the [Medieval era], can be expended to double yield of [Payew] for 3 turns]", 
+					"Instantly provides [3] [Payew booster] <by consuming this unit> <starting from the [Medieval era]> <hidden from users>"]
+    },
 	{
 		"name": "[Maharlika] ability",
 		"uniques": ["[-100]% maintenance costs"]

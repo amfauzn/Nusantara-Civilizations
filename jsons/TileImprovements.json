@@ -64,21 +64,34 @@
 			"shortcutKey": "T"
 		},
 		
-	// Sulawesi
+	// The Philippines
 	
-		// Luwu
+		// Igorot
 		{
-			"name": "Bubung Parani",
-			"uniqueTo": "Luwu",
-			"terrainsCanBeBuiltOn": ["Grassland","Plains"],
-			"production": 1,
-			"turnsToBuild": 4,
-			"uniques": ["[+1 Food] from [Fresh water] tiles", 
-						"[+1 Food] <after discovering [Civil Service]>", 
-						"Can also be built on tiles adjacent to fresh water", 
-						//Cannot be built on [Lamd] tiles <with [1] to [6] neighboring [Bubung Parani] tiles"
-						"Pillaging this improvement yields approximately [+10 Gold]"],
-			"techRequired": "Construction",
-			"shortcutKey": "B"
-		}
+			"name": "Payew",
+			"uniqueTo": "Igorot",
+			"terrainsCanBeBuiltOn": ["Mountain"],
+			"food": 2,
+			"turnsToBuild": 7,
+			"uniques": [
+				"Comment [Yield also affected by neighboring improvements, except Great Improvement]", 
+				"Comment [Same improvement does not stack]", 
+				"[+1 Food] <with [1] to [6] neighboring [Farm] tiles> <hidden from users>", 
+				"[+1 Production] <with [1] to [6] neighboring [Lumber mill] tiles> <hidden from users>", 
+				"[+1 Production] <with [1] to [6] neighboring [Mine] tiles> <hidden from users>", 
+				"[+1 Gold] <with [1] to [6] neighboring [Trading post] tiles> <hidden from users>", 
+				"[+1 Gold] <with [1] to [6] neighboring [Camp] tiles> <hidden from users>", 
+				"[+1 Production] <with [1] to [6] neighboring [Oil well] tiles> <hidden from users>", 
+				"[+1 Production] <with [1] to [6] neighboring [Pasture] tiles> <hidden from users>", 
+				"[+1 Gold] <with [1] to [6] neighboring [Plantation] tiles> <hidden from users>", 
+				"[+1 Production] <with [1] to [6] neighboring [Quarry] tiles> <hidden from users>", 
+				"[+1 Food] <with [1] to [6] neighboring [Fishing Boats] tiles> <hidden from users>", 
+				"[+1 Culture] <with [1] to [6] neighboring [Moai] tiles> <hidden from users>", 
+				"[+1 Food] <with [1] to [6] neighboring [Terrace farm] tiles> <hidden from users>", 
+				"[+1 Food] <with [1] to [6] neighboring [Polder] tiles> <hidden from users>", 
+				"[+1 Food] <after discovering [Fertilizer]>", 
+				"Pillaging this improvement yields approximately [+24 Gold]"],
+			"techRequired": "Civil Service",
+			"shortcutKey": "F"
+		},
 ]

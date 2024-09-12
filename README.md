@@ -54,6 +54,7 @@ Despite the fact that they didn't possess a large area of power, their influence
 - Gorontalo
 - Larantuka
 - Wewiku-Wehali
+- Igorot
 - Maguindanao
 
 ### Additional Polities

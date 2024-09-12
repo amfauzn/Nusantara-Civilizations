@@ -7,12 +7,14 @@
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles>", 
-					"Generated on every [18] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>", 
-					"Generated on every [10] tiles <in [Marsh] tiles>", 
-					"Generated on every [22] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>", 
-					"Generated on every [28] tiles <in [River] tiles> <in tiles without [Hill]>", 
-					"Doesn't generate naturally <in [Tundra] tiles>"]
+		"uniques": [
+			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles>",
+			"Generated on every [18] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
+			"Generated on every [10] tiles <in [Marsh] tiles>",
+			"Generated on every [22] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
+			"Generated on every [28] tiles <in [River] tiles> <in tiles without [Hill]>",
+			"Doesn't generate naturally <in [Tundra] tiles>"
+		]
 	},
 	
 	// Base-game resource
@@ -24,31 +26,25 @@
 		"production": 1,
 		"improvedBy": ["Oil well","Offshore Platform"],
 		"improvementStats": {"production": 2},
-		"uniques": ["Deposits in [Coast] tiles always provide [4] resources",
-					"Guaranteed with Strategic Balance resource option",
-					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Generated with weight [40] <in [{Featureless} {Tundra}] tiles>",
-					"Generated with weight [60] <in [{Featureless} {Snow}] tiles>",
-					"Generated with weight [65] <in [{Featureless} {Desert}] tiles>",
-					"Generated with weight [100] <in [{Featureless} {Coast}] tiles>",
-					"Minor deposits generated with weight [20] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
-					"Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
-					"Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"],
+		"uniques": [
+			"Deposits in [Coast] tiles always provide [4] resources",
+			"Guaranteed with Strategic Balance resource option",
+			"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
+			"Generated with weight [40] <in [{Featureless} {Tundra}] tiles>",
+			"Generated with weight [60] <in [{Featureless} {Snow}] tiles>",
+			"Generated with weight [65] <in [{Featureless} {Desert}] tiles>",
+			"Generated with weight [100] <in [{Featureless} {Coast}] tiles>",
+			"Minor deposits generated with weight [20] <in [Marsh] tiles> <in tiles without [Hill]>",
+			"Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
+			"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+			"Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
+			"Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"
+		],
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	}, 
 	
 	// Unique resources
-	{
-		"name": "Parmalim",
-		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen", 
-					"Cannot be traded", 
-					"Excluded from map editor", 
-					"Will not be displayed in Civilopedia"]
-	},
 	{
 		"name": "Bungamas",
 		"resourceType": "Luxury",
@@ -56,26 +52,8 @@
 		"uniques": ["Excluded from map editor"]
 	},
 	{
-		"name": "ST Global",
-		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen", 
-					"Stockpiled", 
-					"Cannot be traded", 
-					"Excluded from map editor", 
-					"Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "ST Local",
-		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen", 
-					"Stockpiled", 
-					"Cannot be traded", 
-					"Excluded from map editor", 
-					"Will not be displayed in Civilopedia"]
-	},
-	{
 		"name": "Sandalwoods",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"uniques": ["Not shown on world screen", 
 					"Cannot be traded", 
 					"Excluded from map editor", 
@@ -87,73 +65,69 @@
 		"gold": 2,
 		"uniques": ["Excluded from map editor"]
 	},
+	
+	// Stockpiled resources
 	{
-		"name": "CoastalCounter",
+		"name": "STP-1",	// Seren taun global, Maximus mover
 		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen", 
-					"Cannot be traded", 
-					"Excluded from map editor", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Not shown on world screen", 
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
-		"name": "CM mover",
+		"name": "STP-2",	// Seren taun local, College mover
 		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen", 
-					"Stockpiled", 
-					"Cannot be traded", 
-					"Excluded from map editor", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Not shown on world screen", 
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
-		"name": "NC mover",
+		"name": "STP-3",	// Nat Epic mover
 		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen", 
-					"Stockpiled", 
-					"Cannot be traded", 
-					"Excluded from map editor", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Not shown on world screen", 
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
-		"name": "NE mover",
+		"name": "STP-4",	// Heroic Epic mover
 		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen", 
-					"Stockpiled", 
-					"Cannot be traded", 
-					"Excluded from map editor", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Not shown on world screen", 
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
 	},
 	{
-		"name": "HE mover",
+		"name": "Payew booster",	// Payew yields
 		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen", 
-					"Stockpiled", 
-					"Cannot be traded", 
-					"Excluded from map editor", 
-					"Will not be displayed in Civilopedia"]
+		"uniques": [
+			"Not shown on world screen", 
+			"Stockpiled", 
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
 	},
+	
+	// Non-stockpiled counter resource
 	{
-		"name": "OU mover",
+		"name": "Counter",
 		"resourceType": "Strategic",
 		"uniques": ["Not shown on world screen", 
-					"Stockpiled", 
-					"Cannot be traded", 
-					"Excluded from map editor", 
-					"Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "IW mover",
-		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen", 
-					"Stockpiled", 
-					"Cannot be traded", 
-					"Excluded from map editor", 
-					"Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "HM mover",
-		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen", 
-					"Stockpiled", 
 					"Cannot be traded", 
 					"Excluded from map editor", 
 					"Will not be displayed in Civilopedia"]
