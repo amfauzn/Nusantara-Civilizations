@@ -591,6 +591,13 @@ BuildingIcons/Komalig
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Komalig (duplicate)
+  rotate: false
+  xy: 112, 156
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Lumbung Pari
   rotate: false
   xy: 744, 1203
@@ -913,14 +920,14 @@ TileSets/AbsoluteUnits/Units/Hakka Militia
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Hakka Militia-1
+TileSets/AbsoluteUnits/Units/Hakka Militia-2
   rotate: false
   xy: 220, 280
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Hakka Militia-2
+TileSets/AbsoluteUnits/Units/Hakka militia-1
   rotate: false
   xy: 220, 191
   size: 95, 81
@@ -2299,14 +2306,14 @@ TileSets/HexaRealm/Units/Hakka Militia
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Hakka Militia-1
+TileSets/HexaRealm/Units/Hakka Militia-2
   rotate: false
   xy: 1834, 1663
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Hakka Militia-2
+TileSets/HexaRealm/Units/Hakka militia-1
   rotate: false
   xy: 1906, 1663
   size: 64, 56
