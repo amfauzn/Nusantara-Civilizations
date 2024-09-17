@@ -354,8 +354,8 @@
 			"uniques": [
 				"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
 				"May enter foreign tiles without open borders",
-				"Comment [Abangan, When spreading religion to a city, gain 10 times the amount of followers of other religions as [Culture]]",
-				"Comment [Putihan, Can Spread Religion 1 additional time]",
+				"Comment [Abangan - When spreading religion to a city, gain 10 times the amount of followers of other religions as [Culture]]",
+				"Comment [Putihan - Can Spread Religion 1 additional time]",
 				"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 				"[-1] Sight",
 				"Unbuildable",

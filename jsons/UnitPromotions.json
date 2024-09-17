@@ -10,11 +10,11 @@
 	{
 		"name": "Abangan",
 		"uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Culture]"]
-    },
+	},
 	{
 		"name": "Putihan",
 		"uniques": ["Can Spread Religion <[1] additional time(s)>"]
-    },
+	},
 	{
 		"name": "Wareg",
 		"uniques": ["[+15] HP when healing <in [Enemy Land] tiles>"]
@@ -79,13 +79,13 @@
 	{
 		"name": "Highlander",
 		"uniques": ["Can pass through impassable tiles"]
-    },
+	},
 	{
 		"name": "Papangat",
 		"uniques": ["Heal this unit by [50] HP <upon ending a turn in a [Mountain] tile>", 
 					"Comment [Starting from the [Medieval era], can be expended to double yield of [Payew] for 3 turns]", 
 					"Instantly provides [3] [Payew booster] <by consuming this unit> <starting from the [Medieval era]> <hidden from users>"]
-    },
+	},
 	{
 		"name": "[Maharlika] ability",
 		"uniques": ["[-100]% maintenance costs"]
@@ -93,6 +93,10 @@
 	{
 		"name": "Slave",
 		"uniques": ["Gain [35] [Gold] <(modified by game speed)> <by consuming this unit>"]
+	},
+	{
+		"name": "[Privateer] ability",
+		"uniques": ["May capture killed [Water] units"]
 	},
 	{
 		"name": "Apologetics",

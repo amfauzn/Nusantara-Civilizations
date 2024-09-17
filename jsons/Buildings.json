@@ -406,7 +406,7 @@
 			"name": "Komalig",
 			"replaces": "Palace",
 			"uniqueTo": "Bolaang Mongondow",
-			"isNationalWonder": false,
+			"isNationalWonder": true,
 			"production": 3,
 			"science": 3,
 			"gold": 3,
