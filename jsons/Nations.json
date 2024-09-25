@@ -1144,7 +1144,8 @@
 				"[+10]% [Science] <when above [4] [Counter]> <when below [6] [Counter]> <hidden from users>" ,
 				"[+12]% [Science] <when above [5] [Counter]> <when below [7] [Counter]> <hidden from users>" ,
 				"[+14]% [Science] <when above [6] [Counter]> <when below [8] [Counter]> <hidden from users>" ,
-				"[+15]% [Science] <when above [7] [Counter]> <hidden from users>"],
+				"[+15]% [Science] <when above [7] [Counter]> <hidden from users>"
+			],
 			"cities": ["Tidore","Weda","Labuha","Maba","Raja Ampat","Eastern Seram","Sorong","Tambraun","Taybrat","Manokwari",
 				"Bintuni","Arfak","Kaimana","Wondama","Nabire","Dogiyai","Paniai","Intan Jaya","Mimika","Biak"],
 			"spyNames": ["Bosamawange","Matagena","Tiahahu","Matiti","Balibunga","Duko Adoya","Gapi Matulessy","Mole Maginyau","Jou Latuhihin","Jallo Kahaela"]
@@ -1179,7 +1180,6 @@
 				"[+2 Food, +1 Production] from every [Atoll]", 
 				"[+2 Food, +1 Production] from every [Crab]", 
 				"[+2 Food, +1 Production] from every [Pearls]", 
-				"Gain a free [Rumsram] [in capital]",
 				//"[+2 Food, +1 Production] from every [Whales]"
 			],
 			"cities": ["Biak","Numfor","Misool","Salawati","Batanta","Waigeo","Supiori","Samofa","Sorong","Aimas",
