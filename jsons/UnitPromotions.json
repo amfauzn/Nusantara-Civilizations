@@ -82,7 +82,7 @@
 	},
 	{
 		"name": "Papangat",
-		"uniques": ["Heal this unit by [50] HP <upon ending a turn in a [Mountain] tile>", 
+		"uniques": ["[This Unit] heals [50] HP <upon ending a turn in a [Mountain] tile>", 
 					"Comment [Starting from the [Medieval era], can be expended to double yield of [Payew] for 3 turns]", 
 					"Instantly provides [3] [Payew booster] <by consuming this unit> <starting from the [Medieval era]> <hidden from users>"]
 	},

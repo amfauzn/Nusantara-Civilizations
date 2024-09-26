@@ -258,8 +258,8 @@
 			"obsoleteTech": "Steel",
 			"requiredResource": "Iron",
 			"uniques": [
-				"This Unit gains [1] XP <upon ending a turn in a [Farm] tile>",
-				"This Unit gains [1] XP <upon ending a turn in a [Plantation] tile>",
+				"[This Unit] gains [1] XP <upon ending a turn in a [Farm] tile>",
+				"[This Unit] gains [1] XP <upon ending a turn in a [Plantation] tile>",
 				//"[-100]% maintenance costs"
 			],
 			"attackSound": "metalhit"
