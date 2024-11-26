@@ -43,6 +43,7 @@ Regional powers are a sovereign polity that exercises significant power within a
 - Sarawak
 - Bone
 - Sulu
+- Maguindanao
 
 ### Unique Polities
 Despite the fact that they didn't possess a large area of power, their influence on history can't be underestimated. They practises a different cultures and/or rules with some of them managed to survive until this day.
@@ -55,7 +56,7 @@ Despite the fact that they didn't possess a large area of power, their influence
 - Larantuka
 - Wewiku-Wehali
 - Igorot
-- Maguindanao
+- Madja-as
 
 ### Additional Polities
 - Jambi

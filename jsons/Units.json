@@ -41,7 +41,7 @@
 				"Unbuildable",
 				"Uncapturable",
 				"Religious Unit",
-				"Hidden when religion is disabled"
+				"Only available <when religion is enabled>"
 			]
 		},
 		
@@ -360,7 +360,7 @@
 				"[-1] Sight",
 				"Unbuildable",
 				"Religious Unit",
-				"Hidden when religion is disabled"
+				"Only available <when religion is enabled>"
 			]
 		},
 		
@@ -844,6 +844,27 @@
 			"upgradesTo": "Lancer",
 			"obsoleteTech": "Metallurgy",
 			"attackSound": "metalhit"
+		},
+		
+		// Madja-as
+		{
+			"name": "Babaylan",
+			"unitType": "Civilian",
+			"uniqueTo": "Madja-as",
+			"replaces": "Inquisitor",
+			"uniques": [
+				"Prevents spreading of religion to the city it is next to",
+				"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+				"Can be purchased with [Faith] [in all cities]",
+				"[+1] Sight",
+				"Only available <when religion is enabled>",
+				"Unbuildable",
+				"Uncapturable",
+				"Religious Unit",
+				"Takes your religion over the one in their birth city",
+				"Comment [Heals Land units around it by 5 HP at the end of each turn]"
+			],
+			"movement": 2
 		},
 		
 		// Cebu

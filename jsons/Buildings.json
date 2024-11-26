@@ -5,11 +5,13 @@
 			"maintenance": 1,
 			"requiredNearbyImprovedResources": ["Cattle","Horses","Sheep","Water Buffalo"],
 			"hurryCostModifier": 25,
-			"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]", 
-					"[+1 Production] from [Cattle] tiles [in this city]", 
-					"[+1 Production] from [Horses] tiles [in this city]", 
-					"[+1 Production] from [Sheep] tiles [in this city]", 
-					"[+1 Production] from [Water Buffalo] tiles [in this city]"],
+			"uniques": [
+				"[+15]% Production when constructing [Mounted] units [in this city]",
+				"[+1 Production] from [Cattle] tiles [in this city]",
+				"[+1 Production] from [Horses] tiles [in this city]",
+				"[+1 Production] from [Sheep] tiles [in this city]",
+				"[+1 Production] from [Water Buffalo] tiles [in this city]"
+			],
 			"requiredTech": "Horseback Riding"
 		},
 	
@@ -40,10 +42,12 @@
 			"cost": 40,
 			"maintenance": 1,
 			"requiredTech": "Pottery",
-			"uniques": ["Comment [Gain control over Fresh water tiles in a 3-tile radius]",
-						"Gain control over [Lakes] tiles in a [3]-tile radius <hidden from users>",
-						"Gain control over [Oasis] tiles in a [3]-tile radius <hidden from users>",
-						"Gain control over [River] tiles in a [3]-tile radius <hidden from users>"],
+			"uniques": [
+				"Comment [Gain control over Fresh water tiles in a 3-tile radius]",
+				"Gain control over [Lakes] tiles in a [3]-tile radius <hidden from users>",
+				"Gain control over [Oasis] tiles in a [3]-tile radius <hidden from users>",
+				"Gain control over [River] tiles in a [3]-tile radius <hidden from users>"
+			],
 			"civilopediaText": [
 				{"text": "A complex with Batak architecture (gorga) serves as a place of worship for Ugamo Malim followers (Parmalim). Parmalim holds the Sipaha Lima ritual once a year in the complex, a gratitude ceremony from the people for the good fortune, grace, and gifts that Debata Mulajadi na Bolon has bestowed upon them throughout the year. The timing of Sipaha Lima is determined by the Batak calendar known as parhalaan."},
 			]
@@ -89,11 +93,13 @@
 			"name": "Bungamas producer",
 			"uniqueTo": "Patani",
 			"cost": 1,
-			"uniques": ["Unbuildable", 
-						"Unsellable", 
-						"Provides [1] [Bungamas] <hidden from users>", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"]
+			"uniques": [
+				"Unbuildable",
+				"Unsellable",
+				"Provides [1] [Bungamas] <hidden from users>",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			]
 		},
 		
 		// Siak
@@ -123,10 +129,12 @@
 			"cityHealth": 50,
 			"maintenance": 2,
 			"hurryCostModifier": 25,
-			"uniques": ["[+1 Production] from [Water resource] tiles [in this city]", 
-						"Connects trade routes over water", 
-						"Must be next to [Coast]", 
-						"Provides 1 extra copy of each improved luxury resource near this City"],
+			"uniques": [
+				"[+1 Production] from [Water resource] tiles [in this city]",
+				"Connects trade routes over water",
+				"Must be next to [Coast]",
+				"Provides 1 extra copy of each improved luxury resource near this City"
+			],
 			"requiredTech": "Compass",
 			"civilopediaText": [
 				{"text": "A harbor used by Sriwijaya to increase revenue and inhibit the decline of the empire. Merchant ships that don't want to stop will be attacked by a group of privateer."},
@@ -145,10 +153,12 @@
 			"faith": 1,
 			"maintenance": 1,
 			"hurryCostModifier": 25,
-			"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
-						"[+1 Food] from [Bananas] tiles [in this city]",
-						"[+1 Food] from [Wheat] tiles [in this city]", 
-						"[+1 Culture] <after discovering [Theology]>"],
+			"uniques": [
+				"[+1 Food] from [Deer] tiles [in this city]",
+				"[+1 Food] from [Bananas] tiles [in this city]",
+				"[+1 Food] from [Wheat] tiles [in this city]",
+				"[+1 Culture] <after discovering [Theology]>"
+			],
 			"requiredTech": "Pottery",
 			"civilopediaText": [
 				{"text": "A type of vernacular rice barn used to store rice after harvest for future and daily use. A leuit is an essential part of Sundanese agricultural tradition, especially during annual Seren Taun harvest ceremony. It symbolizes sustainance and livelihood."},
@@ -158,34 +168,40 @@
 			"name": "STaun Bonus",
 			"uniqueTo": "Sunda",
 			"cost": 1,
-			"uniques": ["Unbuildable", 
-						"Instantly consumes [1] [STP-1] <upon turn end> <when above [0] [STP-1]> <hidden from users>", 
-						"Instantly consumes [1] [STP-2] <upon turn end> <when above [0] [STP-2]> <hidden from users>", 
-						"[+10]% [Culture] [in all cities] <when above [0] [STP-1]>", 
-						"[+10]% [Gold] [in all cities] <when above [0] [STP-1]>", 
-						"[+30]% [Culture] [in this city] <when above [0] [STP-2]>", 
-						"[+30]% [Gold] [in this city] <when above [0] [STP-2]>", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"],
+			"uniques": [
+				"Unbuildable",
+				"Instantly consumes [1] [STP-1] <upon turn end> <when above [0] [STP-1]> <hidden from users>",
+				"Instantly consumes [1] [STP-2] <upon turn end> <when above [0] [STP-2]> <hidden from users>",
+				"[+10]% [Culture] [in all cities] <when above [0] [STP-1]>",
+				"[+10]% [Gold] [in all cities] <when above [0] [STP-1]>",
+				"[+30]% [Culture] [in this city] <when above [0] [STP-2]>",
+				"[+30]% [Gold] [in this city] <when above [0] [STP-2]>",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			],
 		},
 		{
 			"name": "STaun Global",
 			"uniqueTo": "Sunda",
 			"cost": 1,
-			"uniques": ["Unbuildable", 
-						"Instantly provides [10] [STP-1]", 
-						"Remove [STaun Global] [in this city]", 
-						"Will not be displayed in Civilopedia"],
+			"uniques": [
+				"Unbuildable",
+				"Instantly provides [10] [STP-1]",
+				"Remove [STaun Global] [in this city]",
+				"Will not be displayed in Civilopedia"
+			],
 		},
 		{
 			"name": "STaun Local",
 			"uniqueTo": "Sunda",
 			"cost": 1,
-			"uniques": ["Unbuildable", 
-						"Unsellable", 
-						"Instantly provides [30] [STP-2]", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"],
+			"uniques": [
+				"Unbuildable",
+				"Unsellable",
+				"Instantly provides [30] [STP-2]",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			],
 		},
 		
 		// Medang (Mataram Kuno)
@@ -197,9 +213,11 @@
 			"culture": 8,
 			"faith": 8,
 			"isNationalWonder": true,
-			"uniques": ["Comment [Tech Philosophy vs Theology]", 
-						"Cost increases by [30] per owned city", 
-						"Gain a free [Temple] [in all cities]"],
+			"uniques": [
+				"Comment [Tech Philosophy vs Theology]",
+				"Cost increases by [30] per owned city",
+				"Gain a free [Temple] [in all cities]"
+			],
 			"requiredTech": "Philosophy",
 			"civilopediaText": [
 				{"text": "A Buddhist temple built in the 8th century. Candi Sewu is the second largest Buddhist temple complex after Borobudur Temple in Central Java."},
@@ -210,82 +228,98 @@
 			"uniqueTo": "Medang",
 			"greatPersonPoints": {"Great Engineer": 2},
 			"cost": 1,
-			"uniques": ["Only available <in cities with a [Shrine]>", 
-						"Automatically built in all cities where it is buildable", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"]
+			"uniques": [
+				"Only available <in cities with a [Shrine]>",
+				"Automatically built in all cities where it is buildable",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			]
 		},
 		{
 			"name": "TemplePoint",
 			"uniqueTo": "Medang",
 			"greatPersonPoints": {"Great Engineer": 2},
 			"cost": 1,
-			"uniques": ["Only available <in cities with a [Temple]>", 
-						"Automatically built in all cities where it is buildable", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"]
+			"uniques": [
+				"Only available <in cities with a [Temple]>",
+				"Automatically built in all cities where it is buildable",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			]
 		},
 		{
 			"name": "CathedralPoint",
 			"uniqueTo": "Medang",
 			"greatPersonPoints": {"Great Engineer": 2},
 			"cost": 1,
-			"uniques": ["Only available <in cities with a [Cathedral]>", 
-						"Automatically built in all cities where it is buildable", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"]
+			"uniques": [
+				"Only available <in cities with a [Cathedral]>",
+				"Automatically built in all cities where it is buildable",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			]
 		},
 		{
 			"name": "MonasteryPoint",
 			"uniqueTo": "Medang",
 			"greatPersonPoints": {"Great Engineer": 2},
 			"cost": 1,
-			"uniques": ["Only available <in cities with a [Monastery]>", 
-						"Automatically built in all cities where it is buildable", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"]
+			"uniques": [
+				"Only available <in cities with a [Monastery]>",
+				"Automatically built in all cities where it is buildable",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			]
 		},
 		{
 			"name": "MosquePoint",
 			"uniqueTo": "Medang",
 			"greatPersonPoints": {"Great Engineer": 2},
 			"cost": 1,
-			"uniques": ["Only available <in cities with a [Mosque]>", 
-						"Automatically built in all cities where it is buildable", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"]
+			"uniques": [
+				"Only available <in cities with a [Mosque]>",
+				"Automatically built in all cities where it is buildable",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			]
 		},
 		{
 			"name": "PagodaPoint",
 			"uniqueTo": "Medang",
 			"greatPersonPoints": {"Great Engineer": 2},
 			"cost": 1,
-			"uniques": ["Only available <in cities with a [Pagoda]>", 
-						"Automatically built in all cities where it is buildable", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"]
+			"uniques": [
+				"Only available <in cities with a [Pagoda]>",
+				"Automatically built in all cities where it is buildable",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			]
 		},
 		{
 			"name": "Holysite bonus",
 			"uniqueTo": "Medang",
 			"cost": 1,
-			"uniques": ["Only available <in cities without a [SilpinHolysite bonus]>", 
-						"[+15]% Production when constructing [All] wonders [in this city]", 
-						"Must have an owned [Holy site] within [2] tiles"
-						"Automatically built in all cities where it is buildable", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"]
+			"uniques": [
+				"Only available <in cities without a [SilpinHolysite bonus]>",
+				"[+15]% Production when constructing [All] wonders [in this city]",
+				"Must have an owned [Holy site] within [2] tiles",
+				"Automatically built in all cities where it is buildable",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			]
 		},
 		{
 			"name": "SilpinHolysite bonus",
 			"uniqueTo": "Medang",
 			"cost": 1,
-			"uniques": ["Only available <in cities without a [Holysite bonus]>", 
-						"[+15]% Production when constructing [All] wonders [in this city]", 
-						"Must have an owned [Silpin Holy site] within [2] tiles"
-						"Automatically built in all cities where it is buildable", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"]
+			"uniques": [
+				"Only available <in cities without a [Holysite bonus]>",
+				"[+15]% Production when constructing [All] wonders [in this city]",
+				"Must have an owned [Silpin Holy site] within [2] tiles",
+				"Automatically built in all cities where it is buildable",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			]
 		},
 		
 		// Bali
@@ -297,9 +331,11 @@
 			"culture": 2,
 			"requiredBuilding": "Shrine",
 			"maintenance": 2,
-			"uniques": ["Hidden when religion is disabled", 
-						"[+25]% Natural religion spread [in this city]", 
-						"Destroyed when the city is captured"],
+			"uniques": [
+				"Only available <when religion is enabled>",
+				"[+25]% Natural religion spread [in this city]",
+				"Destroyed when the city is captured"
+			],
 			"requiredTech": "Philosophy",
 			"civilopediaText": [
 				{"text": "A Balinese Hindu temple, and the place of worship for adherents of Balinese Hinduism in Indonesia. Puras are built in accordance to rules, style, guidance and rituals found in Balinese architecture."},
@@ -316,8 +352,10 @@
 			"percentStatBonus": {"science": 33},
 			"specialistSlots": {"Scientist": 2},
 			"requiredBuilding": "Library",
-			"uniques": ["[+2 Science] from [Jungle] tiles [in this city]", 
-						"[+1 Faith] per [3] population [in this city]"],
+			"uniques": [
+				"[+2 Science] from [Jungle] tiles [in this city]",
+				"[+1 Faith] per [3] population [in this city]"
+			],
 			"requiredTech": "Education",
 			"civilopediaText": [
 				{"text": "Pesantren are Islamic boarding schools consisting of pondok (dormitories), mosque, and the teaching of Islamic texts. The term 'pesantren' derives from the word 'santri,' which means student in Javanese, forming 'pe-santri-an' or place of the santri. Pesantren provide housing at little to no cost for the students and are led by a group of teachers and religious leaders called Kyai."},
@@ -327,15 +365,17 @@
 		// Banten
 		{
 			"name": "Tasikardi",
-			"replaces": "Garden",
+			"replaces": "Aqueduct",
 			"uniqueTo": "Banten",
-			"uniques": ["[+25]% Great Person generation [in this city]", 
-						"Must be next to [Fresh water]", 
-						"[+1 Food] from [Plantation] tiles [in this city]", 
-						"[+1 Food] from [Farm] tiles [in this city]"],
-			"hurryCostModifier": 25,
+			"hurryCostModifier": 0,
 			"maintenance": 1,
-			"requiredTech": "Theology",
+			"uniques": [
+				"[40]% Food is carried over after population increases [in this city]",
+				"Comment [+1 [Food] from [Farm] and [Plantation] tiles next to this city]",
+				"[+1 Food] from [Farm] tiles [in this city] <with [1] to [6] neighboring [City center] tiles> <hidden from users>",
+				"[+1 Food] from [Plantation] tiles [in this city] <with [1] to [6] neighboring [City center] tiles> <hidden from users>"
+			],
+			"requiredTech": "Engineering",
 			"civilopediaText": [
 				{"text": "An artificial lake that functions to collect water from the Cibanten River to irrigate the rice fields, and to supply water to the Surosowan palace and the surrounding area."},
 			]
@@ -346,11 +386,14 @@
 			"name": "Lumbung Pari",
 			"replaces": "Armory",
 			"uniqueTo": "Mataram",
-			"maintenance": 1,
-			"requiredBuilding": "Barracks",
-			"uniques": ["New [Military] units start with [15] Experience [in this city]", 
-						"All newly-trained [non-air] units [in this city] receive the [Wareg] promotion", 
-						"Destroyed when the city is captured"],
+			"maintenance": 2,
+			"uniques": [
+				"New [Military] units start with [15] Experience [in this city]",
+				"Comment [Does not require [Barracks]]",
+				"Automatically built in all cities where it is buildable",
+				"All newly-trained [non-air] units [in this city] receive the [Wareg] promotion",
+				"Destroyed when the city is captured"
+			],
 			"requiredTech": "Steel",
 			"civilopediaText": [
 				{"text": "A granary used to store and dry the harvested rice. Lumbung Pari were built in Karawang and Cirebon to anticipate the lack of supplies for Mataram's troops during the Siege of Batavia."},
@@ -368,12 +411,14 @@
 			"cost": 80,
 			"maintenance": 1,
 			"hurryCostModifier": 25,
-			"uniques": ["Must be next to [Coast]", 
-						"[+1 Food] from [Ocean] tiles [in this city]",
-						"[+1 Food] from [Coast] tiles [in this city]", 
-						"[+1 Food] from [Fish] tiles [in this city]", 
-						"[+1 Gold] from [Coast] tiles [in this city]", 
-						"Provides [1] [Oil] <after discovering [Biology]>"],
+			"uniques": [
+				"Must be next to [Coast]",
+				"[+1 Food] from [Ocean] tiles [in this city]",
+				"[+1 Food] from [Coast] tiles [in this city]",
+				"[+1 Food] from [Fish] tiles [in this city]",
+				"[+1 Gold] from [Coast] tiles [in this city]",
+				"Provides [1] [Oil] <after discovering [Biology]>"
+			],
 			"requiredTech": "Sailing",
 			"civilopediaText": [
 				{"text": "A traditional settlement in Bandar Seri Begawan, the capital of Brunei. It comprises neighbourhoods of traditional houses, schools and mosques built on stilts above the Brunei River near the capital's city centre."},
@@ -390,8 +435,10 @@
 			"specialistSlots": {"Engineer": 1},
 			"hurryCostModifier": 25,
 			"percentStatBonus": {"production": 10},
-			"uniques": ["Comment [Tech Guilds vs Metal Casting]", 
-						"[+2 Production] from [Gold Ore] tiles [in this city]"],
+			"uniques": [
+				"Comment [Tech Guilds vs Metal Casting]",
+				"[+2 Production] from [Gold Ore] tiles [in this city]"
+			],
 			"requiredTech": "Guilds",
 			"civilopediaText": [
 				{"text": "The main body of the kongsi republics was the assembly hall (zongting), an assembly of delegates representing the constituent kongsi mining communities. The zongting exercised both executive and legislative functions."},
@@ -413,10 +460,12 @@
 			"culture": 1,
 			"cityStrength": 2,
 			"cost": 125,
-			"uniques": ["Indicates the capital city", 
-						"[-15]% maintenance cost for buildings [in this city]", 
-						"Comment [Limited to [4] per Civilization]", 
-						"Remove [Komalig (duplicate)] [in this city] <hidden from users>"],
+			"uniques": [
+				"Indicates the capital city",
+				"[-15]% maintenance cost for buildings [in this city]",
+				"Comment [Limited to [4] per Civilization]",
+				"Remove [Komalig (duplicate)] [in this city] <hidden from users>"
+			],
 			"requiredTech": "Civil Service",
 			"civilopediaText": [
 				{"text": "Komalig is the residence of Punu', rulers of Bolaang Mongondow. The Komalig in Mongondow, Bintauna, and Bolaang Uki were burned during the Permesta rebellion, which was part of the combined PRRI and Permesta uprisings."},
@@ -431,12 +480,14 @@
 			"culture": 1,
 			"cityStrength": 2,
 			"cost": 125,
-			"uniques": ["Only available <in cities without a [Komalig]> <hidden from users>", 
-						"[-15]% maintenance cost for buildings [in this city]", 
-						"Comment [Limited to [4] per Civilization]", 
-						"Limited to [3] per Civilization <hidden from users>", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"],
+			"uniques": [
+				"Only available <in cities without a [Komalig]> <hidden from users>",
+				"[-15]% maintenance cost for buildings [in this city]",
+				"Comment [Limited to [4] per Civilization]",
+				"Limited to [3] per Civilization <hidden from users>",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			],
 			"requiredTech": "Civil Service"
 		},
 		
@@ -465,12 +516,14 @@
 			"production": 2,
 			"maintenance": 0,
 			"hurryCostModifier": 25,
-			"uniques": ["Comment [Can be built in any city]", 
-						"[+2 Gold] from [Gold Ore] tiles [in this city]", 
-						"[+2 Gold] from [Silver] tiles [in this city]", 
-						"[+2 Gold] from [Cotton] tiles [in this city]", 
-						"[+2 Gold] from [Silk] tiles [in this city]", 
-						"[+2 Gold] from [Furs] tiles [in this city]"],
+			"uniques": [
+				"Comment [Can be built in any city]",
+				"[+2 Gold] from [Gold Ore] tiles [in this city]",
+				"[+2 Gold] from [Silver] tiles [in this city]",
+				"[+2 Gold] from [Cotton] tiles [in this city]",
+				"[+2 Gold] from [Silk] tiles [in this city]",
+				"[+2 Gold] from [Furs] tiles [in this city]"
+			],
 			"requiredTech": "Currency",
 			"civilopediaText": [
 				{"text": "A type of currency made of cloth with standardized pattern. Created, distributed, and controlled by Bonto Ogena, an institution that is now callod central bank. The pattern of Kampua changed every year."},
@@ -485,10 +538,12 @@
 			"faith": 3,
 			"maintenance": 2,
 			"hurryCostModifier": 0,
-			"uniques": ["Remove extra unhappiness from annexed cities",
-						"Can only be built <in [Annexed] cities>", 
-						"Comment [Can also be built in capital]", 
-						"Comment [+3 [Happiness], +3 [Culture], 0 Maintenance if constructed in capital]"],
+			"uniques": [
+				"Remove extra unhappiness from annexed cities",
+				"Can only be built <in [Annexed] cities>",
+				"Comment [Can also be built in capital]",
+				"Comment [+3 [Happiness], +3 [Culture], 0 Maintenance if constructed in capital]"
+			],
 			"requiredTech": "Mathematics",
 			"civilopediaText": [
 				{"text": "Meaning 'Consensus' in Gorontaloan language, Dulohupa is a traditional building used to deliberate to reach consensus in traditional cases during the reign of Gorontalo kings in the past. Dulohupa also used as a place to try someone who commits a crime."},
@@ -501,9 +556,11 @@
 			"happiness": 3,
 			"faith": 3,
 			"maintenance": 0,
-			"uniques": ["Only available <in cities with a [Palace]>", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"],
+			"uniques": [
+				"Only available <in cities with a [Palace]>",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			],
 			"requiredTech": "Mathematics"
 		},
 		
@@ -515,12 +572,14 @@
 			"maintenance": 0,
 			"hurryCostModifier": 25,
 			"requiredTech": "Iron Working",
-			"uniques": ["Comment [Can be built in any city]", 
-						"Comment [Tech Iron Working vs Metal Casting]", 
-						"[+15]% Production when constructing [Spaceship part] units [in this city]", 
-						"[+15]% Production when constructing [Land] units [in this city]", 
-						"[+1 Production] from [Iron] tiles [in this city]", 
-						"Free [Swordsman] appears"],
+			"uniques": [
+				"Comment [Can be built in any city]",
+				"Comment [Tech Iron Working vs Metal Casting]",
+				"[+15]% Production when constructing [Spaceship part] units [in this city]",
+				"[+15]% Production when constructing [Land] units [in this city]",
+				"[+1 Production] from [Iron] tiles [in this city]",
+				"Free [Swordsman] appears"
+			],
 			"civilopediaText": [
 				{"text": "Besi Luwu is a type of carbon steel produced by the Kingdom of Luwu between the 14th and 17th centuries. This steel contained nickel, making it both strong and light, ideal for weapons, especially in warfare. Its renowned quality spread across the archipelago and it was exported to foreign kingdoms, including India. It was also used in the crafting of the kris, a revered sword in Indonesia. During the Majapahit era, Luwu became the primary supplier of war weapons."},
 			]
@@ -533,9 +592,11 @@
 		{
 			"name": "KRR builder",
 			"cost": 1,
-			"uniques": ["Unbuildable", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"]
+			"uniques": [
+				"Unbuildable",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			]
 		},
 		{
 			"name": "Katedral Reinha Rosari",
@@ -545,14 +606,14 @@
 			"culture": 1,
 			"faith": 8,
 			"isNationalWonder": true,
-			"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", 
-						"Cost increases by [30] per owned city",
-						"[+100]% Natural religion spread [in this city]", 
-						"Comment [Can also be built in capital]", 
-						//"Comment [Free Social Policy upon entering new era]", 
-						"Only available <in cities with a [KRR builder]> <hidden from users>", 
-						"Free Social Policy <upon entering a new era>", 
-						],
+			"uniques": [
+				"Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
+				"Cost increases by [30] per owned city",
+				"[+100]% Natural religion spread [in this city]",
+				"Comment [Can also be built in capital]",
+				"Only available <in cities with a [KRR builder]> <hidden from users>",
+				"Free Social Policy <upon entering a new era>",
+			],
 			"requiredTech": "Theology",
 			"civilopediaText": [
 				{"text": "A Catholic cathedral dedicated to Queen Mary's title, Reinha Rosary. The cathedral is the seat of the Bishop of Larantuka."},
@@ -567,8 +628,10 @@
 			"food": 1,
 			"maintenance": 1,
 			"hurryCostModifier": 25,
-			"uniques": ["Comment [+1 [Food] from Land tiles next to city center in this city]",
-						"[+1 Food] from [Land] tiles [in this city] <with [1] to [6] neighboring [City center] tiles> <hidden from users>"],
+			"uniques": [
+				"Comment [+1 [Food] from Land tiles next to city center in this city]",
+				"[+1 Food] from [Land] tiles [in this city] <with [1] to [6] neighboring [City center] tiles> <hidden from users>"
+			],
 			"requiredTech": "Pottery",
 			"civilopediaText": [
 				{"text": "Ume means house in Tetun. There are so many kinds of Umes with different functions from dwelling to the place of worship."},
@@ -578,34 +641,40 @@
 			"name": "Sandalwoods producer",
 			"uniqueTo": "Wewiku-Wehali",
 			"cost": 1,
-			"uniques": ["Must be next to [Forest]", 
-						"Unsellable", 
-						"Automatically built in all cities where it is buildable", 
-						"Provides [1] [Sandalwoods] <hidden from users>", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"]
+			"uniques": [
+				"Must be next to [Forest]",
+				"Unsellable",
+				"Automatically built in all cities where it is buildable",
+				"Provides [1] [Sandalwoods] <hidden from users>",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			]
 		},
 		{
 			"name": "Incense producer",
 			"uniqueTo": "Wewiku-Wehali",
 			"cost": 1,
-			"uniques": ["Only available <with [Sandalwoods]> <in cities without a [Aromatheraphy producer]>", 
-						"Unsellable",
-						"Consumes [1] [Sandalwoods]", 
-						"Provides [1] [Incense]", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"],
+			"uniques": [
+				"Only available <with [Sandalwoods]> <in cities without a [Aromatheraphy producer]>",
+				"Unsellable",
+				"Consumes [1] [Sandalwoods]",
+				"Provides [1] [Incense]",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			],
 		},
 		{
 			"name": "Aromatherapy producer",
 			"uniqueTo": "Wewiku-Wehali",
 			"cost": 1,
-			"uniques": ["Only available <with [Sandalwoods]> <in cities without a [Incense producer]>", 
-						"Unsellable",
-						"Consumes [1] [Sandalwoods]", 
-						"Provides [1] [Aromatherapy]", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"],
+			"uniques": [
+				"Only available <with [Sandalwoods]> <in cities without a [Incense producer]>",
+				"Unsellable",
+				"Consumes [1] [Sandalwoods]",
+				"Provides [1] [Aromatherapy]",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			],
 		},
 		
 		// Tidore
@@ -613,12 +682,14 @@
 			"name": "CoastalCities counter",
 			"uniqueTo": "Tidore",
 			"cost": 1,
-			"uniques": ["Must be next to [Coast]", 
-						"Automatically built in all cities where it is buildable", 
-						"Provides [1] [Counter] <hidden from users>", 
-						"Limited to [9] per Civilization", 
-						"Destroyed when the city is captured", 
-						"Will not be displayed in Civilopedia"]
+			"uniques": [
+				"Must be next to [Coast]",
+				"Automatically built in all cities where it is buildable",
+				"Provides [1] [Counter] <hidden from users>",
+				"Limited to [9] per Civilization",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			]
 		},
 		
 		// Biak
@@ -629,17 +700,19 @@
 			"cost": 90,
 			"hurryCostModifier": 25,
 			"maintenance": 1,
-			"uniques": ["New [Military] units start with [15] Experience [in this city]", 
-						"New [{Ranged} {Water}] units start with [-15] Experience [in this city] <hidden from users>", 
-						"New [Archery] units start with [-15] Experience [in this city] <hidden from users>", 
-						"New [Siege] units start with [-15] Experience [in this city] <hidden from users>", 
-						"All newly-trained [{Ranged} {Water}] units [in this city] receive the [Logistics] promotion  <hidden from users>", 
-						"All newly-trained [Archery] units [in this city] receive the [Logistics] promotion <hidden from users>", 
-						"All newly-trained [Siege] units [in this city] receive the [Logistics] promotion <hidden from users>", 
-						"Comment [All newly-trained Ranged non-Gunpowder units receive the [Logistics] promotion]", 
-						"Comment [New Military units without [Logistics] promotion start with 15 Experience]", 
-						//"[+15]% Production when constructing [Water] units [in this city]", 
-						"Destroyed when the city is captured"],
+			"uniques": [
+				"New [Military] units start with [15] Experience [in this city]",
+				"New [{Ranged} {Water}] units start with [-15] Experience [in this city] <hidden from users>",
+				"New [Archery] units start with [-15] Experience [in this city] <hidden from users>",
+				"New [Siege] units start with [-15] Experience [in this city] <hidden from users>",
+				"All newly-trained [{Ranged} {Water}] units [in this city] receive the [Logistics] promotion  <hidden from users>",
+				"All newly-trained [Archery] units [in this city] receive the [Logistics] promotion <hidden from users>",
+				"All newly-trained [Siege] units [in this city] receive the [Logistics] promotion <hidden from users>",
+				"Comment [All newly-trained Ranged non-Gunpowder units receive the [Logistics] promotion]",
+				"Comment [New Military units without [Logistics] promotion start with 15 Experience]",
+				//"[+15]% Production when constructing [Water] units [in this city]",
+				"Destroyed when the city is captured"
+			],
 			"requiredTech": "Bronze Working",
 			"civilopediaText": [
 				{"text": "A place for activities in teaching and educating men who are starting to be teenagers, usually 6-8 years old, in seeking life experiences. In this place, men are educated to learn sculpting, shielding, boat building, and war techniques."},
@@ -657,13 +730,55 @@
 			"specialistSlots": {"Merchant": 1},
 			"hurryCostModifier": 25,
 			"percentStatBonus": {"gold": 25},
-			"uniques": ["[+1 Food] from [Bonus resource] tiles [in this city] <in tiles without [Stone]> <hidden from users>", 
-						"[+1 Production] from [Bonus resource] tiles [in this city] <in [Stone] tiles> <hidden from users>", 
-						"Comment [+1 [Food] from Bonus resource tiles in this city except [Stone]]", 
-						"Comment [+1 [Production] from [Stone] tiles in this city]"],
+			"uniques": [
+				"[+1 Food] from [Bonus resource] tiles [in this city] <in tiles without [Stone]> <hidden from users>",
+				"[+1 Production] from [Bonus resource] tiles [in this city] <in [Stone] tiles> <hidden from users>",
+				"Comment [+1 [Food] from Bonus resource tiles in this city except [Stone]]",
+				"Comment [+1 [Production] from [Stone] tiles in this city]"
+			],
 			"requiredTech": "Currency",
 			"civilopediaText": [
 				{"text": "A permanent wet market in the Philippines (differentiated from periodic wet markets called talipapa), usually composed of several dozen stalls arranged in rows under a shared roof. There is little control over the day-to-day management of individual stalls, including commodity pricing. This has resulted in what has been called 'palengke mechanics'."},
+			]
+		},
+		
+		// Madja-as
+		{
+			"name": "Bothoan",
+			"replaces": "Barracks",
+			"uniqueTo": "Madja-as",
+			"hurryCostModifier": 25,
+			"maintenance": 1,
+			"uniques": [
+				"New [Military] units start with [15] Experience [in this city]",
+				"[+4 Science] <while researching [Archery]> <hidden from users>",
+				"[+4 Science] <while researching [Horseback Riding]> <hidden from users>",
+				"[+4 Science] <while researching [Iron Working]> <hidden from users>",
+				"[+4 Science] <while researching [Chivalry]> <hidden from users>",
+				"[+4 Science] <while researching [Machinery]> <hidden from users>",
+				"[+4 Science] <while researching [Steel]> <hidden from users>",
+				"[+4 Science] <while researching [Navigation]> <hidden from users>",
+				"[+4 Science] <while researching [Gunpowder]> <hidden from users>",
+				"[+4 Science] <while researching [Metallurgy]> <hidden from users>",
+				"[+4 Science] <while researching [Rifling]> <hidden from users>",
+				"[+4 Science] <while researching [Military Science]> <hidden from users>",
+				"[+4 Science] <while researching [Dynamite]> <hidden from users>",
+				"[+4 Science] <while researching [Combustion]> <hidden from users>",
+				"[+4 Science] <while researching [Replaceable Parts]> <hidden from users>",
+				"[+4 Science] <while researching [Ballistics]> <hidden from users>",
+				"[+4 Science] <while researching [Nuclear Fission]> <hidden from users>",
+				"[+4 Science] <while researching [Rocketry]> <hidden from users>",
+				"[+4 Science] <while researching [Radar]> <hidden from users>",
+				"[+4 Science] <while researching [Combined Arms]> <hidden from users>",
+				"[+4 Science] <while researching [Mobile Tactics]> <hidden from users>",
+				"[+4 Science] <while researching [Nuclear Fusion]> <hidden from users>",
+				"[+4 Science] <while researching [Stealth]> <hidden from users>",
+				"Comment [+4 [Science] while researching a Military technology]",
+				"Destroyed when the city is captured"
+			],
+			"requiredTech": "Bronze Working",
+			"civilopediaText": [
+				{"text": "The formal school in Panay, Philippines, before the Spanish period. During the reign of the ten Datus from Borneo, Kali or Silat was taught at Bothoan along with academic subjects and agricultural knowledge. Kali was the forerunner of Arnis in the North, Escrima in the Central, and Kali/Silat in the South."},
 			]
 		},
 		
@@ -675,10 +790,12 @@
 			"cost": 120,
 			"maintenance": 0,
 			"hurryCostModifier": 25,
-			"uniques": ["[+1 Production] from [Water resource] tiles [in this city]", 
-						"[+2 Gold] from [Luxury resource] tiles [in this city]", 
-						"Connects trade routes over water", 
-						"Must be next to [Coast]"],
+			"uniques": [
+				"[+1 Production] from [Water resource] tiles [in this city]",
+				"[+2 Gold] from [Luxury resource] tiles [in this city]",
+				"Connects trade routes over water",
+				"Must be next to [Coast]"
+			],
 			"requiredTech": "Compass",
 			"civilopediaText": [
 				{"text": "Sinibuayang hingpit (the place for trading), shortened to Sibu or Sibo (to trade), was an important trading center where agricultural products were bartered. From Japan, perfume and glass utensils were usually traded for native goods. Ivory products, leather, precious and semi-precious stones and śarkarā (sugar) mostly came from India and Burma traders."},
@@ -697,10 +814,12 @@
 			"culture": 1,
 			"cityStrength": 2,
 			"cost": 1,
-			"uniques": ["Indicates the capital city", 
-						"Comment [Double yield starting from the Renaissance era]",
-						"[+3 Production, +3 Science, +3 Gold, +1 Culture] <starting from the [Renaissance era]> <hidden from users>",
-						"[+2 Faith] <after adopting [Divine inspiration]> <starting from the [Renaissance era]> <hidden from users>"],
+			"uniques": [
+				"Indicates the capital city",
+				"Comment [Double yield starting from the Renaissance era]",
+				"[+3 Production, +3 Science, +3 Gold, +1 Culture] <starting from the [Renaissance era]> <hidden from users>",
+				"[+2 Faith] <after adopting [Divine inspiration]> <starting from the [Renaissance era]> <hidden from users>"
+			],
 			"civilopediaText": [
 				{"text": "The palace of the Sultanate of Sulu based in Maimbung, Sulu. It was destroyed by a typhoon in 1932."},
 			]
@@ -716,9 +835,13 @@
 			"specialistSlots": {"Artist": 1},
 			"maintenance": 2,
 			"hurryCostModifier": 25,
-			"uniques": ["[+2 Faith] <with [1] to [6] neighboring [Fresh water] tiles>", 
-						"Destroyed when the city is captured"],
-			"replacementTextForUniques": "+2 [Faith] when adjacent to Fresh water",
+			"uniques": [
+				"Comment [+2 [Faith] when adjacent to Fresh water]",
+				"[+2 Faith] <with [1] to [6] neighboring [Lakes] tiles> <hidden from users>",
+				"[+2 Faith] <with [1] to [6] neighboring [Oasis] tiles> <hidden from users>",
+				"[+2 Faith] <with [1] to [6] neighboring [River] tiles> <hidden from users>",
+				"Destroyed when the city is captured"
+			],
 			"requiredTech": "Drama and Poetry",
 			"civilopediaText": [
 				{"text": "A traditional ancestral house built as a symbol of high social status. Such a residence was once a home to a sultan or datu. Nowadays, concrete houses are found all over Maranaw communities, but there remain torogans a hundred years old. The best-known are in Dayawan and Marawi City, and around Lake Lanao."},

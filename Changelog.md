@@ -180,3 +180,11 @@
 	UA now only move pre-Medieval era National wonder
 - New Civ: Igorot
 - Add more unit sprites
+
+# v1.15 (26.11.2024)
+- Banten
+	UB Tasikardi now replaces Aqueduct
+- Mataram
+	UB Lumbung Pari now does not require Barracks, automatically built in any city but cost double maintenance
+- New Civ: Madja-as
+- Philippines map update: add Madja-as starting location

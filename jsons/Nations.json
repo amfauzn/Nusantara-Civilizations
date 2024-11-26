@@ -673,7 +673,7 @@
 				"[{Military} {Water}] units gain the [Supply] promotion"
 			],
 			"cities": ["Bandar Brunei","Kota Baru","Kampung Ayer","Tutong","Labu","Bangar","Seria","Kaula Belait","Batu Apoi","Sukang",
-				"Sulu","Cebu","Maguindanao","Sarawak","Namayan","Tondo","Mal-I","Madja-As","Butuan","Lanao",
+				"Sulu","Cebu","Maguindanao","Sarawak","Namayan","Tondo","Mal-I","Madja-as","Butuan","Lanao",
 				"Dapitan","Badas","Lapi"],
 			"spyNames": ["Shah","Kahar","Tajuddin","Omar","Alam","Hashim","Karim","Rizal","Hussain","Duahim"]
 		},
@@ -1245,7 +1245,7 @@
 
 			"declaringWar": "Sometimes, power is necessary to remind an unreasonable man like you!",
 			"attacked": "With the power of Maycapal, I will smite you!",
-			"defeated": "Evil begets evil, just as one good turn attracts another. Your naked cruelty will soon receive its due.",
+			"defeated": "Forefathers, Anitos! Why have you forsakened me!?",
 			"introduction": "I hope the day finds you well, foreigner. I am called Kalangitan. If commerce is what you seek, then you've come to the right place.",
 
 			"neutralHello": "Kamusta ka?",
@@ -1271,6 +1271,42 @@
 				"Binondo","Pasay","Kainta","Puliran","Kumintang","Paila","Yamagtogon","Pandakan","Tangway","Kandawe",
 				"Morong","Tayabas","Malatarlak","Katanghalan","Baybay","Omaghikon","Binwangan","Pakil","Meykatmon","Sawangan"],
 			"spyNames": ["Banuk","Daway","Angayaw","Bugna","Bagani","Hilway","Marikit","Lamitan","Tersayang","Amaya"]
+		},
+		
+		// Madja-as
+		{
+			"name": "Madja-as", 						// c.1200–1569
+			"leaderName": "Sumakwel",
+			"adjective": ["Panayanon"],
+			"startBias": ["Coast","Pearls"],
+			//"personality": "",
+			"preferredVictoryType": "Cultural",
+			"favoredReligion": "Buddhism",
+
+			"startIntroPart1": "",
+			"startIntroPart2": "",
+
+			"declaringWar": "If you come in peace, we shall receive you in peace. Too bad, we must declare war as you never respect our people.",
+			"attacked": "We shall not falter in the face of aggression. We will stand firm and repel any incursion into our sacred lands.",
+			"defeated": "Evil begets evil, just as one good turn attracts another. Your naked cruelty will soon receive its due.",
+			"introduction": "Loyalty is rarely seen these days. I wonder; will you be an exception? Will our nations form bonds lasting throughout the ages?",
+
+			"neutralHello": "Dayón.",
+			"hateHello": "Bugok!",
+			"tradeRequest": "I know you want these, as do I want those of yours.",
+
+			"outerColor": [205,92,92],
+			"innerColor": [ 0, 0,128],
+			"uniqueName": "Code of Maragtas",
+			"uniques": [
+				"[-25]% enemy spy effectiveness [in all cities connected to capital]",
+				"[-10]% Unhappiness from [Population] [in all cities]",
+				"[Land] units gain the [Babaylan shamanism] promotion <hidden from users>"
+			],
+			"cities": ["Malandog","Aklan","Irong-rong","Hamtik","Sinugbohan","Halaran","Majanos","Guimbal","Katigbawan","Ogtong",
+				"Araut","Sumandig","Alakaygan","Bobog","Bontoc","Sumandig","Dalayawan","Kaputatan","Maayon","Kaguyuman",
+				"Panit-an","Dao","Sikma","Mapanag","Tipik","Salapi","Bakan","Bueagaw"],
+			"spyNames": ["Bangkaya","Paiburong","Lubay","Padohinog","Dumangsil","Dumangsol","Balensucla","Mabilog","Solinep","Tubid"]
 		},
 		
 		// Cebu  (Sugbu)
@@ -1569,5 +1605,18 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [200,255,200],
 		"cities": ["Johor"]
+	},
+	{
+		"name": "Ivatan",
+		"adjective": ["Ivatan"],
+		"cityStateType": "Religious",
+		"startBias": ["Coast"],
+
+		"declaringWar": "By the grace of God, we declare war on you!",
+		"attacked": "I will fear no evil. For god is with me!",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [200,255,200],
+		"cities": ["Ivatan"]
 	}
 ]
