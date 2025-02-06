@@ -27,7 +27,7 @@
 
 
 # Icons
-Not listed icons is by me.
+Not listed icons either taken from the base game or created by me.
 
 ## Sumatra and Malay Peninsula
 - [Borobudur](https://thenounproject.com/icon/borobudur-2412861/) by Phạm Thanh Lộc, VN
@@ -92,10 +92,10 @@ Not listed icons is by me.
 - [Barcelona cathedral](https://thenounproject.com/icon/barcelona-cathedral-752630/) by abeldb, ES
 - [stingray](https://thenounproject.com/icon/stingray-1078139/) by Laymik
 - [Ship](https://thenounproject.com/icon/ship-3863477/) by Andrejs Kirma. Modified
-- [pattern](https://thenounproject.com/icon/pattern-8749/) by Mike Rowe. Modified
 - [Ship](https://thenounproject.com/icon/ship-1445537/) by yanti anis
 - Icon of Larantuka by hyunamae AKA Kāne
 
 ## The Philippines
 - [Sail Boat](https://thenounproject.com/icon/sail-boat-3564420/) by Hey Rabbit. Modified
 - [Market](https://thenounproject.com/icon/market-1240092/) by arif fajar yulianto, ID
+- Icon of Igorot by DuskJockey from Sid Meier's Civ V Customization

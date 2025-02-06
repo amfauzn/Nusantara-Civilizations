@@ -3,19 +3,22 @@
 	
 		// Aceh
 		{
-			"name": "Ghali",					// Acehnese famous weapon are Rencong, but I prefer water unit for them
+			"name": "Ghali",			// Acehnese famous weapon are Rencong, but I prefer water unit for them
 			"unitType": "Ranged Water",
 			"uniqueTo": "Aceh",
 			"replaces": "Galleass",
 			"movement": 3,
-			"strength": 18,
-			"rangedStrength": 19,
+			"strength": 17,
+			"rangedStrength": 17,
 			"cost": 100,
 			"requiredTech": "Compass",
 			"obsoleteTech": "Navigation",
 			"upgradesTo": "Frigate",
-			"uniques": ["Cannot enter ocean tiles"],
-			"attackSound": "arrow"
+			"promotions": ["Volley"],
+			"attackSound": "cannon",
+			"civilopediaText": [
+				{"text": "Galley-like ships influenced by Mediterranean shipbuilding techniques on native shipbuilding."}
+			]
 		},
 		
 		// Batak
@@ -29,19 +32,22 @@
 			"promotions": ["Spiritual Encouragement"],
 			"uniques": [
 				"Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-				"Can Spread Religion <for [2] movement> <[4] times>",
+				"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 				"Removes other religions when spreading religion",
 				"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
-				"May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+				"May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
 				"May enter foreign tiles without open borders",
 				"Takes your religion over the one in their birth city",
 				"[-1] Sight",
 				"Great Person - [Faith]",
-				"Comment [-10% Faith cost to purchase]",
+				"Comment [-10% [Faith] cost to purchase]",
 				"Unbuildable",
 				"Uncapturable",
 				"Religious Unit",
 				"Only available <when religion is enabled>"
+			],
+			"civilopediaText": [
+				{"text": "Leader and prophet of Ugamo Malim, teaches the Parmalim and upholds the commandments of worshiping and revering The Creator."}
 			]
 		},
 		
@@ -54,10 +60,10 @@
 			"movement": 2,
 			"strength": 14,
 			"cost": 75,
-			"requiredTech": "Iron Working",
-			"upgradesTo": "Longswordsman",
-			"obsoleteTech": "Steel",
 			"requiredResource": "Iron",
+			"requiredTech": "Iron Working",
+			"obsoleteTech": "Steel",
+			"upgradesTo": "Longswordsman",
 			"uniques": ["[+15]% Strength <when attacking>"],
 			"attackSound": "metalhit"
 		},
@@ -73,16 +79,18 @@
 			"cost": 120,
 			"hurryCostModifier": 30,
 			"requiredTech": "Compass",
-			"upgradesTo": "Ironclad",
 			"obsoleteTech": "Combustion",
+			"upgradesTo": "Ironclad",
 			"uniques": [
 				"[+1] Sight",
 				"Withdraws before melee combat <with [80]% chance>",
-				"Comment [Tech Compass vs Astronomy]",
-				"Cannot enter ocean tiles <before discovering [Astronomy]>",
+				"Comment [Tech [Compass] vs [Astronomy]]",
 				"[+2] Movement <in [Coast] tiles>"
 			],
-			"attackSound": "cannon"
+			"attackSound": "cannon",
+			"civilopediaText": [
+				{"text": "A swift, local ship propelled by oars and sails with two-quarter rudders, one on either side of the stern. With shallow draught, these ships was the backbone of the regional fleet operated in riverine water, sheltered straits zone, and archipelagic environment."}
+			]
 		},
 		{
 			"name": "Seri Bija Diraja",
@@ -101,6 +109,9 @@
 				"Great Person - [War]",
 				"Unbuildable",
 				"Uncapturable"
+			],
+			"civilopediaText": [
+				{"text": "A supreme warrior, military nobility of the classical Malay kingdoms. They plan the strategies of strong fortifications, creating bold offensive, and often acting as a key advisor to the Sultan."}
 			]
 		},
 		{
@@ -113,6 +124,9 @@
 				"Can transform to [Seri Bija Diraja]",
 				"Unbuildable",
 				"Uncapturable"
+			],
+			"civilopediaText": [
+				{"text": "A commander of the navy. They plan, implement, and execute the complex maneuvers necessary to maintain naval superiority, providing the coastal security."}
 			]
 		}
 		
@@ -125,10 +139,10 @@
 			"movement": 3,
 			"strength": 21,
 			"cost": 120,
-			"requiredTech": "Steel",
-			"upgradesTo": "Musketman",
-			"obsoleteTech": "Gunpowder",
 			"requiredResource": "Iron",
+			"requiredTech": "Steel",
+			"obsoleteTech": "Gunpowder",
+			"upgradesTo": "Musketman",
 			"promotions": ["Drill I"],
 			"attackSound": "metalhit"
 		},
@@ -159,8 +173,8 @@
 			"rangedStrength": 17,
 			"cost": 185,
 			"requiredTech": "Chemistry",
-			"upgradesTo": "Artillery",
 			"obsoleteTech": "Dynamite",
+			"upgradesTo": "Artillery",
 			"uniques": [
 				"[+200]% Strength <vs cities> <when attacking>",
 				"No defensive terrain bonus",
@@ -183,6 +197,7 @@
 			"uniqueTo": "Patani",
 			"replaces": "Worker",
 			"movement": 2,
+			"cost": 70,
 			"uniques": [
 				"[+1] Movement <when [Embarked]> <before discovering [Astronomy]> <hidden from users>",
 				"[+1] Movement <when [Embarked]> <before discovering [Steam Power]> <hidden from users>",
@@ -191,8 +206,7 @@
 				"Can build [Fishing Boats] improvements on tiles",
 				"Uncapturable",
 				"Automation is a primary action"
-			],
-			"cost": 70
+			]
 		},
 		
 		// Siak
@@ -206,8 +220,8 @@
 			"cost": 120,
 			"hurryCostModifier": 30,
 			"requiredTech": "Astronomy",
-			"upgradesTo": "Ironclad",
 			"obsoleteTech": "Combustion",
+			"upgradesTo": "Ironclad",
 			"promotions": ["Mobility"],
 			"uniques": [
 				"[+1] Sight",
@@ -253,10 +267,10 @@
 			"strength": 14,
 			"cost": 75,
 			"hurryCostModifier": 20,
-			"requiredTech": "Iron Working",
-			"upgradesTo": "Longswordsman",
-			"obsoleteTech": "Steel",
 			"requiredResource": "Iron",
+			"requiredTech": "Iron Working",
+			"obsoleteTech": "Steel",
+			"upgradesTo": "Longswordsman",
 			"uniques": [
 				"[This Unit] gains [1] XP <upon ending a turn in a [Farm] tile>",
 				"[This Unit] gains [1] XP <upon ending a turn in a [Plantation] tile>",
@@ -271,6 +285,7 @@
 			"unitType": "Civilian",
 			"uniqueTo": "Medang",
 			"replaces": "Great Engineer",
+			"movement": 2,
 			"uniques": [
 				"Can speed up construction of a building",
 				"Can instantly construct a [Silpin Holy site] improvement <by consuming this unit>",
@@ -278,8 +293,7 @@
 				"Great Person - [Production]",
 				"Unbuildable",
 				"Uncapturable"
-			],
-			"movement": 2
+			]
 		},
 		
 		// Bali
@@ -297,7 +311,7 @@
 				"Can instantly construct a [Fishing Boats] improvement <[3] times> <after which this unit is consumed> <hidden from users>",
 				"Can instantly construct a [Offshore Platform] improvement <[3] times> <after which this unit is consumed> <hidden from users>",
 				"Comment [May create improvements on water resources 3 times]",
-				"Cannot attack",
+				"Can only attack [Civilian] units",
 				"Withdraws before melee combat <with [80]% chance>",
 				"Uncapturable",
 				"Automation is a primary action"
@@ -314,10 +328,10 @@
 			"strength": 25,
 			"rangedStrength": 28,
 			"cost": 185,
+			"requiredResource": "Iron",
 			"requiredTech": "Navigation",
 			"obsoleteTech": "Electronics",
 			"upgradesTo": "Battleship",
-			"requiredResource": "Iron",
 			"uniques": [
 				"Transfer Movement to [Embarked]",
 				"[+10]% Strength <when adjacent to a [Jong] unit>"
@@ -334,8 +348,8 @@
 			"rangedStrength": 20,
 			"cost": 185,
 			"requiredTech": "Chemistry",
-			"upgradesTo": "Artillery",
 			"obsoleteTech": "Dynamite",
+			"upgradesTo": "Artillery",
 			"uniques": [
 				"[+50]% Strength <when attacking>",
 				"No defensive terrain bonus"
@@ -371,16 +385,19 @@
 			"uniqueTo": "Banten",
 			"replaces": "Cannon",
 			"movement": 2,
-			"strength": 15,
-			"rangedStrength": 22,
+			"strength": 16,
+			"rangedStrength": 20,
 			"cost": 185,
 			"requiredTech": "Chemistry",
-			"upgradesTo": "Artillery",
 			"obsoleteTech": "Dynamite",
+			"upgradesTo": "Artillery",
 			"uniques": [
 				"[+200]% Strength <vs cities> <when attacking>",
+				"[+20]% Strength <in [Land] tiles>",
+				"[-20]% Strength <on foreign continents>",
 				"No defensive terrain bonus",
-				"Must set up to ranged attack"
+				"Must set up to ranged attack",
+				"[-1] Sight"
 			],
 			"attackSound": "cannon"
 		},
@@ -395,8 +412,8 @@
 			"strength": 24,
 			"cost": 150,
 			"requiredTech": "Gunpowder",
-			"upgradesTo": "Rifleman",
 			"obsoleteTech": "Rifling",
+			"upgradesTo": "Rifleman",
 			"promotions": ["[Pambedil] ability"],
 			"uniques": ["[+50]% XP gained from combat"],
 			"attackSound": "shot"
@@ -408,15 +425,16 @@
 		// Kutai Martadipura
 		{
 			"name": "Asvamedha Horse",
-			"unitType": "Civilian",
-			"uniqueTo": "Kutai",
+			"unitType": "Scout",
 			"movement": 4,
-			"cost": 75,
+			"strength": 8,
 			"requiredResource": "Horses",
+			"upgradesTo": "Knight",
 			"uniques": [
-				"[+10]% Strength bonus for [Military] units within [3] tiles",
-				"Limited to [1] per Civilization"
+				"Unbuildable",
+				"Never appears as a Barbarian unit"
 			],
+			"attackSound": "horse"
 		},
 		{
 			"name": "Lonjo",
@@ -569,10 +587,10 @@
 			"strength": 14,
 			"cost": 75,
 			"hurryCostModifier": 20,
-			"requiredTech": "Iron Working",
-			"upgradesTo": "Longswordsman",
-			"obsoleteTech": "Steel",
 			"requiredResource": "Iron",
+			"requiredTech": "Iron Working",
+			"obsoleteTech": "Steel",
+			"upgradesTo": "Longswordsman",
 			"promotions": ["[Tappi Swordsman] ability"],
 			"uniques": ["Earn [33]% of the damage done to [All] units as [Gold]"],
 			"attackSound": "metalhit"
@@ -588,12 +606,12 @@
 			"strength": 16,
 			"cost": 90,
 			"requiredTech": "Civil Service",
-			"upgradesTo": "Lancer",
 			"obsoleteTech": "Metallurgy",
+			"upgradesTo": "Lancer",
 			"promotions": ["[Liya Guard] ability"],
 			"uniques": [
 				"[+50]% Strength <vs [Mounted] units>",
-				"Can build [Farm] improvements on tiles"
+				"Can instantly construct a [Farm] improvement <for [2] movement> <once>"
 			],
 			"attackSound": "metalhit"
 		},
@@ -607,10 +625,10 @@
 			"movement": 2,
 			"strength": 21,
 			"cost": 120,
-			"requiredTech": "Steel",
-			"upgradesTo": "Musketman",
-			"obsoleteTech": "Gunpowder",
 			"requiredResource": "Iron",
+			"requiredTech": "Steel",
+			"obsoleteTech": "Gunpowder",
+			"upgradesTo": "Musketman",
 			"promotions": ["[Huwangga] ability"],
 			"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 			"attackSound": "metalhit"
@@ -627,15 +645,15 @@
 			"rangedStrength": 20,
 			"cost": 185,
 			"requiredTech": "Chemistry",
-			"upgradesTo": "Artillery",
 			"obsoleteTech": "Dynamite",
+			"upgradesTo": "Artillery",
 			"promotions": ["Extended Range"],
 			"uniques": [
 				"[+200]% Strength <vs cities> <when attacking>",
+				"[+15]% Strength <in [Friendly Land] tiles>",
 				"No defensive terrain bonus",
 				"Must set up to ranged attack",
-				"[-1] Sight",
-				"[+15]% Strength <in [Friendly Land] tiles>"
+				"[-1] Sight"
 			],
 			"attackSound": "cannon"
 		},
@@ -668,12 +686,51 @@
 			"strength": 16,
 			"cost": 90,
 			"requiredTech": "Civil Service",
-			"upgradesTo": "Lancer",
 			"obsoleteTech": "Metallurgy",
+			"upgradesTo": "Lancer",
 			"uniques": [
 				"[+50]% Strength <vs [Mounted] units>",
 				"[+33]% Strength <vs [Sword] units>",
-				"[+15] HP when healing <in [Bubung Parani] tiles>"
+				//"[+15] HP when healing <in [Bubung Parani] tiles>"
+			],
+			"attackSound": "metalhit"
+		},
+		
+		// Toraja
+		{
+			"name": "Kanta Warrior",
+			"unitType": "Sword",
+			"uniqueTo": "Toraja",
+			"replaces": "Spearman",
+			"movement": 2,
+			"strength": 12,
+			"cost": 56,
+			"requiredTech": "Bronze Working",
+			"obsoleteTech": "Civil Service",
+			"upgradesTo": "Pikeman",
+			"uniques": [
+				"[+50]% Strength <vs [Mounted] units>",
+				"Comment [Upon being defeated, Makula' version of [Kanta Warrior] appears]",
+				"Comment [Makula' version has 2/3 base Strength and invisible for as long as not initiated an attack]",
+				"Free [Kanta Warrior (Makula')] appears <upon being defeated> <hidden from users>"
+			],
+			"attackSound": "metalhit"
+		},
+		{
+			"name": "Kanta Warrior (Makula')",
+			"unitType": "Sword",
+			"movement": 2,
+			"strength": 8,
+			"requiredTech": "Bronze Working",
+			"obsoleteTech": "Civil Service",
+			"upgradesTo": "Pikeman",
+			"promotions": ["Makula'"],
+			"uniques": [
+				"[+50]% Strength <vs [Mounted] units>",
+				"Unbuildable",
+				"Cannot be purchased",
+				"[This Unit] loses the [Makula'] promotion <upon damaging a [All] unit>"
+				"Will not be displayed in Civilopedia"
 			],
 			"attackSound": "metalhit"
 		},
@@ -691,8 +748,8 @@
 			"strength": 24,
 			"cost": 150,
 			"requiredTech": "Gunpowder",
-			"upgradesTo": "Rifleman",
 			"obsoleteTech": "Rifling",
+			"upgradesTo": "Rifleman",
 			"promotions": ["Shock I","Amphibious"],
 			"attackSound": "shot"
 		},
@@ -706,13 +763,13 @@
 			"movement": 2,
 			"strength": 5,
 			"cost": 25,
-			"obsoleteTech": "Gunpowder",
 			"promotions": ["Ignore terrain cost"],
 			"uniques": [
 				"Can upgrade to [Longswordsman]",
-				"Cannot attack",
 				"May enter foreign tiles without open borders",
-				"Comment [Obsolete with [Gunpowder]]",
+				"[This Unit] gains the [Meo Protection] promotion <when below [33] HP> <upon turn end> <hidden from users>",
+				"[This Unit] loses the [Meo Protection] promotion <when above [33] HP> <upon turn end> <hidden from users>",
+				"Comment [Cannot attack and become Invisible when below 33 HP]",
 				"[-33]% Gold cost of upgrading <hidden from users>"
 			],
 			"attackSound": "nonmetalhit"
@@ -728,11 +785,11 @@
 			"strength": 10,
 			"cost": 45,
 			"requiredTech": "Sailing",
-			"upgradesTo": "Caravel",
 			"obsoleteTech": "Astronomy",
-			"promotions": ["Landing Party","Coastal Raider I"],
-			"uniques": ["Cannot enter ocean tiles <before discovering [Optics]>"],
-			"attackSound": "cannon"
+			"upgradesTo": "Caravel",
+			"promotions": ["Landing Party","Coastal Raider I","Reinforcements Wave"],
+			"uniques": ["[This Unit] loses the [Reinforcements Wave] promotion <upon ending a turn in a [non-[City center]] tile> <hidden from users>"],
+			"attackSound": "nonmetalhit"
 		},
 		{
 			"name": "Albahdir",
@@ -743,11 +800,12 @@
 			"strength": 16,
 			"cost": 90,
 			"requiredTech": "Civil Service",
-			"upgradesTo": "Musketman",
 			"obsoleteTech": "Metallurgy",
+			"upgradesTo": "Musketman",
 			"uniques": [
 				"Comment [Trained 50% faster in capital]",
-				"[+25]% Strength <vs [Melee] units>"
+				"[+25]% Strength <vs [Melee] units>",
+				"Comment [Upgrade to [Musketman] vs [Lancer]]"
 			],
 			"attackSound": "metalhit"
 		},
@@ -762,10 +820,10 @@
 			"strength": 14,
 			"cost": 75,
 			"hurryCostModifier": 20,
-			"requiredTech": "Iron Working",
-			"upgradesTo": "Longswordsman",
-			"obsoleteTech": "Steel",
 			"requiredResource": "Iron",
+			"requiredTech": "Iron Working",
+			"obsoleteTech": "Steel",
+			"upgradesTo": "Longswordsman",
 			"promotions": ["[Salawaku Warrior] ability","Cover I"],
 			"attackSound": "metalhit"
 		},
@@ -774,15 +832,18 @@
 			"unitType": "Melee Water",
 			"replaces": "Galleass",
 			"uniqueTo": "Tidore",
-			"movement": 4,
+			"movement": 3,
 			"strength": 22,
 			"cost": 100,
 			"requiredTech": "Compass",
-			"upgradesTo": "Ironclad",
 			"obsoleteTech": "Combustion",
+			"upgradesTo": "Ironclad",
+			"promotions": ["Call to Arms"]
 			"uniques": [
-				"[+1] Sight",
-				"Withdraws before melee combat <with [80]% chance>"
+				"Withdraws before melee combat <with [80]% chance>",
+				"Comment [Melee rather than Ranged unit]",
+				"Comment [Upgrade to [Ironclad] vs [Frigate]]",
+				"[This Unit] loses the [Call to Arms] promotion <upon ending a turn in a [{non-[Enemy]} {City-State}] tile> <hidden from users>"
 			],
 			"attackSound": "cannon"
 		},
@@ -836,13 +897,13 @@
 			"strength": 16,
 			"cost": 90,
 			"requiredTech": "Civil Service",
+			"obsoleteTech": "Metallurgy",
+			"upgradesTo": "Lancer",
 			"promotions": ["[Maharlika] ability"],
 			"uniques": [
 				"[+50]% Strength <vs [Mounted] units>",
 				"[+1] Movement <in [Friendly Land] tiles>"
 			],
-			"upgradesTo": "Lancer",
-			"obsoleteTech": "Metallurgy",
 			"attackSound": "metalhit"
 		},
 		
@@ -852,6 +913,7 @@
 			"unitType": "Civilian",
 			"uniqueTo": "Madja-as",
 			"replaces": "Inquisitor",
+			"movement": 2,
 			"uniques": [
 				"Prevents spreading of religion to the city it is next to",
 				"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
@@ -863,8 +925,7 @@
 				"Religious Unit",
 				"Takes your religion over the one in their birth city",
 				"Comment [Heals Land units around it by 5 HP at the end of each turn]"
-			],
-			"movement": 2
+			]
 		},
 		
 		// Cebu
@@ -877,10 +938,10 @@
 			"strength": 14,
 			"cost": 75,
 			"hurryCostModifier": 10,
-			"requiredTech": "Iron Working",
-			"upgradesTo": "Longswordsman",
-			"obsoleteTech": "Steel",
 			"requiredResource": "Iron",
+			"requiredTech": "Iron Working",
+			"obsoleteTech": "Steel",
+			"upgradesTo": "Longswordsman",
 			"uniques": [
 				"May attack when embarked",
 				"[+50]% Strength <vs [Mounted] units>"
@@ -912,10 +973,10 @@
 			"movement": 2,
 			"strength": 21,
 			"cost": 120,
-			"requiredTech": "Steel",
-			"upgradesTo": "Musketman",
-			"obsoleteTech": "Gunpowder",
 			"requiredResource": "Iron",
+			"requiredTech": "Steel",
+			"obsoleteTech": "Gunpowder",
+			"upgradesTo": "Musketman",
 			"promotions": ["Apologetics"],
 			"uniques": [
 				"Can be purchased for [120] [Faith] [in all cities]",

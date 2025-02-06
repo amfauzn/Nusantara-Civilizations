@@ -402,7 +402,7 @@
 			"innerColor": [255,233,23],
 			"uniqueName": "Monumental Age",
 			"uniques": [
-				"Comment [+2 Great Engineer point from every Faith buildings]",
+				"Comment [+2 Great Engineer point from every [Faith] buildings]",
 				"Comment [+2 [Food], +2 [Production] from every Holy site constructed by [Silpin]]",
 				"Comment [+15% [Production] when constructing wonders in cities with a [Holy site]]",
 				"Free [Worker] appears <upon expending a [Malim] unit> <hidden from users>"
@@ -521,6 +521,7 @@
 			"uniqueName": "Faithful Expansion",
 			"uniques": [
 				"Free [Settler] appears <upon founding a Religion>",
+				"[+2 Faith] <after founding a Pantheon> <before founding a religion>",
 				"[+2 Culture] [in all cities] <in cities with an enhanced religion>",
 				"Instantly provides [1] [STP-1] <upon gaining a [Wali] unit> <hidden from users>",
 				"All newly-trained [Wali] units [in all cities] receive the [Abangan] promotion <when below [3] [STP-1]> <hidden from users>",
@@ -635,6 +636,9 @@
 			"innerColor": [ 53, 0,87],
 			"uniqueName": "Asvamedha",
 			"uniques": [
+				"Free [Asvamedha Horse] appears <hidden from users>",
+				"Comment [Free [Asvamedha Horse] appears upon game start]",
+				"Comment [[Asvamedha Horse] act as scout and may be upgraded to [Knight]]",
 				"[+1 Faith] from every [Horses]",
 				"[+2 Food] from every [Pasture]"
 			],
@@ -996,6 +1000,41 @@
 				"Jampu Daido","Mutty Mattayang","Hatta Risadju","Gani Limpo","Indah Marakarma"]
 		},
 		
+		// Toraja
+		{
+			"name": "Toraja",
+			"leaderName": "Pong Tiku",
+			"adjective": ["Torajan"],
+			"startBias": ["Hill"],
+			"preferredVictoryType": "Cultural",
+			"favoredReligion": "Christianity",
+
+			"startIntroPart1": "",
+			"startIntroPart2": "",
+
+			"declaringWar": "Your greed for our land and traditions will be your undoing! The ancestors will judge you, and we shall carry out their will!",
+			"attacked": "The highlands are not so easily conquered. You think we will cower? No—we will endure, just as we always have.",
+			"defeated": "Perhaps… this is but another journey to the afterlife. The ancestors shall welcome me, but will your own spirits be so kind to you?",
+			"introduction": "Salama Urrampoi Tana Toraja, where our ancestors watch over us. I am Pong Tiku, king of Pangala and leader of the Torajan.",
+			
+			"neutralHello": "Umbanakua kareba?",
+			"hateHello": "Kendu indo'na!",
+			"tradeRequest": "A fair exchange is the foundation of good relations. What say you?",
+			"outerColor": [220,160,50],
+			"innerColor": [120, 20,20],
+			"uniqueName": "Rambu Solo'",
+			"uniques": [
+				"Comment [Can build [Pasture] and [Plantation] without removing [Forest]]",
+				"Comment [Perform Ma'nene Ritual upon entering new era - +2 [Food], +1 [Culture] from every [Pasture] and [Plantation] for 5 turns]",
+				"Gain a free [Ma'nene Ritual] [in capital] <upon entering a new era> <hidden from users>"
+			],
+			"cities": ["Rantepao","Rindingallo","Makale","Bittuang","Mengkendek","Rembon","Gandangbatu Sillanan","Masanda","Saluputi","Bonggakaradeng",
+				"Kurra","Malimbong Balepe","Mappak","Rano","Simbuang","Rantetayo","Sangalla","Buntu Pepasan","Nanggala","Sa'dan",
+				"Dende' Piongan Napo","Sopai","Kapala Pitu","Balusu","Kesu","Rantebua","Sanggalangi","Sesean Suloara'","Tikala","Awan Rante Karua",
+				"Bangkelekila","Buntao","Sesean","Tondon","Baruppu","Tallunglipu"],
+			"spyNames": ["Tambing","Allang","Sambo","Rerung","Massangka","Tondok","Sesean","Bongga","Torro'","Daro"]
+		},
+		
 		
 	// Lesser Sunda, Maluku, and Papua
 	
@@ -1113,7 +1152,7 @@
 			"name": "Tidore",						// 1081 - 1815
 			"leaderName": "Nuku",
 			"adjective": ["Tidorese"],
-			"startBias": ["Coast","Mountain"],
+			"startBias": ["Coast"],
 			"personality": "Majestic Ingenuity",
 			"preferredVictoryType": "Scientific",
 			"favoredReligion": "Islam",
@@ -1134,9 +1173,9 @@
 			"innerColor": [  7,  0, 54],
 			"uniqueName": "Uli Siwa",
 			"uniques": [
-				"[+10]% Strength <within [2] tiles of a [Mountain]>",
+				"Resting point for Influence with City-States is increased by [10]",
 				"[+1 Happiness] [in all coastal cities]", 
-				"Comment [+2% [Science] for each coastal cities, up to +15%]",
+				"Comment [+2% [Science] for each owned coastal cities, up to +15%]",
 				"[+2]% [Science] <when above [0] [Counter]> <when below [2] [Counter]> <hidden from users>",
 				"[+4]% [Science] <when above [1] [Counter]> <when below [3] [Counter]> <hidden from users>" ,
 				"[+6]% [Science] <when above [2] [Counter]> <when below [4] [Counter]> <hidden from users>" ,

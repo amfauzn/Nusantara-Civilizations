@@ -5,7 +5,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Marsh","Forest"],
 		"food": 1,
-		"improvement": "Pasture",
+		"improvedBy": ["Pasture","Torajan Pasture"],
 		"improvementStats": {"production": 1},
 		"uniques": [
 			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles>",
@@ -42,7 +42,110 @@
 		],
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
-	}, 
+	},
+	
+	{
+		"name": "Citrus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
+		"food": 1,
+		"gold": 1,
+		"improvedBy": ["Plantation","Torajan Plantation"],
+		"uniques": [
+			"Generated with weight [35] <in [Jungle] Regions>",
+			"Generated with weight [5] <in [Forest] Regions>",
+			"Generated with weight [5] <in [Desert] Regions>",
+			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated near City States with weight [15]",
+			"Doesn't generate naturally <in [Tundra] tiles>"
+		]
+	},
+	{
+		"name": "Dyes",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
+		"gold": 2,
+		"improvedBy": ["Plantation","Torajan Plantation"],
+		"uniques": [
+			"Generated with weight [5] <in [Tundra] Regions>",
+			"Generated with weight [5] <in [Jungle] Regions>",
+			"Generated with weight [30] <in [Forest] Regions>",
+			"Generated near City States with weight [10]",
+			"Doesn't generate naturally <in [Hill] tiles>"
+		]
+	},
+	{
+		"name": "Incense",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
+		"gold": 2,
+		"improvedBy": ["Plantation","Torajan Plantation"],
+		"uniques": [
+			"Generated with weight [35] <in [Desert] Regions>",
+			"Generated with weight [10] <in [Plains] Regions>",
+			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated near City States with weight [15]"
+		]
+	},
+	{
+		"name": "Silk",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest","Jungle"],
+		"gold": 2,
+		"improvedBy": ["Plantation","Torajan Plantation"],
+		"uniques": [
+			"Generated with weight [5] <in [Jungle] Regions>",
+			"Generated with weight [30] <in [Forest] Regions>",
+			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated near City States with weight [15]",
+			"Doesn't generate naturally <in [Hill] tiles>"
+		]
+	},
+	{
+		"name": "Spices",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
+		"gold": 2,
+		"improvedBy": ["Plantation","Torajan Plantation"],
+		"uniques": [
+			"Generated with weight [30] <in [Jungle] Regions>",
+			"Generated with weight [10] <in [Forest] Regions>",
+			"Generated with weight [5] <in [Plains] Regions>",
+			"Generated with weight [5] <in [Grassland] Regions>",
+			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated near City States with weight [15]",
+			"Doesn't generate naturally <in [Hill] tiles>",
+			"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"
+		]
+	},
+	{
+		"name": "Sugar",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
+		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
+		"gold": 2,
+		"improvedBy": ["Plantation","Torajan Plantation"],
+		"uniques": [
+			"Generated with weight [20] <in [Jungle] Regions>",
+			"Generated with weight [15] <in [Desert] Regions>",
+			"Generated with weight [20] <in [Grassland] Regions>",
+			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated near City States with weight [10]",
+			"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>"
+		]
+	},
+	{
+		"name": "Wine",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"gold": 2,
+		"improvedBy": ["Plantation","Torajan Plantation"],
+		"uniques": [
+			"Generated with weight [35] <in [Plains] Regions>",
+			"Generated with weight [15] <in [Hybrid] Regions>",
+			"Generated near City States with weight [10]"
+		]
+	},
 	
 	// Unique resources
 	{

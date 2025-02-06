@@ -2,8 +2,8 @@
 	// Common Building
 		{
 			"name": "Stable",
-			"maintenance": 1,
 			"requiredNearbyImprovedResources": ["Cattle","Horses","Sheep","Water Buffalo"],
+			"maintenance": 1,
 			"hurryCostModifier": 25,
 			"uniques": [
 				"[+15]% Production when constructing [Mounted] units [in this city]",
@@ -14,7 +14,7 @@
 			],
 			"requiredTech": "Horseback Riding"
 		},
-	
+		
 	
 	// Sumatra and Malay Peninsula
 		
@@ -24,9 +24,9 @@
 			"replaces": "Garden",
 			"uniqueTo": "Aceh",
 			"happiness":2,
-			"uniques": ["[+25]% Great Person generation [in this city]"],
 			"hurryCostModifier": 25,
 			"maintenance": 1,
+			"uniques": ["[+25]% Great Person generation [in this city]"],
 			"requiredTech": "Theology",
 			"civilopediaText": [
 				{"text": "A garden built by Iskandar Muda for his empress, Putroe Phang of Pahang, so that she won't be lonely during his time with the empire."},
@@ -58,12 +58,12 @@
 			"name": "Stone House",
 			"replaces": "Castle",
 			"uniqueTo": "Jambi",
+			"requiredBuilding": "Walls",
 			"culture": 3,
 			"cityStrength": 7,
 			"cityHealth": 25,
 			"cost": 120,
 			"hurryCostModifier": 25,
-			"requiredBuilding": "Walls",
 			"uniques": ["Destroyed when the city is captured"],
 			"requiredTech": "Chivalry",
 			"civilopediaText": [
@@ -76,10 +76,10 @@
 			"name": "Rumah Gadang",
 			"replaces": "Amphitheater",
 			"uniqueTo": "Pagaruyung",
+			"requiredBuilding": "Monument",
 			"culture": 4,
 			"food": 2,
 			"specialistSlots": {"Artist": 1},
-			"requiredBuilding": "Monument",
 			"maintenance": 2,
 			"uniques": ["Destroyed when the city is captured"],
 			"requiredTech": "Drama and Poetry",
@@ -107,12 +107,12 @@
 			"name": "Olang-Olang Stage",
 			"replaces": "Amphitheater",
 			"uniqueTo": "Siak",
+			"requiredBuilding": "Monument",
 			"culture": 4,
 			"gold": 2,
 			"specialistSlots": {"Artist": 1},
-			"requiredBuilding": "Monument",
-			"maintenance": 2,
 			"hurryCostModifier": 25,
+			"maintenance": 2,
 			"uniques": ["Destroyed when the city is captured"],
 			"requiredTech": "Drama and Poetry",
 			"civilopediaText": [
@@ -125,10 +125,10 @@
 			"name": "Dermaga",
 			"replaces": "Harbor",
 			"uniqueTo": "Srivijaya",
-			"cost": 120,
 			"cityHealth": 50,
-			"maintenance": 2,
+			"cost": 120,
 			"hurryCostModifier": 25,
+			"maintenance": 2,
 			"uniques": [
 				"[+1 Production] from [Water resource] tiles [in this city]",
 				"Connects trade routes over water",
@@ -149,10 +149,10 @@
 			"name": "Leuit",
 			"replaces": "Granary",
 			"uniqueTo": "Sunda",
-			"food": 2,
 			"faith": 1,
-			"maintenance": 1,
+			"food": 2,
 			"hurryCostModifier": 25,
+			"maintenance": 1,
 			"uniques": [
 				"[+1 Food] from [Deer] tiles [in this city]",
 				"[+1 Food] from [Bananas] tiles [in this city]",
@@ -209,12 +209,12 @@
 			"name": "Candi Sewu",
 			"replaces": "Grand Temple",
 			"uniqueTo": "Medang",
-			"cost": 125,
+			"isNationalWonder": true,
 			"culture": 8,
 			"faith": 8,
-			"isNationalWonder": true,
+			"cost": 125,
 			"uniques": [
-				"Comment [Tech Philosophy vs Theology]",
+				"Comment [Tech [Philosophy] vs [Theology]]",
 				"Cost increases by [30] per owned city",
 				"Gain a free [Temple] [in all cities]"
 			],
@@ -327,9 +327,9 @@
 			"name": "Pura",
 			"replaces": "Temple",
 			"uniqueTo": "Bali",
-			"faith": 2,
-			"culture": 2,
 			"requiredBuilding": "Shrine",
+			"culture": 2,
+			"faith": 2,
 			"maintenance": 2,
 			"uniques": [
 				"Only available <when religion is enabled>",
@@ -347,11 +347,11 @@
 			"name": "Pesantren",
 			"replaces": "University",
 			"uniqueTo": "Demak",
-			"maintenance": 2,
+			"requiredBuilding": "Library",
 			"hurryCostModifier": 15,
+			"maintenance": 2,
 			"percentStatBonus": {"science": 33},
 			"specialistSlots": {"Scientist": 2},
-			"requiredBuilding": "Library",
 			"uniques": [
 				"[+2 Science] from [Jungle] tiles [in this city]",
 				"[+1 Faith] per [3] population [in this city]"
@@ -409,8 +409,8 @@
 			"replaces": "Lighthouse",
 			"uniqueTo": "Brunei",
 			"cost": 80,
-			"maintenance": 1,
 			"hurryCostModifier": 25,
+			"maintenance": 1,
 			"uniques": [
 				"Must be next to [Coast]",
 				"[+1 Food] from [Ocean] tiles [in this city]",
@@ -431,12 +431,12 @@
 			"replaces": "Workshop",
 			"uniqueTo": "Lanfang",
 			"production": 2,
-			"maintenance": 2,
+			"percentStatBonus": {"production": 10},
 			"specialistSlots": {"Engineer": 1},
 			"hurryCostModifier": 25,
-			"percentStatBonus": {"production": 10},
+			"maintenance": 2,
 			"uniques": [
-				"Comment [Tech Guilds vs Metal Casting]",
+				"Comment [Tech [Guilds] vs [Metal Casting]]",
 				"[+2 Production] from [Gold Ore] tiles [in this city]"
 			],
 			"requiredTech": "Guilds",
@@ -574,7 +574,7 @@
 			"requiredTech": "Iron Working",
 			"uniques": [
 				"Comment [Can be built in any city]",
-				"Comment [Tech Iron Working vs Metal Casting]",
+				"Comment [Tech [Iron Working] vs [Metal Casting]]",
 				"[+15]% Production when constructing [Spaceship part] units [in this city]",
 				"[+15]% Production when constructing [Land] units [in this city]",
 				"[+1 Production] from [Iron] tiles [in this city]",
@@ -582,6 +582,42 @@
 			],
 			"civilopediaText": [
 				{"text": "Besi Luwu is a type of carbon steel produced by the Kingdom of Luwu between the 14th and 17th centuries. This steel contained nickel, making it both strong and light, ideal for weapons, especially in warfare. Its renowned quality spread across the archipelago and it was exported to foreign kingdoms, including India. It was also used in the crafting of the kris, a revered sword in Indonesia. During the Majapahit era, Luwu became the primary supplier of war weapons."},
+			]
+		},
+		
+		// Toraja
+		{
+			"name": "Ma'nene Ritual",
+			"uniqueTo": "Toraja",
+			"cost": 1,
+			"uniques": [
+				"Unbuildable",
+				"Remove [Ma'nene Ritual] [in this city]",
+				"[+2 Food, +1 Culture] from every [Pasture] <for [5] turns>",
+				"[+2 Food, +1 Culture] from every [Torajan Pasture] <for [5] turns>",
+				"[+2 Food, +1 Culture] from every [Plantation] <for [5] turns>",
+				"[+2 Food, +1 Culture] from every [Torajan Plantation] <for [5] turns>",
+				"Will not be displayed in Civilopedia"
+			],
+		},
+		{
+			"name": "Rante",
+			"replaces": "Stone Works",
+			"uniqueTo": "Toraja",
+			"happiness": 1,
+			"production": 1,
+			"hurryCostModifier": 0,
+			"maintenance": 1,
+			"uniques": [
+				"Comment [Can be built in any city]",
+				"[+1 Production] from [Stone] tiles [in this city]",
+				"[+1 Production] from [Marble] tiles [in this city]",
+				"[+1 Culture] from [Stone] tiles [in this city]",
+				"[+1 Culture] from [Water Buffalo] tiles [in this city]"
+			],
+			"requiredTech": "Calendar",
+			"civilopediaText": [
+				{"text": "An open ceremonial ground, often used for the grand funerary rites of Rambu Solo'. These spaces host elaborate rituals, including traditional music, dances, and buffalo sacrifices, serving as both spiritual and communal centers."},
 			]
 		},
 	
@@ -625,7 +661,7 @@
 			"name": "Ume",
 			"replaces": "Granary",
 			"uniqueTo": "Wewiku-Wehali",
-			"food": 1,
+			"food": 0,
 			"maintenance": 1,
 			"hurryCostModifier": 25,
 			"uniques": [

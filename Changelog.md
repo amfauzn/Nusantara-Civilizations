@@ -188,3 +188,39 @@
 	UB Lumbung Pari now does not require Barracks, automatically built in any city but cost double maintenance
 - New Civ: Madja-as
 - Philippines map update: add Madja-as starting location
+
+# v1.16 (06.02.2025)
+- Aceh
+	UU Ghali ranged strength reduced to normal and receive free Volley promotion
+- Bali
+	UU Janggolan can now attack Civilian units
+- Banten
+	UU Meriam Ki Amuk -1 Sight (as normal Cannon)
+	UU melee Strength 15 -> 16, ranged Strength 22 -> 20 and gain +20% bonus Strength on your home continent
+- Buton
+	UA Liya Guard may now construct Farm instantly once
+- Demak
+	UA +2 Faith after founding Pantheon and before founding a Religion
+- Kutai
+	UA free Asvamedha Horse upon game start
+	UU Asvamedha Horse no longer buildable, may only appear once, and now a Military unit
+- Ternate
+	UU Kora-kora may now enter Ocean immediately and begin with +3 Movement upon being constructed
+- Tidore
+	NA bonus Strength when near Mountain -> resting point for Influence with City-States by 10
+	UU Salawaku Warrior lose withdraw chance, but gain +20% to Flank Attack bonuses
+	UU Juanga base Movement reduced from 4 to 3, and gain the ability to call Swordsman from non-Enemy City-States, Swordsman called by Juanga become Salawaku Warrior
+- Wewiku-Wehali
+	UB Ume remove flat +1 Food from the building
+	UU Meo may now attack hostile units and Receive protection when below 33 HP, cannot attack and become invisible
+
+- New Civ: Toraja
+- Map update:
+	Sulawesi add Toraja, change resources from manual to generated, and generate Natural Wonders
+	Borneo generate Natural Wonders
+- Icon update: Madja-as, Tidore, Salawaku Warrior
+
+
+
+
+	

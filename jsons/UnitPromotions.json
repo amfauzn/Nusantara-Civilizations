@@ -1,15 +1,11 @@
 [
 	{
 		"name": "Spiritual Encouragement",
-		"uniques": [
-			"Comment [+15% Strength bonus for Military units within 1 tiles]"
-		]
+		"uniques": ["Comment [+15% Strength bonus for Military units within 1 tiles]"]
 	},
 	{
 		"name": "Silent Strike",
-		"uniques": [
-			"[+50]% Strength <when attacking> <with [50]% chance>"
-		]
+		"uniques": ["[+50]% Strength <when attacking> <with [50]% chance>"]
 	},
 	{
 		"name": "Abangan",
@@ -19,45 +15,31 @@
 	},
 	{
 		"name": "Putihan",
-		"uniques": [
-			"Can Spread Religion <[1] additional time(s)>"
-		]
+		"uniques": ["Can Spread Religion <[1] additional time(s)>"]
 	},
 	{
 		"name": "Wareg",
-		"uniques": [
-			"[+15] HP when healing <in [Enemy Land] tiles>"
-		]
+		"uniques": ["[+15] HP when healing <in [Enemy Land] tiles>"]
 	},
 	{
 		"name": "[Pambedil] ability",
-		"uniques": [
-			"[+33]% Strength <vs [Wounded] units>"
-		]
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"]
 	},
 	{
 		"name": "Seller",
-		"uniques": [
-			"Can instantly construct a [Floating Market] improvement <by consuming this unit>"
-		]
+		"uniques": ["Can instantly construct a [Floating Market] improvement <by consuming this unit>"]
 	},
 	{
 		"name": "[Nabur Swordsman] ability",
-		"uniques": [
-			"[+25]% Strength <when fighting in [Fresh Water] tiles>"
-		]
+		"uniques": ["[+25]% Strength <when fighting in [Fresh Water] tiles>"]
 	},
 	{
 		"name": "Headhunter",
-		"uniques": [
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
-		]
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
 	{
 		"name": "Rural Chieftain",
-		"uniques": [
-			"[+25]% Strength <when adjacent to a [Rural Chieftain] unit>"
-		]
+		"uniques": ["[+25]% Strength <when adjacent to a [Rural Chieftain] unit>"]
 	},
 	{
 		"name": "[Tappi Swordsman] ability",
@@ -70,40 +52,53 @@
 	{
 		"name": "[Liya Guard] ability",
 		"uniques": [
-			"[+100]% Strength <when defending> <when [Embarked]>",
+			"[+100]% Strength <when [Embarked]>",
 			"[+15]% Strength <when fighting in [Coastal] tiles>"
 		]
 	},
 	{
 		"name": "[Huwangga] ability",
+		"uniques": ["Double movement in [Hill]"]
+	},
+	{
+		"name": "Makula'",
+		"uniques": ["Invisible to others"]
+	},
+	{
+		"name": "Meo Protection",
 		"uniques": [
-			"Double movement in [Hill]"
+			"Cannot attack",
+			"Invisible to others",
+			"Ignores Zone of Control"
 		]
 	},
 	{
 		"name": "Landing Party",
-		"uniques": [
-			"Eliminates combat penalty for attacking across a coast"
-		],
+		"uniques": ["Eliminates combat penalty for attacking across a coast"],
 		"unitTypes": ["Melee Water"],
 	},
 	{
-		"name": "[Salawaku Warrior] ability",
+		"name": "Reinforcements Wave",
 		"uniques": [
-			"Withdraws before melee combat <with [33]% chance>"
+			"[+3] Movement <hidden from users>",
+			"Comment [Begin with +3 Movement after being constructed]"
 		]
 	},
 	{
-		"name": "[Juanga] ability",
+		"name": "[Salawaku Warrior] ability",
+		"uniques": ["[+20]% to Flank Attack bonuses"]
+	},
+	{
+		"name": "Call to Arms",
 		"uniques": [
-			"[+15]% Strength <vs [Water] units>"
+			"Free [Salawaku Warrior] appears <upon ending a turn in a [{non-[Enemy]} {City-State}] tile> <hidden from users>",
+			"Comment [Recruit [Swordsman] from non-Enemy City-State once]",
+			"Comment [[Swordsman] recruited by [Juanga] become [Salawaku Warrior]]"
 		]
 	},
 	{
 		"name": "[Warion] ability",
-		"uniques": [
-			"[+2] Movement"
-		]
+		"uniques": ["[+2] Movement"]
 	},
 	{
 		"name": "Raider of the East",
@@ -114,9 +109,7 @@
 	},
 	{
 		"name": "Highlander",
-		"uniques": [
-			"Can pass through impassable tiles"
-		]
+		"uniques": ["Can pass through impassable tiles"]
 	},
 	{
 		"name": "Papangat",
@@ -128,9 +121,7 @@
 	},
 	{
 		"name": "[Maharlika] ability",
-		"uniques": [
-			"[-100]% maintenance costs"
-		]
+		"uniques": ["[-100]% maintenance costs"]
 	},
 	{
 		"name": "Babaylan shamanism",
@@ -141,15 +132,11 @@
 	},
 	{
 		"name": "Slave",
-		"uniques": [
-			"Gain [35] [Gold] <(modified by game speed)> <by consuming this unit>"
-		]
+		"uniques": ["Gain [35] [Gold] <(modified by game speed)> <by consuming this unit>"]
 	},
 	{
 		"name": "[Privateer] ability",
-		"uniques": [
-			"May capture killed [Water] units"
-		]
+		"uniques": ["May capture killed [Water] units"]
 	},
 	{
 		"name": "Apologetics",
@@ -157,5 +144,5 @@
 			"Prevents spreading of religion to the city it is next to",
 			"Religious Unit"
 		]
-	},
+	}
 ]

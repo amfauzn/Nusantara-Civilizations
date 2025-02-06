@@ -6,18 +6,22 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] <after discovering [Compass]>", 
-					"Can only be built to improve a resource", 
-					"Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": [
+			"[+1 Gold] <after discovering [Compass]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "F"
 	},
 	{
 		"name": "Offshore Platform",
 		"production": 1,
 		"techRequired": "Refrigeration",
-		"uniques": ["Can only be built to improve a resource", 
-					"Can only be built on [Water] tiles", 
-					"Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Can only be built on [Water] tiles",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
 		"shortcutKey": "P"
 	},
 	
@@ -30,10 +34,12 @@
 			"food": 2,
 			"faith": 6,
 			"production": 2,
-			"uniques": ["Great Improvement", 
-						"Removes removable features when built", 
-						"Pillaging this improvement yields approximately [+20 Gold]", 
-						"Will not be displayed in Civilopedia"]
+			"uniques": [
+				"Great Improvement",
+				"Removes removable features when built",
+				"Pillaging this improvement yields approximately [+20 Gold]",
+				"Will not be displayed in Civilopedia"
+			]
 		},
 	
 	// Borneo
@@ -45,9 +51,11 @@
 			"terrainsCanBeBuiltOn": ["Land"],
 			"science": 1,
 			"turnsToBuild": 8,
-			"uniques": ["[+1 Culture] for each adjacent [Pasture]", 
-						"[+1 Culture, +1 Science] <after discovering [Archaeology]>", 
-						"Pillaging this improvement yields approximately [+10 Gold]"],
+			"uniques": [
+				"[+1 Culture] for each adjacent [Pasture]",
+				"[+1 Culture, +1 Science] <after discovering [Archaeology]>",
+				"Pillaging this improvement yields approximately [+10 Gold]"
+			],
 			"techRequired": "Writing",
 			"shortcutKey": "Y"
 		},
@@ -58,10 +66,46 @@
 			"uniqueTo": "Banjar",
 			"terrainsCanBeBuiltOn": ["Lakes","Flood plains"],
 			"gold": 2,
-			"uniques": ["[+2 Food, +1 Gold] <after discovering [Economics]>", 
-						"Pillaging this improvement yields approximately [+12 Gold]"],
+			"uniques": [
+				"[+2 Food, +1 Gold] <after discovering [Economics]>",
+				"Pillaging this improvement yields approximately [+12 Gold]"
+			],
 			"techRequired": "Guilds",
 			"shortcutKey": "T"
+		},
+	
+	// Sulawesi
+		
+		// Toraja
+		{
+			"name": "Torajan Pasture",
+			//"replaces": "Pasture",
+			"uniqueTo": "Toraja",
+			"turnsToBuild": 8,
+			"techRequired": "Animal Husbandry",
+			"uniques": [
+				"Does not need removal of [Forest]",
+				"[+1 Food] <after discovering [Fertilizer]>",
+				"Can only be built to improve a resource",
+				"Pillaging this improvement yields approximately [+10 Gold]",
+				"Will not be displayed in Civilopedia"
+			],
+			"shortcutKey": "P"
+		},
+		{
+			"name": "Torajan Plantation",
+			"uniqueTo": "Toraja",
+			"turnsToBuild": 6,
+			"gold": 1,
+			"techRequired": "Calendar",
+			"uniques": [
+				"Does not need removal of [Forest]",
+				"[+1 Food] <after discovering [Fertilizer]>",
+				"Can only be built to improve a resource",
+				"Pillaging this improvement yields approximately [+10 Gold]",
+				"Will not be displayed in Civilopedia"
+			],
+			"shortcutKey": "P"
 		},
 		
 	// The Philippines

@@ -6,28 +6,42 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 ImprovementIcons/Floating Market
   rotate: false
-  xy: 1848, 1064
+  xy: 1000, 52
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Payew
   rotate: false
-  xy: 1628, 800
+  xy: 1684, 956
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Silpin Holy site
   rotate: false
-  xy: 1000, 424
+  xy: 1792, 956
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Torajan Pasture
+  rotate: false
+  xy: 1900, 956
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Torajan Plantation
+  rotate: false
+  xy: 1844, 848
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Yupa
   rotate: false
-  xy: 1000, 100
+  xy: 1844, 740
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -237,7 +251,7 @@ NationIcons/Banjar
   index: -1
 NationIcons/Banten
   rotate: false
-  xy: 112, 48
+  xy: 892, 160
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -258,14 +272,14 @@ NationIcons/Biak
   index: -1
 NationIcons/Bolaang Mongondow
   rotate: false
-  xy: 1571, 592
+  xy: 112, 48
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Bone
   rotate: false
-  xy: 1571, 484
+  xy: 892, 52
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -279,7 +293,7 @@ NationIcons/Brunei
   index: -1
 NationIcons/Buton
   rotate: false
-  xy: 1740, 1064
+  xy: 1000, 160
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -300,7 +314,7 @@ NationIcons/Demak
   index: -1
 NationIcons/Gorontalo
   rotate: false
-  xy: 892, 368
+  xy: 1740, 1064
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -328,7 +342,7 @@ NationIcons/Jambi
   index: -1
 NationIcons/Kutai
   rotate: false
-  xy: 892, 260
+  xy: 1848, 1064
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -349,7 +363,7 @@ NationIcons/Larantuka
   index: -1
 NationIcons/Luwu
   rotate: false
-  xy: 892, 152
+  xy: 1628, 800
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -377,7 +391,7 @@ NationIcons/Majapahit
   index: -1
 NationIcons/Malacca
   rotate: false
-  xy: 1364, 492
+  xy: 892, 268
   size: 199, 200
   orig: 199, 200
   offset: 0, 0
@@ -391,7 +405,7 @@ NationIcons/Mataram
   index: -1
 NationIcons/Medang
   rotate: false
-  xy: 892, 44
+  xy: 1628, 692
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -426,7 +440,7 @@ NationIcons/Siak
   index: -1
 NationIcons/Srivijaya
   rotate: false
-  xy: 1000, 316
+  xy: 1736, 848
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -447,7 +461,7 @@ NationIcons/Sunda
   index: -1
 NationIcons/Ternate
   rotate: false
-  xy: 1000, 208
+  xy: 1736, 740
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -466,9 +480,16 @@ NationIcons/Tondo
   orig: 200, 200
   offset: 0, 0
   index: -1
+NationIcons/Toraja
+  rotate: false
+  xy: 1420, 700
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 NationIcons/Wewiku-Wehali
   rotate: false
-  xy: 1156, 492
+  xy: 1364, 492
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -489,7 +510,7 @@ ResourceIcons/Bungamas
   index: -1
 ResourceIcons/Water Buffalo
   rotate: false
-  xy: 1420, 700
+  xy: 1156, 492
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

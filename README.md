@@ -53,6 +53,7 @@ Despite the fact that they didn't possess a large area of power, their influence
 - Bolaang Mongondow
 - Buton
 - Gorontalo
+- Toraja
 - Larantuka
 - Wewiku-Wehali
 - Igorot
