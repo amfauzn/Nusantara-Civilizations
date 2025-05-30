@@ -388,7 +388,7 @@
 			"uniqueTo": "Mataram",
 			"maintenance": 2,
 			"uniques": [
-				"New [Military] units start with [15] Experience [in this city]",
+				"New [Military] units start with [15] XP [in this city]",
 				"Comment [Does not require [Barracks]]",
 				"Automatically built in all cities where it is buildable",
 				"All newly-trained [non-air] units [in this city] receive the [Wareg] promotion",
@@ -691,7 +691,7 @@
 			"uniqueTo": "Wewiku-Wehali",
 			"cost": 1,
 			"uniques": [
-				"Only available <with [Sandalwoods]> <in cities without a [Aromatheraphy producer]>",
+				"Only available <with [Sandalwoods]> <in cities without a [Aromatherapy producer]>",
 				"Unsellable",
 				"Consumes [1] [Sandalwoods]",
 				"Provides [1] [Incense]",
@@ -737,15 +737,11 @@
 			"hurryCostModifier": 25,
 			"maintenance": 1,
 			"uniques": [
-				"New [Military] units start with [15] Experience [in this city]",
-				"New [{Ranged} {Water}] units start with [-15] Experience [in this city] <hidden from users>",
-				"New [Archery] units start with [-15] Experience [in this city] <hidden from users>",
-				"New [Siege] units start with [-15] Experience [in this city] <hidden from users>",
-				"All newly-trained [{Ranged} {Water}] units [in this city] receive the [Logistics] promotion  <hidden from users>",
-				"All newly-trained [Archery] units [in this city] receive the [Logistics] promotion <hidden from users>",
-				"All newly-trained [Siege] units [in this city] receive the [Logistics] promotion <hidden from users>",
-				"Comment [All newly-trained Ranged non-Gunpowder units receive the [Logistics] promotion]",
-				"Comment [New Military units without [Logistics] promotion start with 15 Experience]",
+				"New [Military] units start with [15] XP [in this city]",
+				"New [{Ranged} {non-air}] units start with [-15] XP [in this city] <hidden from users>",
+				"All newly-trained [{Ranged} {non-air}] units [in this city] receive the [Logistics] promotion  <hidden from users>",
+				"Comment [All newly-trained Ranged non-Air units receive the [Logistics] promotion]",
+				"Comment [New Military units without [Logistics] promotion start with 15 XP]",
 				//"[+15]% Production when constructing [Water] units [in this city]",
 				"Destroyed when the city is captured"
 			],
@@ -786,7 +782,7 @@
 			"hurryCostModifier": 25,
 			"maintenance": 1,
 			"uniques": [
-				"New [Military] units start with [15] Experience [in this city]",
+				"New [Military] units start with [15] XP [in this city]",
 				"[+4 Science] <while researching [Archery]> <hidden from users>",
 				"[+4 Science] <while researching [Horseback Riding]> <hidden from users>",
 				"[+4 Science] <while researching [Iron Working]> <hidden from users>",

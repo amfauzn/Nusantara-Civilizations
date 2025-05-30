@@ -25,6 +25,28 @@
 		"shortcutKey": "P"
 	},
 	
+	// Sumatra
+	
+		// Nias
+		{
+			"name": "Fahombo",
+			"uniqueTo": "Nias",
+			"terrainsCanBeBuiltOn": ["Land"],
+			"culture": 1,
+			"production": 1,
+			"turnsToBuild": 6,
+			"uniques": [
+				"Must be next to [City center]",
+				"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Fahombo] tiles>",
+				"Cannot be built on [resource] tiles",
+				"[+1 Culture] <in [Hill] tiles>",
+				"[+2 Culture] <after discovering [Archaeology]>",
+				"Pillaging this improvement yields approximately [+10 Gold]"
+			],
+			"techRequired": "Construction",
+			"shortcutKey": "N"
+		}
+	
 	// Java and Bali
 	
 		// Medang

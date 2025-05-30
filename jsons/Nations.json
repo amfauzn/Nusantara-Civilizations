@@ -143,14 +143,13 @@
 				"[+100]% Yield from every [Mine] <in [Coastal] tiles> <hidden from users>",
 				"[+100]% Yield from every [Trading post] <in [Coastal] tiles> <hidden from users>",
 				"[+100]% Yield from every [Camp] <in [Coastal] tiles> <hidden from users>",
-				"[+100]% Yield from every [Oil Well] <in [Coastal] tiles> <hidden from users>",
+				"[+100]% Yield from every [Oil well] <in [Coastal] tiles> <hidden from users>",
 				"[+100]% Yield from every [Pasture] <in [Coastal] tiles> <hidden from users>",
 				"[+100]% Yield from every [Plantation] <in [Coastal] tiles> <hidden from users>",
 				"[+100]% Yield from every [Quarry] <in [Coastal] tiles> <hidden from users>",
 				"[+100]% Yield from every [Moai] <in [Coastal] tiles> <hidden from users>",
 				"[+100]% Yield from every [Terrace farm] <in [Coastal] tiles> <hidden from users>",
 				"[+100]% Yield from every [Yupa] <in [Coastal] tiles> <hidden from users>",
-				"[+100]% Yield from every [Bubung Parani] <in [Coastal] tiles> <hidden from users>",
 				"Comment [+100% Yield from every improvement in Coastal tiles except Great Improvement]",
 				"[+1 Gold] <with [Citrus]> <hidden from users>",
 				"[+1 Gold] <with [Copper]> <hidden from users>",
@@ -179,6 +178,46 @@
 			"cities": ["Malacca","Singapore","Maur","Ujong Tanah","Bintan","Patani","Kuantan","Rokan","Kelantan","Terengganu", 
 				"Buantan","Rengat","Indragiri","Penang","Perlis","Alor Seta","Singora","Selangor","Perak","Langkasuka"],
 			"spyNames": ["Iskandar","Megat","Muzaffar","Alauddin Riayat","Mahmud","Ermieyati","Redzuan","Tuah","Jebat","Kasturi"]
+		},
+		
+		{
+			"name": "Nias",
+			"leaderName": "Saönigeho",
+			"adjective": ["Nias"],
+			"startBias": ["Coast"],
+			"preferredVictoryType": "Cultural",
+			"favoredReligion": "Christianity",
+
+			"startIntroPart1": "",
+			"startIntroPart2": "",
+
+			"declaringWar": "You outsiders have overstayed your welcome on these islands! I should have driven you out a long time ago!",
+			"attacked": "We stand resolute and will defend our sovereignty.",
+			"defeated": "Remember that true victory is not measured in territory, but in the hearts and cultures of people.",
+			"introduction": "Ya'ahowu! I am Saönigeho, king of Bawömataluo and leader of Nias people. It is with great reverence that I extend my greatest welcome to you",
+
+			"neutralHello": "Ya'ahowu!",
+			"hateHello": "Puki dödöu!",
+			"tradeRequest": "Accept this request, for I am certain our lands hold wonders yet unknown to you!",
+
+			"outerColor": [235,235,245],
+			"innerColor": [200,100, 40],
+			"uniqueName": "Owasa",
+			"uniques": [
+				"[+1 Food] from every [Cattle] <hidden from users>",
+				"[+1 Food] from every [Deer] <hidden from users>",
+				"[+1 Food] from every [Sheep] <hidden from users>",
+				"[+1 Food] from every [Water Buffalo] <hidden from users>", // to prevent mods combination error
+				"Comment [+1 [Food] from every Animal Bonus resource]",
+				"[+2 Food] from every [Cattle] <during a Golden Age> <hidden from users>",
+				"[+2 Food] from every [Deer] <during a Golden Age> <hidden from users>",
+				"[+2 Food] from every [Sheep] <during a Golden Age> <hidden from users>",
+				"[+2 Food] from every [Water Buffalo] <during a Golden Age> <hidden from users>",
+				"Comment [+2 [Food] more during a Golden Age]"
+			],
+			"cities": ["Bawömataluo","Teluk Dalam","Orahili","Gunungsitoli","Gidö","Lotu","Lahomi","Balöhalu","Sölago Tanö","Sitolu Ori",
+				"Sidua'ori","Ma'u","Simolo-molo","Sogaeadu","Idanogawo","Hiliserangkai","Botomuzoi","Bawolato","Ulugawo","Hiliduho"],
+			"spyNames": ["Maenamölo","Mendrofa","Bu'ulölö","Manaö","Zebua","Dorkas","Ya'atulo","Dona","Sowa'a","Suahasil"]
 		},
 		
 		// Pagaruyung
@@ -955,7 +994,7 @@
 			"uniqueName": "Anging Mamiri",
 			"uniques": [
 				"[+100]% Yield from every [Luxury resource]",
-				"New [Galle'] units start with [10] Experience [in all cities] <hidden from users>"
+				"New [Galle'] units start with [10] XP [in all cities] <hidden from users>"
 			],
 			"cities": ["Somba Opu","Tallo","Tamalate","Ujung Tanah","Balla Kiria","Pabineang","Jongaya","Selayar","Marusu","Wajo",
 				"Soppeng","Balanipa","Mamuju","Sigi","Palu","Parigi","Toli-Toli","Tolulu","Buol","Bulango",

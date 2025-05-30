@@ -106,7 +106,7 @@
 	UB Change Buatulo Bala -> Dulohupa
 - Cebu
 	UB Sibo now can only be built in coastal cities
-	Ub +1 Gold from Luxury tiles -> +2 Gold
+	UB +1 Gold from Luxury tiles -> +2 Gold
 - Removed Civ: Tarumanagara
 - New Civs: Biak and Sunda
 - Add leader portrait by KrankeWagon
@@ -220,6 +220,10 @@
 	Borneo generate Natural Wonders
 - Icon update: Madja-as, Tidore, Salawaku Warrior
 
+# v1.17 (30.05.2025)
+- Fix Biak's Rumsram giving Logistics to Air unit
+- Fix Wewiku-Wehali's UA not working as intended
+- New Civ: Nias
 
 
 

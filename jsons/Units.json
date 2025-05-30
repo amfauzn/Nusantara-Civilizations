@@ -128,7 +128,32 @@
 			"civilopediaText": [
 				{"text": "A commander of the navy. They plan, implement, and execute the complex maneuvers necessary to maintain naval superiority, providing the coastal security."}
 			]
-		}
+		},
+		
+		// Nias
+		{
+			"name": "Burusa Spearman",
+			"unitType": "Sword",
+			"uniqueTo": "Nias",
+			"replaces": "Spearman",
+			"movement": 2,
+			"strength": 11,
+			"cost": 56,
+			"requiredTech": "Bronze Working",
+			"obsoleteTech": "Civil Service",
+			"upgradesTo": "Pikeman",
+			"promotions": ["[Burusa Spearman] ability"],
+			"uniques": [
+				"[+50]% Strength <vs [Mounted] units>",
+				"Comment [Reduce damage taken by 5]",
+				"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>",
+				"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>",
+				"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <hidden from users>",
+				"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>",
+				"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <hidden from users>"
+			],
+			"attackSound": "metalhit"
+		},
 		
 		// Pagaruyung
 		{

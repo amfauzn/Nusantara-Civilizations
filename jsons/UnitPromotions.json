@@ -4,14 +4,16 @@
 		"uniques": ["Comment [+15% Strength bonus for Military units within 1 tiles]"]
 	},
 	{
+		"name": "[Burusa Spearman] ability",
+		"uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>"]
+	},
+	{
 		"name": "Silent Strike",
 		"uniques": ["[+50]% Strength <when attacking> <with [50]% chance>"]
 	},
 	{
 		"name": "Abangan",
-		"uniques": [
-			"When spreading religion to a city, gain [10] times the amount of followers of other religions as [Culture]"
-		]
+		"uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Culture]"]
 	},
 	{
 		"name": "Putihan",
@@ -126,7 +128,7 @@
 	{
 		"name": "Babaylan shamanism",
 		"uniques": [
-			"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Hulubalang] unit>",
+			"[This Unit] heals [5] HP <upon ending a turn in a [All] tile> <when adjacent to a [Babaylan] unit>",
 			"Will not be displayed in Civilopedia"
 		]
 	},

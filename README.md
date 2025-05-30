@@ -1,5 +1,5 @@
 # Nusantara Expansion
-Add polity, kingdoms and sultanate from Nusantara (Indonesia, Malaysia, Singapore, Timor, and The Philippines)
+Add civilizations, polities, kingdoms and sultanates from Nusantara (Indonesia, Malaysia, Singapore, Timor, and The Philippines)
 -
 
 ## Chosen Civilizations
@@ -45,9 +45,10 @@ Regional powers are a sovereign polity that exercises significant power within a
 - Sulu
 - Maguindanao
 
-### Unique Polities
+### Unique Civilizations/Polities
 Despite the fact that they didn't possess a large area of power, their influence on history can't be underestimated. They practises a different cultures and/or rules with some of them managed to survive until this day.
 - Batak
+- Nias
 - Bali
 - Lanfang
 - Bolaang Mongondow

@@ -1,516 +1,544 @@
 
-game.png
+Icons.png
 size: 2048, 2048
 format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
+filter: MipMapLinearLinear, Linear
 repeat: none
+ImprovementIcons/Circle
+  rotate: false
+  xy: 4, 4
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ResourceIcons/Circle
+  rotate: false
+  xy: 4, 4
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Fahombo
+  rotate: false
+  xy: 1532, 1566
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Floating Market
   rotate: false
-  xy: 1000, 52
+  xy: 892, 142
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Payew
   rotate: false
-  xy: 1684, 956
+  xy: 1324, 210
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Silpin Holy site
   rotate: false
-  xy: 1792, 956
+  xy: 1432, 210
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Torajan Pasture
   rotate: false
-  xy: 1900, 956
+  xy: 1324, 102
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Torajan Plantation
   rotate: false
-  xy: 1844, 848
+  xy: 1432, 102
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Yupa
   rotate: false
-  xy: 1844, 740
+  xy: 1684, 990
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 LeaderIcons/Anyakrakusuma
   rotate: false
-  xy: 4, 1740
+  xy: 4, 1774
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Arung Palakka
   rotate: false
-  xy: 4, 1476
+  xy: 4, 1510
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Azim Ud-Din I
   rotate: false
-  xy: 268, 1740
+  xy: 268, 1774
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Baabullah
   rotate: false
-  xy: 4, 1212
+  xy: 4, 1246
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Balaputradewa
   rotate: false
-  xy: 268, 1476
+  xy: 268, 1510
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Baturenggong
   rotate: false
-  xy: 532, 1740
+  xy: 532, 1774
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Hayam Wuruk
   rotate: false
-  xy: 4, 948
+  xy: 4, 982
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Hidayatullah
   rotate: false
-  xy: 268, 1212
+  xy: 268, 1246
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Humabon
   rotate: false
-  xy: 532, 1476
+  xy: 532, 1510
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Ilahudu
   rotate: false
-  xy: 796, 1740
+  xy: 796, 1774
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Iskandar Muda
   rotate: false
-  xy: 4, 684
+  xy: 4, 718
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/James Brooke
   rotate: false
-  xy: 268, 948
+  xy: 268, 982
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Kalangitan
   rotate: false
-  xy: 532, 1212
+  xy: 532, 1246
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Kedah
   rotate: false
-  xy: 796, 1476
+  xy: 796, 1510
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Kudarat
   rotate: false
-  xy: 1060, 1740
+  xy: 1060, 1774
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Kurabesi
   rotate: false
-  xy: 4, 420
+  xy: 4, 454
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Luo Fangbo
   rotate: false
-  xy: 268, 684
+  xy: 268, 718
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Mansur Shah
   rotate: false
-  xy: 532, 948
+  xy: 532, 982
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Matoaya
   rotate: false
-  xy: 796, 1212
+  xy: 796, 1246
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Neken Liurai
   rotate: false
-  xy: 1060, 1476
+  xy: 1060, 1510
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Nuku
   rotate: false
-  xy: 1324, 1740
+  xy: 1324, 1774
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Rakai Panangkaran
   rotate: false
-  xy: 4, 156
+  xy: 4, 190
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Sayyid Ali
   rotate: false
-  xy: 268, 420
+  xy: 268, 454
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Siliwangi
   rotate: false
-  xy: 532, 684
+  xy: 532, 718
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Sisingamangaraja XII
   rotate: false
-  xy: 796, 948
+  xy: 796, 982
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 LeaderIcons/Tirtayasa
   rotate: false
-  xy: 1060, 1212
+  xy: 1060, 1246
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Aceh
   rotate: false
-  xy: 1324, 1532
+  xy: 1324, 1566
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Bali
   rotate: false
-  xy: 4, 48
+  xy: 1740, 1098
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Banjar
   rotate: false
-  xy: 268, 212
+  xy: 268, 246
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Banten
   rotate: false
-  xy: 892, 160
+  xy: 1848, 1098
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Batak
   rotate: false
-  xy: 532, 476
+  xy: 532, 510
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Biak
   rotate: false
-  xy: 796, 740
+  xy: 796, 774
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Bolaang Mongondow
   rotate: false
-  xy: 112, 48
+  xy: 1628, 834
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Bone
   rotate: false
-  xy: 892, 52
+  xy: 1628, 726
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Brunei
   rotate: false
-  xy: 1060, 1004
+  xy: 1060, 1038
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Buton
   rotate: false
-  xy: 1000, 160
+  xy: 892, 250
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Cebu
   rotate: false
-  xy: 1796, 1796
+  xy: 1796, 1830
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Demak
   rotate: false
-  xy: 1324, 1116
+  xy: 1324, 1150
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Gorontalo
   rotate: false
-  xy: 1740, 1064
+  xy: 1000, 250
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Gowa-Tallo
   rotate: false
-  xy: 1532, 1532
+  xy: 1532, 1358
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Igorot
   rotate: false
-  xy: 1532, 1324
+  xy: 1532, 1150
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Jambi
   rotate: false
-  xy: 1532, 1116
+  xy: 1740, 1622
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Kutai
   rotate: false
-  xy: 1848, 1064
+  xy: 1000, 142
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Lanfang
   rotate: false
-  xy: 1740, 1588
+  xy: 1740, 1414
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Larantuka
   rotate: false
-  xy: 1740, 1380
+  xy: 1740, 1206
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Luwu
   rotate: false
-  xy: 1628, 800
+  xy: 1108, 210
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Madja-as
   rotate: false
-  xy: 1740, 1172
+  xy: 268, 38
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Maguindanao
   rotate: false
-  xy: 268, 4
+  xy: 476, 246
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Majapahit
   rotate: false
-  xy: 476, 212
+  xy: 476, 38
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Malacca
   rotate: false
-  xy: 892, 268
+  xy: 1364, 318
   size: 199, 200
   orig: 199, 200
   offset: 0, 0
   index: -1
 NationIcons/Mataram
   rotate: false
-  xy: 476, 4
+  xy: 740, 510
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Medang
   rotate: false
-  xy: 1628, 692
+  xy: 1216, 210
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Nias
+  rotate: false
+  xy: 684, 302
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 NationIcons/Pagaruyung
   rotate: false
-  xy: 740, 476
+  xy: 684, 94
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Patani
   rotate: false
-  xy: 684, 268
+  xy: 1004, 774
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Sarawak
   rotate: false
-  xy: 684, 60
+  xy: 948, 566
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Siak
   rotate: false
-  xy: 1004, 740
+  xy: 1268, 942
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Srivijaya
   rotate: false
-  xy: 1736, 848
+  xy: 1108, 102
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Sulu
   rotate: false
-  xy: 948, 532
+  xy: 1476, 942
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Sunda
   rotate: false
-  xy: 1268, 908
+  xy: 1212, 734
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Ternate
   rotate: false
-  xy: 1736, 740
+  xy: 1216, 102
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Tidore
   rotate: false
-  xy: 1476, 908
+  xy: 1420, 734
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Tondo
   rotate: false
-  xy: 1212, 700
+  xy: 1156, 526
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Toraja
   rotate: false
-  xy: 1420, 700
+  xy: 1364, 526
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Wewiku-Wehali
   rotate: false
-  xy: 1364, 492
+  xy: 1156, 318
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Aromatherapy
   rotate: false
-  xy: 1588, 1796
+  xy: 1588, 1830
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Bungamas
   rotate: false
-  xy: 1324, 1324
+  xy: 1324, 1358
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Water Buffalo
   rotate: false
-  xy: 1156, 492
+  xy: 948, 358
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
