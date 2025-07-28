@@ -246,8 +246,8 @@
 			"innerColor": [249,243,167],
 			"uniqueName": "Minang Homeland",
 			"uniques": [
-				"Double quantity of [Gold Ore] produced",
-				"Double quantity of [Silver] produced",
+				"[+100]% [Gold Ore] resource production",
+				"[+100]% [Silver] resource production",
 				"[Great Merchant] is earned [50]% faster"
 			],
 			"cities": ["Pagaruyung","Padang","Bukittinggi","Buo","Tiku","Pariaman","Sumpur Kudus","Sungai Tarab","Payakumbuh","Sumanik",
@@ -816,7 +816,7 @@
 			"uniqueName": "White Rajah",
 			"uniques": [
 				"[+1 Production, +1 Gold] from every [Coal]",
-				"Double quantity of [Coal] produced",
+				"[+100]% [Coal] resource production",
 				"[Gold] cost of purchasing [Military] units [-10]%"
 			],
 			"cities": ["Kuching","Lundu","Serian","Sri Aman","Lubok Antu","Saratok","Song","Daro","Sibu","Kanowit",

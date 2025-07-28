@@ -462,7 +462,7 @@
 			"cost": 125,
 			"uniques": [
 				"Indicates the capital city",
-				"[-15]% maintenance cost for buildings [in this city]",
+				"[-15]% maintenance cost for [all] buildings [in this city]",
 				"Comment [Limited to [4] per Civilization]",
 				"Remove [Komalig (duplicate)] [in this city] <hidden from users>"
 			],
@@ -482,7 +482,7 @@
 			"cost": 125,
 			"uniques": [
 				"Only available <in cities without a [Komalig]> <hidden from users>",
-				"[-15]% maintenance cost for buildings [in this city]",
+				"[-15]% maintenance cost for [all] buildings [in this city]",
 				"Comment [Limited to [4] per Civilization]",
 				"Limited to [3] per Civilization <hidden from users>",
 				"Destroyed when the city is captured",
@@ -539,7 +539,7 @@
 			"maintenance": 2,
 			"hurryCostModifier": 0,
 			"uniques": [
-				"Remove extra unhappiness from annexed cities",
+				"Removes extra unhappiness from annexed cities",
 				"Can only be built <in [Annexed] cities>",
 				"Comment [Can also be built in capital]",
 				"Comment [+3 [Happiness], +3 [Culture], 0 Maintenance if constructed in capital]"
