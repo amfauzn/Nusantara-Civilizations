@@ -534,8 +534,8 @@
 			"defeated": "This is only a temporary setback. I'll be back before long!",
 			"introduction": "Welcome to Demak. You may call me Sultan Trenggana.",
 
-			"neutralHello": "Yes?",
-			"hateHello": "Cah gathel!",
+			"neutralHello": "Diancukkk!",
+			"hateHello": "Asu,Gathel!",
 			"tradeRequest": "Ngeten pripun mase?",
 
 			"outerColor": [153,153, 45],
@@ -551,10 +551,14 @@
 				"All newly-trained [Wali] units [in all cities] receive the [Abangan] promotion <when below [9] [STP-1]> <when above [5] [STP-1]> <hidden from users>",
 				"All newly-trained [Wali] units [in all cities] receive the [Putihan] promotion <when above [8] [STP-1]> <hidden from users>"
 			],
-			"cities": ["Demak","Jepara","Kudus","Rembang","Tingkir","Pajang","Ampel","Gresik","Bangkalan","Mojokerto",
-				"Semarang","Pati","Prawoto","Lasem","Juwana","Tuban","Jipang","Kadiri","Madura","Madiun",
-				"Surabaya","Sidoarjo","Lamongan","Pasuruan","Malang","Sengguruh","Panarukan","Brebes","Cirebon","Banten"],
-			"spyNames": ["Patah","Unus","Penangsang","Ngudung","Fatahillah","Hadiwijaya","Bayat","Kusen","Pandan Arang","Ratna Kencana"]
+			"cities": ["Demak Bintoro","Jepara","Kudus","Semarang","Rembang","Pati","Pengging","Surakarta", 
+			"Purwodadi","Blora","Sukowati","Salatiga","Ungaran","Karanganyar","Magetan","Madiun","Ngawi","Banyubiru",
+			"Pasuruan","Lasem","Kalinyamat","Surabaya","Madura","Panarukan","Tuban","Lamongan","Bojonegoro","Kartasura",
+			"Jipang","Pasuruan","Ampel","Gresik","Mojokerto","Banten","Kediri"
+"]
+	}
+]
+			"spyNames": ["Patah","Unus","Penangsang","Ngudung","Fatahillah","Hadiwijaya","Sunan Kalijogo","Prawata","Pandan Arang","Ratna Kencana"]
 		},
 		
 		// Banten
