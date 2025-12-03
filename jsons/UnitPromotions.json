@@ -28,6 +28,19 @@
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"]
 	},
 	{
+		"name": "Upgrade to Trireme", // for Bali's Janggolan
+		"uniques": [
+			"Comment [Can upgrade to [Trireme]]",
+			"[This Unit] loses the [Upgrade to Trireme] promotion <upon turn end> <for [Trireme] units> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		],
+		"unitTypes": ["Civilian Water"],
+	},
+	{
+		"name": "[Kampong Ayer] ability",
+		"uniques": ["Can instantly construct a [Kampong Ayer] improvement <by consuming this unit>"]
+	},
+	{
 		"name": "Seller",
 		"uniques": ["Can instantly construct a [Floating Market] improvement <by consuming this unit>"]
 	},
@@ -60,7 +73,10 @@
 	},
 	{
 		"name": "[Huwangga] ability",
-		"uniques": ["Double movement in [Hill]"]
+		"uniques": [
+			"Double movement in [Hill]",
+			"Earn [20]% of the damage done to [Land] units as [Golden Age points]"
+		]
 	},
 	{
 		"name": "Makula'",

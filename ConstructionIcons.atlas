@@ -1,586 +1,593 @@
 
-ConstructionIcons.png
+ConstructionsIcons.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, Linear
 repeat: none
 BuildingIcons/Aromatherapy producer
   rotate: false
-  xy: 4, 1576
+  xy: 4, 1565
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Bale Pasogit
   rotate: false
-  xy: 212, 1576
+  xy: 212, 1565
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Bola Soba
   rotate: false
-  xy: 1460, 1676
+  xy: 836, 833
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bothoan
   rotate: false
-  xy: 4, 1159
+  xy: 4, 1148
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Candi Sewu
   rotate: false
-  xy: 4, 15
+  xy: 1252, 1249
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Darul Jambangan
   rotate: false
-  xy: 420, 428
+  xy: 1776, 1873
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Dermaga
   rotate: false
-  xy: 836, 944
+  xy: 1884, 1873
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Dulohupa
   rotate: false
-  xy: 420, 1576
+  xy: 420, 1565
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Dulohupa Capital
   rotate: false
-  xy: 420, 1576
+  xy: 420, 1565
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Gunongan
   rotate: false
-  xy: 4, 951
+  xy: 4, 940
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Incense producer
+BuildingIcons/Ijang
   rotate: false
-  xy: 944, 836
+  xy: 944, 833
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Kampong Ayer
+BuildingIcons/Incense producer
   rotate: false
-  xy: 112, 15
+  xy: 944, 725
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Kampua
   rotate: false
-  xy: 320, 220
+  xy: 1576, 1341
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Katedral Reinha Rosari
   rotate: false
-  xy: 736, 637
+  xy: 1576, 1234
   size: 100, 99
   orig: 100, 99
   offset: 0, 0
   index: -1
 BuildingIcons/Komalig
   rotate: false
-  xy: 844, 728
+  xy: 1052, 933
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Komalig (duplicate)
   rotate: false
-  xy: 844, 728
+  xy: 1052, 933
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Leuit
   rotate: false
-  xy: 420, 1160
+  xy: 420, 1149
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Lumbung Pari
   rotate: false
-  xy: 844, 512
+  xy: 1784, 1765
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Olang-Olang Stage
   rotate: false
-  xy: 328, 112
+  xy: 1784, 1549
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Palengke
   rotate: false
-  xy: 220, 4
+  xy: 1892, 1765
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Panre Bessi
   rotate: false
-  xy: 420, 952
+  xy: 420, 941
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Pesantren
   rotate: false
-  xy: 628, 1160
+  xy: 628, 1149
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Pura
   rotate: false
-  xy: 1260, 1360
+  xy: 1892, 1549
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Rante
   rotate: false
-  xy: 1044, 1576
+  xy: 1044, 1565
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Rumah Gadang
   rotate: false
-  xy: 1252, 1784
+  xy: 1252, 1773
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Rumsram
   rotate: false
-  xy: 4, 331
+  xy: 4, 320
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Sibo
   rotate: false
-  xy: 628, 952
+  xy: 836, 1149
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Stone House
   rotate: false
-  xy: 1368, 1360
+  xy: 1260, 1033
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Tasikardi
   rotate: false
-  xy: 1676, 1776
+  xy: 1684, 1333
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Torogan
   rotate: false
-  xy: 1252, 1576
+  xy: 1460, 1773
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Ume
   rotate: false
-  xy: 1460, 1784
+  xy: 4, 112
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Zongting
   rotate: false
-  xy: 628, 744
+  xy: 1252, 1357
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Albahdir
   rotate: false
-  xy: 4, 1784
+  xy: 4, 1773
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Anak Makassar
   rotate: false
-  xy: 836, 1052
+  xy: 1460, 1665
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Asvamedha Horse
   rotate: false
-  xy: 1044, 1260
+  xy: 1668, 1873
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Babaylan
   rotate: false
-  xy: 212, 1784
+  xy: 212, 1773
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Balasiong Swordsman
   rotate: false
-  xy: 4, 1367
+  xy: 4, 1356
   size: 200, 201
   orig: 200, 201
   offset: 0, 0
   index: -1
 UnitIcons/Bessing Banranga
   rotate: false
-  xy: 1252, 1468
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bogani
   rotate: false
-  xy: 420, 1784
+  xy: 420, 1773
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Borobudur Ship
   rotate: false
-  xy: 1668, 1884
+  xy: 1044, 1041
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Burusa Spearman
   rotate: false
-  xy: 212, 1368
+  xy: 212, 1357
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Cetbang
   rotate: false
-  xy: 212, 220
+  xy: 1460, 1557
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Darussalam-Class
   rotate: false
-  xy: 628, 636
+  xy: 1460, 1449
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Fisherman
   rotate: false
-  xy: 628, 1784
+  xy: 628, 1773
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Galle'
   rotate: false
-  xy: 1776, 1884
+  xy: 1568, 1665
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Garay
   rotate: false
-  xy: 836, 836
+  xy: 1568, 1557
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ghali
   rotate: false
-  xy: 1884, 1884
+  xy: 1568, 1449
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hakka Militia
   rotate: false
-  xy: 212, 1160
+  xy: 212, 1149
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Huwangga
   rotate: false
-  xy: 944, 1052
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ibanic Warrior
   rotate: false
-  xy: 944, 944
+  xy: 836, 725
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Janggolan
   rotate: false
-  xy: 1152, 1260
+  xy: 1152, 1041
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Jong
   rotate: false
-  xy: 1360, 1468
+  xy: 1360, 1249
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Juanga
   rotate: false
-  xy: 1568, 1676
+  xy: 1468, 1341
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Kanta Warrior
   rotate: false
-  xy: 420, 1368
+  xy: 420, 1357
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Kanta Warrior (Makula')
   rotate: false
-  xy: 420, 1368
+  xy: 420, 1357
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Karambit Warrior
   rotate: false
-  xy: 528, 428
+  xy: 1468, 1233
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Kora kora
   rotate: false
-  xy: 952, 728
+  xy: 1052, 825
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Kujang Warrior
   rotate: false
-  xy: 628, 1576
+  xy: 628, 1565
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Laksamana
   rotate: false
-  xy: 836, 1784
+  xy: 836, 1773
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Lancang
   rotate: false
-  xy: 844, 620
+  xy: 1052, 717
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Lancaran
   rotate: false
-  xy: 4, 747
+  xy: 4, 736
   size: 200, 196
   orig: 200, 196
   offset: 0, 0
   index: -1
 UnitIcons/Larantuqueiros
   rotate: false
-  xy: 212, 952
+  xy: 212, 941
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Liya Guard
   rotate: false
-  xy: 952, 620
+  xy: 1676, 1765
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Lonjo
   rotate: false
-  xy: 736, 529
+  xy: 1676, 1657
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Maharlika
   rotate: false
-  xy: 628, 1368
+  xy: 628, 1357
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Malim
   rotate: false
-  xy: 836, 1576
+  xy: 836, 1565
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Meo
   rotate: false
-  xy: 1044, 1784
+  xy: 1044, 1773
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Meriam Ki Amuk
   rotate: false
-  xy: 952, 512
+  xy: 1676, 1549
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mingol
   rotate: false
-  xy: 4, 539
+  xy: 4, 528
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Nabur Swordsman
   rotate: false
-  xy: 220, 112
+  xy: 1784, 1657
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pambedil
   rotate: false
-  xy: 328, 4
+  xy: 1892, 1657
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pandeka
   rotate: false
-  xy: 212, 744
+  xy: 212, 733
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Phaya Tani
   rotate: false
-  xy: 836, 1368
+  xy: 836, 1357
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Rudus Swordsman
   rotate: false
-  xy: 1260, 1252
+  xy: 1260, 1141
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Salawaku Warrior
   rotate: false
-  xy: 212, 536
+  xy: 420, 733
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Seri Bija Diraja
   rotate: false
-  xy: 420, 744
+  xy: 628, 941
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Silpin
   rotate: false
-  xy: 836, 1160
+  xy: 1044, 1357
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Tappi Swordsman
   rotate: false
-  xy: 1368, 1252
+  xy: 1684, 1441
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tataya
+  rotate: false
+  xy: 1684, 1225
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/The Rajah Brooke
   rotate: false
-  xy: 1784, 1776
+  xy: 1576, 1126
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Timawa
   rotate: false
-  xy: 1044, 1368
+  xy: 1252, 1565
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wali
   rotate: false
-  xy: 4, 123
+  xy: 628, 733
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Warion
   rotate: false
-  xy: 212, 328
+  xy: 836, 941
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wasay Axeman
   rotate: false
-  xy: 420, 536
+  xy: 1044, 1149
   size: 200, 200
   orig: 200, 200
   offset: 0, 0

@@ -150,7 +150,7 @@
 		"gold": 4,
 		"happiness": 5,
 		"production": 8,
-		"science": 4,
+		"science": 5,
 		
 		"military": 5,
 		"aggressive": 2,
@@ -279,6 +279,76 @@
 		}
 	},
 	
+	// Gorontalo
+	{
+		"name": "Ilahudu",
+		"preferredVictoryType": "Diplomatic",
+		
+		"culture": 3,
+		"faith": 6,
+		"food": 6,
+		"gold": 6,
+		"happiness": 8,
+		"production": 5,
+		"science": 6,
+		
+		"military": 7,
+		"aggressive": 6,
+		"declareWar": 5,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 3,
+		"expansion": 7,
+		
+		"priorities": {
+			"Tradition": 10,
+			"Liberty": 20,
+			"Honor": 10,
+			"Piety": 10,
+			"Patronage": 10,
+			"Commerce": 20,
+			"Rationalism": 20,
+			"Freedom": 10,
+			"Autocracy": 50,
+			"Order": 10
+		}
+	},
+	
+	// Toraja
+	{
+		"name": "Pong Tiku",
+		"preferredVictoryType": "Cultural",
+		
+		"culture": 7,
+		"faith": 5,
+		"food": 6,
+		"gold": 5,
+		"happiness": 3,
+		"production": 5,
+		"science": 7,
+		
+		"military": 4,
+		"aggressive": 4,
+		"declareWar": 2,
+		"commerce": 6,
+		"diplomacy": 7,
+		"loyal": 6,
+		"expansion": 5,
+		
+		"priorities": {
+			"Tradition": 30,
+			"Liberty": 10,
+			"Honor": 0,
+			"Piety": 10,
+			"Patronage": 10,
+			"Commerce": 10,
+			"Rationalism": 20,
+			"Freedom": 50,
+			"Autocracy": 0,
+			"Order": 10
+		}
+	},
+	
 	// Maguindanao
 	{
 		"name": "Kudarat",
@@ -373,7 +443,7 @@
 		}
 	},
 	{
-		"name": "Centralized Creativity", // Jambi, Bolaang Mongondow, Larantuka
+		"name": "Centralized Creativity", // Jambi, Bolaang Mongondow, Larantuka, Nias
 		"preferredVictoryType": "Cultural",
 		
 		"culture": 8,
@@ -399,7 +469,7 @@
 			"Piety": 10,
 			"Patronage": 10,
 			"Commerce": 10,
-			"Rationalism": 10,
+			"Rationalism": 20,
 			"Freedom": 50,
 			"Autocracy": 0,
 			"Order": 10
@@ -472,7 +542,7 @@
 		}
 	},
 	{
-		"name": "Mother to the People", // Pagaruyung, pATANI, Tondo
+		"name": "Mother to the People", // Pagaruyung, Patani, Tondo
 		"preferredVictoryType": "Diplomatic",
 		
 		"culture": 6,
@@ -505,7 +575,7 @@
 		}
 	},
 	{
-		"name": "Organized Expansionist", // Luwu, Biak
+		"name": "Organized Expansionist", // Luwu, Biak, Sarawak
 		"preferredVictoryType": "Domination",
 		"food": 6,
 		"production": 6,

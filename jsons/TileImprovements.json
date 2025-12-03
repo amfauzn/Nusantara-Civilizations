@@ -35,6 +35,7 @@
 			"culture": 1,
 			"production": 1,
 			"turnsToBuild": 6,
+			"techRequired": "Construction",
 			"uniques": [
 				"Must be next to [City center]",
 				"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Fahombo] tiles>",
@@ -43,8 +44,10 @@
 				"[+2 Culture] <after discovering [Archaeology]>",
 				"Pillaging this improvement yields approximately [+10 Gold]"
 			],
-			"techRequired": "Construction",
-			"shortcutKey": "N"
+			"shortcutKey": "N",
+			"civilopediaText": [
+				{"text": "A stone-jumping ritual where young men leap over towering stone walls to prove their strength and readiness for adulthood."},
+			]
 		}
 	
 	// Java and Bali
@@ -66,20 +69,50 @@
 	
 	// Borneo
 		
-		// Kutai Martadipura
+		// Brunei
+		{
+			"name": "Kampong Ayer",
+			"uniqueTo": "Brunei",
+			"terrainsCanBeBuiltOn": ["Coast"],
+			"food": 1,
+			"gold": 1,
+			"techRequired": "Optics",
+			"uniques": [
+				"Must be next to [Land]"
+				"[+1 Gold] for each adjacent [City center]",
+				"[+1 Gold] for each adjacent [Water resource]",
+				//"[+1 Culture] <after discovering [Flight]>",
+				"Pillaging this improvement yields approximately [+20 Gold]"
+			],
+			"shortcutKey": "F",
+			"civilopediaText": [
+				{"text": "A traditional settlement in Bandar Seri Begawan, the capital of Brunei. It comprises neighbourhoods of traditional houses, schools and mosques built on stilts above the Brunei River near the capital's city centre."},
+			]
+		},
+		
+		// Kutai
 		{
 			"name": "Yupa",
 			"uniqueTo": "Kutai",
 			"terrainsCanBeBuiltOn": ["Land"],
 			"science": 1,
+			"culture": 1,
 			"turnsToBuild": 8,
-			"uniques": [
-				"[+1 Culture] for each adjacent [Pasture]",
-				"[+1 Culture, +1 Science] <after discovering [Archaeology]>",
-				"Pillaging this improvement yields approximately [+10 Gold]"
-			],
 			"techRequired": "Writing",
-			"shortcutKey": "Y"
+			"uniques": [
+				"Comment [Limited to 7 per Civilization]",
+				"Provides [1] [Counter] <hidden from users>",
+				"Only available <when below [7] [Counter]> <hidden from users>",
+				"Does not need removal of [Forest]",
+				"Does not need removal of [Jungle]",
+				"[+2 Culture, +2 Science] <after discovering [Education]>",
+				"[+3 Culture, +3 Science] <after discovering [Archaeology]>",
+				"Pillaging this improvement yields approximately [+20 Gold]"
+			],
+			"shortcutKey": "Y",
+			"civilopediaText": [
+				{"text": "Andesite sacrificial pillars inscribed by Brahmins to commemorate the sacrifices held by Mulavarman, king of Kutai."},
+			]
 		},
 		
 		// Banjar
@@ -88,12 +121,15 @@
 			"uniqueTo": "Banjar",
 			"terrainsCanBeBuiltOn": ["Lakes","Flood plains"],
 			"gold": 2,
+			"techRequired": "Guilds",
 			"uniques": [
 				"[+2 Food, +1 Gold] <after discovering [Economics]>",
 				"Pillaging this improvement yields approximately [+12 Gold]"
 			],
-			"techRequired": "Guilds",
-			"shortcutKey": "T"
+			"shortcutKey": "T",
+			"civilopediaText": [
+				{"text": "A market where goods are sold from boats, typically on rivers or canals. "},
+			]
 		},
 	
 	// Sulawesi
@@ -109,6 +145,10 @@
 				"Does not need removal of [Forest]",
 				"[+1 Food] <after discovering [Fertilizer]>",
 				"Can only be built to improve a resource",
+				"Improves [Cattle] resource in this tile",
+				"Improves [Horses] resource in this tile",
+				"Improves [Sheep] resource in this tile",
+				"Improves [Water Buffalo] resource in this tile",
 				"Pillaging this improvement yields approximately [+10 Gold]",
 				"Will not be displayed in Civilopedia"
 			],
@@ -124,6 +164,13 @@
 				"Does not need removal of [Forest]",
 				"[+1 Food] <after discovering [Fertilizer]>",
 				"Can only be built to improve a resource",
+				"Improves [Citrus] resource in this tile",
+				"Improves [Dyes] resource in this tile",
+				"Improves [Incense] resource in this tile",
+				"Improves [Silk] resource in this tile",
+				"Improves [Spices] resource in this tile",
+				"Improves [Sugar] resource in this tile",
+				"Improves [Wine] resource in this tile",
 				"Pillaging this improvement yields approximately [+10 Gold]",
 				"Will not be displayed in Civilopedia"
 			],
@@ -139,6 +186,7 @@
 			"terrainsCanBeBuiltOn": ["Mountain"],
 			"food": 2,
 			"turnsToBuild": 7,
+			"techRequired": "Civil Service",
 			"uniques": [
 				"Comment [Yield also affected by neighboring improvements, except Great Improvement]", 
 				"Comment [Same improvement does not stack]", 
@@ -156,8 +204,32 @@
 				"[+1 Food] <with [1] to [6] neighboring [Terrace farm] tiles> <hidden from users>", 
 				"[+1 Food] <with [1] to [6] neighboring [Polder] tiles> <hidden from users>", 
 				"[+1 Food] <after discovering [Fertilizer]>", 
-				"Pillaging this improvement yields approximately [+24 Gold]"],
-			"techRequired": "Civil Service",
-			"shortcutKey": "F"
+				"Pillaging this improvement yields approximately [+24 Gold]"
+			],
+			"shortcutKey": "F",
+			"civilopediaText": [
+				{"text": "Terraces carved into the mountains by the Igorot people, sustained by an ancient irrigation system that channels water from the rainforests above."},
+			]
 		},
+		
+		// Ivatan
+		{
+			"name": "Idjang",
+			"uniqueTo": "Ivatan",
+			"terrainsCanBeBuiltOn": ["Hill"],
+			"techRequired": "Engineering",
+			"uniques": [
+				"Comment [Constructed via building]",
+				"Comment [Limited to 1 per city]",
+				"Cannot be built on [Luxury resource] tiles",
+				"Removes removable features when built",
+				"Gives a defensive bonus of [50]%",
+				"Adjacent enemy units ending their turn take [10] damage",
+				"Improves [Strategic] resource in this tile",
+				"Tile provides yield without assigned population"
+			],
+			"civilopediaText": [
+				{"text": "A terraced hillfort settlements built on hill tops and ridges, serving as fortresses or refuge against the enemies."},
+			]
+		}
 ]

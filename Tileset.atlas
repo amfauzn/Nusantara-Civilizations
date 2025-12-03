@@ -6,2037 +6,2107 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/AbsoluteUnits/Units/Albahdir
   rotate: false
-  xy: 931, 958
+  xy: 1616, 865
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Albahdir-1
   rotate: false
-  xy: 107, 143
+  xy: 1760, 865
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Albahdir-2
   rotate: false
-  xy: 313, 321
+  xy: 1904, 865
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Asvamedha Horse
   rotate: false
-  xy: 4, 937
+  xy: 4, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Bessing Banranga
   rotate: false
-  xy: 4, 848
+  xy: 4, 844
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Bessing Banranga-1
   rotate: false
-  xy: 107, 937
+  xy: 107, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Bessing Banranga-2
   rotate: false
-  xy: 4, 759
+  xy: 4, 755
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Bogani
   rotate: false
-  xy: 107, 848
+  xy: 107, 844
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Bogani-1
   rotate: false
-  xy: 210, 937
+  xy: 210, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Bogani-2
   rotate: false
-  xy: 4, 670
+  xy: 4, 666
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Fisherman
   rotate: false
-  xy: 107, 759
+  xy: 107, 755
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Fisherman-1
   rotate: false
-  xy: 210, 848
+  xy: 210, 844
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Fisherman-2
   rotate: false
-  xy: 313, 937
+  xy: 313, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Hakka Militia
   rotate: false
-  xy: 4, 581
+  xy: 4, 577
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Hakka Militia-2
   rotate: false
-  xy: 107, 670
+  xy: 107, 666
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Hakka militia-1
   rotate: false
-  xy: 210, 759
+  xy: 210, 755
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Huwangga
   rotate: false
-  xy: 313, 848
+  xy: 313, 844
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Huwangga-1
   rotate: false
-  xy: 416, 937
+  xy: 416, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Huwangga-2
   rotate: false
-  xy: 4, 492
+  xy: 4, 488
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Ibanic Warrior
   rotate: false
-  xy: 282, 236
+  xy: 992, 563
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Ibanic Warrior
   rotate: false
-  xy: 282, 236
+  xy: 992, 563
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Ibanic Warrior-1
   rotate: false
-  xy: 385, 325
+  xy: 1137, 850
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Ibanic Warrior-1
   rotate: false
-  xy: 385, 325
+  xy: 1137, 850
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Ibanic Warrior-2
   rotate: false
-  xy: 735, 455
+  xy: 1209, 850
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Ibanic Warrior-2
   rotate: false
-  xy: 735, 455
+  xy: 1209, 850
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Kujang Warrior
   rotate: false
-  xy: 107, 567
+  xy: 107, 563
   size: 95, 95
   orig: 95, 95
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Kujang Warrior-1
   rotate: false
-  xy: 210, 656
+  xy: 210, 652
   size: 95, 95
   orig: 95, 95
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Kujang Warrior-2
   rotate: false
-  xy: 313, 745
+  xy: 313, 741
   size: 95, 95
   orig: 95, 95
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Liya Guard
   rotate: false
-  xy: 416, 848
+  xy: 416, 844
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Liya Guard-1
   rotate: false
-  xy: 519, 937
+  xy: 519, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Liya Guard-2
   rotate: false
-  xy: 4, 403
+  xy: 4, 399
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Lonjo
   rotate: false
-  xy: 107, 478
+  xy: 416, 755
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Lonjo-1
   rotate: false
-  xy: 210, 567
+  xy: 519, 844
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Lonjo-2
   rotate: false
-  xy: 313, 656
+  xy: 622, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Malim
   rotate: false
-  xy: 416, 759
+  xy: 4, 310
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Malim-1
   rotate: false
-  xy: 519, 848
+  xy: 519, 755
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Malim-2
   rotate: false
-  xy: 622, 937
+  xy: 622, 844
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Nabur Swordsman
   rotate: false
-  xy: 4, 314
+  xy: 725, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Nabur Swordsman-1
   rotate: false
-  xy: 107, 389
+  xy: 4, 221
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Nabur Swordsman-2
   rotate: false
-  xy: 210, 478
+  xy: 622, 755
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Pambedil
   rotate: false
-  xy: 313, 567
+  xy: 725, 844
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Pambedil-1
   rotate: false
-  xy: 416, 670
+  xy: 828, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Pambedil-2
   rotate: false
-  xy: 519, 759
+  xy: 4, 132
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Pandeka
   rotate: false
-  xy: 622, 848
+  xy: 725, 755
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Pandeka-1
   rotate: false
-  xy: 725, 937
+  xy: 828, 844
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Pandeka-2
   rotate: false
-  xy: 4, 225
+  xy: 931, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Rudus Swordsman
   rotate: false
-  xy: 107, 300
+  xy: 4, 43
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Rudus Swordsman-1
   rotate: false
-  xy: 210, 389
+  xy: 828, 755
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Rudus Swordsman-2
   rotate: false
-  xy: 313, 478
+  xy: 931, 844
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Seri Bija Diraja
   rotate: false
-  xy: 416, 562
+  xy: 1034, 914
   size: 95, 100
   orig: 95, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Seri Bija Diraja-1
   rotate: false
-  xy: 519, 651
+  xy: 1137, 914
   size: 95, 100
   orig: 95, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Seri Bija Diraja-2
   rotate: false
-  xy: 622, 740
+  xy: 1240, 914
   size: 95, 100
   orig: 95, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Seri Bija Diraja-Industrial era
   rotate: false
-  xy: 725, 848
+  xy: 931, 755
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Seri Bija Diraja-Industrial era-1
   rotate: false
-  xy: 828, 937
+  xy: 1343, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Seri Bija Diraja-Industrial era-2
   rotate: false
-  xy: 4, 136
+  xy: 1446, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Silpin
   rotate: false
-  xy: 107, 211
+  xy: 1549, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Silpin-Industrial era
   rotate: false
-  xy: 622, 667
+  xy: 1961, 949
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Silpin-Industrial era-1
   rotate: false
-  xy: 725, 775
+  xy: 1446, 860
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Silpin-Industrial era-2
   rotate: false
-  xy: 828, 864
+  xy: 1531, 860
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Tappi Swordsman
   rotate: false
-  xy: 210, 300
+  xy: 1652, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Tappi Swordsman-1
   rotate: false
-  xy: 313, 389
+  xy: 1755, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Tappi Swordsman-2
   rotate: false
-  xy: 416, 473
+  xy: 1858, 933
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Wali
   rotate: false
-  xy: 519, 562
+  xy: 1343, 844
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Bubung Parani
   rotate: false
-  xy: 1316, 758
+  xy: 1281, 844
   size: 30, 26
   orig: 30, 26
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cattle+Torajan Pasture
   rotate: false
-  xy: 1063, 416
+  xy: 1640, 459
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Chocolate Hills
   rotate: false
-  xy: 1103, 490
+  xy: 704, 586
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Citrus+Torajan Plantation
   rotate: false
-  xy: 1103, 454
+  xy: 704, 550
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cocoa+Torajan Plantation
   rotate: false
-  xy: 1103, 418
+  xy: 744, 588
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Fahombo
   rotate: false
-  xy: 1867, 962
+  xy: 920, 691
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Fahombo
   rotate: false
-  xy: 1867, 962
+  xy: 920, 691
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Floating Market
   rotate: false
-  xy: 1063, 340
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Horses+Torajan Pasture
-  rotate: false
-  xy: 457, 365
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Incense+Torajan Plantation
-  rotate: false
-  xy: 1236, 794
+  xy: 744, 516
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Horses+Torajan Pasture
+  rotate: false
+  xy: 752, 440
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Idjang
+  rotate: false
+  xy: 864, 491
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Idjang2
+  rotate: false
+  xy: 872, 455
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Incense+Torajan Plantation
+  rotate: false
+  xy: 912, 463
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Kampong Ayer
+  rotate: false
+  xy: 792, 406
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Kelimutu
   rotate: false
-  xy: 1142, 544
+  xy: 872, 343
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Payew
   rotate: false
-  xy: 1179, 650
+  xy: 1720, 357
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sheep+Torajan Pasture
   rotate: false
-  xy: 1716, 787
+  xy: 1760, 317
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Silk+Torajan Plantation
   rotate: false
-  xy: 1676, 752
+  xy: 1760, 281
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Silpin Holy site
   rotate: false
-  xy: 1756, 775
+  xy: 992, 419
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Spices+Torajan Plantation
   rotate: false
-  xy: 1756, 739
+  xy: 992, 383
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sugar+Torajan Plantation
   rotate: false
-  xy: 1796, 783
+  xy: 992, 347
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Torajan Pasture
   rotate: false
-  xy: 1836, 710
+  xy: 1072, 312
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Torajan Plantation
   rotate: false
-  xy: 1876, 714
+  xy: 992, 308
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Torajan Plantation+Bananas
   rotate: false
-  xy: 1916, 714
+  xy: 992, 272
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Torajan Plantation+Cotton
   rotate: false
-  xy: 354, 285
+  xy: 1032, 280
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Water Buffalo
   rotate: false
-  xy: 394, 289
+  xy: 1032, 244
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Water Buffalo+Pasture
   rotate: false
-  xy: 394, 249
+  xy: 1072, 236
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Water Buffalo+Torajan Pasture
   rotate: false
-  xy: 394, 249
+  xy: 1072, 236
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wine+Plantation
   rotate: false
-  xy: 371, 213
+  xy: 752, 370
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Yupa
   rotate: false
-  xy: 1705, 827
+  xy: 107, 40
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Yupa
   rotate: false
-  xy: 1705, 827
+  xy: 107, 40
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Albahdir
   rotate: false
-  xy: 2011, 990
+  xy: 1281, 878
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Albahdir-1
   rotate: false
-  xy: 982, 528
+  xy: 4, 7
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Albahdir-2
   rotate: false
-  xy: 2011, 954
+  xy: 44, 7
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Anak Makassar
   rotate: false
-  xy: 1022, 528
+  xy: 84, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Aswamedha Horse
   rotate: false
-  xy: 2011, 918
+  xy: 124, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Balasiong Swordsman
   rotate: false
-  xy: 1062, 528
+  xy: 164, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Balasiong Swordsman-1
   rotate: false
-  xy: 2011, 882
+  xy: 1136, 488
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Balasiong Swordsman-2
   rotate: false
-  xy: 1102, 528
+  xy: 1136, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bessing Banranga
   rotate: false
-  xy: 1023, 492
+  xy: 632, 463
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bessing Banranga-1
   rotate: false
-  xy: 1023, 456
+  xy: 632, 427
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lonjo-1
   rotate: false
-  xy: 1023, 456
+  xy: 632, 427
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bessing Banranga-2
   rotate: false
-  xy: 1063, 492
+  xy: 632, 391
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bogani
   rotate: false
-  xy: 1023, 420
+  xy: 632, 355
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bogani-1
   rotate: false
-  xy: 1063, 456
+  xy: 1640, 628
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bogani-2
   rotate: false
-  xy: 1023, 384
+  xy: 1640, 592
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Fisherman
   rotate: false
-  xy: 1063, 380
+  xy: 744, 552
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Fisherman-1
   rotate: false
-  xy: 1103, 382
+  xy: 784, 588
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Fisherman-2
   rotate: false
-  xy: 1023, 348
+  xy: 784, 552
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Galle'
   rotate: false
-  xy: 1103, 346
+  xy: 784, 516
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Galle'-1
   rotate: false
-  xy: 1777, 855
+  xy: 704, 514
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Galle'-2
   rotate: false
-  xy: 1817, 858
+  xy: 824, 527
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Garay
   rotate: false
-  xy: 1857, 858
+  xy: 864, 527
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Garay-1
   rotate: false
-  xy: 1897, 858
+  xy: 744, 480
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Garay-2
   rotate: false
-  xy: 1777, 819
+  xy: 784, 480
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ghali
   rotate: false
-  xy: 1817, 822
+  xy: 704, 478
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ghali-1
   rotate: false
-  xy: 1857, 822
+  xy: 672, 442
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ghali-2
   rotate: false
-  xy: 1897, 822
+  xy: 672, 406
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hakka Militia
   rotate: false
-  xy: 1139, 656
+  xy: 672, 370
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hakka Militia-1
   rotate: false
-  xy: 1139, 620
+  xy: 712, 442
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hakka Militia-2
   rotate: false
-  xy: 1126, 584
+  xy: 712, 406
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Huwangga
   rotate: false
-  xy: 457, 329
+  xy: 712, 370
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Huwangga-1
   rotate: false
-  xy: 1116, 792
+  xy: 792, 444
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Huwangga-2
   rotate: false
-  xy: 1116, 756
+  xy: 672, 334
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ibanic Warrior
   rotate: false
-  xy: 1156, 794
+  xy: 712, 334
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ibanic Warrior-1
   rotate: false
-  xy: 1196, 794
+  xy: 824, 480
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ibanic Warrior-2
   rotate: false
-  xy: 1156, 758
+  xy: 832, 444
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Juanga
   rotate: false
-  xy: 1196, 758
+  xy: 952, 463
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Juanga-1
   rotate: false
-  xy: 1276, 794
+  xy: 872, 419
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Juanga-2
   rotate: false
-  xy: 1236, 758
+  xy: 912, 427
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Kalasag
   rotate: false
-  xy: 1276, 758
+  xy: 952, 427
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Kalasag-1
   rotate: false
-  xy: 1157, 722
+  xy: 912, 391
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Kalasag-2
   rotate: false
-  xy: 1197, 722
+  xy: 952, 391
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Karambit Warrior
   rotate: false
-  xy: 1237, 722
+  xy: 832, 408
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Karambit Warrior-1
   rotate: false
-  xy: 1277, 722
+  xy: 872, 383
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Karambit Warrior-2
   rotate: false
-  xy: 1166, 584
+  xy: 832, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Kora kora
   rotate: false
-  xy: 1182, 548
+  xy: 912, 355
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Kora kora-1
   rotate: false
-  xy: 1143, 508
+  xy: 952, 355
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Kora kora-2
   rotate: false
-  xy: 1143, 472
+  xy: 912, 319
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Kujang Warrior
   rotate: false
-  xy: 1143, 436
+  xy: 952, 319
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Kujang Warrior-1
   rotate: false
-  xy: 1143, 400
+  xy: 952, 283
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Kujang Warrior-2
   rotate: false
-  xy: 1143, 364
+  xy: 179, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Liya Guard-2
   rotate: false
-  xy: 1143, 364
+  xy: 179, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lancang
   rotate: false
-  xy: 1183, 512
+  xy: 179, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lancang-1
   rotate: false
-  xy: 1183, 476
+  xy: 179, 380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lancang-2
   rotate: false
-  xy: 1183, 440
+  xy: 179, 344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Larantuqueiros
   rotate: false
-  xy: 1183, 404
+  xy: 179, 308
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Larantuqueiros-1
   rotate: false
-  xy: 1183, 368
+  xy: 179, 272
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Larantuqueiros-2
   rotate: false
-  xy: 1143, 328
+  xy: 179, 236
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Liya Guard
   rotate: false
-  xy: 1183, 332
+  xy: 179, 200
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Liya Guard-1
   rotate: false
-  xy: 1103, 310
+  xy: 179, 164
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lonjo
   rotate: false
-  xy: 1143, 292
+  xy: 179, 128
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lonjo-2
   rotate: false
-  xy: 1183, 296
+  xy: 179, 92
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Maharlika
   rotate: false
-  xy: 1316, 792
+  xy: 179, 56
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Maharlika-1
   rotate: false
-  xy: 1356, 792
+  xy: 1176, 488
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Maharlika-2
   rotate: false
-  xy: 1396, 792
+  xy: 1176, 452
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Malim
   rotate: false
-  xy: 1436, 792
+  xy: 1176, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Malim-1
   rotate: false
-  xy: 1476, 792
+  xy: 1680, 463
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Malim-2
   rotate: false
-  xy: 1516, 792
+  xy: 1680, 427
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mandau Dohong
   rotate: false
-  xy: 1556, 792
+  xy: 1720, 573
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mandau Dohong-1
   rotate: false
-  xy: 1596, 792
+  xy: 1680, 573
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tappi Swordsman-1
   rotate: false
-  xy: 1596, 792
+  xy: 1680, 573
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mandau Dohong-2
   rotate: false
-  xy: 1636, 798
+  xy: 1760, 569
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Meo
   rotate: false
-  xy: 251, 196
+  xy: 1800, 569
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Meo-1
   rotate: false
-  xy: 251, 160
+  xy: 1720, 537
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Meo-2
   rotate: false
-  xy: 291, 200
+  xy: 1680, 537
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mingol
   rotate: false
-  xy: 291, 164
+  xy: 1760, 533
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mingol-1
   rotate: false
-  xy: 331, 200
+  xy: 1800, 533
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mingol-2
   rotate: false
-  xy: 331, 164
+  xy: 1720, 501
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Nabur Swordsman
   rotate: false
-  xy: 292, 128
+  xy: 1680, 501
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Nabur Swordsman-1
   rotate: false
-  xy: 292, 92
+  xy: 1720, 465
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Nabur Swordsman-2
   rotate: false
-  xy: 292, 56
+  xy: 1760, 497
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pambedil
   rotate: false
-  xy: 292, 20
+  xy: 1720, 429
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pambedil-1
   rotate: false
-  xy: 332, 128
+  xy: 1800, 497
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pambedil-2
   rotate: false
-  xy: 332, 92
+  xy: 1760, 461
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pandeka
   rotate: false
-  xy: 332, 56
+  xy: 1800, 461
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pandeka-1
   rotate: false
-  xy: 332, 20
+  xy: 1720, 393
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pandeka-2
   rotate: false
-  xy: 1179, 686
+  xy: 1680, 391
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rimawa
   rotate: false
-  xy: 1219, 686
+  xy: 1680, 355
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rudus Swordsman
   rotate: false
-  xy: 1259, 686
+  xy: 1720, 321
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rudus Swordsman-1
   rotate: false
-  xy: 1219, 650
+  xy: 1680, 319
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rudus Swordsman-2
   rotate: false
-  xy: 1259, 650
+  xy: 1720, 285
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Salawaku Warrior
   rotate: false
-  xy: 1299, 686
+  xy: 1800, 425
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Salawaku Warrior-1
   rotate: false
-  xy: 1299, 650
+  xy: 1760, 393
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Salawaku Warrior-2
   rotate: false
-  xy: 1636, 762
+  xy: 1760, 357
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Seri Bija Diraja
   rotate: false
-  xy: 1676, 788
+  xy: 1800, 386
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Silpin
   rotate: false
-  xy: 1716, 751
+  xy: 992, 463
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tappi Swordsman
   rotate: false
-  xy: 1796, 747
+  xy: 1032, 424
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tappi Swordsman-2
   rotate: false
-  xy: 1836, 786
+  xy: 1072, 424
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/The Rajah Brooke
   rotate: false
-  xy: 1836, 750
+  xy: 1032, 388
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/The Rajah Brooke-1
   rotate: false
-  xy: 1876, 786
+  xy: 1032, 352
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/The Rajah Brooke-2
   rotate: false
-  xy: 1876, 750
+  xy: 1072, 388
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Timawa
   rotate: false
-  xy: 1916, 786
+  xy: 1072, 352
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Timawa-1
   rotate: false
-  xy: 1916, 750
+  xy: 1112, 416
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Timawa-2
   rotate: false
-  xy: 1796, 711
+  xy: 1032, 316
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wali
   rotate: false
-  xy: 354, 249
+  xy: 1072, 276
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker
   rotate: false
-  xy: 371, 177
+  xy: 792, 370
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-1
   rotate: false
-  xy: 372, 141
+  xy: 752, 334
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-2
   rotate: false
-  xy: 372, 105
+  xy: 792, 334
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cattle+Torajan Pasture
   rotate: false
-  xy: 1579, 962
+  xy: 632, 691
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cattle+Torajan Pasture-Industrial era
   rotate: false
-  xy: 1651, 962
+  xy: 704, 691
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Chocolate Hills
   rotate: false
-  xy: 1723, 959
+  xy: 776, 688
   size: 64, 59
   orig: 64, 59
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Chocolate Hills (unused)
   rotate: false
-  xy: 1795, 962
+  xy: 848, 691
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Horses+Torajan Pasture
   rotate: false
-  xy: 663, 455
+  xy: 632, 627
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Horses+Torajan Pasture-Industrial era
   rotate: false
-  xy: 663, 391
+  xy: 704, 627
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Idjang
+  rotate: false
+  xy: 1878, 669
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/IdjangP
+  rotate: false
+  xy: 1878, 669
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/IdjangD
+  rotate: false
+  xy: 416, 625
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/IdjangG
+  rotate: false
+  xy: 488, 625
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/IdjangS
+  rotate: false
+  xy: 560, 625
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/IdjangT
+  rotate: false
+  xy: 920, 499
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Kampong Ayer
+  rotate: false
+  xy: 1137, 786
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Kelimutu
   rotate: false
-  xy: 735, 387
+  xy: 1209, 782
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Payew
   rotate: false
-  xy: 807, 382
+  xy: 1208, 718
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Sheep+Torajan Pasture
   rotate: false
-  xy: 972, 766
+  xy: 1496, 600
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Sheep+Torajan Pasture-Industrial era
   rotate: false
-  xy: 985, 830
+  xy: 1352, 584
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Silpin Holy site
   rotate: false
-  xy: 1044, 756
+  xy: 1424, 519
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Water Buffalo
   rotate: false
-  xy: 982, 564
+  xy: 107, 424
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Water Buffalo+Pasture
   rotate: false
-  xy: 1085, 692
+  xy: 107, 360
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Water Buffalo+Pasture-Industrial era.png
   rotate: false
-  xy: 1067, 628
+  xy: 107, 296
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Albahdir
   rotate: false
-  xy: 4, 68
+  xy: 1688, 865
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Albahdir-1
   rotate: false
-  xy: 210, 232
+  xy: 1832, 865
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Albahdir-2
   rotate: false
-  xy: 416, 405
+  xy: 1976, 881
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Anak Makassar
   rotate: false
-  xy: 519, 498
+  xy: 1446, 796
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Asvamedha Horse
   rotate: false
-  xy: 622, 603
+  xy: 1518, 796
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Balasiong Swordsman
   rotate: false
-  xy: 1003, 962
+  xy: 1590, 796
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Balasiong Swordsman-1
   rotate: false
-  xy: 4, 4
+  xy: 1662, 801
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Balasiong Swordsman-2
   rotate: false
-  xy: 1075, 962
+  xy: 1734, 801
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Bessing Banranga
   rotate: false
-  xy: 1147, 958
+  xy: 1806, 797
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Bessing Banranga-1
   rotate: false
-  xy: 1219, 958
+  xy: 1878, 797
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Bessing Banranga-2
   rotate: false
-  xy: 1291, 958
+  xy: 1950, 797
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Bogani
   rotate: false
-  xy: 1363, 960
+  xy: 416, 689
   size: 64, 58
   orig: 64, 58
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Bogani-1
   rotate: false
-  xy: 1435, 960
+  xy: 488, 689
   size: 64, 58
   orig: 64, 58
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Bogani-2
   rotate: false
-  xy: 1507, 960
+  xy: 560, 689
   size: 64, 58
   orig: 64, 58
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Fisherman
   rotate: false
-  xy: 1939, 962
+  xy: 992, 691
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Fisherman-1
   rotate: false
-  xy: 622, 539
+  xy: 1662, 737
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Lonjo-1
   rotate: false
-  xy: 622, 539
+  xy: 1662, 737
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Malim-1
   rotate: false
-  xy: 622, 539
+  xy: 1662, 737
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Fisherman-2
   rotate: false
-  xy: 725, 711
+  xy: 1734, 737
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Ghali
   rotate: false
-  xy: 707, 647
+  xy: 1806, 733
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Ghali-1
   rotate: false
-  xy: 694, 583
+  xy: 1878, 733
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Ghali-2
   rotate: false
-  xy: 694, 519
+  xy: 1950, 733
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Hakka Militia
   rotate: false
-  xy: 519, 434
+  xy: 848, 627
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Hakka Militia-2
   rotate: false
-  xy: 591, 475
+  xy: 920, 627
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Hakka militia-1
   rotate: false
-  xy: 591, 411
+  xy: 992, 627
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Huwangga
   rotate: false
-  xy: 76, 72
+  xy: 776, 624
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Huwangga-1
   rotate: false
-  xy: 76, 8
+  xy: 848, 563
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Huwangga-2
   rotate: false
-  xy: 179, 147
+  xy: 920, 563
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Kujang Warrior
   rotate: false
-  xy: 931, 894
+  xy: 416, 561
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Kujang Warrior-1
   rotate: false
-  xy: 1003, 898
+  xy: 488, 561
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Kujang Warrior-2
   rotate: false
-  xy: 1075, 898
+  xy: 560, 561
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Larantuqueiros
   rotate: false
-  xy: 1147, 894
+  xy: 1281, 780
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Larantuqueiros-1
   rotate: false
-  xy: 1219, 894
+  xy: 1353, 780
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Larantuqueiros-2
   rotate: false
-  xy: 1291, 894
+  xy: 416, 497
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Liya Guard
   rotate: false
-  xy: 1363, 892
+  xy: 488, 493
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Liya Guard-1
   rotate: false
-  xy: 1435, 892
+  xy: 560, 493
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Liya Guard-2
   rotate: false
-  xy: 1507, 892
+  xy: 416, 429
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Lonjo
   rotate: false
-  xy: 1579, 898
+  xy: 488, 429
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Lonjo-2
   rotate: false
-  xy: 1651, 898
+  xy: 560, 429
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Maharlika
   rotate: false
-  xy: 1723, 891
+  xy: 1353, 712
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Maharlika-1
   rotate: false
-  xy: 1795, 894
+  xy: 1425, 728
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Maharlika-2
   rotate: false
-  xy: 1867, 894
+  xy: 1497, 728
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Malim
   rotate: false
-  xy: 1939, 898
+  xy: 1569, 732
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Malim-2
   rotate: false
-  xy: 828, 800
+  xy: 1425, 664
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Meo
   rotate: false
-  xy: 148, 79
+  xy: 1497, 664
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Meo-1
   rotate: false
-  xy: 148, 15
+  xy: 1569, 668
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Meo-2
   rotate: false
-  xy: 220, 83
+  xy: 1641, 673
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Mingol
   rotate: false
-  xy: 220, 19
+  xy: 1713, 673
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Mingol-1
   rotate: false
-  xy: 913, 830
+  xy: 1785, 669
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Mingol-2
   rotate: false
-  xy: 900, 766
+  xy: 1713, 609
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Nabur Swordsman
   rotate: false
-  xy: 779, 647
+  xy: 1785, 605
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Nabur Swordsman-1
   rotate: false
-  xy: 766, 583
+  xy: 488, 365
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Nabur Swordsman-2
   rotate: false
-  xy: 766, 519
+  xy: 1034, 780
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Pambedil
   rotate: false
-  xy: 797, 711
+  xy: 1064, 716
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Pambedil-1
   rotate: false
-  xy: 869, 702
+  xy: 1064, 652
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Pambedil-2
   rotate: false
-  xy: 851, 638
+  xy: 1064, 588
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Pandeka
   rotate: false
-  xy: 838, 574
+  xy: 1136, 722
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Pandeka-1
   rotate: false
-  xy: 838, 510
+  xy: 1136, 658
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Pandeka-2
   rotate: false
-  xy: 807, 446
+  xy: 1136, 594
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Rudus Swordsman
   rotate: false
-  xy: 941, 702
+  xy: 1280, 716
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Rudus Swordsman-1
   rotate: false
-  xy: 923, 638
+  xy: 1064, 524
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Rudus Swordsman-2
   rotate: false
-  xy: 910, 574
+  xy: 1136, 530
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Salawaku Warrior
   rotate: false
-  xy: 910, 510
+  xy: 1280, 652
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Salawaku Warrior-1
   rotate: false
-  xy: 879, 446
+  xy: 1352, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Salawaku Warrior-2
   rotate: false
-  xy: 879, 382
+  xy: 1208, 648
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Seri Bija Diraja
   rotate: false
-  xy: 951, 437
+  xy: 1208, 575
   size: 64, 65
   orig: 64, 65
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Seri Bija Diraja-Modern era
   rotate: false
-  xy: 951, 364
+  xy: 1424, 591
   size: 64, 65
   orig: 64, 65
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Silpin
   rotate: false
-  xy: 1057, 828
+  xy: 1496, 530
   size: 64, 62
   orig: 64, 62
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Silpin-Modern era
   rotate: false
-  xy: 1129, 830
+  xy: 1496, 466
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Tappi Swordsman
   rotate: false
-  xy: 1201, 830
+  xy: 1064, 460
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Tappi Swordsman-1
   rotate: false
-  xy: 1273, 830
+  xy: 1568, 600
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Tappi Swordsman-2
   rotate: false
-  xy: 1345, 828
+  xy: 1568, 536
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Timawa
   rotate: false
-  xy: 1417, 828
+  xy: 1568, 472
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Timawa-1
   rotate: false
-  xy: 1489, 828
+  xy: 1568, 408
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Timawa-2
   rotate: false
-  xy: 1013, 692
+  xy: 1568, 344
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Wali
   rotate: false
-  xy: 995, 628
+  xy: 632, 560
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Worker
   rotate: false
-  xy: 1054, 564
+  xy: 107, 232
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Worker-1
   rotate: false
-  xy: 1561, 828
+  xy: 107, 168
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Worker-2
   rotate: false
-  xy: 1633, 834
+  xy: 107, 104
   size: 64, 56
   orig: 64, 56
   offset: 0, 0

@@ -225,6 +225,21 @@
 - Fix Wewiku-Wehali's UA not working as intended
 - New Civ: Nias
 
-
+# v1.18 (03.12.2025)
+- Bali
+	UA now give flat +2 Culture
+	UU now a Civilian unit, may upgrade to Trireme after finishing the 2nd Fishing Boats
+- Brunei
+	Kampong Ayer now UI rather than UB
+- Gorontalo
+	UU now synergize better with UA
+- Kutai
+	UU now gain boost when healing in Friendly land
+	UI now limited to 7, as in real life, with improved stats
+- Malacca
+	UU Laksamana now replaces Great Admiral, Seri Bija Diraja removed
+- New Civ: Ivatan
+- New map: Indonesia - L (66x43) by Nuse
+- Update leader icons by KrankeWagon
 
 	

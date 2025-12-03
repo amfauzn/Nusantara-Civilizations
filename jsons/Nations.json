@@ -138,18 +138,7 @@
 			"innerColor": [251,236,127],
 			"uniqueName": "Undang-Undang Laut Melaka",
 			"uniques": [
-				"[+100]% Yield from every [Farm] <in [Coastal] tiles> <hidden from users>",
-				"[+100]% Yield from every [Lumber mill] <in [Coastal] tiles> <hidden from users>",
-				"[+100]% Yield from every [Mine] <in [Coastal] tiles> <hidden from users>",
-				"[+100]% Yield from every [Trading post] <in [Coastal] tiles> <hidden from users>",
-				"[+100]% Yield from every [Camp] <in [Coastal] tiles> <hidden from users>",
-				"[+100]% Yield from every [Oil well] <in [Coastal] tiles> <hidden from users>",
-				"[+100]% Yield from every [Pasture] <in [Coastal] tiles> <hidden from users>",
-				"[+100]% Yield from every [Plantation] <in [Coastal] tiles> <hidden from users>",
-				"[+100]% Yield from every [Quarry] <in [Coastal] tiles> <hidden from users>",
-				"[+100]% Yield from every [Moai] <in [Coastal] tiles> <hidden from users>",
-				"[+100]% Yield from every [Terrace farm] <in [Coastal] tiles> <hidden from users>",
-				"[+100]% Yield from every [Yupa] <in [Coastal] tiles> <hidden from users>",
+				"[+100]% Yield from every [{Improvement} {non-[Great Improvement]}] <in [Coastal] tiles> <hidden from users>",
 				"Comment [+100% Yield from every improvement in Coastal tiles except Great Improvement]",
 				"[+1 Gold] <with [Citrus]> <hidden from users>",
 				"[+1 Gold] <with [Copper]> <hidden from users>",
@@ -185,6 +174,7 @@
 			"leaderName": "Saönigeho",
 			"adjective": ["Nias"],
 			"startBias": ["Coast"],
+			"personality": "Centralized Creativity",
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Christianity",
 
@@ -480,14 +470,7 @@
 			"uniqueName": "Puputan",
 			"uniques": [
 				"[+33]% Strength <for [Land] units> <when below [50] HP>",
-				"Comment [Gain 15% of [Faith] building/worder's production cost as [Culture] (modified by game speed)]",
-				"Gain [6] [Culture] <(modified by game speed)> <upon constructing [Shrine]> <hidden from users>",
-				"Gain [15] [Culture] <(modified by game speed)> <upon constructing [Temple]> <hidden from users>",
-				"Gain [28] [Culture] <(modified by game speed)> <upon constructing [Grand Temple]> <hidden from users>",
-				"Gain [28] [Culture] <(modified by game speed)> <upon constructing [Stonehenge]> <hidden from users>",
-				"Gain [45] [Culture] <(modified by game speed)> <upon constructing [Hagia Sophia]> <hidden from users>",
-				"Gain [45] [Culture] <(modified by game speed)> <upon constructing [Great Mosque of Djenne]> <hidden from users>",
-				"Gain [60] [Culture] <(modified by game speed)> <upon constructing [Notre Dame]> <hidden from users>"
+				"[+2 Culture] from all [Faith] buildings"
 			],
 			"cities": ["Gelgel","Klungkung","Bedulu","Samprangan","Buleleng","Karangasem","Mengwi","Badung","Tabanan",
 				"Gianyar","Bangli","Jembrana","Denpasar","Susut","Ubud","Marga","Pekutatan","Bebandem","Nusa Penida",
@@ -540,7 +523,7 @@
 			"adjective": ["Javanese"],
 			"startBias": ["Coast"],
 			"personality": "Trenggana",
-			//"preferredVictoryType": "Domination",
+			//"preferredVictoryType": "",
 			"favoredReligion": "Islam",
 
 			"startIntroPart1": "",
@@ -713,7 +696,8 @@
 			"uniqueName": "Wall of Borneo",
 			"uniques": [
 				"[+1 Gold] from every [Water resource]",
-				"[{Military} {Water}] units gain the [Supply] promotion"
+				"[{Military} {Water}] units gain the [Supply] promotion",
+				"[Work Boats] units gain the [[Kampong Ayer] ability] promotion <hidden from users>"
 			],
 			"cities": ["Bandar Brunei","Kota Baru","Kampung Ayer","Tutong","Labu","Bangar","Seria","Kaula Belait","Batu Apoi","Sukang",
 				"Sulu","Cebu","Maguindanao","Sarawak","Namayan","Tondo","Mal-I","Madja-as","Butuan","Lanao",
@@ -797,6 +781,8 @@
 			"leaderName": "James Brooke",
 			"adjective": ["Dayak Iban"],
 			"startBias":["Coast"],
+			"personality": "Organized Expansionist",
+			//"preferredVictoryType": "",
 			"favoredReligion": "Christianity",
 
 			"startIntroPart1": "Praises be upon you, beloved Sir James Brooke, Rajah of Sarawak. During the Age of New Imperialism, you adventured to a new land and used your great military capabilities to suppress the internal division with the Sultanate of Brunei. As a reward the Sultan gave you dominion over the territory of Sarawak which you would turn into a state in its own right. Under your rule, headhunting as a practice of the Dayak people was abolished and the Dayak people became your main fighting force against the widespread piracy of the East Indies.",
@@ -938,6 +924,7 @@
 			"leaderName": "Ilahudu",
 			"adjective": ["Hulontaloan"],
 			"startBias": ["Hill","Mountain"],
+			"personality": "Ilahudu",
 			"preferredVictoryType": "Diplomatic",
 			"favoredReligion": "Islam",
 
@@ -1009,8 +996,8 @@
 			"leaderName": "Simpurusiang",
 			"adjective": ["Luwu"], // Luwu Buginese
 			"startBias": ["Plains","Hill"],
-			"preferredVictoryType":"Domination",
 			"personality": "Organized Expansionist",
+			"preferredVictoryType":"Domination",
 			"favoredReligion": "Hinduism",
 
 			"startIntroPart1": "Tomatoaku maneng malebbi'ku, Simpurusiang, founding father of Luwu. You are the leader of the Buginese, one of the oldest and the greatest civilization in Sulawesi. Your kingdom is an inspiration and a role model for other Buginese kingdoms, such as Wajo, Soppeng, Sidenreng, Rappang, and even Bone. Before the other upstart Sulawesi civilizations were even conceived, Luwu became the center of power in Sulawesi!",
@@ -1045,6 +1032,7 @@
 			"leaderName": "Pong Tiku",
 			"adjective": ["Torajan"],
 			"startBias": ["Hill"],
+			"personality": "Pong Tiku",
 			"preferredVictoryType": "Cultural",
 			"favoredReligion": "Christianity",
 
@@ -1353,7 +1341,7 @@
 		
 		// Madja-as
 		{
-			"name": "Madja-as", 						// c.1200–1569
+			"name": "Madja-as",						// c.1200–1569
 			"leaderName": "Sumakwel",
 			"adjective": ["Panayanon"],
 			"startBias": ["Coast","Pearls"],
@@ -1500,6 +1488,44 @@
 			"cities": ["Kuta Watu","Tamontaka","Dinaig","Tumbao","Pollok","Padang-Padang","Talavan","Tinungkul","Buayan",
 				"Kitakubong","Buluan","Tukuran","Inuk","Kalamansig","Pula","Glan","Pinagurusan","Kuruan","Bolong"],
 			"spyNames": ["Sajid","Ampatuan","Datumanong","Mariam","Baraguir","Ameni","Murad","Gumbay","Pendatun","Sinsuat"]
+		},
+		
+		// Ivatan
+		{
+			"name": "Ivatan",
+			"leaderName": "Aman Dangat",
+			"adjective": ["Batanense"],
+			"startBias": ["Coast"],
+			//"personality": "Kudarat",
+			//"preferredVictoryType": "Diplomatic",
+			"favoredReligion": "Christianity",
+
+			"startIntroPart1": "",
+			"startIntroPart2": "",
+			
+			"declaringWar": "You will vanish! Your vileness is no more!",
+			"attacked": "Come, you will not made it through our strongholds!",
+			"defeated": "Please, be merciful to our people.",
+			"introduction": "Kapian ka pa nu Dios. I am Dangat, one who leads the Batanese.", // God bless you
+			
+			"neutralHello": "Makapia kamu pa atavu", // Good day
+			"hateHello": "Sacdapul!", // may you disappear
+			"tradeRequest": "I've come to propose this offer.",
+			"outerColor": [127,10, 10],
+			"innerColor": [51,204,162],
+			"uniqueName": "Rawod",
+			"uniques": [
+				//"[+1 Food] from every [Water resource]",
+				"Comment [+50% Yield in tiles with [Fort] not adjacent to another [Fort]]",
+				"Comment [+100% Yield in tiles with [Citadel]]",
+				"Comment [+200% Yield in tiles with [Idjang]]",
+				"[+50]% Yield from every [Land] <in [Fort] tiles> <with [0] to [0] neighboring [Fort] tiles> <hidden from users>",
+				"[+100]% Yield from every [Land] <in [Citadel] tiles> <hidden from users>",
+				"[+200]% Yield from every [Land] <in [Idjang] tiles> <hidden from users>"
+			],
+			"cities": ["Malakdang","Sabtang","Chavayan","Savidug","Basco","Chanarian","Kayhuvokan","Itbayat","Ivana","Radiwan",
+				"Salagao","Mahatao","Diura","Kaumbakan","Panatayan","Uyugan","Imnajbu","Itbud"],
+			"spyNames": ["Spy1","Spy2","Spy3","Spy4","Spy5","Spy6","Spy7","Spy8","Spy9","Spy10"]
 		},
 	
 	
@@ -1683,18 +1709,5 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [200,255,200],
 		"cities": ["Johor"]
-	},
-	{
-		"name": "Ivatan",
-		"adjective": ["Ivatan"],
-		"cityStateType": "Religious",
-		"startBias": ["Coast"],
-
-		"declaringWar": "By the grace of God, we declare war on you!",
-		"attacked": "I will fear no evil. For god is with me!",
-		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [200,255,200],
-		"cities": ["Ivatan"]
 	}
 ]

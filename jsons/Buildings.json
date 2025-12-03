@@ -328,7 +328,6 @@
 			"replaces": "Temple",
 			"uniqueTo": "Bali",
 			"requiredBuilding": "Shrine",
-			"culture": 2,
 			"faith": 2,
 			"maintenance": 2,
 			"uniques": [
@@ -403,28 +402,6 @@
 	
 	// Borneo
 	
-		// Brunei
-		{
-			"name": "Kampong Ayer",
-			"replaces": "Lighthouse",
-			"uniqueTo": "Brunei",
-			"cost": 80,
-			"hurryCostModifier": 25,
-			"maintenance": 1,
-			"uniques": [
-				"Must be next to [Coast]",
-				"[+1 Food] from [Ocean] tiles [in this city]",
-				"[+1 Food] from [Coast] tiles [in this city]",
-				"[+1 Food] from [Fish] tiles [in this city]",
-				"[+1 Gold] from [Coast] tiles [in this city]",
-				"Provides [1] [Oil] <after discovering [Biology]>"
-			],
-			"requiredTech": "Sailing",
-			"civilopediaText": [
-				{"text": "A traditional settlement in Bandar Seri Begawan, the capital of Brunei. It comprises neighbourhoods of traditional houses, schools and mosques built on stilts above the Brunei River near the capital's city centre."},
-			]
-		},
-		
 		// Lanfang
 		{
 			"name": "Zongting",
@@ -877,6 +854,19 @@
 			"requiredTech": "Drama and Poetry",
 			"civilopediaText": [
 				{"text": "A traditional ancestral house built as a symbol of high social status. Such a residence was once a home to a sultan or datu. Nowadays, concrete houses are found all over Maranaw communities, but there remain torogans a hundred years old. The best-known are in Dayawan and Marawi City, and around Lake Lanao."},
+			]
+		},
+		
+		// Ivatan
+		{
+			"name": "Ijang",
+			"uniqueTo": "Ivatan",
+			"requiredTech": "Engineering",
+			"uniques": [
+				"Creates a [Idjang] improvement on a specific tile",
+				"Never destroyed when the city is captured",
+				"Unsellable",
+				"Will not be displayed in Civilopedia"
 			]
 		}
 ]

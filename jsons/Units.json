@@ -40,6 +40,8 @@
 				"Takes your religion over the one in their birth city",
 				"[-1] Sight",
 				"Great Person - [Faith]",
+				"Is part of Great Person group [Prophet]",
+				"[This Unit] gets a name from the [Prophet] group",
 				"Comment [-10% [Faith] cost to purchase]",
 				"Unbuildable",
 				"Uncapturable",
@@ -92,6 +94,7 @@
 				{"text": "A swift, local ship propelled by oars and sails with two-quarter rudders, one on either side of the stern. With shallow draught, these ships was the backbone of the regional fleet operated in riverine water, sheltered straits zone, and archipelagic environment."}
 			]
 		},
+		/*
 		{
 			"name": "Seri Bija Diraja",
 			"unitType": "Civilian",
@@ -107,6 +110,8 @@
 				"[1] Movement point cost to disembark",
 				"Can be earned through combat",
 				"Great Person - [War]",
+				"Is part of Great Person group [General]",
+				"[This Unit] gets a name from the [General] group",
 				"Unbuildable",
 				"Uncapturable"
 			],
@@ -114,14 +119,21 @@
 				{"text": "A supreme warrior, military nobility of the classical Malay kingdoms. They plan the strategies of strong fortifications, creating bold offensive, and often acting as a key advisor to the Sultan."}
 			]
 		},
+		*/
 		{
 			"name": "Laksamana",
 			"unitType": "Civilian Water",
 			"uniqueTo": "Malacca",
+			"replaces": "Great Admiral",
 			"movement": 6,
 			"uniques": [
+				// TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
+				"May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
 				"[+30]% Strength bonus for [{Military} {Water}] units within [2] tiles",
-				"Can transform to [Seri Bija Diraja]",
+				"Can be earned through combat <for [Water] units>",
+				"Great Person - [War]",
+				"Is part of Great Person group [Laksamana]",
+				"[This Unit] gets a name from the [Laksamana] group",
 				"Unbuildable",
 				"Uncapturable"
 			],
@@ -152,7 +164,10 @@
 				"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>",
 				"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <hidden from users>"
 			],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": "Unlike the Sondrami spear used for hunting animals, these warriors wielded the long, sharp-edged Burusa spear to injure and kill enemies."}
+			]
 		},
 		
 		// Pagaruyung
@@ -169,7 +184,10 @@
 			"obsoleteTech": "Gunpowder",
 			"upgradesTo": "Musketman",
 			"promotions": ["Drill I"],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": "Trained in Pencak Silat, these fighters excel in mobility and positioning."}
+			]
 		},
 		/*{
 			"name": "Karambit Warrior",
@@ -214,7 +232,10 @@
 				"[-1] Sight",
 				"Never appears as a Barbarian unit"
 			],
-			"attackSound": "cannon"
+			"attackSound": "cannon",
+			"civilopediaText": [
+				{"text": "The largest cannon ever cast in present-day Thailand, remembered for its role in the region’s turbulent history."}
+			]
 		},
 		{
 			"name": "Fisherman",
@@ -231,6 +252,9 @@
 				"Can build [Fishing Boats] improvements on tiles",
 				"Uncapturable",
 				"Automation is a primary action"
+			],
+			"civilopediaText": [
+				{"text": "They support their community’s progress and survival by gathering food from both sea and land."}
 			]
 		},
 		
@@ -253,7 +277,10 @@
 				"Withdraws before melee combat <with [80]% chance>",
 				"Ignores Zone of Control"
 			],
-			"attackSound": "cannon"
+			"attackSound": "cannon",
+			"civilopediaText": [
+				{"text": "As its name suggests, this swift vessel with a sleek hull and powerful sails was used as a warship, lighter, and  royal ship."}
+			]
 		},
 		
 		// Srivijaya
@@ -276,7 +303,10 @@
 				"May heal outside of friendly territory",
 				"[+5] HP when healing <in [Foreign Land] tiles> <hidden from users>"
 			],
-			"attackSound": "arrow"
+			"attackSound": "arrow",
+			"civilopediaText": [
+				{"text": "With large sails and a sturdy hull, this ship was designed for long-distance voyages."}
+			]
 		},
 	
 	
@@ -301,7 +331,10 @@
 				"[This Unit] gains [1] XP <upon ending a turn in a [Plantation] tile>",
 				//"[-100]% maintenance costs"
 			],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": "Fighters from Sundanese tradition who wielded the kujang blade, a weapon derived from the agricultural tool called Kudi."}
+			]
 		},
 		
 		// Medang (Mataram Kuno)
@@ -316,8 +349,13 @@
 				"Can instantly construct a [Silpin Holy site] improvement <by consuming this unit>",
 				"Comment [Free [Worker] appears upon being expended]",
 				"Great Person - [Production]",
+				"Is part of Great Person group [Silpin]",
+				"[This Unit] gets a name from the [Engineer] group",
 				"Unbuildable",
 				"Uncapturable"
+			],
+			"civilopediaText": [
+				{"text": "Skilled in both architecture and sculpture, Silpin artisans shaped cultural heritage with meticulous craftsmanship preserved across generations."}
 			]
 		},
 		
@@ -340,6 +378,34 @@
 				"Withdraws before melee combat <with [80]% chance>",
 				"Uncapturable",
 				"Automation is a primary action"
+			],
+			"civilopediaText": [
+				{"text": "A type of perahu with sekoci-style hull, central rudder, and small single sail set high on the mast, mainly used for transportation."}
+			]
+		},
+		{
+			"name": "Janggolan",
+			"unitType": "Civilian Water",
+			"replaces": "Work Boats",
+			"uniqueTo": "Bali",
+			"movement": 4,
+			"cost": 30,
+			"requiredTech": "Sailing",
+			"uniques": [
+				"Cannot enter ocean tiles <before discovering [Astronomy]>",
+				"Can instantly construct a [Fishing Boats] improvement <[3] times> <after which this unit is consumed> <hidden from users>",
+				"Can instantly construct a [Offshore Platform] improvement <[3] times> <after which this unit is consumed> <hidden from users>",
+				"Comment [May create improvements on water resources 3 times]",
+				"Can upgrade to [Trireme] <for units with [Upgrade to Trireme]> <hidden from users>",
+				"Comment [Can upgrade to [Trireme] after finishing the 2nd [Fishing Boats]]",
+				"[This Unit] gains [5] XP <upon building a [Fishing Boats] improvement> <hidden from users>",
+				"[This Unit] gains [5] XP <upon building a [Offshore Platform] improvement> <hidden from users>",
+				"Withdraws before melee combat <with [80]% chance>",
+				"Uncapturable",
+				"Automation is a primary action"
+			],
+			"civilopediaText": [
+				{"text": "A type of perahu with sekoci-style hull, central rudder, and small single sail set high on the mast, mainly used for transportation."}
 			]
 		},
 		
@@ -361,7 +427,10 @@
 				"Transfer Movement to [Embarked]",
 				"[+10]% Strength <when adjacent to a [Jong] unit>"
 			],
-			"attackSound": "cannon"
+			"attackSound": "cannon",
+			"civilopediaText": [
+				{"text": "A large Javanese trading and warship renowned for its towering hull and impressive cargo capacity. Built with sturdy planks and multiple sails, it dominated regional seas."}
+			]
 		},
 		{
 			"name": "Cetbang",
@@ -379,7 +448,10 @@
 				"[+50]% Strength <when attacking>",
 				"No defensive terrain bonus"
 			],
-			"attackSound": "cannon"
+			"attackSound": "cannon",
+			"civilopediaText": [
+				{"text": "One of the earliest Indonesian cannons, often made of bronze. Its swivel design allowed quick aiming, making it a key weapon in warfare across the archipelago."}
+			]
 		},
 		
 		// Demak
@@ -400,6 +472,9 @@
 				"Unbuildable",
 				"Religious Unit",
 				"Only available <when religion is enabled>"
+			],
+			"civilopediaText": [
+				{"text": "A revered Islamic figure believed to hold profound spiritual insight, remembered for guiding communities through wisdom, teaching, and exemplary moral conduct."}
 			]
 		},
 		
@@ -424,7 +499,10 @@
 				"Must set up to ranged attack",
 				"[-1] Sight"
 			],
-			"attackSound": "cannon"
+			"attackSound": "cannon",
+			"civilopediaText": [
+				{"text": "A medieval Javanese cannon cast in bronze, it was used to protect Karanghantu Port in Banten Bay."}
+			]
 		},
 		
 		// Mataram Islam
@@ -441,7 +519,10 @@
 			"upgradesTo": "Rifleman",
 			"promotions": ["[Pambedil] ability"],
 			"uniques": ["[+50]% XP gained from combat"],
-			"attackSound": "shot"
+			"attackSound": "shot",
+			"civilopediaText": [
+				{"text": "Early Javanese gunmen equipped with bedil, they supported frontline warriors and introduced a pivotal new element to warfare across the island."}
+			]
 		},
 	
 	
@@ -459,7 +540,10 @@
 				"Unbuildable",
 				"Never appears as a Barbarian unit"
 			],
-			"attackSound": "horse"
+			"attackSound": "horse",
+			"civilopediaText": [
+				{"text": "A stallion used by Mulavarman to assert his imperial sovereignty by releasing it to wander for a year. Any rival in the territories it crossed could challenge the king’s authority.If no enemy captured or killed it, the horse was sacrificed and the king declared an undisputed sovereign."}
+			]
 		},
 		{
 			"name": "Lonjo",
@@ -474,9 +558,13 @@
 			"upgradesTo": "Pikeman",
 			"uniques": [
 				"[+50]% Strength <vs [Mounted] units>",
-				"Earn [33]% of the damage done to [All] units as [Faith]"
+				"[+15] HP when healing <in [Friendly Land] tiles>",
+				"[+15] HP when healing <in [Yupa] tiles>"
 			],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": ""}
+			]
 		},
 		
 		// Brunei
@@ -497,7 +585,10 @@
 				"[+100]% Strength <vs [Submarine] units>",
 				"[+25]% Strength <when fighting in [Coast] tiles>"
 			],
-			"attackSound": "shipguns"
+			"attackSound": "shipguns",
+			"civilopediaText": [
+				{"text": ""}
+			]
 		},
 		
 		// Banjar
@@ -515,7 +606,10 @@
 			"obsoleteTech": "Steel",
 			"requiredResource": "Iron",
 			"promotions": ["[Nabur Swordsman] ability"],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": ""}
+			]
 		},
 		
 		// Lanfang
@@ -534,7 +628,10 @@
 				"[+20]% Strength <within [1] tiles of a [Mine]>",
 				"[+20]% Strength <within [1] tiles of a [Quarry]>"
 			],
-			"attackSound": "shot"
+			"attackSound": "shot",
+			"civilopediaText": [
+				{"text": "Consisting of Hakka settlers, these militia groups were formed to protect themselves from conflicts with indigenous people and other groups."}
+			]
 		},
 		
 		// Sarawak
@@ -556,7 +653,10 @@
 				"Comment [Cheaper to buy]",
 				"Can move immediately once bought"
 			],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": "Known for their fearsome headhunting traditions, these warriors often served the Brooke royalty through cooperation and employment.”"}
+			]
 		},
 		{
 			"name": "The Rajah Brooke",
@@ -575,7 +675,10 @@
 				"[+33]% Strength <vs cities>",
 				"Double movement in [Coast]"
 			],
-			"attackSound": "cannon"
+			"attackSound": "cannon",
+			"civilopediaText": [
+				{"text": ""}
+			]
 		},
 	
 	
@@ -599,7 +702,10 @@
 				"[+1] Movement <in [Rough terrain] tiles>",
 				"[+25]% Strength <in [Rough terrain] tiles> <when defending>"
 			],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": "Elite warriors of the Minahasa people, renowned for their bravery and strict honor code. They protected their communities, led raids, and upheld customary law across the highlands."}
+			]
 		},
 		
 		// Bone
@@ -618,7 +724,10 @@
 			"upgradesTo": "Longswordsman",
 			"promotions": ["[Tappi Swordsman] ability"],
 			"uniques": ["Earn [33]% of the damage done to [All] units as [Gold]"],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": ""}
+			]
 		},
 		
 		// Buton
@@ -638,7 +747,10 @@
 				"[+50]% Strength <vs [Mounted] units>",
 				"Can instantly construct a [Farm] improvement <for [2] movement> <once>"
 			],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": ""}
+			]
 		},
 		
 		// Gorontaloo
@@ -655,8 +767,10 @@
 			"obsoleteTech": "Gunpowder",
 			"upgradesTo": "Musketman",
 			"promotions": ["[Huwangga] ability"],
-			"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": ""}
+			]
 		},
 		
 		// Gowa-Tallo
@@ -680,7 +794,10 @@
 				"Must set up to ranged attack",
 				"[-1] Sight"
 			],
-			"attackSound": "cannon"
+			"attackSound": "cannon",
+			"civilopediaText": [
+				{"text": "The largest cannon ever built by the Makassar, used to fight against the Dutch until the fall of Somba Opu in 1669, marking the end of the Makassar War."}
+			]
 		},
 		{
 			"name": "Galle'",
@@ -698,7 +815,10 @@
 				"Cannot enter ocean tiles",
 				"Comment [Start with 10 Experience]"
 			],
-			"attackSound": "arrow"
+			"attackSound": "arrow",
+			"civilopediaText": [
+				{"text": ""}
+			]
 		},
 		
 		// Luwu
@@ -718,7 +838,10 @@
 				"[+33]% Strength <vs [Sword] units>",
 				//"[+15] HP when healing <in [Bubung Parani] tiles>"
 			],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": ""}
+			]
 		},
 		
 		// Toraja
@@ -739,7 +862,10 @@
 				"Comment [Makula' version has 2/3 base Strength and invisible for as long as not initiated an attack]",
 				"Free [Kanta Warrior (Makula')] appears <upon being defeated> <hidden from users>"
 			],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": ""}
+			]
 		},
 		{
 			"name": "Kanta Warrior (Makula')",
@@ -776,7 +902,10 @@
 			"obsoleteTech": "Rifling",
 			"upgradesTo": "Rifleman",
 			"promotions": ["Shock I","Amphibious"],
-			"attackSound": "shot"
+			"attackSound": "shot",
+			"civilopediaText": [
+				{"text": "A community of mixed Portuguese and local descendants centered in Larantuka, known for their strong maritime tradition."}
+			]
 		},
 		
 		// Wewiku-Wehali
@@ -797,7 +926,10 @@
 				"Comment [Cannot attack and become Invisible when below 33 HP]",
 				"[-33]% Gold cost of upgrading <hidden from users>"
 			],
-			"attackSound": "nonmetalhit"
+			"attackSound": "nonmetalhit",
+			"civilopediaText": [
+				{"text": "Timorese warriors known for their bravery, tracking skills, and often has deep ties with Loro or Liurai."}
+			]
 		},
 		
 		// Ternate
@@ -814,7 +946,10 @@
 			"upgradesTo": "Caravel",
 			"promotions": ["Landing Party","Coastal Raider I","Reinforcements Wave"],
 			"uniques": ["[This Unit] loses the [Reinforcements Wave] promotion <upon ending a turn in a [non-[City center]] tile> <hidden from users>"],
-			"attackSound": "nonmetalhit"
+			"attackSound": "nonmetalhit",
+			"civilopediaText": [
+				{"text": "A long, narrow war canoe propelled by dozens of rowers in unison, used to carry warriors between islands for raids, defense, and ceremonial voyages."}
+			]
 		},
 		{
 			"name": "Albahdir",
@@ -832,7 +967,10 @@
 				"[+25]% Strength <vs [Melee] units>",
 				"Comment [Upgrade to [Musketman] vs [Lancer]]"
 			],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": "An elite heavy infantry corps made up of the Sultan of Ternate’s personal guardians, tasked with defending key forts and the royal palace.”"}
+			]
 		},
 	
 		// Tidore
@@ -850,7 +988,10 @@
 			"obsoleteTech": "Steel",
 			"upgradesTo": "Longswordsman",
 			"promotions": ["[Salawaku Warrior] ability","Cover I"],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": "Carrying the elegantly shaped and protective Salawaku shield, these warriors fight with notable discipline."}
+			]
 		},
 		{
 			"name": "Juanga",
@@ -870,7 +1011,10 @@
 				"Comment [Upgrade to [Ironclad] vs [Frigate]]",
 				"[This Unit] loses the [Call to Arms] promotion <upon ending a turn in a [{non-[Enemy]} {City-State}] tile> <hidden from users>"
 			],
-			"attackSound": "cannon"
+			"attackSound": "cannon",
+			"civilopediaText": [
+				{"text": "“A larger, upgraded version of the Kora kora, this oar-powered warship carried large numbers of warriors and weapons."}
+			]
 		},
 		
 		// Biak
@@ -887,7 +1031,10 @@
 			"obsoleteTech": "Astronomy",
 			"promotions": ["[Warion] ability","Raider of the East"],
 			"uniques": ["Cannot enter ocean tiles"],
-			"attackSound": "nonmetalhit"
+			"attackSound": "nonmetalhit",
+			"civilopediaText": [
+				{"text": ""}
+			]
 		},
 		
 	
@@ -909,7 +1056,10 @@
 				"May upgrade to [Spearman] through ruins-like effects",
 				"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"
 			],
-			"attackSound": "nonmetalhit"
+			"attackSound": "nonmetalhit",
+			"civilopediaText": [
+				{"text": "The fiercest Igorot warriors, earning the highest status through their victories in battle. Those who later took on leadership roles became Papangat—respected peacemakers and advisors within the community."}
+			]
 		},
 		
 		// Tondo
@@ -929,7 +1079,10 @@
 				"[+50]% Strength <vs [Mounted] units>",
 				"[+1] Movement <in [Friendly Land] tiles>"
 			],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": "A noble warrior class serving local rulers in both warfare and public duty. Though ranked below the Maginoo elite, they remained respected as free men who fought and governed for their communities."}
+			]
 		},
 		
 		// Madja-as
@@ -950,6 +1103,9 @@
 				"Religious Unit",
 				"Takes your religion over the one in their birth city",
 				"Comment [Heals Land units around it by 5 HP at the end of each turn]"
+			],
+			"civilopediaText": [
+				{"text": "Revered Filipino shamans known for their healing, ritual expertise, and guidance. As spiritual leaders, they served as intermediaries between the physical world and spirit worlds."}
 			]
 		},
 		
@@ -971,7 +1127,10 @@
 				"May attack when embarked",
 				"[+50]% Strength <vs [Mounted] units>"
 			],
-			"attackSound": "metalhit"
+			"attackSound": "metalhit",
+			"civilopediaText": [
+				{"text": "Neither nobles nor slaves, these Visayan warriors served as valued retainers who fought and upheld their lord’s prestige."}
+			]
 		},
 		
 		// Sulu
@@ -986,7 +1145,10 @@
 			"requiredTech": "Navigation",
 			"upgradesTo": "Destroyer",
 			"promotions": ["Coastal Raider I","[Privateer] ability","Boarding Party I","Boarding Party II"],
-			"attackSound": "cannon"
+			"attackSound": "cannon",
+			"civilopediaText": [
+				{"text": "Prized for its speed and maneuverability, these vessels were commonly used for piracy against Spanish settlements and ships during the Spanish–Moro conflict"}
+			]
 		},
 		
 		// Maguindanao
@@ -1008,6 +1170,29 @@
 				"Takes your religion over the one in their birth city"
 			],
 			"attackSound": "metalhit"
+		},
+		
+		// Ivatan
+		{
+			"name": "Tataya",
+			"unitType": "Civilian Water",
+			"uniqueTo": "Ivatan",
+			"replaces": "Work Boats",
+			"movement": 4,
+			"cost": 30,
+			"requiredTech": "Sailing",
+			"uniques": [
+				"Cannot enter ocean tiles <before discovering [Astronomy]>",
+				"May create improvements on water resources",
+				"Comment [Instantly gain 5 [Culture] upon building a [Fishing Boats] and gain 2 [Culture] when stationed on it]",
+				"Gain [5] [Culture] <upon building a [Fishing Boats] improvement> <hidden from users>",
+				"Gain [2] [Culture] <upon ending a turn in a [Fishing Boats] tile> <hidden from users>",
+				"Uncapturable",
+				"Automation is a primary action"
+			],
+			"civilopediaText": [
+				{"text": "A traditional Batanense boat designed for the rough seas of Batanes, crafted with a sturdy hull with or without outriggers."}
+			]
 		}
 ]
 

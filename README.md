@@ -3,8 +3,8 @@ Add civilizations, polities, kingdoms and sultanates from Nusantara (Indonesia, 
 -
 
 ## Chosen Civilizations
-Not every polity in Nusantara will become a separate civilization. Some of them will become a City-state, while some others are unselected. They are divided into 6 (six) sub-region:
-- Sumatra and Malay Peninsula
+Not every polity in Nusantara will become a major civilization. Some of them will become a City-state, while some others are unselected. They are divided into 6 (six) sub-region:
+- Sumatra and Malay Peninsula (including Southern part of Thailand)
 - Java and Bali
 - Borneo
 - Sulawesi
@@ -59,6 +59,7 @@ Despite the fact that they didn't possess a large area of power, their influence
 - Wewiku-Wehali
 - Igorot
 - Madja-as
+- Ivatan
 
 ### Additional Polities
 - Jambi

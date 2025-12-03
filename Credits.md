@@ -12,6 +12,7 @@
 * Bali - L (75x45) by amfauzn (AKA faw)
 * Borneo - L (65x65) by amfauzn (AKA faw)
 * Buru, Seram, and Ambon - L (80x45) by amfauzn (AKA faw)
+* Indonesia - L (66x43) by Nuse
 * Java - L (80x45) by amfauzn (AKA faw)
 * Kai Islands - L (65x46) by amfauzn (AKA faw)
 * Lesser Sunda Islands - M (90x30) by amfauzn (AKA faw)
@@ -23,6 +24,7 @@
 # Sprites
 * FantasyHex mostly by [GeneralWadaling (AKA The Bucketeer)](https://github.com/GeneralWadaling)
 * FantasyHex civ coloring inspired by Civ Army Color Style Sheet by [AdityaMH](https://github.com/AdityaMH)
+* All sprrites for Idjang by [GeneralWadaling (AKA The Bucketeer)](https://github.com/GeneralWadaling)
 * rest is by me
 
 
